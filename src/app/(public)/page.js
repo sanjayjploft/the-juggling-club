@@ -30,7 +30,7 @@ export default function Page() {
               </p>
               <div className="rowBtns rowBtns--left">
                 <Link href="#" className="btn btn--primary btn--lg">
-                  Start journey
+                  Get Started
                 </Link>
                 <Link href="#" className="btn btn--outline btn--lg">
                   For Clubs & Coaches

@@ -1817,7 +1817,6 @@ input::placeholder {
 .contct-mn h1 span {
   font-size: 24px;
   display: block;
-  font-family: Avenir;
   font-weight: 400;
   color: #03202f;
 }
@@ -1839,7 +1838,6 @@ input::placeholder {
   border-bottom: 1px solid #949494;
   width: 100%;
   padding: 10px 15px;
-  font-family: Avenir;
   border-radius: 0;
   font-size: 24px;
   font-weight: 300;
@@ -1853,7 +1851,6 @@ input::placeholder {
   width: 100%;
   appearance: none;
   padding: 10px 15px;
-  font-family: Avenir;
   border-radius: 0;
   font-size: 24px;
   font-weight: 300;
@@ -1864,7 +1861,6 @@ input::placeholder {
   width: 100%;
   appearance: none;
   padding: 10px 15px;
-  font-family: Avenir;
   border-radius: 0;
   height: 130px;
   margin-top: 30px;
@@ -1901,7 +1897,6 @@ input::placeholder {
 }
 .contct-btm-inf p {
   font-size: 22px;
-  font-family: Avenir;
   font-weight: 400;
   color: #000;
   margin-top: 30px;
@@ -1909,7 +1904,6 @@ input::placeholder {
 .contct-btm-inf p span {
   font-size: 18px;
   display: block;
-  font-family: Avenir;
   font-weight: 400;
   color: #03202f;
   margin-top: 15px;
