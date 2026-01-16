@@ -45,7 +45,7 @@ export default function DetailsPage() {
                     <Button
                       className="btn-cancel-outline"
                       onClick={() => router.back()}>
-                      Cancel
+                      Back
                     </Button>
                     <Button
                       className="btn-next-bg"

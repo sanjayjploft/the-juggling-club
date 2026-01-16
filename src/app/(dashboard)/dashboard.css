@@ -2479,6 +2479,14 @@ textarea {
 .crnt-plnsec .btn-next-bg {
   padding: 10px 30px;
 }
+h4.bil-in-hdng {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0px 15px 10px;
+}
 
 /***************** Subscription ****************/
 

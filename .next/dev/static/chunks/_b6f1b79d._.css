@@ -13954,7 +13954,7 @@ video.hero__video {
 .featureList {
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  margin-top: 30px;
+  margin-top: 10px;
   display: grid;
 }
 
@@ -14669,7 +14669,7 @@ input::placeholder {
 }
 
 .club-staff-section .featureList {
-  gap: 30px;
+  gap: 10px;
 }
 
 .club-staff-btm-sec {

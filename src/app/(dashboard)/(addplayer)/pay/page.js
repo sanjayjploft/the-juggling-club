@@ -15,7 +15,7 @@ export default function DetailsPage() {
             <div className="top-heading">
               <h4>Dashboard</h4>
             </div>
-            {/* <button className="btn admin-btn-primary">+ Add Player</button> */}
+            <button className="btn admin-btn-primary">+ Add Player</button>
           </div>
           <Col lg={6} className="m-auto add-player">
             <div className="step-progress step-3">

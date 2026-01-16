@@ -1,6 +1,5 @@
 "use client";
 
-
 import { Button } from "react-bootstrap";
 import Parentsidebar from "../../../components/dashboard/Parentsidebar";
 
@@ -30,7 +29,7 @@ export default function page() {
       subscription: "Expired",
       payment: "Paid",
     },
-    ];
+  ];
 
   return (
     <>
@@ -39,8 +38,11 @@ export default function page() {
         <main className="msar-main">
           <div className="msar-top-bar d-flex justify-content-between align-items-start">
             <div className="top-heading">
-              <h4>Subscription
-                <span>Manage your subscription, payment options, and billing history</span>
+              <h4>
+                Subscription
+                <span>
+                  Manage your subscription, payment options, and billing history
+                </span>
               </h4>
             </div>
             <button className="btn admin-btn-primary">+ Add Player</button>
@@ -49,18 +51,20 @@ export default function page() {
             <div className="crnt-plnsec">
               <div className="crt-tag">Current Plan</div>
               <div className="d-flex gap-5">
-                <h3>Annual Plan<span>Billed yearly</span></h3>
-                <h4>$199.99<span>Save 17%</span></h4>
-                </div>
+                <h3>
+                  Annual Plan<span>Billed yearly</span>
+                </h3>
+                <h4>
+                  $199.99<span>Save 17%</span>
+                </h4>
+              </div>
               <div className="renwl-dte">Renews on July 20, 2026</div>
               <div className="gap-5">
                 <Button className="btn-next-bg me-3">Upgrade</Button>
                 <Button className="btn-cancel-outline">Downgrade</Button>
               </div>
-
             </div>
-
-
+            <h4 className="bil-in-hdng">Billing & Invoices</h4>
             <div className="table-wrapper subsc-rder">
               <table className="billing-table">
                 <thead>
@@ -82,20 +86,21 @@ export default function page() {
                       <td>{item.plan}</td>
                       <td>{item.child}</td>
                       <td>{item.amount}</td>
-                      <td className={`status ${item.subscription.toLowerCase()}`}>
+                      <td
+                        className={`status ${item.subscription.toLowerCase()}`}>
                         {item.subscription}
                       </td>
 
                       <td className="paid">{item.payment}</td>
 
-                      <td className="download"><img src="/assets/image/document-dwd.svg" /></td>
+                      <td className="download">
+                        <img src="/assets/image/document-dwd.svg" />
+                      </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
-
-
           </div>
         </main>
       </div>

@@ -12,7 +12,7 @@ export default function NextUp() {
 
         <div className="activity-card success">
           <div className="activity-player-profile">
-            <div className="acti-video" onClick={() => setShow(true)}>
+            <div className="acti-video">
               <img
                 src="/assets/image/activity-vid-img.png"
                 alt="video thumbnail"
@@ -43,7 +43,7 @@ export default function NextUp() {
           </div>
 
           <div className="activity-player-profile">
-            <div className="acti-video" onClick={() => setShow(true)}>
+            <div className="acti-video">
               <img
                 src="/assets/image/activity-vid-img-1.png"
                 alt="video thumbnail"
@@ -74,7 +74,7 @@ export default function NextUp() {
           </div>
 
           <div className="activity-player-profile">
-            <div className="acti-video" onClick={() => setShow(true)}>
+            <div className="acti-video">
               <img
                 src="/assets/image/activity-vid-img.png"
                 alt="video thumbnail"

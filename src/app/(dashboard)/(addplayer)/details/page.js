@@ -16,7 +16,7 @@ export default function DetailsPage() {
             <div className="top-heading">
               <h4>Dashboard</h4>
             </div>
-            {/* <button className="btn admin-btn-primary">+ Add Player</button> */}
+            <button className="btn admin-btn-primary">+ Add Player</button>
           </div>
           <div className="container-fluid">
             <div className="content-card">
@@ -121,7 +121,7 @@ export default function DetailsPage() {
                   </Row>
 
                   <div className="action-buttons mt-5">
-                    <Button className="btn-cancel-outline">Cancel</Button>
+                    <Button className="btn-cancel-outline">Back</Button>
                     <Button
                       className="btn-next-bg"
                       onClick={() => router.push("/plan")}>

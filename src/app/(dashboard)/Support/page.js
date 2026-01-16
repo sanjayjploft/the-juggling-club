@@ -53,11 +53,11 @@ export default function page() {
                   <textarea className="mb-4" placeholder="Message"></textarea>
                   <Button className="btn-next-bg">Send Message</Button>
                   <div className="tandcpp">
-                    <Link href="/" className="">
+                    <Link href="" className="">
                       Terms of Use
                     </Link>
                     <small>|</small>
-                    <Link href="/" className="">
+                    <Link href="" className="">
                       Privacy Policy
                     </Link>
                   </div>
