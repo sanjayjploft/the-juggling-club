@@ -36,8 +36,7 @@ export default function Playerquotes() {
 
           <Swiper
             modules={[Autoplay, Pagination, Navigation]}
-            slidesPerView={4}
-            spaceBetween={20} // <-- gap between slides
+            spaceBetween={20}
             loop={true}
             autoplay={{
               delay: 4000,
@@ -46,6 +45,32 @@ export default function Playerquotes() {
             navigation={{
               nextEl: ".custom-swiper-next",
               prevEl: ".custom-swiper-prev",
+            }}
+            breakpoints={{
+              // Mobile
+              0: {
+                slidesPerView: 1,
+              },
+
+              // Small tablets
+              576: {
+                slidesPerView: 1.2,
+              },
+
+              // Tablets
+              768: {
+                slidesPerView: 2,
+              },
+
+              // Small laptops
+              992: {
+                slidesPerView: 3,
+              },
+
+              // Desktop
+              1200: {
+                slidesPerView: 4,
+              },
             }}
             className="hero-swiper">
             <SwiperSlide>
