@@ -70,6 +70,43 @@ body {
   font-family: "Avenir";
   overflow-x: hidden;
 }
+/* manu css */
+/* Toggle button */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  background: #000;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+/* Close icon */
+.menu-toggle.open span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.menu-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+nav.nav.nav--open {
+  display: inline-flex;
+}
+
+/* manu css */
 .page {
   min-height: 100vh;
   margin-top: -60px;
@@ -1729,4 +1766,58 @@ input::placeholder {
 }
 .price-whitout-hed {
   background-image: url("/assets/image/sub-hero-price-img1.webp");
+}
+
+/* Mobile */
+@media (max-width: 991px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    background: #fff;
+    flex-direction: column;
+    padding: 70px 20px 20px;
+    transition: 0.3s ease;
+    z-index: 999;
+  }
+
+  .nav--open {
+    right: 0;
+    gap: 10px !important;
+  }
+
+  .nav__link {
+    padding: 12px 0;
+    font-size: 20px;
+  }
+
+  .desktop-cta {
+    display: none !important;
+  }
+  .brand .logo {
+    width: 90px;
+  }
+  .hero__title {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  .nav {
+    display: flex;
+  }
+  .mobile-cta {
+    display: block !important;
+  }
+  .hero {
+    height: 600px;
+  }
+  .header__inner {
+    align-items: baseline;
+  }
 }
