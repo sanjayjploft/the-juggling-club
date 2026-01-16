@@ -1,0 +1,735 @@
+.club-register-wrapper {
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 740px;
+  max-height: 100vh;
+  margin: auto;
+  padding: 40px 16px;
+  display: flex;
+}
+
+.club-logo {
+  display: block;
+  margin: 0 auto 30px;
+  width: 150px;
+}
+
+.step-progress {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.step-item {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+.step-dot {
+  z-index: 9;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+}
+.step-line {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  width: 100%;
+  height: 4px;
+  background: rgba(148, 148, 148, 0.5);
+}
+
+.step-item p {
+  color: var(--Gray, #949494);
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: Bebas Neue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.step-item .step-dot img {
+  margin-top: 5px;
+}
+.step-item .active-img img {
+  margin: 0px;
+}
+.step-item.active p,
+.step-item.current-step p {
+  color: #03202f;
+}
+.step-item.active span.step-line {
+  background: #0a5fff;
+}
+.form-floating > .form-control,
+.form-floating > .form-select {
+  color: #000;
+  height: 58px;
+  padding: 1rem 0.75rem;
+  border-radius: 12px;
+  border: 1px solid #d4d7e3;
+  background-color: #f7fbff;
+}
+
+.form-floating > label {
+  padding: 1rem 0.75rem;
+  color: var(--Gray, #949494);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+/* FLOAT TRIGGER */
+.form-floating > .form-control:focus,
+.form-floating > .form-control:not(:placeholder-shown),
+.form-floating > .form-select:focus {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+/* REMOVE WHITE BG ON AUTOFILL */
+.form-control:-webkit-autofill {
+  -webkit-text-fill-color: #fff;
+  transition: background-color 9999s ease-in-out 0s;
+}
+.form-floating > .form-control-plaintext ~ label,
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  background-color: #ffffff;
+  height: 17px;
+  padding: 0 12px;
+  display: inline-block;
+  transform: scale(0.85) translateY(-0.9rem) translateX(0.15rem);
+}
+.form-control:focus,
+.form-select:focus {
+  border-color: #345af9;
+  outline: 1;
+  box-shadow: none;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.btn-cancel-outline {
+  flex: 1;
+  padding: 14px 30px;
+  border-radius: 150px;
+  border: 1px solid var(--Primary-Neon-Red, #ff073a);
+  background: transparent;
+  color: var(--Primary-Neon-Red, #ff073a);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+
+.btn-next-bg {
+  flex: 1;
+  border-radius: 150px;
+  background: var(--Primary-Neon-Red, #ff073a);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  padding: 14px 30px;
+  text-transform: uppercase;
+}
+/* Wrapper */
+.floating-phone {
+  position: relative;
+}
+
+/* Phone input */
+.phone-input {
+  width: 100% !important;
+  height: 52px !important;
+  padding-left: 80px !important;
+  font-size: 14px;
+  color: #000;
+  background-color: #f7fbff !important;
+  border: 1px solid #d4d7e3 !important;
+  border-radius: 12px !important;
+  height: 58px;
+  padding: 1rem 0.75rem;
+}
+
+/* Flag button */
+.phone-flag {
+  border-right: 1px solid #ddd !important;
+  border-radius: 10px 0 0 10px !important;
+  min-width: 70px;
+  background-color: transparent !important;
+}
+.react-tel-input .flag-dropdown.open .selected-flag {
+  background: #f7fbff !important;
+  border-radius: 23px !important;
+}
+/* Floating label */
+.floating-label {
+  position: absolute;
+  left: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #999;
+  padding: 0 6px;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+/* On focus OR value */
+.floating-phone:focus-within .floating-label,
+.floating-phone.has-value .floating-label {
+  top: 0px;
+  font-size: 12px;
+  color: #949494;
+  background: #fff;
+}
+.react-tel-input .selected-flag {
+  width: 70px !important;
+  height: 100%;
+  padding: 0 0 0 25px !important;
+}
+/* Focus border */
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .step-progress {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .step-line {
+    display: none;
+  }
+}
+
+.text-info-form {
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+.plan-card {
+  border-radius: 20px;
+  border: 1px solid var(--Gray, #949494);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  padding: 26px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.plan-info h3 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.plan-info span {
+  display: inline-block;
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.plan-price h3 {
+  color: var(--White, #fff);
+  text-align: right;
+  font-family: "Bebas Neue";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.plan-price span {
+  color: var(--Primary-Burst-Yellow, #f0ff00);
+  font-family: Avenir;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.plan-card ul {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.plan-card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-card ul li h5 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.plan-card ul li span {
+  color: var(--White, #fff);
+  text-align: right;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.plan-card ul li .price-totl {
+  color: #f0ff00;
+}
+
+.plan-card ul li b {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+/* Wrapper */
+.floating-file {
+  position: relative;
+  margin-top: 5px;
+}
+
+/* Upload box */
+.file-box {
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 180px;
+  padding: 16px;
+  display: flex;
+  border-radius: 20px;
+  border: 1px dashed var(--Juggling-Club-Dark-Blue, #03202f);
+  background: var(--White, #fff);
+}
+.clublogo-heading {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+/* Placeholder */
+.placeholder-text h5 {
+  color: #000;
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+.placeholder-text {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 21px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* Floating label */
+.floating-file label {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 0 6px;
+  color: #999;
+  font-size: 14px;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+/* Active state */
+.floating-file.has-file label,
+.floating-file:focus-within label {
+  top: -8px;
+  font-size: 12px;
+  color: #ff2b3c;
+}
+
+/* Preview */
+.file-preview img {
+  max-width: 70px;
+  max-height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.file-preview p {
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+.file-preview small {
+  color: #777;
+}
+
+/* File icons */
+.file-icon {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.file-icon.pdf {
+  background: #e63946;
+}
+
+.file-icon.doc {
+  background: #457b9d;
+}
+
+/* Hover */
+.file-box:hover {
+  border-color: #ff2b3c;
+}
+
+/* Wrapper */
+.floating-color {
+  position: relative;
+  margin-top: 24px;
+}
+
+/* Input layout */
+.color-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Color picker */
+.color-picker {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+  right: 8px;
+}
+
+/* Floating label */
+.floating-color label {
+  pointer-events: none;
+  background: #fff;
+  padding: 0 6px;
+  transition: all 0.2s;
+  position: absolute;
+  top: 50%;
+  left: 56px;
+  transform: translateY(-50%);
+  color: var(--Gray, #949494);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* Input */
+.color-input-wrapper input[type="text"] {
+  height: 52px;
+  padding-left: 12px;
+  border-radius: 12px;
+  border: 1px solid #d4d7e3;
+  background: #f7fbff;
+}
+
+/* Floating active */
+.floating-color.has-value label,
+.floating-color:focus-within label {
+  color: #949494;
+  top: -8px;
+  left: 0;
+}
+
+/* Focus */
+.color-input-wrapper input:focus {
+  border-color: #ff2b3c;
+  box-shadow: none;
+}
+
+.custom-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Hide default checkbox */
+.custom-checkbox input {
+  display: none;
+}
+
+/* Custom box */
+.custom-checkbox .checkmark {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #0a5fff;
+  border-radius: 4px;
+  position: relative;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+/* Tick */
+.custom-checkbox .checkmark::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 6px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
+/* Checked */
+.custom-checkbox input:checked + .checkmark {
+  background: #0a5fff;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  opacity: 1;
+}
+
+/* Text */
+.checkbox-text {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 138.462% */
+}
+
+.checkbox-text a {
+  color: #03202f;
+  text-decoration: none;
+}
+
+.terms-confirmation {
+  border-radius: 12px;
+  background: rgba(10, 95, 255, 0.1);
+  padding: 24px;
+}
+
+.terms-confirmation h4 {
+  color: #000;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px; /* 116.667% */
+  margin-bottom: 10px;
+}
+
+.terms-confirmation p {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+
+.terms-confirmation {
+  border-radius: 12px;
+  background: rgba(10, 95, 255, 0.1);
+  padding: 24px;
+}
+
+.terms-confirmation h4 {
+  color: #000;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px; /* 116.667% */
+  margin-bottom: 10px;
+}
+
+.terms-confirmation p {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+
+.welcome-box {
+  border-radius: 12px;
+  background: rgba(10, 95, 255, 0.1);
+  padding: 50px;
+  text-align: center;
+}
+
+.welcome-box h4 {
+  color: #000;
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.welcome-box h4 ~ span {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+.club-code {
+  border-radius: 15px;
+  background: var(--White, #fff);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  max-width: 430px;
+  padding: 16px;
+  margin: 32px auto 0px;
+}
+
+.club-code span {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.club-code h6 {
+  color: var(--Primary-Badge-Blue, #0a5fff);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.club-code p {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  margin-bottom: 0px;
+}
+
+.redirecting {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 20px 0px 0px;
+}
