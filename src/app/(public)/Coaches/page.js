@@ -73,7 +73,7 @@ export default function page() {
               </Col>
               <Col lg={4}>
                 <img
-                  className="w-100"
+                  className="cover mob-img-small"
                   src="/assets/image/coaches-abt-img.png"
                 />
               </Col>

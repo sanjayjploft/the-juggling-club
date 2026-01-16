@@ -1,4 +1,8 @@
 {
+  "/(public)/Clubs/page": "app/(public)/Clubs/page.js",
+  "/(public)/Coaches/page": "app/(public)/Coaches/page.js",
+  "/(public)/Parents/page": "app/(public)/Parents/page.js",
+  "/(public)/Players/page": "app/(public)/Players/page.js",
   "/(public)/page": "app/(public)/page.js",
   "/_not-found/page": "app/_not-found/page.js"
 }

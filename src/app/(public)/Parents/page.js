@@ -57,7 +57,7 @@ export default function page() {
               </Col>
               <Col lg={4}>
                 <img
-                  className="w-100"
+                  className="cover w-100"
                   src="/assets/image/parents-abt-img.png"
                 />
               </Col>
@@ -101,7 +101,7 @@ export default function page() {
                 </Col>
               </Row>
               <Row className="align-items-center mb-4">
-                <Col lg={6}>
+                <Col lg={6} className="order-cms-2">
                   <div className="means-info">
                     <h3>More Confidence on and off the Field</h3>
                     <p>
@@ -110,7 +110,7 @@ export default function page() {
                     </p>
                   </div>
                 </Col>
-                <Col lg={5} className="offset-1">
+                <Col lg={5} className="offset-1 order-cms-1">
                   <div className="img-item">
                     <img
                       className="left-top"
@@ -156,7 +156,7 @@ export default function page() {
                 </Col>
               </Row>
               <Row className="align-items-center">
-                <Col lg={6}>
+                <Col lg={6} className="order-cms-2">
                   <div className="means-info">
                     <h3>Growth Mindset Development</h3>
                     <p>

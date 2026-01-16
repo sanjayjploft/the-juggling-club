@@ -38,7 +38,10 @@ export default function page() {
                 </div>
               </Col>
               <Col lg={4}>
-                <img src="/assets/image/club-abt-img.png" />
+                <img
+                  className="cover mob-img-small"
+                  src="/assets/image/club-abt-img.png"
+                />
               </Col>
             </Row>
           </div>
@@ -47,7 +50,10 @@ export default function page() {
           <div className="container">
             <Row className="align-items-center">
               <Col lg={6}>
-                <img src="/assets/image/club-staff-img.png" />
+                <img
+                  className="cover mob-img-small"
+                  src="/assets/image/club-staff-img.png"
+                />
               </Col>
               <Col lg={6}>
                 <div className="club-staff-info">

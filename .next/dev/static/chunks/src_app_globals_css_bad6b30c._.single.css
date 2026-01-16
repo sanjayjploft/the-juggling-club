@@ -367,6 +367,7 @@ video.hero__video {
 }
 
 .darkHead {
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
@@ -580,7 +581,6 @@ video.hero__video {
 
 .section-heading {
   color: #000;
-  text-align: center;
   font-family: Bebas Neue;
   font-size: 70px;
   font-style: normal;
@@ -830,7 +830,7 @@ img.simbl-icon {
   border: 1px solid var(--Primary-Neon-Red, #ff073a);
   background: none;
   border-radius: 150px;
-  padding: 22px 30px;
+  padding: 10px 30px;
   font-family: Bebas Neue;
   font-size: 22px;
   font-style: normal;
@@ -1067,6 +1067,8 @@ input::placeholder {
   .cta-box {
     text-align: center;
     flex-direction: column;
+    margin: 0 15px;
+    padding: 50px 30px;
   }
 
   .cta-buttons {
@@ -1076,11 +1078,22 @@ input::placeholder {
 
   .footer-grid {
     grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .footer-right {
     flex-direction: column;
-    gap: 30px;
+    gap: 0;
+  }
+
+  .footer-left h3 {
+    margin-bottom: 0;
+    font-size: 32px;
+  }
+
+  .copyright {
+    padding: 20px 0;
+    font-size: 15px;
   }
 }
 
@@ -1292,6 +1305,7 @@ input::placeholder {
 
 .club-staff-section .featureList .featureList-item h4 {
   color: #03202f;
+  text-transform: capitalize;
   margin-bottom: 0;
   font-family: Avenir;
   font-size: 16px;
@@ -1472,6 +1486,7 @@ input::placeholder {
 
 .enroll-section .action-btn {
   z-index: 9;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
   display: flex;
@@ -1665,6 +1680,7 @@ input::placeholder {
 }
 
 .links-actin {
+  flex-wrap: wrap;
   justify-content: center;
   gap: 70px;
   margin: 50px 0;
@@ -1828,7 +1844,291 @@ input::placeholder {
   background-image: url("/assets/image/sub-hero-price-img1.webp");
 }
 
+@media (max-width: 767.99px) {
+  .featureList {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .cover {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .twoCol img.cover, .mob-img-small {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .player-info {
+    left: 10px;
+    right: 10px;
+  }
+
+  .player-info .player-bio p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .blog-box {
+    margin-bottom: 20px;
+  }
+
+  .blog-box .blog-info a img {
+    width: 32px;
+  }
+
+  .blog-box .blog-info h3 {
+    margin-bottom: 6px;
+    font-size: 28px;
+  }
+
+  .cta-content h2 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  br, .scroll-wrapper {
+    display: none;
+  }
+
+  .rowBtns--left {
+    justify-content: center;
+  }
+
+  section.section .center.pt-5 {
+    padding-top: 1rem !important;
+  }
+
+  .that-matters {
+    width: 100%;
+    padding: 12px 20px;
+  }
+
+  .that-matters p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .featureList .featureList-item h4 {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .custom-swiper-prev img, .custom-swiper-next img {
+    width: 32px;
+  }
+
+  .section.our-blog {
+    padding-bottom: 0;
+  }
+
+  .section {
+    padding: 20px 0;
+  }
+
+  .why-join-info h2 {
+    font-size: 30px;
+  }
+
+  .why-join-info h5 {
+    font-size: 18px;
+  }
+
+  .why-join-info {
+    padding-right: 0;
+  }
+
+  .why-join-info p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .section.bg-color-rg {
+    border-radius: 0;
+    padding: 30px 0;
+  }
+
+  .section.pricing-overview:after {
+    height: 100%;
+  }
+
+  .section.pricing-overview .section-heading {
+    margin-bottom: 20px !important;
+  }
+
+  .price-box {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .price-box h6 {
+    margin-bottom: 20px;
+    font-size: 14.3px;
+    line-height: 27px;
+  }
+
+  .price-box p {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  .price-box .price-text {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  .enroll-section h2 {
+    font-size: 42px;
+  }
+
+  .enroll-section {
+    height: 360px;
+    max-height: 360px;
+  }
+
+  .coaches-parents h2 {
+    font-size: 32px;
+  }
+
+  .coaches-parents {
+    margin-bottom: 30px;
+  }
+
+  .bg-yellow-style-2 {
+    padding: 20px;
+  }
+
+  .bg-yellow-style-2 .offset-1.col-lg-6 {
+    margin-left: 0;
+  }
+
+  .celebrate-progress h2 {
+    margin-top: 0 !important;
+    font-size: 16px !important;
+  }
+
+  .steps-section h2 {
+    margin-bottom: 0;
+    font-size: 32px;
+  }
+
+  .steps-cta {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .links-actin {
+    gap: 10px;
+    margin: 20px 0;
+  }
+
+  .links-actin a {
+    font-size: 16px;
+  }
+
+  .footer-right h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .means-info h3 {
+    font-size: 24px;
+  }
+
+  .means-child-section .offset-1 {
+    margin: 0;
+  }
+
+  .means-info p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .order-cms-2 {
+    order: 2;
+  }
+
+  .img-item .left-top {
+    width: 50px;
+    top: -15px;
+    left: 0;
+  }
+
+  .img-item .right-bottom {
+    width: 80px;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+  }
+
+  .item-info-bx {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .item-info-bx h3 {
+    margin-bottom: 4px;
+    font-size: 18px;
+  }
+
+  .parentstext-info {
+    padding-right: 20px;
+  }
+
+  .offset-1 {
+    margin: 0;
+  }
+
+  .singl-pric-box {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .singl-pric-box:after {
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .price-features {
+    text-align: left;
+  }
+}
+
 @media (max-width: 991px) {
+  .steps-line.desktop {
+    display: none;
+  }
+
+  .steps-row .step:first-child, .steps-row .step:nth-child(2), .steps-row .step:nth-child(23) {
+    margin-bottom: 20px;
+  }
+
+  .step {
+    z-index: 99;
+    margin: 20px 0;
+    position: relative;
+  }
+
+  .steps-row {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .steps-section {
+    margin-bottom: 40px;
+    padding: 50px 0;
+  }
+
   .menu-toggle {
     display: block;
   }
@@ -1864,10 +2164,16 @@ input::placeholder {
     width: 90px;
   }
 
-  .hero__title {
-    font-size: 42px;
+  .hero__title, .inner-page .hero__title {
+    letter-spacing: 0;
+    font-size: 32px;
     font-weight: 400;
     line-height: 1.4;
+  }
+
+  .hero__subtitle {
+    margin: 15px 0;
+    font-size: 16px;
   }
 
   .nav {
@@ -1878,12 +2184,95 @@ input::placeholder {
     display: block !important;
   }
 
-  .hero {
-    height: 600px;
+  .hero, .inner-page .hero {
+    height: 460px;
+  }
+
+  img.hero__img {
+    object-fit: cover;
+    height: 100%;
   }
 
   .header__inner {
     align-items: baseline;
+  }
+
+  video.hero__video {
+    opacity: .75;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-heading, .player-quotes .section-heading, .parent-testimonials .section-heading {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .darkHead {
+    margin-bottom: 20px;
+  }
+
+  .player-quotes h4 {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .player-quotes p, .section-dice {
+    font-size: 16px;
+  }
+
+  .cta-image {
+    margin-top: 30px;
+  }
+
+  .footer-grid-shape {
+    display: none;
+  }
+
+  .footer-left, .footer-right {
+    padding: 50px 0 0;
+  }
+
+  .player-quotes {
+    padding: 30px 10px;
+  }
+
+  .parent-testimonials p {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .parent-testimonials .player-profile {
+    margin-top: 15px;
+  }
+
+  .cta-info h3 {
+    font-size: 24px;
+  }
+
+  .cta-bg-img {
+    margin-bottom: 20px;
+    padding: 30px 0;
+  }
+
+  .club-staff-info h2 {
+    margin-top: 20px;
+    font-size: 32px;
+  }
+
+  .club-staff-btm-sec {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .club-staff-btm-sec .btm-sec-item h2 {
+    margin: 0;
+  }
+
+  .club-staff-btm-sec .btm-sec-item {
+    flex: 0 0 100%;
+    justify-content: flex-start;
   }
 }
 

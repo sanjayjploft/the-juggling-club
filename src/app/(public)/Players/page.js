@@ -27,7 +27,7 @@ export default function page() {
                 </div>
               </Col>
               <Col lg={4}>
-                <img src="/assets/image/why-Join.png" />
+                <img className="cover " src="/assets/image/why-Join.png" />
               </Col>
             </Row>
           </div>
