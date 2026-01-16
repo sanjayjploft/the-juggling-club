@@ -1,0 +1,2497 @@
+a {
+  text-decoration: none;
+}
+.dashboard-main {
+  border-radius: 0;
+  background: #c5c5c5;
+  padding: 30px;
+}
+/* ===== LAYOUT ===== */
+.msar-dashboard-wrapper {
+  min-height: 95vh;
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+.msar-dashboard-wrapper::after {
+  content: "";
+  background-image: url(/assets/image/dashbord-shape.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 159px;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  pointer-events: none; /* click/block issue na ho */
+}
+/* ===== SIDEBAR ===== */
+.msar-sidebar {
+  color: #fff;
+  width: 260px;
+  padding: 20px 35px;
+  transition: all 0.3s;
+  position: relative;
+  border-radius: 35px;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+}
+
+.msar-sidebar.is-collapsed {
+  width: 80px;
+  padding: 20px 15px;
+}
+.is-collapsed .msar-sidebar-toggle {
+  right: -45%;
+}
+.msar-logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.msar-logo img {
+  max-width: 100%;
+}
+.msar-menu {
+  list-style: none;
+  padding: 0;
+  border-bottom: 1px solid #4f636d;
+}
+
+.msar-menu li {
+  margin-bottom: 10px;
+}
+
+.msar-menu li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.msar-menu li.active a {
+  background: #fff;
+  color: #000;
+}
+
+.msar-sidebar-toggle {
+  color: #fff;
+  background: #051f2f;
+  border: 2px solid #c5c5c5;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  bottom: 80px;
+  right: -16%;
+  transform: translateX(-50%);
+  top: 79px;
+}
+
+.msar-logout {
+  border: 1px solid #0a5fff;
+  border-radius: 14px;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  padding: 14px 14px 14px 20px;
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  width: -webkit-fill-available;
+  max-width: 75%;
+}
+
+/* ===== MAIN ===== */
+.msar-main {
+  flex: 1;
+  background: #03202f;
+  border-radius: 30px;
+  padding-bottom: 30px;
+}
+
+/* RIGHT TOP ROUND SAME AS IMAGE */
+.msar-top-bar {
+  background: transparent;
+}
+
+/* ===== BUTTON ===== */
+.admin-btn-primary {
+  z-index: 9;
+  position: relative;
+  border-radius: 18px;
+  background: var(--Primary-Neon-Red, #ff073a);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 12px 34px;
+  border: 1px solid #ff073a;
+}
+.admin-btn-primary:hover {
+  background: #e60b37;
+  color: #fff;
+}
+/* ===== CARD ===== */
+.player-card {
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 5px 0 0 rgba(240, 255, 0, 0.8);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 992px) {
+  .msar-sidebar {
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .msar-main {
+    margin-left: 80px;
+  }
+}
+
+.top-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding: 35px;
+  position: relative;
+  z-index: 9;
+}
+
+.top-heading h4 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.ft-btn {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: transparent;
+  padding: 10px 25px;
+}
+
+.ft-btn.active {
+  color: var(--Primary-Neon-Red, #ff073a);
+  font-weight: 800;
+  line-height: normal;
+  background: transparent;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid var(--Primary-Neon-Red, #ff073a);
+  mix-blend-mode: hard-light;
+}
+
+.player-crd-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.player-crd-profile img {
+  width: 50px;
+  height: 50px;
+  aspect-ratio: 50 /50;
+  border-radius: 60px;
+  object-fit: cover;
+}
+
+.player-crd-profile h4 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px; /* 111.111% */
+  margin-bottom: 2px;
+}
+
+.player-status {
+  color: var(--White, #fff);
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.clb-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.clb-box h6 {
+  color: var(--White, #fff);
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  margin-bottom: 5px;
+}
+
+.clb-box span {
+  color: var(--Primary-Badge-Blue, #0a5fff);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+
+.clb-box p {
+  margin-bottom: 0px;
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+.player-reword {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.player-reword .reword-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(29, 29, 38, 0.2);
+  padding: 10px 12px;
+}
+
+.player-reword .reword-item span {
+  color: #fff;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.player-reword .reword-item p {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.small-btn-admin {
+  display: flex;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 150px;
+  background: var(--Primary-Neon-Red, #ff073a);
+}
+.small-btn-admin:hover {
+  color: #fff;
+  background: #e60b37;
+}
+.player-status.trial {
+  color: var(--Explosive-Orange, #f6921e);
+}
+
+.player-status.expired {
+  color: var(--Primary-Neon-Red, #ff073a);
+}
+.container-fluid {
+  position: relative;
+  z-index: 1;
+}
+
+/* ===============================
+   HEADER / PLAYER INFO
+================================ */
+.dashboard-header {
+  position: relative;
+}
+.player-avatar-info {
+  margin-bottom: 40px;
+  padding: 22px 26px;
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 5px 0 0 rgba(240, 255, 0, 0.8);
+  width: 95%;
+  margin-left: auto;
+  padding-left: 60px;
+  position: relative;
+}
+.player-avatar-info:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+  background: var(--Gray, #949494);
+  width: 1px;
+  height: 60px;
+}
+.player-avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  left: 0;
+  z-index: 999;
+}
+.player-avatar-info .player-name {
+  padding: 0px;
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.player-avatar-info .player-club {
+  color: var(--White, #fff);
+  font-family: Helvetica;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+
+/* ===============================
+   STATS BOX
+================================ */
+.stats-box {
+  gap: 14px;
+}
+
+.stat-card {
+  background: #072d44;
+  border-radius: 14px;
+  padding: 12px 14px;
+  text-align: center;
+  min-width: 90px;
+}
+
+.stat-card img {
+  width: 20px;
+  margin-bottom: 4px;
+}
+
+.stat-card span {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.stat-card p {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+/* ===============================
+   CURRENT JOURNEY WRAPPER
+================================ */
+.journey-wrapper {
+  background: #052537;
+  border-radius: 20px;
+  padding: 22px;
+  position: relative;
+  overflow: hidden;
+}
+
+.journey-header h4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.journey-country {
+  color: #ffd400;
+}
+
+/* ===============================
+   MAP AREA
+================================ */
+.journey-map {
+  position: relative;
+  height: 320px;
+  margin-top: 20px;
+}
+
+.journey-path-svg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* ===============================
+   NODES BASE
+================================ */
+.journey-node {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.journey-node:hover {
+  transform: scale(1.1);
+}
+
+.journey-node img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 6px;
+  background: #0b3a55;
+}
+
+/* ===============================
+   NODE STATES
+================================ */
+.journey-node.completed img,
+.journey-node.active img {
+  border: 3px solid #ffd400;
+}
+
+.journey-node.unlocked img {
+  filter: saturate(0.3);
+}
+
+.journey-node.locked img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+/* ===============================
+   BADGES
+================================ */
+.node-number {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #ff4757;
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.node-star {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  background: #ffd400;
+  color: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* ===============================
+   LABEL
+================================ */
+.journey-node p {
+  margin-top: 6px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* ===============================
+   ABSOLUTE NODE POSITIONS
+   (MATCH SVG CURVE)
+================================ */
+.node-1 {
+  left: 40px;
+  top: 140px;
+}
+.node-2 {
+  left: 220px;
+  top: 70px;
+}
+.node-3 {
+  left: 400px;
+  top: 200px;
+}
+.node-4 {
+  left: 580px;
+  top: 140px;
+}
+.node-5 {
+  left: 740px;
+  top: 70px;
+}
+.node-6 {
+  left: 900px;
+  top: 200px;
+}
+.node-7 {
+  left: 1040px;
+  top: 120px;
+}
+.node-8 {
+  left: 1180px;
+  top: 200px;
+}
+
+/* ===============================
+   NAVIGATION BUTTONS
+================================ */
+.journey-nav {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+
+.nav-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ff4757;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.current-journey {
+  background: #0e0e0e;
+  border-radius: 22px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* HEADER */
+.cj-header h3 {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* PATH WRAPPER */
+.cj-path-wrapper {
+  position: relative;
+  margin-top: 20px;
+  height: 260px;
+}
+
+/* SVG */
+.cj-path-svg {
+  width: 100%;
+  height: 245px;
+}
+
+.cj-path-line {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.35);
+  stroke-width: 2;
+  stroke-dasharray: 6 8;
+}
+
+/* NODE BASE */
+.cj-node {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.cj-node img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.cj-node span {
+  position: absolute;
+  bottom: -22px;
+  color: #fff;
+  font-size: 12px;
+}
+
+/* HOVER */
+.cj-node:hover {
+  transform: scale(1.1);
+}
+
+/* COMPLETED / ACTIVE */
+.cj-node.completed,
+.cj-node.active {
+  filter: none;
+}
+
+.cj-node.completed img,
+.cj-node.active img {
+  border: 2px solid gold;
+}
+
+.badge-star {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: gold;
+  color: #000;
+  font-size: 10px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* UNLOCKED */
+.cj-node.unlocked {
+  filter: saturate(0.4);
+}
+
+.lock.open {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+/* LOCKED */
+.cj-node.locked {
+  filter: grayscale(100%);
+  opacity: 0.45;
+}
+
+.lock.closed {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+/* NODE POSITIONS – SVG KE HISAB SE */
+.node-1 {
+  top: 18px;
+  left: 80px;
+}
+.node-2 {
+  top: 90px;
+  left: 260px;
+}
+.node-3 {
+  top: 40px;
+  left: 460px;
+}
+.node-4 {
+  top: 120px;
+  left: 640px;
+}
+.node-5 {
+  top: 60px;
+  left: 820px;
+}
+
+/* NAV BUTTONS */
+.cj-nav {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.cj-nav-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cj-nav-btn img {
+  width: 16px;
+}
+
+.cj-nav-btn:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+/* ================= CURRENT JOURNEY ================= */
+.cj-grid-wrap {
+  padding: 22px 0px;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+}
+
+/* HEADER */
+.cj-head h3 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* VIEWPORT */
+.cj-grid-viewport {
+  height: 320px;
+  margin-top: 18px;
+  position: relative;
+  overflow: hidden;
+}
+.cj-grid-node.top {
+  margin-top: 30px;
+}
+/* TRACK */
+.cj-grid-track {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.4s ease;
+}
+
+/* SVG */
+.cj-grid-svg {
+  position: absolute;
+  width: 100%;
+  height: 240px;
+}
+
+.cj-grid-svg path {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.35);
+  stroke-width: 2;
+  stroke-dasharray: 6 8;
+}
+
+/* GRID */
+.cj-grid {
+  grid-auto-columns: 180px;
+  grid-auto-flow: column;
+  /* align-items: center; */
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  position: relative;
+}
+/* NODE */
+.cj-grid-node {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+/* CIRCLE */
+.node-circle {
+  position: relative;
+}
+
+.node-circle .flg-img-cont {
+  border-radius: 50%;
+}
+
+/* STATES */
+.cj-grid-node.completed img,
+.cj-grid-node.active img {
+  border: 2px solid #ffd400;
+}
+
+.cj-grid-node.locked .flg-img-cont {
+  filter: grayscale(100%);
+  opacity: 0.45;
+}
+
+.cj-grid-node.unlocked .flg-img-cont {
+  filter: saturate(0.4);
+}
+
+/* STAR / LOCK */
+.node-star,
+.node-lock {
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* LABEL */
+.cj-grid-node p {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* NAV */
+.cj-grid-nav {
+  position: absolute;
+  right: 16px;
+  bottom: 14px;
+  display: flex;
+  gap: 10px;
+}
+
+.cj-grid-nav button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 20px;
+}
+.grid-track-img {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  pointer-events: none;
+}
+
+.card-box {
+  height: 100%;
+}
+
+.card-box h5,
+.card-box-level h5 {
+  margin-bottom: 16px;
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.activity-player-profile {
+  margin-bottom: 14px;
+  padding: 14px;
+  border-radius: 20px;
+  border: 2px solid #292932;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+}
+
+.activity-card .title {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+
+.activity-card small {
+  color: var(--Gray, #949494);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+.badge-success {
+  display: inline-block;
+  border-radius: 8px;
+  border: 0.5px solid var(--Primary-Burst-Yellow, #f0ff00);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  padding: 2px 10px;
+  color: var(--Primary-Burst-Yellow, #f0ff00);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.doller-icon {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 99;
+}
+.badge-danger {
+  background: #ff4757;
+  padding: 4px 10px;
+  font-size: 11px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+/* ===============================
+   NEXT UP
+================================ */
+.nextup-card {
+  background: #073149;
+  border-radius: 14px;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+.nextup-card .title {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.nextup-card small {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.nextup-card .time {
+  font-size: 11px;
+  color: #ffd400;
+}
+
+/* ===============================
+   SPAIN LEVELS
+================================ */
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 991px) {
+  .stats-box {
+    margin-top: 14px;
+    flex-wrap: wrap;
+  }
+
+  .dashboard-main {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .journey-path {
+    gap: 40px;
+  }
+
+  .player-name {
+    font-size: 14px;
+  }
+
+  .stat-card {
+    min-width: 70px;
+    padding: 10px;
+  }
+}
+.cj-grid-node.bottom {
+  justify-content: end;
+}
+.cj-grid-node:first-child {
+  width: 100px;
+  margin-left: 20px;
+}
+.cj-grid-node:first-child img {
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1/1;
+}
+.cj-grid-node:nth-child(2) img {
+  width: 111px;
+  height: 111px;
+  aspect-ratio: 1/1;
+}
+.cj-grid-node:nth-child(2) {
+  margin-left: 20px;
+}
+.unlock-cunt {
+  position: absolute;
+  left: 50%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+}
+.unlock-cunt-img {
+  width: 90px !important;
+  height: 60px !important;
+  aspect-ratio: 17/16;
+  border: none !important;
+  background: transparent !important;
+}
+.text-cont {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.cj-grid-node:nth-child(3) .flg-img-cont {
+  width: 90px;
+  height: 90px;
+  aspect-ratio: 1/1;
+}
+.cj-grid-node:nth-child(3) {
+  margin-left: 20px;
+}
+.cj-grid-node:nth-child(4) .flg-img-cont {
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 1/1;
+}
+.cj-grid-node:nth-child(4) {
+  margin-left: 4px;
+  margin-top: -90px;
+}
+.cj-grid-node:nth-child(5) .flg-img-cont {
+  width: 102px;
+  height: 102px;
+  aspect-ratio: 1/1;
+}
+.cj-grid-node:nth-child(5) {
+  margin-left: 20px;
+}
+.cj-grid-node:nth-child(6) .flg-img-cont {
+  width: 86px;
+  height: 86px;
+  aspect-ratio: 1/1;
+}
+.cj-grid-node:nth-child(6) {
+  margin-left: 12px;
+}
+.cj-grid-node:nth-child(4) p {
+  width: 100px;
+}
+.cj-grid-node:nth-child(2) p {
+  width: 111px;
+}
+.cj-grid-node:nth-child(7) .flg-img-cont {
+  width: 95px;
+  height: 95px;
+  aspect-ratio: 1/1;
+}
+.cj-grid-node:nth-child(7) {
+  margin-left: -20px;
+}
+.cj-grid-node:nth-child(8) .flg-img-cont {
+  width: 87px;
+  height: 87px;
+  aspect-ratio: 1/1;
+}
+.cj-grid-node:nth-child(8) {
+  margin-left: -20px;
+  margin-top: -90px;
+}
+.cj-grid-node p {
+  opacity: 0.8;
+  margin-top: 6px;
+  width: 80px;
+  color: var(--Gray, #949494);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cj-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 30px;
+}
+
+.cj-head .actvie-journey {
+  color: var(--Primary-Burst-Yellow, #f0ff00);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cj-head .actvie-journey .actvie-track-img {
+  width: 26px;
+  height: 26px;
+  aspect-ratio: 1/1;
+  margin-right: 5px;
+}
+
+.cj-head h3 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.activity-player-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.acti-video {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.activity-info-player {
+  flex: 1;
+}
+.try-again {
+  border-radius: 8px;
+  border: 0.5px solid var(--Primary-Neon-Red, #ff073a);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: var(--Primary-Neon-Red, #ff073a);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 2px 10px;
+}
+.acti-video:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.35) 100%
+  );
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.play-icon img {
+  width: 24px;
+}
+
+.video-modal .modal-body {
+  padding: 0;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.activity-info-player span {
+  color: var(--_web-promary-text, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: capitalize;
+  display: inline-flex;
+  line-height: 1;
+  align-items: center;
+}
+.activity-card,
+.levels-box {
+  max-height: 350px;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.activity-card::-webkit-scrollbar,
+.levels-box::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.levels-box {
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  padding: 25px;
+}
+
+.levels-box-open {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.levels-box-open .level-item {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+
+.info-dice p {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  margin: 15px 0px 0px;
+}
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.skill-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #ffffff1a;
+  padding-top: 12px;
+}
+
+.skill-list-item .skill-info span {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 350;
+  opacity: 0.5;
+  line-height: 20px; /* 153.846% */
+}
+
+.skill-list-item .skill-info p {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.skill-list-item .skill-right p {
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px; /* 110% */
+  margin-bottom: 0px;
+}
+
+.video-modal .modal-content {
+  border-radius: 20px;
+  border: 1px solid var(--Gray, #949494);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 10px 20px 0 rgba(10, 95, 255, 0.5);
+  padding: 30px;
+}
+
+.coach-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.coach-details p {
+  margin-bottom: 0px;
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+  text-transform: capitalize;
+}
+
+.video-info {
+  margin-top: 10px;
+}
+.mdl-footer {
+  border-top: 1px solid #94949480;
+  margin-top: 14px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mdl-footer .status-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mdl-footer .status-left .status-box-mdl {
+  border-radius: 8px;
+  border: 0.5px solid var(--Primary-Burst-Yellow, #f0ff00);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: var(--Primary-Burst-Yellow, #f0ff00);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2px 10px;
+}
+
+.mdl-footer .status-left {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.mdl-footer .action-mdl {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.mdl-footer .action-mdl .action-link {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.modl-heading h3 {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  border-radius: 0 19px 0 20px;
+  background: var(--Primary-Neon-Red, #ff073a);
+  width: 30px;
+  height: 40px;
+  opacity: 1;
+}
+
+.step.completed {
+  color: #2f80ff;
+  opacity: 0.7;
+}
+
+.plan-box {
+  border: 1px solid #5f6f7f;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-select {
+  height: 58px; /* REQUIRED */
+  padding: 1rem 0.75rem; /* REQUIRED */
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid var(--Gray, #949494);
+  background-color: var(--Juggling-Club-Dark-Blue, #03202f);
+}
+
+.form-floating > label {
+  padding: 1rem 0.75rem;
+  color: var(--Gray, #949494);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+/* FLOAT TRIGGER */
+.form-floating > .form-control:focus,
+.form-floating > .form-control:not(:placeholder-shown),
+.form-floating > .form-select:focus {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+/* REMOVE WHITE BG ON AUTOFILL */
+.form-control:-webkit-autofill {
+  -webkit-text-fill-color: #fff;
+  transition: background-color 9999s ease-in-out 0s;
+}
+.form-floating > .form-control-plaintext ~ label,
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  transform: scale(0.85) translateY(-0.9rem) translateX(0.15rem);
+  padding: 0 12px;
+  background-color: #03202f;
+  display: inline-block;
+  height: 25px;
+}
+.form-control:focus,
+.form-select:focus {
+  border-color: #345af9;
+  outline: 1;
+  box-shadow: none;
+}
+textarea {
+  border-radius: 10px;
+  border: 1px solid var(--Gray, #949494);
+  background-color: var(--Juggling-Club-Dark-Blue, #03202f);
+  padding: 1rem 0.75rem;
+  width: 100%;
+  height: 100px;
+}
+.btn-cancel-outline {
+  flex: 1;
+  padding: 22px 30px;
+  border-radius: 150px;
+  border: 1px solid var(--Primary-Neon-Red, #ff073a);
+  background: transparent;
+  color: var(--Primary-Neon-Red, #ff073a);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+
+.btn-next-bg {
+  flex: 1;
+  border-radius: 150px;
+  background: var(--Primary-Neon-Red, #ff073a);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+/* Buttons */
+.action-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.step-progress {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.content-card .step-progress::after {
+  content: "";
+  background: #ffffff;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 66%;
+  margin: 0 auto;
+  top: 13px;
+  z-index: 1;
+}
+.step-line-active {
+  position: absolute;
+  top: 13px;
+  height: 4px;
+  background: #2f80ff;
+  width: 0;
+  z-index: 2;
+  transition: width 0.4s ease;
+
+  left: 18%;
+}
+.step-progress.step-1 .step-line-active {
+  width: 0%;
+}
+.step-progress.step-2 .step-line-active {
+  width: 33%;
+}
+.step-progress.step-3 .step-line-active {
+  width: 66%;
+}
+.step-progress .step {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  color: #949494;
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: 500;
+  z-index: 3;
+}
+.step-progress .step.active {
+  color: #fff;
+}
+
+.step-progress .step img {
+  width: 16px;
+  height: 32px;
+}
+
+.step-progress .step.active img {
+  width: 32px;
+  height: 32px;
+}
+.info-text {
+  color: var(--White, #fff);
+  background: #0a5fff26;
+  border-radius: 15px;
+  padding: 12px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.content-card {
+  border-radius: 40px;
+  border: 1px solid #565656;
+  padding: 25px 30px;
+  margin: 0px 15px;
+}
+
+.content-card .sabheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 86px;
+}
+
+.content-card .sabheading h2 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.plan-card {
+  border-radius: 20px;
+  border: 1px solid var(--Gray, #949494);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  padding: 26px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.plan-info h3 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.plan-info span {
+  display: inline-block;
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.plan-price h3 {
+  color: var(--White, #fff);
+  text-align: right;
+  font-family: "Bebas Neue";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.plan-price span {
+  color: var(--Primary-Burst-Yellow, #f0ff00);
+  font-family: Avenir;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.plan-card.selected-plan {
+  border: 1px solid var(--Primary-Badge-Blue, #0a5fff);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 10px 20px 0 rgba(10, 95, 255, 0.5);
+}
+.apply-code {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  padding: 4px 30px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.subscription h4 {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.subscription {
+  margin-top: 40px;
+}
+.plan-card ul {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.plan-card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-card ul li h5 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.plan-card ul li span {
+  color: var(--White, #fff);
+  text-align: right;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.plan-card ul li .price-totl {
+  color: #f0ff00;
+}
+
+.plan-card ul li b {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.card-info-text {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-grid-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 0px 15px;
+}
+.card-grid-box .player-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-grid-box .player-card img {
+  position: absolute;
+  right: 12px;
+  top: 15px;
+}
+.card-grid-box .player-card h4 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 106.667% */
+}
+
+.card-grid-box .player-card .count-info-card {
+  margin-top: 35px;
+}
+.card-grid-box .player-card .count-info-card p {
+  color: var(--White, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.card-grid-box .player-card .count-info-card h6 {
+  color: var(--Primary-Burst-Yellow, #f0ff00);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 6px;
+}
+.quick-actions-card {
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  margin: 35px 15px 0px;
+  padding: 24px 35px;
+}
+
+.quick-actions-card h3 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.quick-actions-card p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.quick-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.quick-item-grid {
+  text-align: center;
+  position: relative;
+}
+.quick-item-grid::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+  background: var(--Gray, #949494);
+  width: 1px;
+  height: 80%;
+}
+
+.quick-item-grid:last-child::after {
+  display: none;
+}
+.quick-item-grid h6 {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+
+.quick-item-grid p {
+  color: var(--Gray, #949494);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.heading-subsc h3 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.heading-subsc p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.heading-subsc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current-subs {
+  margin: 35px 15px 0px;
+}
+
+.rightsubscription-info p {
+  color: var(--Gray, #949494);
+  text-align: right;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.rightsubscription-info .paymet-status.paid {
+  border-radius: 25px;
+  background: #38c600;
+  display: inline-block;
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  margin-bottom: 10px;
+}
+
+.rightsubscription-info {
+  text-align: right;
+}
+.subs-info-grid {
+  border-radius: 20px;
+  border: 1px solid var(--Primary-Badge-Blue, #0a5fff);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 10px 20px 0 rgba(10, 95, 255, 0.5);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  margin-top: 16px;
+}
+
+.subs-info-grid h5 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.subs-info-grid p {
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.subs-grid-item {
+  position: relative;
+  padding-left: 100px;
+}
+.subs-grid-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+  background: var(--Gray, #949494);
+  width: 1px;
+  height: 100%;
+}
+
+.subs-grid-item:last-child::after {
+  display: none;
+}
+.players-progress-box {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.players-progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.players-count {
+  color: #6c757d;
+}
+
+.players-progress {
+  height: 8px;
+  background-color: #0a5fff66;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.players-progress .progress-bar {
+  background: #f0ff00;
+  border-radius: 50px;
+  transition: width 0.4s ease;
+}
+
+@media (max-width: 991px) {
+  .card-grid-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .card-grid-box {
+    grid-template-columns: 1fr;
+  }
+}
+
+/***************** Billing Page ****************/
+
+.billing-card {
+  color: #ffffff;
+}
+
+.billing-title {
+  font-size: 30px;
+  margin-bottom: 16px;
+  font-family: "Bebas Neue";
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid #4c4c4c;
+}
+
+.billing-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.billing-table thead {
+  background: #2e2e2e;
+}
+
+.billing-table th,
+.billing-table td {
+  padding: 14px 16px;
+  text-align: left;
+  font-family: Avenir;
+}
+.billing-table th {
+  font-size: 15;
+  font-weight: 500;
+}
+.billing-table td {
+  font-size: 14;
+}
+.billing-table tr {
+  border-top: 1px solid #4c4c4c;
+}
+
+.billing-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.status.active {
+  color: #00ff5f !important;
+  font-weight: 500;
+}
+
+.status.trial {
+  color: #ffc107 !important;
+  font-weight: 500;
+}
+
+.status.expired {
+  color: #ff0033 !important;
+  font-weight: 500;
+}
+
+.paid {
+  color: #00ff5f !important;
+  font-weight: 500;
+}
+
+.download {
+  text-align: center;
+  color: #2f7cff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/***************** Billing Page ****************/
+
+/***************** Notifications Page ****************/
+.notification-card {
+  border-radius: 12px;
+  border: 1px solid #4c4c4c;
+  background: #1d1d26;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 17px;
+  margin-bottom: 15px;
+}
+.notification-card2 {
+  background: #03202f;
+  border: 1px solid #073f5c;
+}
+.notification-card h3 {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+}
+.notification-card h3 span {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  display: block;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+.notification-card-in {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.notification-card-in p {
+  color: #949494;
+  text-align: right;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  margin-right: 10px;
+}
+/***************** Notifications Page ****************/
+
+/***************** Notifications Settings ****************/
+
+.top-heading h4 span {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+}
+.switch {
+  --inactive-bg: #949494;
+  --active-bg: #0a5fff;
+  --size: 1.6rem;
+  appearance: none;
+  width: calc(var(--size) * 2.2);
+  height: var(--size);
+  display: inline-block;
+  border-radius: calc(var(--size) / 2);
+  cursor: pointer;
+  background-color: var(--inactive-bg);
+  background-image: radial-gradient(
+      circle calc(var(--size) / 2.1),
+      #fff 100%,
+      #0000 0
+    ),
+    radial-gradient(circle calc(var(--size) / 1.5), #0003 0%, #0000 100%);
+  background-repeat: no-repeat;
+  background-position: calc(var(--size) / -1.75) 0;
+  transition: background 0.2s ease-out;
+  margin-top: 10px;
+}
+.switch:checked {
+  background-color: var(--active-bg);
+  background-position: calc(var(--size) / 1.75) 0;
+}
+/***************** Notifications Settings ****************/
+
+/***************** Account Settings ****************/
+.acnt-stng-cl h4 {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.plyr-crdin {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #4c4c4c;
+  border-radius: 0;
+  padding: 10px 0;
+}
+.plyr-crdin h3 {
+  font-size: 18px;
+  margin: 0;
+}
+.plyr-crdin h3 span {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 0;
+}
+.player-card-in {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.btn-primary-sml {
+  border-radius: 150px;
+  background: var(--Primary-Neon-Red, #ff073a);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  flex-grow: inherit;
+}
+.btn-cancel-outline-sml {
+  padding: 6px 20px;
+  border-radius: 150px;
+  background: transparent;
+  color: var(--Primary-Neon-Red, #ff073a);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+.invite-grgn {
+  position: relative;
+}
+.invite-grgn input {
+  padding-right: 120px;
+}
+.ivntr-bt {
+  position: absolute;
+  right: 20px;
+  top: 13px;
+}
+.comni-perf h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.comni-perf .plyr-crdin {
+  margin-bottom: 5px;
+}
+/***************** Account Settings ****************/
+
+/***************** Support ****************/
+.sprt-faq > div > div {
+  border: 1px solid #4e4e4e !important;
+}
+.sprt-faq button,
+.sprt-faq p {
+  color: #fff !important;
+}
+.ai-assct {
+  font-size: 30px;
+  color: #949494;
+  text-align: center;
+}
+.tandcpp {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+/***************** Support ****************/
+
+/***************** Subscription ****************/
+.subsc-rder {
+  margin: 0px 15px;
+}
+.subsc-rder .billing-table th,
+.subsc-rder .billing-table td {
+  color: #fff;
+}
+.crnt-plnsec {
+  border-radius: 0 20px 20px 20px;
+  border: 1px solid #0a5fff;
+  background: #03202f;
+  box-shadow: 0 10px 20px 0 rgba(10, 95, 255, 0.5);
+  display: flex;
+  padding: 20px 25px;
+  margin: 0px 15px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 30px;
+}
+.crt-tag {
+  color: #fff;
+  background: #0a5fff;
+  border-radius: 8px 8px 0 0;
+  font-family: Avenir;
+  font-size: 15px;
+  position: absolute;
+  top: -28px;
+  left: -1px;
+  padding: 3px 10px;
+}
+.crnt-plnsec h3 {
+  font-size: 25px;
+  font-family: Avenir;
+  color: #fff;
+}
+.crnt-plnsec h3 span {
+  color: #949494;
+  font-family: Avenir;
+  font-size: 15px;
+  display: block;
+}
+.crnt-plnsec h4 {
+  font-size: 35px;
+  font-family: "Bebas Neue";
+  color: #fff;
+  margin: 0;
+}
+.crnt-plnsec h4 span {
+  color: #f0ff00;
+  font-family: Avenir;
+  font-size: 12px;
+  display: block;
+}
+.renwl-dte {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 16px;
+}
+.crnt-plnsec .btn-cancel-outline,
+.crnt-plnsec .btn-next-bg {
+  padding: 10px 30px;
+}
+
+/***************** Subscription ****************/
+
+.count-info-card ul {
+  padding: 0;
+  margin: 0;
+}
+
+.count-info-card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.card-btn {
+  display: inline-block;
+  border-radius: 150px;
+  background: var(--Primary-Neon-Red, #ff073a);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  margin-top: 14px;
+}
+
+.next-reward-card {
+  border-radius: 20px;
+  background: var(--Primary-Badge-Blue, #0a5fff);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px;
+  margin: 0px 15px 25px;
+}
+
+.next-reward-card h2 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.next-reward-card p {
+  color: var(--White, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
