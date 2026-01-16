@@ -104,7 +104,7 @@ body {
   border-radius: 999px;
   text-decoration: none;
   display: inline-flex;
-  padding: 17px 30px;
+  padding: 10px 36px;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -187,7 +187,7 @@ body {
 
 .nav {
   display: none;
-  gap: 22px;
+  gap: 40px;
 }
 .nav__link {
   text-decoration: none;
@@ -1509,7 +1509,7 @@ input::placeholder {
   font-family: Avenir;
   font-size: 18px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 24px;
   padding-left: 12px;
   margin-bottom: 0px;
@@ -1556,7 +1556,7 @@ input::placeholder {
   font-weight: 500;
   line-height: normal;
   padding: 9px 23px;
-  left: 58%;
+  left: 50%;
   transform: translateX(-50%);
   bottom: -26px;
   z-index: 99;

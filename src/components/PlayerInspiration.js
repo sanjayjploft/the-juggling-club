@@ -51,6 +51,32 @@ export default function PlayerInspiration() {
             nextEl: ".custom-swiper-next",
             prevEl: ".custom-swiper-prev",
           }}
+          breakpoints={{
+            // Mobile
+            0: {
+              slidesPerView: 1,
+            },
+
+            // Small tablets
+            576: {
+              slidesPerView: 1.2,
+            },
+
+            // Tablets
+            768: {
+              slidesPerView: 2,
+            },
+
+            // Small laptops
+            992: {
+              slidesPerView: 2,
+            },
+
+            // Desktop
+            1200: {
+              slidesPerView: 3,
+            },
+          }}
           className="hero-swiper">
           <SwiperSlide>
             <div className="hero-slide ">
