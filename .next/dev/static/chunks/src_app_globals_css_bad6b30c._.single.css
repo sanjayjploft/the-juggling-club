@@ -101,6 +101,10 @@ nav.nav.nav--open {
   display: inline-flex;
 }
 
+.navCtas.mobile-cta {
+  display: none;
+}
+
 .page {
   min-height: 100vh;
   margin-top: -60px;
