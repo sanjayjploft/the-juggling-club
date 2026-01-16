@@ -67,7 +67,7 @@ body {
   margin: 0;
   background: #fff;
   color: #0f172a;
-  font-family: "Bebas Neue";
+  font-family: "Avenir";
   overflow-x: hidden;
 }
 /* manu css */
@@ -1878,17 +1878,19 @@ input::placeholder {
 }
 .contct-btm-inf h2 {
   font-size: 56px;
+  font-family: "Bebas Neue";
 }
 .contct-btm-inf h2 span {
   font-size: 24px;
   display: block;
-  font-family: Avenir;
+  font-family: "Avenir";
   font-weight: 400;
   color: #03202f;
 }
 .contct-btm-inf h4 {
   font-size: 30px;
   font-weight: 400;
+  font-family: "Bebas Neue";
 }
 .contct-btm-inf h4::after {
   content: "";

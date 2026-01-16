@@ -13406,7 +13406,7 @@ html, body {
   background: #fff;
   margin: 0;
   padding: 0;
-  font-family: Bebas Neue;
+  font-family: Avenir;
   overflow-x: hidden;
 }
 
@@ -15282,6 +15282,7 @@ input::placeholder {
 }
 
 .contct-btm-inf h2 {
+  font-family: Bebas Neue;
   font-size: 56px;
 }
 
@@ -15294,6 +15295,7 @@ input::placeholder {
 }
 
 .contct-btm-inf h4 {
+  font-family: Bebas Neue;
   font-size: 30px;
   font-weight: 400;
 }

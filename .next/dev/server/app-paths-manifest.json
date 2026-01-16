@@ -1,10 +1,13 @@
 {
-  "/(public)/Clubs/page": "app/(public)/Clubs/page.js",
-  "/(public)/Coaches/page": "app/(public)/Coaches/page.js",
+  "/(dashboard)/AccountSettings/page": "app/(dashboard)/AccountSettings/page.js",
+  "/(dashboard)/Billing/page": "app/(dashboard)/Billing/page.js",
+  "/(dashboard)/Notifications/page": "app/(dashboard)/Notifications/page.js",
+  "/(dashboard)/NotificationsSettings/page": "app/(dashboard)/NotificationsSettings/page.js",
+  "/(dashboard)/Subscription/page": "app/(dashboard)/Subscription/page.js",
+  "/(dashboard)/Support/page": "app/(dashboard)/Support/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
   "/(public)/Contact/page": "app/(public)/Contact/page.js",
   "/(public)/FAQ/page": "app/(public)/FAQ/page.js",
-  "/(public)/Parents/page": "app/(public)/Parents/page.js",
-  "/(public)/Players/page": "app/(public)/Players/page.js",
   "/(public)/page": "app/(public)/page.js",
   "/_not-found/page": "app/_not-found/page.js"
 }

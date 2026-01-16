@@ -1,261 +1,8 @@
-[00:00:01.434] Server  LOG     ✓ Ready in 962ms
-[00:00:08.532] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
-
-If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
-[00:00:08.533] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
-
-If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
-[00:00:09.096] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.394] Server  LOG     ✓ Ready in 938ms
+[00:00:06.445] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:09.131] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.131] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:00:09.131] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:00:10.739] Server  ERROR   ⨯ ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:11.124] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:11.138] Server  ERROR   ⨯ ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:11.331] Browser ERROR   uncaughtError: Error: ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:11.544] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:11.544] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:22.216] Server  ERROR   ⨯ ReferenceError: Tabs is not defined
-[00:00:22.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.360] Browser ERROR   uncaughtError: ReferenceError: Tabs is not defined
-[00:00:26.600] Server  ERROR   ⨯ ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:26.601] Server  ERROR   ⨯ ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:27.352] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:30.764] Server  ERROR   ⨯ ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:30.765] Server  ERROR   ⨯ ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:31.188] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:33.316] Server  ERROR   ⨯ ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:33.317] Server  ERROR   ⨯ ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:33.662] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:02:40.333] Server  LOG     ✓ Compiled in 377ms
-[00:02:41.203] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:16.366] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:18.361] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:31.362] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:31.362] Browser ERROR   ./src/app/(public)/FAQ/page.js:2:1
-Module not found: Can't resolve '../../../components/Tabs'
-  1 | import React from "react";
-> 2 | import Tabs from "../../../components/Tabs";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function Page() {
-  5 |   return (
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:34.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:34.604] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:06.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.834] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
@@ -282,9 +29,9 @@ This will cause a hydration error.%s <div> p
                 ...
               ...
 
-[00:03:34.604] Browser ERROR   <%s> cannot contain a nested %s.
+[00:00:06.834] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[00:03:34.604] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:00:06.834] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -295,22 +42,15 @@ See this log for the ancestor stack trace. p <div>
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
 https://react.dev/link/hydration-mismatch
-[00:05:49.630] Server  LOG     ✓ Compiled in 161ms
-[00:05:54.796] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:08:32.505] Server  LOG     ✓ Compiled in 41ms
-[00:09:10.364] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:34.913] Server  LOG     ✓ Compiled in 47ms
-[00:10:12.843] Server  LOG     ✓ Compiled in 202ms
-[00:10:18.637] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:10:22.547] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:10:22.547] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:10:23.375] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:10:23.375] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:10:23.696] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:14.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.717] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:22.518] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:25.459] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:25.459] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:25.459] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:47.840] Server  LOG     ✓ Compiled in 60ms
+[00:00:55.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:56.516] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
@@ -341,79 +81,10 @@ This will cause a hydration error.%s <div> p
                 ...
               ...
 
-[00:10:23.697] Browser ERROR   <%s> cannot contain a nested %s.
+[00:00:56.516] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[00:10:26.899] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="FAQ/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/FAQ" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(public)/F...">
-                  <SegmentTrieNode>
-                  <Page>
-                    <main className="page">
-                      <div className="section">
-                        <div className="container ...">
-                          <h1>
-                          <Tabs>
-                            <div>
-                              <div>
-                              <div style={{padding:"1..."}}>
->                               <p>
-                                  <FaqAccordion>
-                                    <div style={{maxWidth:"...", ...}}>
-                                      <div style={{border:"1p...", ...}}>
-                                        <button>
->                                       <p style={{marginTop:"10px",color:"#000",marginBottom:"0"}}>
-                                      ...
-                ...
-              ...
-
-[00:10:26.899] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[00:10:31.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:32.063] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="FAQ/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/FAQ" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(public)/F...">
-                  <SegmentTrieNode>
-                  <Page>
-                    <main className="page">
-                      <div className="section">
-                        <div className="container ...">
-                          <h1>
-                          <Tabs>
-                            <div>
-                              <div>
-                              <div style={{padding:"1..."}}>
->                               <p>
-                                  <FaqAccordion>
->                                   <div style={{maxWidth:"1000px",margin:"0 auto"}}>
-                ...
-              ...
-
-[00:10:32.063] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <div>
-[00:10:32.063] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
+[00:00:56.516] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:10.327] Server  LOG     ✓ Compiled in 58ms
+[00:01:14.016] Server  LOG     ✓ Compiled in 38ms
+[00:01:16.953] Server  LOG     ✓ Compiled in 44ms
+[00:01:34.992] Server  LOG     ✓ Compiled in 49ms
