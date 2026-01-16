@@ -5,23 +5,28 @@ import { useState } from "react";
 const faqs = [
   {
     question: "How do I upload a video?",
-    answer: "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
+    answer:
+      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
   },
   {
     question: "What happens after I complete a skill?",
-    answer: "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
+    answer:
+      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
   },
   {
     question: "How do I upload a video?",
-    answer: "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
+    answer:
+      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
   },
   {
     question: "How do I upload a video?",
-    answer: "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
+    answer:
+      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
   },
   {
     question: "How do I upload a video?",
-    answer: "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
+    answer:
+      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
   },
 ];
 
@@ -42,9 +47,8 @@ export default function FaqAccordion() {
             padding: "20px",
             borderRadius: "10px",
             fontFamily: "Avenir",
-            marginBottom: "20px"
-          }}
-        >
+            marginBottom: "20px",
+          }}>
           <button
             onClick={() => toggleFAQ(index)}
             style={{
@@ -54,19 +58,20 @@ export default function FaqAccordion() {
               border: "none",
               fontSize: "16.5px",
               fontFamily: "Avenir",
-              fontWeight: "400",
+              fontWeight: "800",
               cursor: "pointer",
               display: "flex",
               justifyContent: "space-between",
-              padding: "0"
-            }}
-          >
+              padding: "0",
+              fontWeight: openIndex === index ? "800" : "400",
+              color: openIndex === index ? "#03202F" : "#03202F",
+            }}>
             {faq.question}
             <span>{openIndex === index ? "−" : "+"}</span>
           </button>
 
           {openIndex === index && (
-            <p style={{ marginTop: "10px", color: "#000", marginBottom: "0"}}>
+            <p style={{ marginTop: "10px", color: "#000", marginBottom: "0" }}>
               {faq.answer}
             </p>
           )}

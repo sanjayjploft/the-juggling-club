@@ -29,14 +29,14 @@ export default function NextUp() {
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-91.png" className="me-2" />
-                RIGHT FOOT JUGGLE
+                <img src="/assets/image/level-30.png" className="me-2" />
+                Shooting Fundamentals
               </p>
-              <small>Coach:</small>
+              <small>Virtual Coach:</small>
               <div className="d-flex justify-content-between">
                 <span>
                   <img src="/assets/image/calendar.svg" className="me-2" />
-                  Today
+                  Tomorrow
                 </span>
               </div>
             </div>
@@ -60,10 +60,10 @@ export default function NextUp() {
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-91.png" className="me-2" />
-                Thigh Control
+                <img src="/assets/image/level-25.png" className="me-2" />
+                Right Foot Juggle
               </p>
-              <small>Virtual Coach:</small>
+              <small>Coach:</small>
               <div className="d-flex justify-content-between">
                 <span>
                   <img src="/assets/image/calendar.svg" className="me-2" />
@@ -91,7 +91,7 @@ export default function NextUp() {
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-91.png" className="me-2" />
+                <img src="/assets/image/level-23.png" className="me-2" />
                 RIGHT FOOT JUGGLE
               </p>
               <small>Coach:</small>

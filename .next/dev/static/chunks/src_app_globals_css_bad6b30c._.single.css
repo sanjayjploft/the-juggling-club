@@ -344,6 +344,7 @@ video.hero__video {
 
 .cover {
   object-fit: cover;
+  width: 100%;
 }
 
 .mapCard {
@@ -582,10 +583,10 @@ video.hero__video {
 .section-heading {
   color: #000;
   font-family: Bebas Neue;
-  font-size: 70px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 60px;
 }
 
 .section-dice {
@@ -717,6 +718,7 @@ img.simbl-icon {
 
 .player-name span {
   color: #fff;
+  text-transform: capitalize;
   margin-left: 5px;
   font-family: Avenir;
   font-size: 14px;
@@ -923,7 +925,7 @@ input::placeholder {
 .socials {
   align-items: center;
   gap: 30px;
-  margin-top: 30px;
+  margin-top: 70px;
   display: flex;
 }
 
@@ -1284,6 +1286,10 @@ input::placeholder {
   line-height: 62px;
 }
 
+.club-staff-info {
+  padding-left: 40px;
+}
+
 .club-staff-info p {
   color: #727272;
   margin-bottom: 0;
@@ -1366,6 +1372,7 @@ input::placeholder {
 
 .featureList .featureList-item p {
   color: #3d3d3d;
+  margin-bottom: 0;
   font-family: Avenir;
   font-size: 15px;
   font-style: normal;
@@ -2428,6 +2435,14 @@ input::placeholder {
   .club-staff-btm-sec .btm-sec-item {
     flex: 0 0 100%;
     justify-content: flex-start;
+  }
+
+  .club-staff-info {
+    padding-left: 0;
+  }
+
+  .socials {
+    margin-top: 30px;
   }
 }
 

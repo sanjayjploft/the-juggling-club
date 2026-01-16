@@ -337,6 +337,7 @@ video.hero__video {
 
 .cover {
   object-fit: cover;
+  width: 100%;
 }
 
 /* Map */
@@ -562,10 +563,10 @@ video.hero__video {
 .section-heading {
   color: #000;
   font-family: "Bebas Neue";
-  font-size: 70px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 60px;
 }
 .section-dice {
   color: #000;
@@ -694,6 +695,7 @@ img.simbl-icon {
   line-height: normal;
   display: inline-block;
   margin-left: 5px;
+  text-transform: capitalize;
 }
 
 .blog-box {
@@ -879,7 +881,7 @@ input::placeholder {
   color: #fff;
 }
 .socials {
-  margin-top: 30px;
+  margin-top: 70px;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -1226,7 +1228,9 @@ input::placeholder {
   line-height: 62px; /* 119.231% */
   letter-spacing: -0.52px;
 }
-
+.club-staff-info {
+  padding-left: 40px;
+}
 .club-staff-info p {
   color: #727272;
   font-family: "Avenir";
@@ -1311,6 +1315,7 @@ input::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 0;
 }
 
 .price-box {
@@ -2290,5 +2295,11 @@ input::placeholder {
   .club-staff-btm-sec .btm-sec-item {
     justify-content: flex-start;
     flex: 0 0 100%;
+  }
+  .club-staff-info {
+    padding-left: 0;
+  }
+  .socials {
+    margin-top: 30px;
   }
 }

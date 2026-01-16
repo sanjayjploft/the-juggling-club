@@ -416,7 +416,7 @@ function Page() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "hero__subtitle ",
-                                            children: "Build ball control with guided drills, challenges, and a global community."
+                                            children: "A coach-guided journey where practice turns into progress — earn badges, get feedback, and unlock new challenges."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(public)/page.js",
                                             lineNumber: 27,
@@ -495,7 +495,7 @@ function Page() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "section-dice",
-                                    children: "Join players around the world and explore regional challenges."
+                                    children: "From Spain to Brazil — unlock your global soccer mastery journey."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(public)/page.js",
                                     lineNumber: 49,

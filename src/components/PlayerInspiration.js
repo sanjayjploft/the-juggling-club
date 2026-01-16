@@ -17,7 +17,7 @@ export default function PlayerInspiration() {
               LEGENDARY PLAYER INSPIRATION
             </h3>
             <p className="section-dice text-white">
-              Quotes and mindset tips to keep training consistent.
+              The world’s greatest players started with a ball and a dream.
             </p>
           </div>
           <div className="swiper-action-btn">

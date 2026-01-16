@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import Playerquotes from "../../../components/Playerquotes";
 import Link from "next/link";
 import HowCoachesUseIt from "../../../components/HowCoachesUseIt";
+import PlayerTestimonial from "../../../components/PlayerTestimonial";
 
 export default function page() {
   return (
@@ -346,7 +346,7 @@ export default function page() {
           </div>
         </section>
         <HowCoachesUseIt />
-        <Playerquotes />
+        <PlayerTestimonial />
         <section className="section">
           <div className="container">
             <div className="row">

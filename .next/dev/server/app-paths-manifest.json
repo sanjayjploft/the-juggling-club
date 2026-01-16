@@ -1,4 +1,21 @@
 {
+  "/(dashboard)/(addplayer)/details/page": "app/(dashboard)/(addplayer)/details/page.js",
+  "/(dashboard)/(addplayer)/pay/page": "app/(dashboard)/(addplayer)/pay/page.js",
+  "/(dashboard)/(addplayer)/plan/page": "app/(dashboard)/(addplayer)/plan/page.js",
+  "/(dashboard)/AccountSettings/page": "app/(dashboard)/AccountSettings/page.js",
+  "/(dashboard)/Billing/page": "app/(dashboard)/Billing/page.js",
+  "/(dashboard)/Notifications/page": "app/(dashboard)/Notifications/page.js",
+  "/(dashboard)/NotificationsSettings/page": "app/(dashboard)/NotificationsSettings/page.js",
+  "/(dashboard)/Playerdetails/page": "app/(dashboard)/Playerdetails/page.js",
+  "/(dashboard)/Subscription/page": "app/(dashboard)/Subscription/page.js",
+  "/(dashboard)/Support/page": "app/(dashboard)/Support/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(public)/Clubs/page": "app/(public)/Clubs/page.js",
+  "/(public)/Coaches/page": "app/(public)/Coaches/page.js",
+  "/(public)/Contact/page": "app/(public)/Contact/page.js",
   "/(public)/FAQ/page": "app/(public)/FAQ/page.js",
-  "/(public)/page": "app/(public)/page.js"
+  "/(public)/Parents/page": "app/(public)/Parents/page.js",
+  "/(public)/Players/page": "app/(public)/Players/page.js",
+  "/(public)/page": "app/(public)/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

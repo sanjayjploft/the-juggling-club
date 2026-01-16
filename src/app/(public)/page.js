@@ -25,8 +25,8 @@ export default function Page() {
                 MASTER YOUR TOUCH. JOIN <br /> THE JUGGLING CLUB JOURNEY.
               </h1>
               <p className="hero__subtitle ">
-                Build ball control with guided drills, challenges, and a global
-                community.
+                A coach-guided journey where practice turns into progress — earn
+                badges, get feedback, and unlock new challenges.
               </p>
               <div className="rowBtns rowBtns--left">
                 <Link href="#" className="btn btn--primary btn--lg">
@@ -47,7 +47,7 @@ export default function Page() {
           <div className="center pt-5">
             <h2 className="section-heading">THE GLOBAL JUGGLING JOURNEY</h2>
             <p className="section-dice">
-              Join players around the world and explore regional challenges.
+              From Spain to Brazil — unlock your global soccer mastery journey.
             </p>
 
             <div className="rowBtns">

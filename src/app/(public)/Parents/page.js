@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import Playerquotes from "../../../components/Playerquotes";
 import Link from "next/link";
 import HowCoachesUseIt from "../../../components/HowCoachesUseIt";
+import PlayerTestimonial from "../../../components/PlayerTestimonial";
 
 export default function page() {
   return (
@@ -316,171 +316,9 @@ export default function page() {
             </div>
           </div>
         </section>
-        <section className="section position-relative">
-          <div className="container">
-            <Row>
-              <Col lg={4}>
-                <h2 className="section-heading text-start">
-                  Key Benefits for Coaches
-                </h2>
-              </Col>
-              <Col lg={8}>
-                <div className="featureList">
-                  <div className="featureList-item">
-                    <div className="icon-box">
-                      <img
-                        src="/assets/image/scale-cbl.svg"
-                        alt="App mock"
-                        className="cover"
-                      />
-                    </div>
-                    <div className="item-name">
-                      <h4>Better First Touch & Ball Control</h4>
-                      <p>
-                        Players develop the technical foundation you need
-                        juggling, coordination, balance, timing, and feel for
-                        the ball so team training becomes more productive.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="featureList-item">
-                    <div className="icon-box">
-                      <img
-                        src="/assets/image/discount-icon.svg"
-                        alt="App mock"
-                        className="cover"
-                      />
-                    </div>
-                    <div className="item-name">
-                      <h4>Player Progress Dashboards </h4>
-                      <p>Instant visibility into team engagement and growth.</p>
-                    </div>
-                  </div>
-                  <div className="featureList-item">
-                    <div className="icon-box">
-                      <img
-                        src="/assets/image/dashboard-icon-clb.svg"
-                        alt="App mock"
-                        className="cover"
-                      />
-                    </div>
-                    <div className="item-name">
-                      <h4>More Motivated, Prepared Players</h4>
-                      <p>
-                        Weekly streak rewards, badges, and country unlocks
-                        create players who want to practice — leading to
-                        improved effort, commitment, and team culture.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="featureList-item">
-                    <div className="icon-box">
-                      <img
-                        src="/assets/image/message-coach.svg"
-                        alt="App mock"
-                        className="cover"
-                      />
-                    </div>
-                    <div className="item-name">
-                      <h4>Coach Messaging Tools</h4>
-                      <p>
-                        Send encouragement, reminders, or quick notes that keep
-                        players accountable and connected. A simple “Nice work!”
-                        goes a long way.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="featureList-item">
-                    <div className="icon-box">
-                      <img
-                        src="/assets/image/ranking-clb.svg"
-                        alt="App mock"
-                        className="cover"
-                      />
-                    </div>
-                    <div className="item-name">
-                      <h4>Team Challenges & Competition</h4>
-                      <p>
-                        Run internal competitions that motivate players without
-                        you having to manage any scoring or submissions.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="featureList-item">
-                    <div className="icon-box">
-                      <img
-                        src="/assets/image/growth-clb.svg"
-                        alt="App mock"
-                        className="cover"
-                      />
-                    </div>
-                    <div className="item-name">
-                      <h4>Mindset Development Built In</h4>
-                      <p>
-                        Players complete video reflections on confidence, focus,
-                        resilience, and leadership — skills every coach wants
-                        but rarely has time to teach deeply.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="featureList-item">
-                    <div className="icon-box">
-                      <img
-                        src="/assets/image/club-branded.svg"
-                        alt="App mock"
-                        className="cover"
-                      />
-                    </div>
-                    <div className="item-name">
-                      <h4>More Focused Team Training Sessions</h4>
-                      <p>
-                        Because players improve their fundamentals on their own
-                        time, coaches can spend training sessions on tactics,
-                        spacing, decision-making, and game models.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="featureList-item">
-                    <div className="icon-box">
-                      <img
-                        src="/assets/image/engagement-cbl.svg"
-                        alt="App mock"
-                        className="cover"
-                      />
-                    </div>
-                    <div className="item-name">
-                      <h4>Automated Player Engagement</h4>
-                      <p>
-                        The platform nudges players with reminders, streaks, and
-                        notifications — keeping effort high without you lifting
-                        a finger.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="featureList-item">
-                    <div className="icon-box">
-                      <img
-                        src="/assets/image/growth-clb.svg"
-                        alt="App mock"
-                        className="cover"
-                      />
-                    </div>
-                    <div className="item-name">
-                      <h4>Aligned With Your Coaching Goals</h4>
-                      <p>
-                        You set the expectation: “We juggle. We train. We
-                        improve.” Juggling Club provides the structure that
-                        makes it happen.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          </div>
-        </section>
+
         <HowCoachesUseIt />
-        <Playerquotes />
+        <PlayerTestimonial />
         <section className="section pricing-overview">
           <div className="container">
             <h2 className="section-heading text-center mb-5">

@@ -117,11 +117,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$mo
 ;
 function PlayerInspiration() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(32);
-    if ($[0] !== "e4970df1ac2a6e840374caf3bc4f4df7e92da8d063dca34892a8ea96305d143a") {
+    if ($[0] !== "890a69de0e501ceca4483125534019103dd4472719ff66d88a16ef59da1ef720") {
         for(let $i = 0; $i < 32; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "e4970df1ac2a6e840374caf3bc4f4df7e92da8d063dca34892a8ea96305d143a";
+        $[0] = "890a69de0e501ceca4483125534019103dd4472719ff66d88a16ef59da1ef720";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -137,7 +137,7 @@ function PlayerInspiration() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "section-dice text-white",
-                    children: "Quotes and mindset tips to keep training consistent."
+                    children: "The world’s greatest players started with a ball and a dream."
                 }, void 0, false, {
                     fileName: "[project]/src/components/PlayerInspiration.js",
                     lineNumber: 19,

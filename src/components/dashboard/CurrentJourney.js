@@ -1,28 +1,46 @@
 "use client";
-import { useState } from "react";
-
-const journey = [
-  { name: "Sweden", flag: "/assets/image/Sweden.svg", state: "completed" },
-  { name: "Spain", flag: "/assets/image/Spain.svg", state: "completed" },
-  { name: "England", flag: "/assets/image/England.svg", state: "active" },
-  { name: "Uruguay", flag: "/assets/image/Uruguay.svg", state: "unlocked" },
-  { name: "Argentina", flag: "/assets/image/Argentina.svg", state: "locked" },
-  { name: "France", flag: "/assets/image/France.svg", state: "locked" },
-  { name: "USA", flag: "/assets/image/USA.svg", state: "locked" },
-  { name: "Italy", flag: "/assets/image/Italy.svg", state: "locked" },
-];
+import { useState, useRef, useEffect } from "react";
 
 export default function CurrentJourney() {
   const [slide, setSlide] = useState(0);
-  const MAX_SLIDE = -(journey.length * 180 - 720);
+  const [maxSlide, setMaxSlide] = useState(0);
+
+  const imgRef = useRef(null);
+  const wrapRef = useRef(null);
+
+  useEffect(() => {
+    const calculateLimit = () => {
+      if (imgRef.current && wrapRef.current) {
+        const imgWidth = imgRef.current.offsetWidth;
+        const wrapWidth = wrapRef.current.offsetWidth;
+
+        const limit = wrapWidth - imgWidth; // negative
+        setMaxSlide(limit < 0 ? limit : 0);
+        setSlide(0);
+      }
+    };
+
+    calculateLimit();
+    window.addEventListener("resize", calculateLimit);
+
+    return () => window.removeEventListener("resize", calculateLimit);
+  }, []);
+
+  const slideLeft = () => {
+    setSlide((prev) => Math.min(prev + 220, 0));
+  };
+
+  const slideRight = () => {
+    setSlide((prev) => Math.max(prev - 220, maxSlide));
+  };
 
   return (
-    <section className="cj-grid-wrap">
+    <section className="cj-grid-wrap" ref={wrapRef}>
       {/* HEADER */}
       <div className="cj-head">
         <h3>Current Journey:</h3>
         <div className="actvie-journey">
-          <img className="actvie-track-img" src="/assets/image/Spain.svg" />
+          <img src="/assets/image/Spain.svg" alt="" />
           Spain
         </div>
       </div>
@@ -30,65 +48,22 @@ export default function CurrentJourney() {
       {/* VIEWPORT */}
       <div className="cj-grid-viewport">
         <img
-          className="grid-track-img"
-          src="/assets/image/journey-shape-img.svg"
+          ref={imgRef}
+          src="/assets/image/map-journey.png"
+          className="cj-slide-img"
+          style={{ transform: `translateX(${slide}px)` }}
+          alt=""
         />
-        <div
-          className="cj-grid-track"
-          style={{ transform: `translateX(${slide}px)` }}>
-          {/* SVG PATH */}
-
-          {/* GRID */}
-          <div className="cj-grid">
-            {journey.map((item, i) => (
-              <div
-                key={i}
-                className={`cj-grid-node ${item.state} ${
-                  i % 2 === 0 ? "top" : "bottom"
-                }`}>
-                <div className="node-circle">
-                  <img
-                    src={item.flag}
-                    alt={item.name}
-                    className="flg-img-cont"
-                  />
-
-                  {(item.state === "completed" || item.state === "active") && (
-                    <span className="unlock-cunt">
-                      {" "}
-                      <img
-                        className="unlock-cunt-img"
-                        src="/assets/image/star-map-img.svg"
-                      />
-                      <div className="text-cont">1</div>
-                    </span>
-                  )}
-
-                  {item.state !== "completed" && item.state !== "active" && (
-                    <span className="node-lock">
-                      <img
-                        src={
-                          item.state === "unlocked"
-                            ? "/assets/image/lock-open.svg"
-                            : "/assets/image/lock-icon.svg"
-                        }
-                      />
-                    </span>
-                  )}
-                </div>
-
-                <p>{item.name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
 
       {/* NAV */}
       <div className="cj-grid-nav">
-        <button onClick={() => slide < 0 && setSlide(slide + 220)}>‹</button>
-        <button onClick={() => slide > MAX_SLIDE && setSlide(slide - 220)}>
-          ›
+        <button onClick={slideLeft} disabled={slide === 0}>
+          <img src="/assets/image/arrow-left.svg" />
+        </button>
+
+        <button onClick={slideRight} disabled={slide === maxSlide}>
+          <img src="/assets/image/arrow-right.svg" />
         </button>
       </div>
     </section>

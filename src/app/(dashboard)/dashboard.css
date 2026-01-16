@@ -291,7 +291,35 @@ a {
   background: rgba(29, 29, 38, 0.2);
   padding: 10px 12px;
 }
+.actvie-journey img {
+  width: 26px;
+  margin-right: 8px;
+}
 
+.consent-required {
+  border-radius: 20px;
+  background: rgba(10, 95, 255, 0.15);
+  padding: 17px 70px 15px 15px;
+  margin-top: 40px;
+}
+
+.consent-required h6 {
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 16px; /* 100% */
+  margin-bottom: 10px;
+}
+
+.consent-required p {
+  color: var(--White, #fff);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 16px; /* 123.077% */
+  margin-bottom: 0px;
+}
 .player-reword .reword-item span {
   color: #fff;
   text-align: center;
@@ -793,10 +821,21 @@ a {
 
 /* VIEWPORT */
 .cj-grid-viewport {
+  width: 100%;
   height: 320px;
   margin-top: 18px;
-  position: relative;
   overflow: hidden;
+  position: relative;
+}
+
+.cj-slide-img {
+  width: auto; /* image stretch nahi hogi */
+  min-width: 100%; /* start me viewport fill kare */
+  object-fit: cover;
+  transition: transform 0.45s ease;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .cj-grid-node.top {
   margin-top: 30px;
@@ -889,22 +928,25 @@ a {
 }
 
 /* NAV */
+.cj-grid-nav img {
+  width: 42px;
+}
+
 .cj-grid-nav {
-  position: absolute;
-  right: 16px;
-  bottom: 14px;
-  display: flex;
   gap: 10px;
+  display: flex;
+  position: absolute;
+  bottom: -20px;
+  right: 16px;
 }
 
 .cj-grid-nav button {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  background: transparent;
   border: none;
-  background: rgba(255, 255, 255, 0.15);
-  color: #fff;
-  font-size: 20px;
+}
+.actvie-journey img {
+  width: 26px;
+  margin-right: 8px;
 }
 .grid-track-img {
   z-index: 1;
@@ -1552,7 +1594,7 @@ textarea {
 }
 .btn-cancel-outline {
   flex: 1;
-  padding: 22px 30px;
+  padding: 12px 30px;
   border-radius: 150px;
   border: 1px solid var(--Primary-Neon-Red, #ff073a);
   background: transparent;
@@ -1570,6 +1612,7 @@ textarea {
 .btn-next-bg {
   flex: 1;
   border-radius: 150px;
+  padding: 12px 30px;
   background: var(--Primary-Neon-Red, #ff073a);
   color: var(--White, #fff);
   text-align: center;
@@ -1593,7 +1636,8 @@ textarea {
   align-items: center;
   position: relative;
 }
-.content-card .step-progress::after {
+
+.add-player .step-progress:after {
   content: "";
   background: #ffffff;
   height: 4px;
@@ -1605,7 +1649,7 @@ textarea {
   top: 13px;
   z-index: 1;
 }
-.step-line-active {
+.add-player .step-line-active {
   position: absolute;
   top: 13px;
   height: 4px;
