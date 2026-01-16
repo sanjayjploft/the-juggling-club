@@ -67,7 +67,7 @@ body {
   margin: 0;
   background: #fff;
   color: #0f172a;
-  font-family: "Avenir";
+  font-family: "Bebas Neue";
   overflow-x: hidden;
 }
 /* manu css */
@@ -1782,6 +1782,155 @@ input::placeholder {
 }
 .price-whitout-hed {
   background-image: url("/assets/image/sub-hero-price-img1.webp");
+}
+.faq-tabs h1 {
+  color: #000;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/***************** FAQ ****************/
+.faq-tabs h1 {
+  font-size: 60px;
+  color: #000;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/***************** Contact Us ****************/
+.contct-mn {
+  margin-top: 50px;
+}
+.contct-mn h1 {
+  font-size: 70px;
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contct-mn h1 span {
+  font-size: 24px;
+  display: block;
+  font-family: Avenir;
+  font-weight: 400;
+  color: #03202f;
+}
+.social-mcn {
+  text-align: right;
+}
+.social-mcn a {
+  border: 1px solid #949494;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto 20px;
+}
+.inpt-bx input {
+  border: none;
+  border-bottom: 1px solid #949494;
+  width: 100%;
+  padding: 10px 15px;
+  font-family: Avenir;
+  border-radius: 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+.inpt-bx input::placeholder {
+  color: #818f97;
+}
+.inpt-bx select {
+  border: none;
+  border-bottom: 1px solid #949494;
+  width: 100%;
+  appearance: none;
+  padding: 10px 15px;
+  font-family: Avenir;
+  border-radius: 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+.inpt-bx textarea {
+  border: none;
+  border-bottom: 1px solid #949494;
+  width: 100%;
+  appearance: none;
+  padding: 10px 15px;
+  font-family: Avenir;
+  border-radius: 0;
+  height: 130px;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 300;
+}
+.contct-btm-inf {
+  background: url("/assets/image/contact-info-bg.png") center/cover no-repeat;
+  padding: 80px 0;
+  margin-top: 50px;
+}
+.contct-btm-inf h2 {
+  font-size: 56px;
+}
+.contct-btm-inf h2 span {
+  font-size: 24px;
+  display: block;
+  font-family: Avenir;
+  font-weight: 400;
+  color: #03202f;
+}
+.contct-btm-inf h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.contct-btm-inf h4::after {
+  content: "";
+  width: 27px;
+  height: 3px;
+  background: #000;
+  display: block;
+}
+.contct-btm-inf p {
+  font-size: 22px;
+  font-family: Avenir;
+  font-weight: 400;
+  color: #000;
+  margin-top: 30px;
+}
+.contct-btm-inf p span {
+  font-size: 18px;
+  display: block;
+  font-family: Avenir;
+  font-weight: 400;
+  color: #03202f;
+  margin-top: 15px;
+}
+
+/***************** Responsive ****************/
+@media screen and (max-width: 1200px) {
+  .contct-mn h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .contct-mn h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .brand .logo {
+    max-width: 110px;
+  }
+  .faq-tabs h1 {
+    font-size: 35px;
+  }
 }
 
 /* Mobile */

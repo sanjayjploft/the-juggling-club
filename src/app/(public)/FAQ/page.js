@@ -1,5 +1,5 @@
+import Tabs from "../../../components/Tabs";
 import React from "react";
-import Tabs from "../components/Tabs";
 
 export default function Page() {
   return (
@@ -7,7 +7,7 @@ export default function Page() {
       <div className="section">
         <div className="container faq-tabs">
           <h1>Frequently Asked Questions</h1>
-            <Tabs />          
+          <Tabs />
         </div>
       </div>
     </main>
