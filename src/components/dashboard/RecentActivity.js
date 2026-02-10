@@ -136,9 +136,9 @@ export default function RecentActivity() {
         <div className="modl-heading">
           <h3>Right Foot Juggle</h3>
         </div>
-        <Button className="btn-close" onClick={() => setShow(false)}>
+        <button className="btn-close" onClick={() => setShow(false)}>
           <img src="/assets/image/close-icon.svg" />
-        </Button>
+        </button>
         <Modal.Body>
           <div className="video-wrapper">
             <video controls autoPlay>

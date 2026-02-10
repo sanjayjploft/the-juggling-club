@@ -19,11 +19,11 @@ var _s = __turbopack_context__.k.signature();
 function Footer() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "d7e0792f46f000fbb5d67da9df28f8ac32c302d7f5409552b77098d2691849c7") {
+    if ($[0] !== "b4093a826d6aff01933c7b75486967c79bc68d1b3d0b9e61a82d20152cfb7fa5") {
         for(let $i = 0; $i < 14; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "d7e0792f46f000fbb5d67da9df28f8ac32c302d7f5409552b77098d2691849c7";
+        $[0] = "b4093a826d6aff01933c7b75486967c79bc68d1b3d0b9e61a82d20152cfb7fa5";
     }
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
     const isHomePage = pathname === "/";
@@ -53,7 +53,8 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "cta-buttons",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "",
                                     className: "btn-primary",
                                     children: "PLAYER SIGN UP"
                                 }, void 0, false, {
@@ -61,13 +62,14 @@ function Footer() {
                                     lineNumber: 18,
                                     columnNumber: 170
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "",
                                     className: "btn-outline",
                                     children: "CLUB SIGN UP"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.js",
                                     lineNumber: 18,
-                                    columnNumber: 225
+                                    columnNumber: 229
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -89,12 +91,12 @@ function Footer() {
                     }, void 0, false, {
                         fileName: "[project]/src/components/Footer.js",
                         lineNumber: 18,
-                        columnNumber: 317
+                        columnNumber: 325
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Footer.js",
                     lineNumber: 18,
-                    columnNumber: 290
+                    columnNumber: 298
                 }, this)
             ]
         }, void 0, true, {

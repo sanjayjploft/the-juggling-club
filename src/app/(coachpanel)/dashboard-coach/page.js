@@ -109,32 +109,72 @@ export default function DashboardPage() {
               <img src="/assets/image/gift-card.svg" />
             </div>
           </div>
-          <div className="quick-actions-style-2">
-            <h2>Quick Actions</h2>
+          <Row className="mt-5">
+            <Col lg={8}>
+              <div className="quick-actions-style-2 player-card">
+                <h4>Quick Actions</h4>
 
-            <div className="quick-actions-grid">
-              <Link href="">
-                <img src="/assets/image/trophy.svg" />
-                Create Group
-              </Link>
-              <Link href="">
-                <img src="/assets/image/trophy.svg" />
-                Share Join Code
-              </Link>
-              <Link href="">
-                <img src="/assets/image/trophy.svg" />
-                View Leaderboard
-              </Link>
-              <Link href="">
-                <img src="/assets/image/trophy.svg" />
-                Send Message
-              </Link>
-              <Link href="">
-                <img src="/assets/image/trophy.svg" />
-                View Rewards
-              </Link>
-            </div>
-          </div>
+                <div className="quick-actions-grid">
+                  <Link href="">
+                    <img src="/assets/image/create-group.svg" />
+                    <h4>Create Group</h4>
+                  </Link>
+                  <Link href="">
+                    <img src="/assets/image/share-join-code.svg" />
+                    <h4>Share Join Code</h4>
+                  </Link>
+                  <Link href="">
+                    <img src="/assets/image/view-leaderboard.svg" />
+                    <h4>View Leaderboard</h4>
+                  </Link>
+                  <Link href="">
+                    <img src="/assets/image/send-message.svg" />
+                    <h4>Send Message</h4>
+                  </Link>
+                  <Link href="">
+                    <img src="/assets/image/view-rewards.svg" />
+                    <h4>View Rewards</h4>
+                  </Link>
+                </div>
+              </div>
+            </Col>
+            <Col md={4}>
+              <div className="player-card">
+                <h4 className="mb-0">Players Need Encouragement</h4>
+                <p className="sub-text">Haven’t heard from you in 3+ days</p>
+                <div className="notification-card plyr-crdin">
+                  <img src="/assets/image/leo-img.png" />
+                  <div className="player-card-in">
+                    <h3>
+                      Leo Messi
+                      <span>U12 Academy</span>
+                    </h3>
+                    <Button className="btn-primary-sml">Encourage Now</Button>
+                  </div>
+                </div>
+                <div className="notification-card plyr-crdin">
+                  <img src="/assets/image/mia-img.png" />
+                  <div className="player-card-in">
+                    <h3>
+                      Michael Lee
+                      <span>No contact in 6 days</span>
+                    </h3>
+                    <Button className="btn-primary-sml">Encourage Now</Button>
+                  </div>
+                </div>
+                <div className="notification-card plyr-crdin">
+                  <img src="/assets/image/quotes-img-4.png" />
+                  <div className="player-card-in">
+                    <h3>
+                      Mia Hamm
+                      <span>U12 Academy</span>
+                    </h3>
+                    <Button className="btn-primary-sml">Encourage Now</Button>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
         </div>
       </main>
     </div>

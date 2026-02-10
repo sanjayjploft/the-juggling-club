@@ -8,7 +8,7 @@ import { useState } from "react";
 const menu = [
   {
     name: "Dashboard",
-    href: "/dashboard",
+    href: "/dashboard-coach",
     icon: "/assets/image/dashboard.svg",
     activeIcon: "/assets/image/dashboard-active.svg",
   },
@@ -27,14 +27,14 @@ const menu = [
   {
     name: "Analytics",
     href: "/analytics",
-    icon: "/assets/image/subscription.svg",
-    activeIcon: "/assets/image/subscription-active.svg",
+    icon: "/assets/image/analytics-menu.svg",
+    activeIcon: "/assets/image/analytics-menu-active.svg",
   },
   {
     name: "Messages",
     href: "/messages",
-    icon: "/assets/image/billing.svg",
-    activeIcon: "/assets/image/billing-active.svg",
+    icon: "/assets/image/messages-menu.svg",
+    activeIcon: "/assets/image/messages-menu-active.svg",
   },
   {
     name: "Leaderboard",
@@ -45,12 +45,19 @@ const menu = [
   {
     name: "Organizations",
     href: "/organizations",
-    icon: "/assets/image/settings.svg",
-    activeIcon: "/assets/image/settings-active.svg",
+    icon: "/assets/image/organizations.svg",
+    activeIcon: "/assets/image/organizations-active.svg",
   },
   {
     name: "Rewards",
     href: "/rewards",
+    icon: "/assets/image/rewards-menu.svg",
+    activeIcon: "/assets/image/rewards-menu-active.svg",
+  },
+
+  {
+    name: "Settings",
+    href: "/settings-coach",
     icon: "/assets/image/settings.svg",
     activeIcon: "/assets/image/settings-active.svg",
   },

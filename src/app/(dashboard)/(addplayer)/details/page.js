@@ -26,8 +26,8 @@ export default function DetailsPage() {
                   Add Existing
                 </Link>
               </div>
-              <Col lg={6} className="m-auto add-player">
-                <div className="step-progress  step-1">
+              <Col lg={6} className="m-auto">
+                <div className="step-progress step-1">
                   <span className="step-line-active"></span>
                   <div className="step active">
                     <img src="/assets/image/steps-active-img.svg" />
@@ -121,7 +121,7 @@ export default function DetailsPage() {
                   </Row>
 
                   <div className="action-buttons mt-5">
-                    <Button className="btn-cancel-outline">Back</Button>
+                    <Button className="btn-cancel-outline">Cancel</Button>
                     <Button
                       className="btn-next-bg"
                       onClick={() => router.push("/plan")}>

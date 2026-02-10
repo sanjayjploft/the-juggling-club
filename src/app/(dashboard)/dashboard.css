@@ -145,6 +145,7 @@ a {
   border: 1px solid #565656;
   background: var(--Juggling-Club-Dark-Blue, #03202f);
   box-shadow: 0 5px 0 0 rgba(240, 255, 0, 0.8);
+  height: 100%;
 }
 
 /* ===== RESPONSIVE ===== */
@@ -178,7 +179,7 @@ a {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1;
   margin-bottom: 0px;
 }
 
@@ -291,35 +292,7 @@ a {
   background: rgba(29, 29, 38, 0.2);
   padding: 10px 12px;
 }
-.actvie-journey img {
-  width: 26px;
-  margin-right: 8px;
-}
 
-.consent-required {
-  border-radius: 20px;
-  background: rgba(10, 95, 255, 0.15);
-  padding: 17px 70px 15px 15px;
-  margin-top: 40px;
-}
-
-.consent-required h6 {
-  color: var(--White, #fff);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 16px; /* 100% */
-  margin-bottom: 10px;
-}
-
-.consent-required p {
-  color: var(--White, #fff);
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 350;
-  line-height: 16px; /* 123.077% */
-  margin-bottom: 0px;
-}
 .player-reword .reword-item span {
   color: #fff;
   text-align: center;
@@ -408,12 +381,14 @@ a {
 .player-avatar {
   object-fit: cover;
   border-radius: 50%;
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   aspect-ratio: 1/1;
   position: absolute;
   left: 0;
+  top: -8px;
   z-index: 999;
+  border: 8px solid #051f2f;
 }
 .player-avatar-info .player-name {
   padding: 0px;
@@ -821,21 +796,10 @@ a {
 
 /* VIEWPORT */
 .cj-grid-viewport {
-  width: 100%;
   height: 320px;
   margin-top: 18px;
-  overflow: hidden;
   position: relative;
-}
-
-.cj-slide-img {
-  width: auto; /* image stretch nahi hogi */
-  min-width: 100%; /* start me viewport fill kare */
-  object-fit: cover;
-  transition: transform 0.45s ease;
-  position: absolute;
-  left: 0;
-  top: 0;
+  overflow: hidden;
 }
 .cj-grid-node.top {
   margin-top: 30px;
@@ -928,25 +892,22 @@ a {
 }
 
 /* NAV */
-.cj-grid-nav img {
-  width: 42px;
-}
-
 .cj-grid-nav {
-  gap: 10px;
-  display: flex;
   position: absolute;
-  bottom: -20px;
   right: 16px;
+  bottom: 14px;
+  display: flex;
+  gap: 10px;
 }
 
 .cj-grid-nav button {
-  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   border: none;
-}
-.actvie-journey img {
-  width: 26px;
-  margin-right: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 20px;
 }
 .grid-track-img {
   z-index: 1;
@@ -984,7 +945,9 @@ a {
 
 .activity-card .title {
   color: var(--White, #fff);
-  font-feature-settings: "liga" off, "clig" off;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
   font-family: "Bebas Neue";
   font-size: 25px;
   font-style: normal;
@@ -996,7 +959,9 @@ a {
 
 .activity-card small {
   color: var(--Gray, #949494);
-  font-feature-settings: "liga" off, "clig" off;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
   font-family: Avenir;
   font-size: 13px;
   font-style: normal;
@@ -1313,7 +1278,9 @@ a {
 }
 .activity-info-player span {
   color: var(--_web-promary-text, #fff);
-  font-feature-settings: "liga" off, "clig" off;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
   font-family: Avenir;
   font-size: 14px;
   font-style: normal;
@@ -1429,7 +1396,9 @@ a {
 .coach-details p {
   margin-bottom: 0px;
   color: var(--White, #fff);
-  font-feature-settings: "liga" off, "clig" off;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
   font-family: Avenir;
   font-size: 14px;
   font-style: normal;
@@ -1471,7 +1440,9 @@ a {
 
 .mdl-footer .status-left {
   color: var(--White, #fff);
-  font-feature-settings: "liga" off, "clig" off;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
   font-family: Avenir;
   font-size: 16px;
   font-style: normal;
@@ -1488,7 +1459,9 @@ a {
 
 .mdl-footer .action-mdl .action-link {
   color: var(--White, #fff);
-  font-feature-settings: "liga" off, "clig" off;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
   font-family: Avenir;
   font-size: 16px;
   font-style: normal;
@@ -1500,7 +1473,9 @@ a {
 
 .modl-heading h3 {
   color: var(--White, #fff);
-  font-feature-settings: "liga" off, "clig" off;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
   font-family: "Bebas Neue";
   font-size: 25px;
   font-style: normal;
@@ -1547,7 +1522,9 @@ a {
   padding: 1rem 0.75rem;
   color: var(--Gray, #949494);
   text-align: center;
-  font-feature-settings: "liga" off, "clig" off;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
   font-family: Avenir;
   font-size: 14px;
   font-style: normal;
@@ -1594,7 +1571,7 @@ textarea {
 }
 .btn-cancel-outline {
   flex: 1;
-  padding: 12px 30px;
+  padding: 22px 30px;
   border-radius: 150px;
   border: 1px solid var(--Primary-Neon-Red, #ff073a);
   background: transparent;
@@ -1612,7 +1589,6 @@ textarea {
 .btn-next-bg {
   flex: 1;
   border-radius: 150px;
-  padding: 12px 30px;
   background: var(--Primary-Neon-Red, #ff073a);
   color: var(--White, #fff);
   text-align: center;
@@ -1636,8 +1612,7 @@ textarea {
   align-items: center;
   position: relative;
 }
-
-.add-player .step-progress:after {
+.content-card .step-progress::after {
   content: "";
   background: #ffffff;
   height: 4px;
@@ -1649,7 +1624,7 @@ textarea {
   top: 13px;
   z-index: 1;
 }
-.add-player .step-line-active {
+.step-line-active {
   position: absolute;
   top: 13px;
   height: 4px;
@@ -1708,7 +1683,7 @@ textarea {
 }
 
 .content-card {
-  border-radius: 40px;
+  border-radius: 20px;
   border: 1px solid #565656;
   padding: 25px 30px;
   margin: 0px 15px;
@@ -2243,11 +2218,11 @@ textarea {
 }
 .notification-card h3 {
   color: #fff;
-  font-family: Avenir;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  margin: 0 0 5px 0;
+  font-family: Avenir !important;
+  font-size: 20px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  margin: 0 0 5px 0 !important;
 }
 .notification-card h3 span {
   color: #fff;
@@ -2258,6 +2233,7 @@ textarea {
   font-weight: 400;
   opacity: 0.5;
   margin-top: 5px;
+  margin-bottom: 0px !important;
 }
 .notification-card-in {
   justify-content: space-between;
@@ -2295,11 +2271,8 @@ textarea {
   border-radius: calc(var(--size) / 2);
   cursor: pointer;
   background-color: var(--inactive-bg);
-  background-image: radial-gradient(
-      circle calc(var(--size) / 2.1),
-      #fff 100%,
-      #0000 0
-    ),
+  background-image:
+    radial-gradient(circle calc(var(--size) / 2.1), #fff 100%, #0000 0),
     radial-gradient(circle calc(var(--size) / 1.5), #0003 0%, #0000 100%);
   background-repeat: no-repeat;
   background-position: calc(var(--size) / -1.75) 0;
@@ -2324,9 +2297,18 @@ textarea {
 .plyr-crdin {
   background: none;
   border: none;
-  border-bottom: 1px solid #4c4c4c;
   border-radius: 0;
   padding: 10px 0;
+}
+.plyr-crdin:not(:last-child) {
+  border-bottom: 1px solid #4c4c4c;
+}
+.plyr-crdin img {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 51px;
 }
 .plyr-crdin h3 {
   font-size: 18px;
@@ -2479,16 +2461,562 @@ textarea {
 .crnt-plnsec .btn-next-bg {
   padding: 10px 30px;
 }
-h4.bil-in-hdng {
+
+/***************** Subscription ****************/
+
+/***************** Club Players ****************/
+.act-sts {
+  color: #fff;
+  text-transform: uppercase;
+  background: #38c600;
+  border-radius: 25px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  padding: 5px 15px;
+}
+.inact-sts {
+  color: #fff;
+  text-transform: uppercase;
+  background: #324d26;
+  border-radius: 25px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  padding: 5px 15px;
+}
+.tbl-fltr-rgt {
+  justify-content: space-between;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.tbl-fltr-rgt .form-select {
+  height: 44px;
+  min-height: 44px;
+  padding: 5px 15px;
+}
+input.search-inp {
+  height: 44px;
+  padding: 1rem 0.75rem;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid var(--Gray, #949494);
+  background-color: var(--Juggling-Club-Dark-Blue, #03202f);
+}
+input.search-inp::placeholder {
+  color: #949494;
+}
+.tbl-fltr .small-btn-admin {
+  padding: 10px 30px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/***************** Club Players ****************/
+
+/***************** Club Players Details ****************/
+.clb-plr-detl .reword-item {
+  border: none;
+  border-radius: 0;
+}
+.clb-plr-detl .player-reword .reword-item p {
+  text-transform: capitalize;
+}
+
+.tabbs {
+  display: flex;
+  gap: 25px;
+  margin: 40px 15px 0px 15px;
+}
+
+.tabb {
+  background: none;
+  border: none;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+
+.tabb.active {
+  color: #ff073a;
+  font-weight: 600;
+}
+
+.tabb.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 1px;
+  background: #ff073a;
+}
+
+.tabb-content {
+  padding: 20px 30px;
+  font-size: 14px;
+  border: 1px solid #565656;
+  background: #03202f;
+  border-radius: 20px;
+  margin: 15px 0;
+}
+.tabb-content h3 {
   color: #fff;
   font-family: "Bebas Neue";
   font-size: 30px;
+  font-weight: normal;
+}
+.tabb-content h3 span {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 20px;
+}
+.players-progress-header span {
+  font-weight: 500;
+  color: #fff;
+}
+.tabb-content small {
+  color: #949494;
+  font-family: Avenir;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  margin: 0px 15px 10px;
+  margin-top: 10px;
+  display: block;
+}
+.date-det {
+  border-radius: 20px;
+  background: #04294e;
+  padding: 15px 30px;
+  margin-top: 20px;
+}
+.date-det p {
+  color: #949494;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.date-det h4 {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-weight: normal;
+}
+.date-det-skills {
+  border-radius: 15px;
+  background: #04294e;
+  padding: 15px 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.date-det-skills h5 {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+.date-det-skills h5 span {
+  color: #ff073a;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  display: block;
+  font-weight: 400;
+}
+.date-det-skills p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.skills-smry {
+  border-radius: 15px;
+  background: #04294e;
+  padding: 15px 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+}
+.skills-smry p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  margin: 0;
+  width: 20%;
+}
+.skills-smry p strong {
+  font-weight: 500;
+}
+.skills-smry p:first-child {
+  flex-basis: 40%;
+}
+.skills-smry .inact-sts,
+.skills-smry .act-sts {
+  width: 105;
+  text-align: center;
+}
+/***************** Club Players Details ****************/
+
+/***************** Club Team Management ****************/
+.team-info-grid {
+  border: 1px solid #4c4c4c;
+  background: #03202f;
+  border-radius: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-items: center;
+  gap: 20px;
+  margin: 0px 15px 20px;
+  padding: 30px;
+  display: grid;
+  position: relative;
+}
+.team-info-grid h5 {
+  color: #fff;
+  margin-bottom: 0;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.team-info-grid p {
+  color: #949494;
+  margin-bottom: 0;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.team-grid-item {
+  position: relative;
+}
+.team-grid-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+  background: var(--Gray, #949494);
+  width: 1px;
+  height: 100%;
+}
+.team-grid-item:last-child::after {
+  display: none;
+}
+.team-grid-item a {
+  margin-right: 20px;
+}
+.add-tme h4 {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-weight: normal;
 }
 
-/***************** Subscription ****************/
+/***************** Club Team Management ****************/
+
+/**************** Club Management *********************/
+
+/* Wrapper */
+.floating-color {
+  position: relative;
+  margin-top: 24px;
+}
+
+/* Input layout */
+.color-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+/* Color picker */
+.color-picker {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+  right: 8px;
+  overflow: hidden;
+}
+
+/* Floating label */
+.floating-color label {
+  pointer-events: none;
+  background: #03202f;
+  padding: 0 6px;
+  transition: all 0.2s;
+  position: absolute;
+  top: 50%;
+  left: 56px;
+  transform: translateY(-50%);
+  color: var(--Gray, #949494);
+  text-align: center;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* Input */
+.color-input-wrapper input[type="text"] {
+  background: #03202f;
+  border: 1px solid #949494;
+  border-radius: 12px;
+  height: 52px;
+  padding-left: 12px;
+  color: #fff;
+}
+
+/* Floating active */
+.floating-color.has-value label,
+.floating-color:focus-within label {
+  color: #949494;
+  top: -8px;
+  left: 0;
+}
+/* Focus */
+.color-input-wrapper input:focus {
+  border-color: #ff2b3c;
+  box-shadow: none;
+}
+.date-det-skills-spot {
+  border-radius: 15px;
+  background: #04294e;
+  padding: 15px 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.date-det-skills-spot h5 {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+.date-det-skills-spot h5 span {
+  color: #ff073a;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  display: block;
+  font-weight: 400;
+}
+.date-det-skills-spot p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.chrtr-lmt {
+  color: #949494;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 350;
+  margin-bottom: 15px;
+}
+.checkbox-wrapper {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.checkbox-wrapper input {
+  display: none;
+}
+
+.custom-checkbox {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #2563eb;
+  border-radius: 4px;
+  position: relative;
+}
+
+.checkbox-wrapper input:checked + .custom-checkbox {
+  background-color: #2563eb;
+}
+
+.checkbox-wrapper input:checked + .custom-checkbox::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.label-text {
+  user-select: none;
+  color: #fff;
+}
+.adm-per h4 {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.upload-box {
+  cursor: pointer;
+  background: #051f2f;
+  border: 1px dashed #949494;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 180px;
+  margin: 0 auto;
+  transition:
+    border-color 0.3s,
+    background 0.3s;
+  display: flex;
+}
+
+.upload-box:hover {
+  border-color: #3b82f6;
+  background: linear-gradient(180deg, #07344f, #052437);
+}
+
+.upload-content {
+  text-align: center;
+  color: #e5e7eb;
+}
+
+.upload-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.upload-text {
+  font-size: 15px;
+  margin: 0;
+}
+
+.upload-text span {
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+.upload-subtext {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 6px;
+}
+
+/**************** Club Management *********************/
+
+/**************** Landing Page Manager *********************/
+.lndg-pg-card {
+  color: #fff;
+  background: #03202f;
+  border: 1px solid #565656;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 5px #f0ff00cc;
+}
+.lndg-pg-card .count-info-card h4 {
+  color: #f0ff00;
+  margin-bottom: 6px;
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.lndg-pg-card .count-info-card h6 {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.lndg-pg-card .count-info-card p {
+  color: #949494;
+  font-family: Avenir;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.date-det-skills-spot p.grdesd {
+  color: #949494;
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/**************** Landing Page Manager *********************/
+
+/**************** Club Codes *********************/
+
+.clb-cds a {
+  color: #fff;
+  font-size: 14px;
+}
+.code-disti {
+  background: #04294e;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 0px 15px;
+}
+.code-disti h4 {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-weight: 400;
+}
+.code-disti p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+
+/**************** Club Codes *********************/
 
 .count-info-card ul {
   padding: 0;
@@ -2546,4 +3074,1038 @@ h4.bil-in-hdng {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 0px;
+}
+
+.quick-actions-style-2 .quick-actions-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: center;
+  gap: 0;
+  margin: 0;
+  display: grid;
+}
+
+.quick-actions-style-2 .quick-actions-grid a {
+  color: #fff;
+  text-align: center;
+  padding: 25px 0px;
+  position: relative;
+}
+
+.quick-actions-style-2 .quick-actions-grid a h4 {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+
+.quick-actions-style-2
+  .quick-actions-grid
+  a:not(:nth-child(3)):not(:nth-child(5)):before {
+  content: "";
+  background: #94949480;
+  width: 1px;
+  height: 70%;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+
+.sub-text {
+  color: var(--Gray, #949494);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.player-card h4 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.filter-select .form-select {
+  width: 200px;
+  min-height: 40px !important;
+  padding: 10px 20px;
+  max-height: 40px;
+}
+.filter-by-days .btn-primary {
+  padding: 8px 20px;
+}
+.top-heading p {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* YOUR TEAMS/GROUPS */
+
+/* Card */
+.team-card {
+  border-radius: 20px;
+  background: rgba(10, 95, 255, 0.15);
+  padding: 25px 30px;
+}
+
+/* HEADER */
+.team-heading {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.team-pill {
+  padding: 3px 10px;
+  border-radius: 25px;
+  background: var(--Primary-Badge-Blue, #0a5fff);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.settings-icon {
+  width: 18px;
+  opacity: 0.8;
+}
+.team-stats-row {
+  border-radius: 20px;
+  border: 1px solid #4c4c4c;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  padding: 20px 27px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+/* STATS */
+.team-stats-row p {
+  margin-bottom: 10px;
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.team-stats-row h6 {
+  margin: 0;
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* DIVIDER */
+.divider-line {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.12);
+  margin: 18px 0;
+}
+
+/* JOIN CODE */
+.join-label {
+  position: absolute;
+  background: #04294e;
+  padding: 2px 20px;
+  left: 10px;
+  top: -12px;
+  color: var(--Gray, #949494);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.join-code-box {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+  padding: 20px 16px 16px;
+  display: flex;
+  border-radius: 10px;
+  border: 1px dashed var(--Gray, #949494);
+  background: #04294e;
+}
+
+.join-code {
+  color: var(--Primary-Burst-Yellow, #f0ff00);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  display: inline-block;
+}
+.copy-text {
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* INFO */
+.join-info {
+  color: var(--Gray, #949494);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+/* QR */
+.qr-img {
+  width: 40px;
+}
+.btn-outline {
+  color: var(--Primary-Neon-Red, #ff073a);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  border-radius: 150px;
+  border: 1px solid var(--Primary-Neon-Red, #ff073a);
+  padding: 10px 30px;
+  text-decoration: none;
+}
+.btn-primary {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  border-radius: 150px;
+  padding: 10px 30px;
+}
+/* MOBILE */
+@media (max-width: 768px) {
+  .team-card-ui {
+    padding: 18px;
+  }
+
+  .qr-img {
+    margin-top: 12px;
+  }
+}
+@media (max-width: 1199px) {
+  .team-stats-row {
+    grid-template-columns: repeat(5, 1fr);
+    padding: 18px 22px;
+    gap: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .team-stats-row {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 16px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .team-stats-row {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 14px 16px;
+    gap: 12px;
+  }
+}
+@media (max-width: 575px) {
+  .team-stats-row {
+    grid-template-columns: 1fr;
+    padding: 12px 14px;
+  }
+}
+
+.table-head > div {
+  flex: 1;
+}
+
+.auto-generated-code {
+  border-radius: 15px;
+  background: rgba(10, 95, 255, 0.15);
+  padding: 15px 20px;
+  margin-bottom: 25px;
+}
+
+.auto-generated-code h4 {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.auto-generated-code p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+/* CARD */
+.submission-card {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background: #0a5fff26;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  padding: 15px 20px;
+}
+/* LEFT */
+.submission-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.submission-card .video-thumb-cms {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.submission-card .play-icon-cms img {
+  width: 24px !important;
+  height: 24px !important;
+  aspect-ratio: 1 / 1;
+}
+.submission-card .video-thumb-cms img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.submission-card .play-icon-cms {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+}
+
+/* TEXT */
+.submission-info h6 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.submission-info .skill {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.submission-info .date {
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+/* RIGHT */
+.submission-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+/* VIEWED */
+.viewed-badge {
+  background: #4d6f4d;
+  color: #dfffdc;
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.viewed-badge.blue-badge {
+  border-radius: 25px;
+  background: rgba(10, 95, 255, 0.2);
+}
+/* PROGRESS */
+.progress-wrapper {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  gap: 30px;
+  display: flex;
+  border-right: 1px solid #d9d9d966;
+  padding-right: 25px;
+}
+
+.progress-bar-custom {
+  width: 150px;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 100px;
+  background: rgba(10, 95, 255, 0.4);
+}
+
+.progress-bar-custom span {
+  height: 100%;
+  display: block;
+  background: #f0ff00;
+}
+
+.percent {
+  color: var(--White, #fff);
+  text-align: right;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* CHECKBOX */
+.select-box {
+  width: 18px;
+  height: 18px;
+  accent-color: #2b6cff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .submission-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .submission-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .progress-bar-custom {
+    width: 120px;
+  }
+}
+.progress-checkbox {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.progress-checkbox input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.progress-checkbox .checkmark {
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  transition: all 0.2s;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid var(--Gray, #949494);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+}
+
+.progress-checkbox:hover .checkmark {
+  border-color: #0a5fff;
+}
+
+.progress-checkbox input:checked + .checkmark {
+  background: #0a5fff;
+  border-color: #0a5fff;
+}
+
+/* Tick */
+.progress-checkbox .checkmark::after {
+  content: "";
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  position: absolute;
+  top: 4px;
+}
+
+.progress-checkbox input:checked + .checkmark::after {
+  opacity: 1;
+}
+
+.progress-checkbox input:focus + .checkmark {
+  box-shadow: 0 0 0 2px rgba(43, 108, 255, 0.4);
+}
+
+.insrt-text {
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  right: 50%;
+  transform: translateX(67%);
+}
+
+.insrt-text p {
+  color: #fff;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.insrt-text::after {
+  content: "";
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(153, 153, 153, 0) 0%,
+    #ccc 50%,
+    rgba(153, 153, 153, 0) 100%
+  );
+  left: 50%;
+  transform: translateX(-50%);
+}
+.submission-info {
+  cursor: pointer;
+}
+
+.feedback-player-card {
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  padding: 30px;
+}
+
+.feedback-player-card .info-feed h3 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.feedback-player-card .info-feed p {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.feedback-list:not(:last-child) {
+  border-bottom: 1px solid #4c4c4c;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.feed-status span {
+  border-radius: 25px;
+  background: #00d40b;
+  padding: 0 11px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-size: 12px;
+}
+
+.feedback-expln-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.feedback-expln-list li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 4px;
+  color: var(--White, #fff);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 28px; /* 186.667% */
+}
+
+.feedback-expln-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background-image: url("/assets/image/list-checkmark.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.floating-phone {
+  position: relative;
+}
+/* Flag button */
+.phone-flag {
+  border-right: 1px solid #ddd !important;
+  border-radius: 10px 0 0 10px !important;
+  min-width: 70px;
+  background-color: transparent !important;
+}
+.react-tel-input .flag-dropdown.open .selected-flag {
+  background: #03202f !important;
+  border-radius: 23px !important;
+}
+/* Floating label */
+.floating-label {
+  position: absolute;
+  left: 90px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #999;
+  padding: 0 6px;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+/* On focus OR value */
+.floating-phone:focus-within .floating-label,
+.floating-phone.has-value .floating-label {
+  top: 0px;
+  font-size: 12px;
+  color: #949494;
+  background: #03202f;
+}
+.react-tel-input .selected-flag {
+  height: 100%;
+  width: 80px !important;
+  padding: 0 0px 0px 16px !important;
+}
+
+input.form-control.phone-input {
+  color: #fff;
+  border: 1px solid var(--Gray, #949494);
+  background-color: #03202f;
+  border-radius: 10px;
+  height: 58px;
+  width: 100%;
+}
+
+.upload-profile-img .upload-box-profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px dashed #949494;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.upload-profile-img .upload-box-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.upload-profile-img .upload-box-profile span {
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}
+
+.upload-profile-img input {
+  display: none;
+}
+
+.lable-profile {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 161.538% */
+  margin-top: 10px;
+}
+
+.upload-profile-img {
+  width: 110px;
+  text-align: center;
+}
+
+.tabs-heading-cms h4 {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.voice-card {
+  background: linear-gradient(180deg, #021c2b, #011420);
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 4px solid #d6e04a;
+}
+
+.voice-card h4 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.voice-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.voice-row:first-child {
+  border-top: none;
+}
+
+.voice-row.active .avatar {
+  border-radius: 60px;
+  border: 2px solid var(--Primary-Burst-Yellow, #f0ff00);
+}
+.voice-row .left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.voice-row .avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.voice-row .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.voice-row .check {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  color: #d6e04a;
+  background: #021c2b;
+  border-radius: 50%;
+}
+
+.voice-row .info h6 {
+  color: #fff;
+  margin: 0;
+}
+
+.voice-row .info span {
+  font-size: 12px;
+  color: #9aa9b2;
+}
+
+.voice-row .right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.voice-row .time {
+  color: #fff;
+  font-size: 13px;
+}
+
+.voice-row .play-btn {
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* 🔊 Wave animation */
+.voice-row .wave {
+  display: flex;
+  gap: 3px;
+}
+
+.voice-row .wave span {
+  width: 3px;
+  height: 14px;
+  background: #2e5bff;
+  animation: wave 1s infinite ease-in-out;
+}
+
+.voice-row .wave span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.voice-row .wave span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.voice-row .wave span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    height: 6px;
+  }
+  50% {
+    height: 16px;
+  }
+}
+
+.date-det-skills-spot .right-action-bx button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  padding: 10px 30px;
+  border-radius: 150px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.date-det-skills-spot .right-action-bx .re-record-btn {
+  background: var(--Primary-Badge-Blue, #0a5fff);
+}
+
+.date-det-skills-spot .right-action-bx .disable-clone-btn {
+  background: var(--Primary-Neon-Red, #ff073a);
+}
+.play-icon-big {
+  padding: 0px !important;
+}
+
+.Voice-info-player {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.voice-info-player {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.voice-info-player span {
+  color: #f0ff00;
+  display: inline-block;
+  margin: 0px 5px 0px 0px;
+}
+
+.voice-info-player .voice-duration {
+  color: #949494;
+  margin-left: 4px;
+}
+
+.notification-card.notification-card2 {
+  padding: 25px;
+  display: block;
+}
+
+.btn.admin-save-btn {
+  border-radius: 150px;
+  background: var(--Primary-Neon-Red, #ff073a);
+  padding: 6px 40px;
+  color: var(--White, #fff);
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.deactivate-account {
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 5px 0 0 rgba(240, 255, 0, 0.8);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.deactivate-account h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 133.333% */
+  margin-bottom: 0px;
+}
+
+.upload-data-img .upload-data {
+  cursor: pointer;
+}
+
+.overview-card {
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 5px 0 0 rgba(240, 255, 0, 0.8);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.overview-grid-item span {
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overview-grid-item h4 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.overview-grid-item {
+  background: rgba(10, 95, 255, 0.15);
+  border-radius: 20px;
+  padding: 25px 30px;
+}
+
+.overview-card h2 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.progress-card {
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  padding: 25px;
+}
+
+.chart-headiang h4 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.chart-headiang p {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+.skills-completed {
+  color: var(--Primary-Badge-Blue, #0a5fff);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 10px;
 }

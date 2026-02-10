@@ -17,7 +17,7 @@ export default function DetailsPage() {
             </div>
             <button className="btn admin-btn-primary">+ Add Player</button>
           </div>
-          <Col lg={6} className="m-auto add-player">
+          <Col lg={6} className="m-auto">
             <div className="step-progress step-2">
               <span className="step-line-active"></span>
               <div className="step active">
@@ -53,7 +53,7 @@ export default function DetailsPage() {
                   <span>Billed monthly</span>
                 </div>
                 <div className="plan-price">
-                  <h3>$19.99</h3>
+                  <h3>$199.99</h3>
                 </div>
               </div>
 
@@ -78,11 +78,6 @@ export default function DetailsPage() {
                     onClick={() => router.push("/pay")}>
                     Next
                   </Button>
-                </div>
-                <div className="info-text mt-4">
-                  <img src="/assets/image/info-chat.svg" className="me-2" />
-                  Enter a Club Code for 10% off, or a Coach Invite Code for 5%
-                  off. Only one code can be applied at a time.
                 </div>
               </Form>
             </div>

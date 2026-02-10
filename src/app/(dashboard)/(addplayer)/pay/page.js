@@ -17,7 +17,7 @@ export default function DetailsPage() {
             </div>
             <button className="btn admin-btn-primary">+ Add Player</button>
           </div>
-          <Col lg={6} className="m-auto add-player">
+          <Col lg={6} className="m-auto">
             <div className="step-progress step-3">
               <span className="step-line-active"></span>
               <div className="step active">
