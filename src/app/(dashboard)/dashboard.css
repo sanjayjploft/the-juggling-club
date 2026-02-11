@@ -4659,9 +4659,6 @@ hr {
   color: #404040;
 }
 
-h4 {
-}
-
 .reward-heading h4 {
   color: var(--White, #fff);
   font-family: "Bebas Neue";
@@ -4687,4 +4684,7 @@ h4 {
   display: flex;
   align-items: center;
   gap: 14px;
+}
+.auto-generated-code.rewards-work {
+  margin: 0px 15px;
 }

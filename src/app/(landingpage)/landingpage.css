@@ -1,0 +1,229 @@
+:root {
+  --blue-dark: #041c2c;
+  --blue-main: #0059b2;
+  --blue-light: #0a2f45;
+  --white: #ffffff;
+  --gray: #6b7280;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+}
+
+/* HERO */
+.hero-section {
+  position: relative;
+  background: url("/assets/image/hero-landing-page.png") center/cover no-repeat;
+  color: #fff;
+  padding: 60px 0 100px;
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-self: self-start;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+.hero-header {
+  background: var(--White, #fff);
+  border-radius: 20px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  display: flex;
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  top: 40px;
+}
+.hero-logo {
+  width: 71px;
+  height: 80px;
+  aspect-ratio: 71/80;
+}
+
+.hero-section h1 {
+  color: var(--White, #fff);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: "Bebas Neue";
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.hero-sub {
+  margin-top: 20px;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+/* BUTTONS */
+.btn-primary-custom {
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 150px;
+  background: #0055a4;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.btn-secondary-custom {
+  padding: 12px 22px;
+  border-radius: 150px;
+  background: var(--Primary-Neon-Red, #ff073a);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* SECTIONS */
+.section-title {
+  margin-bottom: 40px;
+  color: var(--Black, #1d1d26);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.section-title.light {
+  color: #fff;
+}
+
+/* HOW */
+.how-section {
+  padding: 80px 0;
+}
+
+.how-card {
+  text-align: center;
+  padding: 40px;
+  border-radius: 0 0 0 120px;
+  background: var(--White, #fff);
+  box-shadow: -10px 10px 20px 0 rgba(0, 0, 0, 0.07);
+}
+.how-card h4 {
+  color: var(--Black, #1d1d26);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.how-card p {
+  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* ACTIVATE */
+.activate-section {
+  padding: 60px 0;
+}
+
+.activate-box {
+  background: var(--blue-main);
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* TESTIMONIAL */
+.testimonial-section {
+  padding: 80px 0;
+}
+
+.testimonial-card {
+  border: 1px solid #0bb;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+/* COACH */
+.coach-section {
+  padding: 80px 0;
+}
+
+.coach-card {
+  display: flex;
+  gap: 20px;
+  background: var(--blue-main);
+  color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+/* LEADERBOARD */
+.leaderboard-section {
+  background: var(--blue-dark);
+  padding: 80px 0;
+}
+
+.leaderboard-box {
+  background: #02131f;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.leader-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  color: #fff;
+}
+
+/* CTA */
+.cta-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* FOOTER */
+.footer {
+  background: #0b0b0b;
+  color: #aaa;
+  text-align: center;
+  padding: 30px;
+}
