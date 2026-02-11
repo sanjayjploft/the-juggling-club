@@ -30,44 +30,34 @@ export default function DashboardPage() {
               </p>
             </div>
             <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
-              <Form.Floating className="filter-select">
-                <Form.Select>
-                  <option selected> 20</option>
-                  <option> 25</option>
-                </Form.Select>
-                <label>Age group</label>
-              </Form.Floating>
-
-              <Form.Floating className="filter-select">
-                <Form.Select>
-                  <option selected> Status</option>
-                  <option> Status</option>
-                </Form.Select>
-                <label>Activity status</label>
-              </Form.Floating>
-
-              <Link href="/create-new-group" className="btn-primary">
-                Create Group
+              <Link href="/add-organization" className="btn-primary">
+                Add Organization
               </Link>
             </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
 
         {/* CONTENT */}
         <div className="container-fluid ">
-          <h4>Active Organizations (2)</h4>
-          <div className="team-card grid-cardor-ganizational mb-4">
+          <div className="sub-heading-card">
+            <h4>Active Organizations (2)</h4>
+          </div>
+          <div className="team-card grid-cardor-oganizational mb-4">
             <div className="grid-item-bx">
               <div className="team-heading">
                 Soccer Academy Elite
-                <span className="team-pill green-bg">Active</span>
-                <span className="team-pill">Owner</span>
+                <div className=" green-bg-pill">Active</div>
+                <div className="blue-bg-pill">Owner</div>
               </div>
               <p>Main club organization</p>
             </div>
             <div className="grid-item-bx">
-              <span>Players</span>
+              <div className="oganiz-plr">Players</div>
               <h5>12</h5>
             </div>
             <div className="grid-item-bx">
@@ -78,7 +68,66 @@ export default function DashboardPage() {
                 <img src="/assets/image/settings.svg" className="" />
               </Link>
               <Link href={""} className=" ms-3">
+                <img src="/assets/image/trash.svg" className="" />
+              </Link>
+            </div>
+          </div>
+          <div className="team-card mb-4">
+            {/* HEADER */}
+
+            <div className="grid-item-bx ">
+              <div className="team-heading">
+                Soccer Academy Elite
+                <div className=" green-bg-pill">Active</div>
+                <div className="blue-bg-pill">Owner</div>
+              </div>
+              <p>Main club organization</p>
+            </div>
+
+            {/* STATS */}
+            <div className="team-stats-row mt-3">
+              <div>
+                <p>Players</p>
+                <h6>12</h6>
+              </div>
+              <div>
+                <p>Joined</p>
+                <h6>U18</h6>
+              </div>
+              <div>
+                <p>Type</p>
+                <h6>Academy</h6>
+              </div>
+            </div>
+
+            {/* JOIN CODE */}
+            <div className="grid-item-bx mt-5 mb-3">
+              <Link href="/view-players" className="btn-primary">
+                View Players
+              </Link>
+              <Link href={""} className=" ms-3">
                 <img src="/assets/image/settings.svg" className="" />
+              </Link>
+              <Link href={""} className=" ms-3">
+                <img src="/assets/image/trash.svg" className="" />
+              </Link>
+            </div>
+          </div>
+          <div className="sub-heading-card">
+            <h4>Pending Approval (1)</h4>
+          </div>
+          <div className="team-card grid-cardor-oganizational mb-4">
+            <div className="grid-item-bx">
+              <div className="team-heading">
+                Elite Development Group
+                <div className=" pending-bg-pill">Pending Approval</div>
+              </div>
+              <p>Awaiting approval from Juggling Club administration</p>
+            </div>
+
+            <div className="grid-item-bx">
+              <Link href={""} className=" ms-3">
+                <img src="/assets/image/trash.svg" className="" />
               </Link>
             </div>
           </div>

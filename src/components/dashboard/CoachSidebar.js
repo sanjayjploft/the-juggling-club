@@ -50,7 +50,7 @@ const menu = [
   },
   {
     name: "Rewards",
-    href: "/rewards",
+    href: "/coach-rewards",
     icon: "/assets/image/rewards-menu.svg",
     activeIcon: "/assets/image/rewards-menu-active.svg",
   },

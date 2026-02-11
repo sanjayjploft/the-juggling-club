@@ -1,8 +1,1353 @@
-[00:00:01.416] Server  LOG     ✓ Ready in 931ms
-[00:07:58.993] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.608] Server  LOG     ✓ Ready in 1083ms
+[00:00:05.644] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:07:59.031] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:03.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:12.825] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:08:12.825] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:08:27.220] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.056] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.877] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:00:10.877] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:48.017] Server  LOG     ✓ Compiled in 71ms
+[00:02:17.331] Server  LOG     ✓ Compiled in 156ms
+[00:02:18.481] Server  LOG     ✓ Compiled in 82ms
+[00:02:20.653] Server  LOG     ✓ Compiled in 93ms
+[00:02:25.709] Server  LOG     ✓ Compiled in 109ms
+[00:02:34.914] Server  LOG     ✓ Compiled in 108ms
+[00:02:37.320] Server  LOG     ✓ Compiled in 94ms
+[00:02:39.486] Server  ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:02:40.099] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:40.635] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:02:47.150] Server  LOG     ✓ Compiled in 35ms
+[00:02:53.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:53.593] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:03:14.252] Server  LOG     ✓ Compiled in 45ms
+[00:03:14.629] Browser ERROR   ./src/app/(coachpanel)/organizations/page.js:64:62
+Parsing ecmascript source code failed
+  62 |               <div className="team-heading">
+  63 |                 Soccer Academy Elite
+> 64 |                 <div className=" green-bg-pill">Active</span>
+     |                                                              ^
+> 65 |                 <span className="blue-bg-pill">Owner</span>
+     | ^^^^^^^^^^^^^^^^^
+  66 |               </div>
+  67 |               <p>Main club organization</p>
+  68 |             </div>
+
+Expected '</', got 'jsx text (
+                )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/organizations/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/organizations/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/organizations/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/organizations/page.js [Server Component]
+[00:09:21.434] Server  LOG     ✓ Compiled in 67ms
+[00:10:01.769] Server  LOG     ✓ Compiled in 47ms
+[00:10:04.297] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:04.754] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:10:54.921] Server  LOG     ✓ Compiled in 43ms
+[00:10:55.634] Browser ERROR   ./src/app/(coachpanel)/organizations/page.js:70:34
+Parsing ecmascript source code failed
+  68 |             </div>
+  69 |             <div className="grid-item-bx">
+> 70 |               <div>Players</span>
+     |                                  ^
+> 71 |               <h5>12</h5>
+     | ^^^^^^^^^^^^^^^
+  72 |             </div>
+  73 |             <div className="grid-item-bx">
+  74 |               <Link href="/view-players" className="btn-primary">
+
+Expected '</', got 'jsx text (
+              )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/organizations/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/organizations/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/organizations/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/organizations/page.js [Server Component]
+[00:10:59.772] Server  LOG     ✓ Compiled in 95ms
+[00:11:22.210] Server  LOG     ✓ Compiled in 76ms
+[00:11:30.451] Server  LOG     ✓ Compiled in 31ms
+[00:11:31.711] Server  LOG     ✓ Compiled in 51ms
+[00:11:36.920] Server  LOG     ✓ Compiled in 33ms
+[00:11:38.108] Server  LOG     ✓ Compiled in 29ms
+[00:11:41.208] Server  LOG     ✓ Compiled in 34ms
+[00:11:43.523] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:44.011] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:11:48.031] Server  LOG     ✓ Compiled in 34ms
+[00:11:50.835] Server  LOG     ✓ Compiled in 29ms
+[00:12:03.849] Server  LOG     ✓ Compiled in 121ms
+[00:12:06.303] Server  LOG     ✓ Compiled in 92ms
+[00:12:51.890] Server  LOG     ✓ Compiled in 41ms
+[00:13:53.166] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:14:08.232] Server  LOG     ✓ Compiled in 138ms
+[00:14:27.951] Server  LOG     ✓ Compiled in 208ms
+[00:14:40.387] Server  LOG     ✓ Compiled in 176ms
+[00:15:15.566] Server  LOG     ✓ Compiled in 167ms
+[00:15:16.517] Server  LOG     ✓ Compiled in 108ms
+[00:15:27.256] Server  LOG     ✓ Compiled in 158ms
+[00:15:38.465] Server  LOG     ✓ Compiled in 136ms
+[00:15:39.700] Server  LOG     ✓ Compiled in 118ms
+[00:15:41.918] Server  LOG     ✓ Compiled in 95ms
+[00:15:53.165] Server  LOG     ✓ Compiled in 82ms
+[00:16:05.044] Server  LOG     ✓ Compiled in 41ms
+[00:16:09.665] Server  LOG     ✓ Compiled in 234ms
+[00:16:22.058] Server  LOG     ✓ Compiled in 167ms
+[00:16:23.545] Server  LOG     ✓ Compiled in 69ms
+[00:16:44.913] Server  LOG     ✓ Compiled in 41ms
+[00:16:57.583] Server  LOG     ✓ Compiled in 160ms
+[00:17:25.355] Server  LOG     ✓ Compiled in 83ms
+[00:17:43.889] Server  LOG     ✓ Compiled in 205ms
+[00:17:47.147] Server  LOG     ✓ Compiled in 174ms
+[00:17:52.041] Server  LOG     ✓ Compiled in 100ms
+[00:17:55.051] Server  LOG     ✓ Compiled in 164ms
+[00:17:57.344] Server  LOG     ✓ Compiled in 104ms
+[00:19:19.705] Server  LOG     ✓ Compiled in 43ms
+[00:19:48.113] Server  LOG     ✓ Compiled in 41ms
+[00:19:53.823] Server  LOG     ✓ Compiled in 47ms
+[00:19:55.390] Server  LOG     ✓ Compiled in 52ms
+[00:20:33.027] Server  LOG     ✓ Compiled in 113ms
+[00:20:34.985] Server  LOG     ✓ Compiled in 70ms
+[00:21:09.690] Server  LOG     ✓ Compiled in 113ms
+[00:21:18.049] Server  LOG     ✓ Compiled in 181ms
+[00:21:56.574] Server  LOG     ✓ Compiled in 36ms
+[00:21:57.641] Browser ERROR   ./src/app/(coachpanel)/organizations/page.js:59:39
+Parsing ecmascript source code failed
+  57 |         {/* CONTENT */}
+  58 |         <div className="container-fluid ">
+> 59 |          <div className="sub-heading" <h4>Active Organizations (2)</h4>
+     |                                       ^
+  60 |           <div className="team-card grid-cardor-oganizational mb-4">
+  61 |             <div className="grid-item-bx">
+  62 |               <div className="team-heading">
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/organizations/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/organizations/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/organizations/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/organizations/page.js [Server Component]
+[00:22:00.410] Server  LOG     ✓ Compiled in 193ms
+[00:22:12.225] Server  LOG     ✓ Compiled in 146ms
+[00:22:16.013] Server  LOG     ✓ Compiled in 136ms
+[00:22:17.046] Server  LOG     ✓ Compiled in 136ms
+[00:22:51.045] Server  LOG     ✓ Compiled in 149ms
+[00:23:18.446] Server  LOG     ✓ Compiled in 142ms
+[00:23:24.203] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:23:45.931] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:23:46.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:46.817] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:23:56.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:56.949] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:24:46.114] Server  LOG     ✓ Compiled in 48ms
+[00:24:48.389] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:48.868] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:24:53.027] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:25:26.776] Server  LOG     ✓ Compiled in 93ms
+[00:25:29.128] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:25:47.087] Server  LOG     ✓ Compiled in 45ms
+[00:25:52.522] Server  LOG     ✓ Compiled in 40ms
+[00:25:54.277] Server  LOG     ✓ Compiled in 72ms
+[00:26:22.696] Server  LOG     ✓ Compiled in 149ms
+[00:26:32.419] Server  LOG     ✓ Compiled in 168ms
+[00:26:35.995] Server  LOG     ✓ Compiled in 159ms
+[00:26:45.080] Server  LOG     ✓ Compiled in 42ms
+[00:26:48.912] Server  LOG     ✓ Compiled in 103ms
+[00:26:57.771] Server  LOG     ✓ Compiled in 188ms
+[00:27:01.463] Server  LOG     ✓ Compiled in 87ms
+[00:27:05.084] Server  LOG     ✓ Compiled in 145ms
+[00:27:06.876] Server  LOG     ✓ Compiled in 130ms
+[00:27:08.403] Server  LOG     ✓ Compiled in 168ms
+[00:27:11.672] Server  LOG     ✓ Compiled in 136ms
+[00:27:15.559] Server  LOG     ✓ Compiled in 136ms
+[00:27:19.798] Server  LOG     ✓ Compiled in 137ms
+[00:28:27.214] Server  LOG     ✓ Compiled in 58ms
+[00:28:40.144] Server  LOG     ✓ Compiled in 215ms
+[00:28:48.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:48.706] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:29:31.985] Server  LOG     ✓ Compiled in 26ms
+[00:29:32.631] Browser ERROR   ./src/app/(dashboard)/dashboard.css:4440:1
+Parsing CSS source code failed
+  4438 |   text-transform: capitalize;
+  4439 |   m
+> 4440 | }
+       | ^
+  4441 |
+  4442 | .green-bg-pill {
+  4443 |   color: var(--White, #fff);
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(coachpanel)/layout.js [Client Component Browser]
+    ./src/app/(coachpanel)/layout.js [Server Component]
+[00:29:33.196] Server  LOG     ✓ Compiled in 78ms
+[00:29:45.093] Server  LOG     ✓ Compiled in 95ms
+[00:29:48.326] Server  LOG     ✓ Compiled in 83ms
+[00:29:56.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:57.174] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:31:20.623] Server  LOG     ✓ Compiled in 124ms
+[00:31:25.450] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:31:26.820] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:31:32.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:33.588] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:52.569] Server  LOG     ✓ Compiled in 192ms
+[00:32:02.950] Server  LOG     ✓ Compiled in 146ms
+[00:32:20.698] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:32:20.698] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:32:23.481] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:32:27.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:29.589] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:31.075] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:32:32.679] Browser ERROR   uncaughtError: ReferenceError: VoiceSelector is not defined
+[00:32:49.639] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.647] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.653] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.657] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.661] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.666] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.669] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.672] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.677] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.680] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.683] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.685] Server  ERROR   ⨯ ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:32:49.688] Server  LOG     ✓ Compiled in 316ms
+[00:32:50.631] Browser ERROR   ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:32:54.634] Browser ERROR   ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:32:56.633] Browser ERROR   ./src/app/(coachpanel)/settings-coach/page.js:10:1
+Module not found: Can't resolve '@/components/dashboard/VoiceSelector'
+   8 | import Link from "next/link";
+   9 | import FaqAccordion from "../../../components/FaqAccordion";
+> 10 | import VoiceSelector from "@/components/dashboard/VoiceSelector";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | export default function Page() {
+  12 |   const [activeTab, setActiveTab] = useState("Profile");
+  13 |   const [phone, setPhone] = useState("");
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:32:58.147] Server  LOG     ✓ Compiled in 326ms
+[00:32:58.149] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:32:58.692] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:59.881] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:32:59.881] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:34:26.355] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:34:33.099] Server  LOG     ✓ Compiled in 66ms
+[00:36:03.240] Server  LOG     ✓ Compiled in 87ms
+[00:36:36.788] Server  LOG     ✓ Compiled in 40ms
+[00:39:10.643] Server  LOG     ✓ Compiled in 72ms
+[00:39:19.189] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:49.083] Server  LOG     ✓ Compiled in 101ms
+[00:39:55.534] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:40:03.163] Server  LOG     ✓ Compiled in 123ms
+[00:40:16.954] Server  LOG     ✓ Compiled in 111ms
+[00:40:18.776] Server  LOG     ✓ Compiled in 49ms
+[00:48:51.785] Server  LOG     ✓ Compiled in 34ms
+[00:48:52.632] Browser ERROR   ./src/app/(coachpanel)/add-organization/page.js:48:9
+Parsing ecmascript source code failed
+  46 |         <div className="container-fluid ">
+  47 |             <div className="overview-card"
+> 48 |         </div>
+     |         ^
+  49 |       </main>
+  50 |     </div>
+  51 |   );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+[00:48:52.633] Browser ERROR   ./src/app/(coachpanel)/add-organization/page.js:48:10
+Parsing ecmascript source code failed
+  46 |         <div className="container-fluid ">
+  47 |             <div className="overview-card"
+> 48 |         </div>
+     |          ^^^^^
+  49 |       </main>
+  50 |     </div>
+  51 |   );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+[00:49:21.558] Server  LOG     ✓ Compiled in 81ms
+[00:51:13.527] Server  LOG     ✓ Compiled in 34ms
+[00:51:13.633] Browser ERROR   ./src/app/(coachpanel)/add-organization/page.js:49:11
+Parsing ecmascript source code failed
+  47 |           <div className="overview-card">
+  48 |             <div className="hedaing-inner"
+> 49 |           </div>
+     |           ^
+  50 |         </div>
+  51 |       </main>
+  52 |     </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+[00:51:13.633] Browser ERROR   ./src/app/(coachpanel)/add-organization/page.js:49:12
+Parsing ecmascript source code failed
+  47 |           <div className="overview-card">
+  48 |             <div className="hedaing-inner"
+> 49 |           </div>
+     |            ^^^^^
+  50 |         </div>
+  51 |       </main>
+  52 |     </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+[00:51:22.476] Server  LOG     ✓ Compiled in 128ms
+[00:51:25.342] Server  LOG     ✓ Compiled in 92ms
+[00:51:27.805] Server  LOG     ✓ Compiled in 79ms
+[00:51:40.319] Server  LOG     ✓ Compiled in 122ms
+[00:51:44.002] Server  LOG     ✓ Compiled in 78ms
+[00:51:46.581] Server  LOG     ✓ Compiled in 31ms
+[00:51:47.639] Browser ERROR   ./src/app/(coachpanel)/add-organization/page.js:54:20
+Parsing ecmascript source code failed
+  52 |             <Button href="#" className="btn-primary">
+  53 |               Add Organization
+> 54 |             </Link>
+     |                    ^
+> 55 |           </div>
+     | ^^^^^^^^^^^
+  56 |         </div>
+  57 |       </main>
+  58 |     </div>
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+[00:51:49.606] Server  LOG     ✓ Compiled in 1418ms
+[00:53:33.256] Server  LOG     ✓ Compiled in 75ms
+[00:53:53.284] Server  LOG     ✓ Compiled in 95ms
+[00:53:58.059] Server  LOG     ✓ Compiled in 33ms
+[00:53:58.641] Browser ERROR   ./src/app/(coachpanel)/add-organization/page.js:60:22
+Parsing ecmascript source code failed
+  58 |             <Lin href="#" className="btn-primary">
+  59 |               Create Organization
+> 60 |             </Button>
+     |                      ^
+> 61 |           </div>
+     | ^^^^^^^^^^^
+  62 |         </div>
+  63 |       </main>
+  64 |     </div>
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+[00:53:59.638] Browser ERROR   ./src/app/(coachpanel)/add-organization/page.js:60:22
+Parsing ecmascript source code failed
+  58 |             <Link href="#" className="btn-primary">
+  59 |               Create Organization
+> 60 |             </Button>
+     |                      ^
+> 61 |           </div>
+     | ^^^^^^^^^^^
+  62 |         </div>
+  63 |       </main>
+  64 |     </div>
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/add-organization/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/add-organization/page.js [Server Component]
+[00:54:01.694] Server  LOG     ✓ Compiled in 88ms
+[00:55:32.702] Server  LOG     ✓ Compiled in 87ms
+[00:55:53.435] Server  LOG     ✓ Compiled in 89ms
+[00:56:03.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:26.386] Server  LOG     ✓ Compiled in 67ms
+[00:56:31.759] Server  LOG     ✓ Compiled in 80ms
+[00:56:44.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:54.427] Server  LOG     ✓ Compiled in 91ms
+[00:56:59.102] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:57:08.780] Server  LOG     ✓ Compiled in 78ms
+[00:57:15.970] Server  LOG     ✓ Compiled in 78ms
+[00:57:17.406] Server  LOG     ✓ Compiled in 73ms
+[00:57:22.803] Server  LOG     ✓ Compiled in 88ms
+[01:12:46.359] Server  LOG     ✓ Compiled in 115ms
+[01:13:26.646] Server  LOG     ✓ Compiled in 217ms
+[01:13:34.255] Server  LOG     ✓ Compiled in 130ms
+[01:13:38.076] Server  LOG     ✓ Compiled in 157ms
+[01:13:39.482] Server  LOG     ✓ Compiled in 146ms
+[01:13:41.031] Server  LOG     ✓ Compiled in 78ms
+[01:13:42.982] Server  LOG     ✓ Compiled in 120ms
+[01:14:05.569] Server  LOG     ✓ Compiled in 188ms
+[01:14:16.367] Server  LOG     ✓ Compiled in 158ms
+[01:14:18.149] Server  LOG     ✓ Compiled in 204ms
+[01:14:21.032] Server  LOG     ✓ Compiled in 151ms
+[01:15:00.126] Server  LOG     ✓ Compiled in 135ms
+[01:15:09.339] Server  LOG     ✓ Compiled in 36ms
+[01:15:09.636] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:55:9
+Parsing ecmascript source code failed
+  53 |           </div>
+  54 |           <div className="gift-card-img"
+> 55 |         </div>
+     |         ^
+  56 |       </main>
+  57 |     </div>
+  58 |   );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:15:09.636] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:55:10
+Parsing ecmascript source code failed
+  53 |           </div>
+  54 |           <div className="gift-card-img"
+> 55 |         </div>
+     |          ^^^^^
+  56 |       </main>
+  57 |     </div>
+  58 |   );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:15:21.999] Server  LOG     ✓ Compiled in 39ms
+[01:15:22.641] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:56:11
+Parsing ecmascript source code failed
+  54 |           <div className="gift-card-list">
+  55 |             <div className="gift-card-img"
+> 56 |           </div>
+     |           ^
+  57 |         </div>
+  58 |       </main>
+  59 |     </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:15:22.641] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:56:12
+Parsing ecmascript source code failed
+  54 |           <div className="gift-card-list">
+  55 |             <div className="gift-card-img"
+> 56 |           </div>
+     |            ^^^^^
+  57 |         </div>
+  58 |       </main>
+  59 |     </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:15:24.633] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:56:11
+Parsing ecmascript source code failed
+  54 |           <div className="gift-card-list">
+  55 |             <div className="gift-card"
+> 56 |           </div>
+     |           ^
+  57 |         </div>
+  58 |       </main>
+  59 |     </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:15:24.633] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:56:12
+Parsing ecmascript source code failed
+  54 |           <div className="gift-card-list">
+  55 |             <div className="gift-card"
+> 56 |           </div>
+     |            ^^^^^
+  57 |         </div>
+  58 |       </main>
+  59 |     </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:15:29.628] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:56:11
+Parsing ecmascript source code failed
+  54 |           <div className="gift-card-list">
+  55 |             <div className="gift-item"
+> 56 |           </div>
+     |           ^
+  57 |         </div>
+  58 |       </main>
+  59 |     </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:15:29.628] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:56:12
+Parsing ecmascript source code failed
+  54 |           <div className="gift-card-list">
+  55 |             <div className="gift-item"
+> 56 |           </div>
+     |            ^^^^^
+  57 |         </div>
+  58 |       </main>
+  59 |     </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:15:44.471] Server  LOG     ✓ Compiled in 125ms
+[01:15:46.440] Server  LOG     ✓ Compiled in 85ms
+[01:15:49.676] Server  LOG     ✓ Compiled in 93ms
+[01:15:51.028] Server  LOG     ✓ Compiled in 77ms
+[01:15:52.096] Server  LOG     ✓ Compiled in 61ms
+[01:15:53.677] Server  LOG     ✓ Compiled in 73ms
+[01:15:55.984] Server  LOG     ✓ Compiled in 85ms
+[01:16:02.269] Server  LOG     ✓ Compiled in 87ms
+[01:16:06.675] Server  LOG     ✓ Compiled in 72ms
+[01:16:09.695] Server  LOG     ✓ Compiled in 73ms
+[01:16:11.369] Server  LOG     ✓ Compiled in 97ms
+[01:16:18.554] Server  LOG     ✓ Compiled in 129ms
+[01:16:20.138] Server  LOG     ✓ Compiled in 107ms
+[01:16:28.597] Server  LOG     ✓ Compiled in 86ms
+[01:16:34.316] Server  LOG     ✓ Compiled in 44ms
+[01:16:34.642] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:63:15
+Parsing ecmascript source code failed
+  61 |                 <h4></h4>
+  62 |                 <p
+> 63 |               </div>
+     |               ^
+  64 |             </div>
+  65 |             <div className="gift-rewards-item"></div>
+  66 |             <div className="gift-rewards-item"></div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:16:34.642] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:63:16
+Parsing ecmascript source code failed
+  61 |                 <h4></h4>
+  62 |                 <p
+> 63 |               </div>
+     |                ^^^^^
+  64 |             </div>
+  65 |             <div className="gift-rewards-item"></div>
+  66 |             <div className="gift-rewards-item"></div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:16:40.222] Server  LOG     ✓ Compiled in 142ms
+[01:16:44.048] Server  LOG     ✓ Compiled in 118ms
+[01:16:47.618] Server  LOG     ✓ Compiled in 82ms
+[01:16:48.302] Server  LOG     ✓ Compiled in 131ms
+[01:16:53.957] Server  LOG     ✓ Compiled in 89ms
+[01:17:29.748] Server  LOG     ✓ Compiled in 143ms
+[01:17:35.714] Server  LOG     ✓ Compiled in 101ms
+[01:18:17.079] Server  LOG     ✓ Compiled in 35ms
+[01:18:17.632] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:57:15
+Parsing ecmascript source code failed
+  55 |             <div className="gift-rewards-item">
+  56 |                 <div className="git"
+> 57 |               <div>
+     |               ^
+  58 |                 <img src="/assets/image/gift-card-img.svg" />
+  59 |               </div>
+  60 |               <div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:18:17.632] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:59:16
+Parsing ecmascript source code failed
+  57 |               <div>
+  58 |                 <img src="/assets/image/gift-card-img.svg" />
+> 59 |               </div>
+     |                ^^^^^
+  60 |               <div>
+  61 |                 <h4>
+  62 |                   Amazon Gift Card $25 <span>Earned</span>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:18:21.628] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:57:15
+Parsing ecmascript source code failed
+  55 |             <div className="gift-rewards-item">
+  56 |                 <div className="gift-info"
+> 57 |               <div>
+     |               ^
+  58 |                 <img src="/assets/image/gift-card-img.svg" />
+  59 |               </div>
+  60 |               <div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:18:21.628] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:59:16
+Parsing ecmascript source code failed
+  57 |               <div>
+  58 |                 <img src="/assets/image/gift-card-img.svg" />
+> 59 |               </div>
+     |                ^^^^^
+  60 |               <div>
+  61 |                 <h4>
+  62 |                   Amazon Gift Card $25 <span>Earned</span>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:18:24.608] Server  LOG     ✓ Compiled in 1321ms
+[01:18:27.539] Server  LOG     ✓ Compiled in 112ms
+[01:18:27.703] Server  LOG     ✓ Compiled in 133ms
+[01:18:32.104] Server  LOG     ✓ Compiled in 110ms
+[01:18:34.453] Server  LOG     ✓ Compiled in 83ms
+[01:18:34.640] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:67:15
+Parsing ecmascript source code failed
+  65 |                 </div>
+  66 |                 <div className=""
+> 67 |               </div>
+     |               ^
+  68 |             </div>
+  69 |             <div className="gift-rewards-item"></div>
+  70 |             <div className="gift-rewards-item"></div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:18:34.640] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:67:16
+Parsing ecmascript source code failed
+  65 |                 </div>
+  66 |                 <div className=""
+> 67 |               </div>
+     |                ^^^^^
+  68 |             </div>
+  69 |             <div className="gift-rewards-item"></div>
+  70 |             <div className="gift-rewards-item"></div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:19:10.594] Server  LOG     ✓ Compiled in 139ms
+[01:19:17.883] Server  LOG     ✓ Compiled in 97ms
+[01:19:23.507] Server  LOG     ✓ Compiled in 143ms
+[01:19:25.806] Server  LOG     ✓ Compiled in 115ms
+[01:19:45.077] Server  LOG     ✓ Compiled in 99ms
+[01:19:52.021] Server  LOG     ✓ Compiled in 100ms
+[01:19:59.549] Server  LOG     ✓ Compiled in 40ms
+[01:20:00.631] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:86:15
+Parsing ecmascript source code failed
+  84 |                 </div>
+  85 |                 <div className="Claim Reward"
+> 86 |               </div>
+     |               ^
+  87 |             </div>
+  88 |             <div className="gift-rewards-item"></div>
+  89 |             <div className="gift-rewards-item"></div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:20:00.631] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:86:16
+Parsing ecmascript source code failed
+  84 |                 </div>
+  85 |                 <div className="Claim Reward"
+> 86 |               </div>
+     |                ^^^^^
+  87 |             </div>
+  88 |             <div className="gift-rewards-item"></div>
+  89 |             <div className="gift-rewards-item"></div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:20:02.633] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:86:15
+Parsing ecmascript source code failed
+  84 |                 </div>
+  85 |                 <div className="Claim-reward"
+> 86 |               </div>
+     |               ^
+  87 |             </div>
+  88 |             <div className="gift-rewards-item"></div>
+  89 |             <div className="gift-rewards-item"></div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:20:02.633] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:86:16
+Parsing ecmascript source code failed
+  84 |                 </div>
+  85 |                 <div className="Claim-reward"
+> 86 |               </div>
+     |                ^^^^^
+  87 |             </div>
+  88 |             <div className="gift-rewards-item"></div>
+  89 |             <div className="gift-rewards-item"></div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:20:05.630] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:86:15
+Parsing ecmascript source code failed
+  84 |                 </div>
+  85 |                 <div className="claim-reward"
+> 86 |               </div>
+     |               ^
+  87 |             </div>
+  88 |             <div className="gift-rewards-item"></div>
+  89 |             <div className="gift-rewards-item"></div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:20:05.630] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:86:16
+Parsing ecmascript source code failed
+  84 |                 </div>
+  85 |                 <div className="claim-reward"
+> 86 |               </div>
+     |                ^^^^^
+  87 |             </div>
+  88 |             <div className="gift-rewards-item"></div>
+  89 |             <div className="gift-rewards-item"></div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:20:11.818] Server  LOG     ✓ Compiled in 92ms
+[01:20:18.522] Server  LOG     ✓ Compiled in 148ms
+[01:20:21.782] Server  LOG     ✓ Compiled in 117ms
+[01:20:23.046] Server  LOG     ✓ Compiled in 107ms
+[01:20:25.188] Server  LOG     ✓ Compiled in 135ms
+[01:20:27.571] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:20:30.075] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[01:20:36.675] Server  LOG     ✓ Compiled in 96ms
+[01:20:56.713] Server  LOG     ✓ Compiled in 150ms
+[01:21:01.411] Server  LOG     ✓ Compiled in 230ms
+[01:21:05.292] Server  LOG     ✓ Compiled in 96ms
+[01:21:10.647] Server  LOG     ✓ Compiled in 116ms
+[01:21:23.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:22:38.650] Server  LOG     ✓ Compiled in 105ms
+[01:22:46.030] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:29.159] Server  LOG     ✓ Compiled in 80ms
+[01:25:46.085] Server  LOG     ✓ Compiled in 117ms
+[01:25:54.061] Server  LOG     ✓ Compiled in 92ms
+[01:25:57.016] Server  LOG     ✓ Compiled in 82ms
+[01:25:59.101] Server  LOG     ✓ Compiled in 93ms
+[01:26:13.796] Server  LOG     ✓ Compiled in 96ms
+[01:26:53.251] Server  LOG     ✓ Compiled in 111ms
+[01:27:04.417] Server  LOG     ✓ Compiled in 95ms
+[01:27:05.798] Server  LOG     ✓ Compiled in 113ms
+[01:27:06.900] Server  LOG     ✓ Compiled in 68ms
+[01:27:08.546] Server  LOG     ✓ Compiled in 115ms
+[01:27:17.134] Server  LOG     ✓ Compiled in 98ms
+[01:27:17.637] Browser ERROR   uncaughtError: ReferenceError: textAlign is not defined
+[01:27:18.099] Server  LOG     ✓ Compiled in 38ms
+[01:27:18.632] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:88:21
+Parsing ecmascript source code failed
+  86 |                       overflow: "hidden",
+  87 |                       textAlign:
+> 88 |                     }}>
+     |                     ^
+  89 |                     <div
+  90 |                       style={{
+  91 |                         width: "100%", // 🔒 static
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[01:27:22.570] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:27:23.489] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:32.896] Server  LOG     ✓ Compiled in 131ms
+[01:27:33.710] Server  LOG     ✓ Compiled in 119ms
+[01:27:49.494] Server  LOG     ✓ Compiled in 62ms
+[01:27:51.034] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:14.772] Server  LOG     ✓ Compiled in 91ms
+[01:29:52.603] Server  LOG     ✓ Compiled in 158ms
+[01:29:56.736] Server  LOG     ✓ Compiled in 139ms
+[01:29:59.708] Server  LOG     ✓ Compiled in 118ms
+[01:30:09.538] Server  LOG     ✓ Compiled in 44ms
+[01:30:13.792] Server  LOG     ✓ Compiled in 62ms
+[01:30:23.047] Server  LOG     ✓ Compiled in 116ms
+[01:30:26.132] Server  LOG     ✓ Compiled in 124ms
+[01:30:58.684] Server  LOG     ✓ Compiled in 118ms
+[01:31:02.902] Server  LOG     ✓ Compiled in 140ms
+[01:31:21.956] Server  LOG     ✓ Compiled in 81ms
+[01:31:23.724] Server  LOG     ✓ Compiled in 119ms
+[01:31:38.240] Server  LOG     ✓ Compiled in 78ms
+[01:31:49.456] Server  LOG     ✓ Compiled in 116ms
+[01:31:54.812] Server  LOG     ✓ Compiled in 150ms
+[01:32:29.243] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:29.511] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/signup-coach" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[01:32:36.789] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:33:17.277] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:34:06.087] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:34:34.533] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:34:36.013] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:34:36.013] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.

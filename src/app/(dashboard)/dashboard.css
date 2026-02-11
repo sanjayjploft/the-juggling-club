@@ -13,13 +13,25 @@ a {
   gap: 30px;
   position: relative;
 }
-.msar-dashboard-wrapper::after {
+/* .msar-dashboard-wrapper::after {
   content: "";
-  background-image: url(/assets/image/dashbord-shape.svg);
+  background-image: url(/assets/image/dashbord-shape-profile.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 300px;
   height: 159px;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  pointer-events: none;  
+} */
+.msar-dashboard-wrapper::after {
+  content: "";
+  background-image: url(/assets/image/dashbord-shape-profile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 159px;
+  height: 149px;
   position: absolute;
   top: -30px;
   right: -30px;
@@ -181,7 +193,15 @@ a {
   line-height: normal;
   margin-bottom: 0px;
 }
+.user-profile {
+  position: relative;
+  z-index: 99;
+}
 
+.user-profile img {
+  width: 60px;
+  height: 60px;
+}
 .ft-btn {
   color: var(--White, #fff);
   font-family: Avenir;
@@ -2587,12 +2607,14 @@ input.search-inp::placeholder {
 }
 
 .tabb-content {
-  padding: 20px 30px;
-  font-size: 14px;
-  border: 1px solid #565656;
   background: #03202f;
+  border: 1px solid #565656;
   border-radius: 20px;
   margin: 15px 0;
+  padding: 20px 30px;
+  font-size: 14px;
+  margin: 0 15px;
+  margin-top: 20px;
 }
 .tabb-content h3 {
   color: #fff;
@@ -3186,6 +3208,7 @@ input.search-inp::placeholder {
   border-radius: 20px;
   background: rgba(10, 95, 255, 0.15);
   padding: 25px 30px;
+  margin: 0 15px;
 }
 
 /* HEADER */
@@ -3220,7 +3243,7 @@ input.search-inp::placeholder {
   background: var(--Juggling-Club-Dark-Blue, #03202f);
   padding: 20px 27px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
@@ -3339,6 +3362,7 @@ input.search-inp::placeholder {
   text-transform: uppercase;
   border-radius: 150px;
   padding: 10px 30px;
+  display: inline-block;
 }
 /* MOBILE */
 @media (max-width: 768px) {
@@ -3352,20 +3376,20 @@ input.search-inp::placeholder {
 }
 @media (max-width: 1199px) {
   .team-stats-row {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     padding: 18px 22px;
     gap: 14px;
   }
 }
 @media (max-width: 991px) {
   .team-stats-row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     padding: 16px 20px;
   }
 }
 @media (max-width: 767px) {
   .team-stats-row {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     padding: 14px 16px;
     gap: 12px;
   }
@@ -4055,12 +4079,12 @@ input.form-control.phone-input {
 }
 
 .overview-card {
-  border-radius: 20px;
-  border: 1px solid #565656;
   background: var(--Juggling-Club-Dark-Blue, #03202f);
-  box-shadow: 0 5px 0 0 rgba(240, 255, 0, 0.8);
+  border: 1px solid #565656;
+  border-radius: 20px;
   padding: 25px;
-  margin-bottom: 30px;
+  box-shadow: 0 5px #f0ff00cc;
+  margin: 0px 15px 30px;
 }
 
 .overview-grid {
@@ -4157,7 +4181,7 @@ input.form-control.phone-input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 0 16px 20px;
   padding: 20px;
 }
 
@@ -4419,31 +4443,47 @@ span.avatar-name {
   display: flex;
 }
 
-.grid-cardor-ganizational {
+.grid-cardor-oganizational {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.grid-cardor-ganizational .grid-item-bx p {
+.grid-item-bx p {
   color: var(--White, #fff);
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
   font-family: Avenir;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
+  margin-bottom: 0;
 }
 
-.grid-cardor-ganizational .grid-item-bx .team-pill.green-bg {
-  border-radius: 25px;
+.green-bg-pill {
+  color: var(--White, #fff);
+  text-align: center;
+  text-transform: uppercase;
   background: #38c600;
+  border-radius: 25px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 4px 10px;
 }
-
-.grid-cardor-ganizational .grid-item-bx span {
+.blue-bg-pill {
+  background: rgba(10, 95, 255, 0.4);
+  border-radius: 25px;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 4px 10px;
+}
+.grid-cardor-oganizational .grid-item-bx span {
   color: var(--Gray, #949494);
   font-family: Avenir;
   font-size: 15px;
@@ -4458,4 +4498,124 @@ span.avatar-name {
   border-radius: 50%;
   object-fit: cover;
   flex: 0 0 51px;
+}
+
+.oganiz-plr {
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.grid-item-bx h5 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.sub-heading-card h4 {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 15px 10px;
+}
+.pending-bg-pill {
+  border-radius: 25px;
+  background: rgba(240, 255, 0, 0.2);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 4px 10px;
+}
+
+.hedaing-inner h4 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.hedaing-inner p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.gift-rewards-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gift-rewards-list {
+  border-radius: 20px;
+  border: 1px solid #565656;
+  padding: 25px;
+  margin: 0px 15px 20px;
+}
+.earned-rewards {
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 5px 0 0 rgba(0, 212, 11, 0.8);
+}
+.gift-rewards-list .gift-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.gift-rewards-list .gift-info h4 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.gift-rewards-list .gift-info p {
+  color: var(--White, #fff);
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.gift-rewards-list .gift-info h4 span {
+  border-radius: 25px;
+  background: rgba(0, 212, 11, 0.3);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  display: inline-block;
+  margin-left: 5px;
 }

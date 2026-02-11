@@ -125,7 +125,10 @@ export default function DashboardPage() {
             {/* HEADER */}
             <Row className="align-items-center mb-3">
               <Col md={6}>
-                <div className="team-heading">Youth Training Group</div>
+                <div className="team-heading">
+                  Youth Training Group{" "}
+                  <span className="team-pill">TeamTeam</span>
+                </div>
               </Col>
             </Row>
 
