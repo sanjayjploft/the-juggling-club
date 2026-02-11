@@ -20,7 +20,7 @@ export default function Page() {
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <h4>
-              TEAM/GROUP ANALYTICS
+              Team Analytics
               <span>Track player and team performance metrics</span>
             </h4>
           </div>
@@ -183,9 +183,218 @@ export default function Page() {
             {activeTab === "Skills" && (
               <>
                 <SkillCompletion />
+                <div className="tabb-content border-0 px-3 pt-0">
+                  <Row className="mt-4">
+                    <div className="submission-card mb-3">
+                      {/* LEFT */}
+                      <div className="submission-left">
+                        <div className="submission-info">
+                          <h6>3-Ball Cascade</h6>
+                          <p className="skill">24 of 28 players completed</p>
+                        </div>
+                      </div>
+
+                      {/* RIGHT */}
+                      <div className="submission-right">
+                        <div className="progress-wrapper border-0 p-0">
+                          <div className="d-flex gap-3 align-items-center">
+                            <div className="progress-bar-custom">
+                              <span style={{ width: `86%` }} />
+                            </div>
+                            <span className="percent">86%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="submission-card mb-3">
+                      {/* LEFT */}
+                      <div className="submission-left">
+                        <div className="submission-info">
+                          <h6>3-Ball Shower</h6>
+                          <p className="skill">3-Ball Shower</p>
+                        </div>
+                      </div>
+
+                      {/* RIGHT */}
+                      <div className="submission-right">
+                        <div className="progress-wrapper border-0 p-0">
+                          <div className="d-flex gap-3 align-items-center">
+                            <div className="progress-bar-custom">
+                              <span style={{ width: `82%` }} />
+                            </div>
+                            <span className="percent">82%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="submission-card mb-3">
+                      {/* LEFT */}
+                      <div className="submission-left">
+                        <div className="submission-info">
+                          <h6>4-Ball Fountain</h6>
+                          <p className="skill">14 of 18 players completed</p>
+                        </div>
+                      </div>
+
+                      {/* RIGHT */}
+                      <div className="submission-right">
+                        <div className="progress-wrapper border-0 p-0">
+                          <div className="d-flex gap-3 align-items-center">
+                            <div className="progress-bar-custom">
+                              <span style={{ width: `78%` }} />
+                            </div>
+                            <span className="percent">78%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="submission-card mb-0">
+                      {/* LEFT */}
+                      <div className="submission-left">
+                        <div className="submission-info">
+                          <h6>5-Ball Cascade</h6>
+                          <p className="skill">12 of 15 players completed</p>
+                        </div>
+                      </div>
+
+                      {/* RIGHT */}
+                      <div className="submission-right">
+                        <div className="progress-wrapper border-0 p-0">
+                          <div className="d-flex gap-3 align-items-center">
+                            <div className="progress-bar-custom">
+                              <span style={{ width: `80%` }} />
+                            </div>
+                            <span className="percent">80%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Row>
+                </div>
               </>
             )}
-            {activeTab === "Top Players" && <>sd</>}
+            {activeTab === "Top Players" && (
+              <>
+                <div className="progress-card top-players">
+                  <div className="chart-headiang">
+                    <h4>Top Performing Players</h4>
+                    <p>Players ranked by overall performance metrics</p>
+                  </div>
+                  <Row className="mt-4">
+                    <div className="submission-card mb-3">
+                      {/* LEFT */}
+                      <div className="submission-left">
+                        <div className="rank1-cms">
+                          <img src="/assets/image/rank1.svg" />
+                        </div>
+                        <div className="submission-info">
+                          <h6>Alex Johnson</h6>
+                          <div className="performing-info">
+                            <div>
+                              <b>18 </b> Skills
+                            </div>
+                            <div>
+                              <b>280</b> Points
+                            </div>
+                            <div>
+                              <b>15</b> Streak
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="submission-card mb-3">
+                      {/* LEFT */}
+                      <div className="submission-left">
+                        <div className="rank1-cms">
+                          <img src="/assets/image/rank2.svg" />
+                        </div>
+                        <div className="submission-info">
+                          <h6>Maria Garcia</h6>
+                          <div className="performing-info">
+                            <div>
+                              <b>16</b> Skills
+                            </div>
+                            <div>
+                              <b>265</b> Points
+                            </div>
+                            <div>
+                              <b>12</b> Streak
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="submission-card mb-3">
+                      {/* LEFT */}
+                      <div className="submission-left">
+                        <div className="rank1-cms">
+                          <img src="/assets/image/rank3.svg" />
+                        </div>
+                        <div className="submission-info">
+                          <h6>Jordan Lee</h6>
+                          <div className="performing-info">
+                            <div>
+                              <b>15</b> Skills
+                            </div>
+                            <div>
+                              <b>10</b> Points
+                            </div>
+                            <div>
+                              <b>245</b> Streak
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="submission-card mb-3">
+                      {/* LEFT */}
+                      <div className="submission-left">
+                        <div className="rank1-cms">
+                          <img src="/assets/image/rank4.svg" />
+                        </div>
+                        <div className="submission-info">
+                          <h6>Sam Wilson</h6>
+                          <div className="performing-info">
+                            <div>
+                              <b>13</b> Skills
+                            </div>
+                            <div>
+                              <b>210</b> Points
+                            </div>
+                            <div>
+                              <b>8</b> Streak
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="submission-card mb-3">
+                      {/* LEFT */}
+                      <div className="submission-left">
+                        <div className="rank1-cms">
+                          <img src="/assets/image/rank5.svg" />
+                        </div>
+                        <div className="submission-info">
+                          <h6>Casey Adams</h6>
+                          <div className="performing-info">
+                            <div>
+                              <b>12</b> Skills
+                            </div>
+                            <div>
+                              <b>195</b> Points
+                            </div>
+                            <div>
+                              <b>6</b> Streak
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Row>
+                </div>
+              </>
+            )}
           </div>
         </div>
       </main>

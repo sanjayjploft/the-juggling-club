@@ -18,7 +18,9 @@ export default function DashboardPage() {
               <Button className="ft-btn">All time</Button>
             </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <Link href="/details" className="btn admin-btn-primary">
+            + Add Player
+          </Link>
         </div>
 
         {/* CONTENT */}
@@ -185,43 +187,13 @@ export default function DashboardPage() {
                       <span className="player-status trial">Trial</span>
                     </div>
                   </div>
-                  <div className="btn-cdr">
-                    <Link href="" className="small-btn-admin">
-                      View Progress
-                    </Link>
-                  </div>
                 </div>
-                <div className="clb-box">
-                  <div>
-                    <h6>Club</h6>
-                    <span>Independent</span>
-                  </div>
-                  <div>
-                    <h6>Coach</h6>
-                    <p>Virtual Coach</p>
-                  </div>
-                </div>
-                <div className="player-reword">
-                  <div className="reword-item">
-                    <img src="/assets/image/icon-badge.svg" />
-                    <span>34</span>
-                    <p>Badges</p>
-                  </div>
-                  <div className="reword-item">
-                    <img src="/assets/image/icon-level-advanced.svg" />
-                    <span>54</span>
-                    <p>Level</p>
-                  </div>
-                  <div className="reword-item">
-                    <img src="/assets/image/icon-points.svg" />
-                    <span>1850</span>
-                    <p>Points</p>
-                  </div>
-                  <div className="reword-item">
-                    <img src="/assets/image/icon-streak.svg" />
-                    <span>5Wks</span>
-                    <p>Streak</p>
-                  </div>
+                <div className="consent-required">
+                  <h6>Consent Required</h6>
+                  <p>
+                    Coaching features are locked until parental consent is
+                    approved.
+                  </p>
                 </div>
               </div>
             </Col>

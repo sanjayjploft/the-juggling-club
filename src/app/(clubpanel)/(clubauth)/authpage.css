@@ -80,9 +80,7 @@
   padding: 1rem 0.75rem;
   color: var(--Gray, #949494);
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 14px;
   font-style: normal;
@@ -358,9 +356,7 @@
 }
 .clublogo-heading {
   color: var(--Juggling-Club-Dark-Blue, #03202f);
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 15px;
   font-style: normal;
@@ -372,9 +368,7 @@
 .placeholder-text h5 {
   color: #000;
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 14px;
   font-style: normal;
@@ -385,9 +379,7 @@
 .placeholder-text {
   color: var(--Juggling-Club-Dark-Blue, #03202f);
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 12px;
   font-style: normal;
@@ -497,9 +489,7 @@
   transform: translateY(-50%);
   color: var(--Gray, #949494);
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 14px;
   font-style: normal;
@@ -584,9 +574,7 @@
 /* Text */
 .checkbox-text {
   color: var(--Juggling-Club-Dark-Blue, #03202f);
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 13px;
   font-style: normal;
@@ -607,9 +595,7 @@
 
 .terms-confirmation h4 {
   color: #000;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 18px;
   font-style: normal;
@@ -620,9 +606,7 @@
 
 .terms-confirmation p {
   color: var(--Juggling-Club-Dark-Blue, #03202f);
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 14px;
   font-style: normal;
@@ -640,9 +624,7 @@
 
 .terms-confirmation h4 {
   color: #000;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 18px;
   font-style: normal;
@@ -653,9 +635,7 @@
 
 .terms-confirmation p {
   color: var(--Juggling-Club-Dark-Blue, #03202f);
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 14px;
   font-style: normal;
@@ -675,9 +655,7 @@
 .welcome-box h4 {
   color: #000;
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 30px;
   font-style: normal;
@@ -690,9 +668,7 @@
 .welcome-box h4 ~ span {
   color: var(--Juggling-Club-Dark-Blue, #03202f);
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 15px;
   font-style: normal;
@@ -712,9 +688,7 @@
 .club-code span {
   color: var(--Juggling-Club-Dark-Blue, #03202f);
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 15px;
   font-style: normal;
@@ -727,9 +701,7 @@
 .club-code h6 {
   color: var(--Primary-Badge-Blue, #0a5fff);
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 25px;
   font-style: normal;
@@ -741,9 +713,7 @@
 .club-code p {
   color: var(--Juggling-Club-Dark-Blue, #03202f);
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 15px;
   font-style: normal;
@@ -755,9 +725,7 @@
 .redirecting {
   color: var(--Juggling-Club-Dark-Blue, #03202f);
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
+  font-feature-settings: "liga" off, "clig" off;
   font-family: Avenir;
   font-size: 15px;
   font-style: normal;

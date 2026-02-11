@@ -32,7 +32,7 @@ const menu = [
   },
   {
     name: "Messages",
-    href: "/messages",
+    href: "/coach-messages",
     icon: "/assets/image/messages-menu.svg",
     activeIcon: "/assets/image/messages-menu-active.svg",
   },

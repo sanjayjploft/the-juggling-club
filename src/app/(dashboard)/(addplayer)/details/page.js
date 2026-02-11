@@ -16,7 +16,7 @@ export default function DetailsPage() {
             <div className="top-heading">
               <h4>Dashboard</h4>
             </div>
-            <button className="btn admin-btn-primary">+ Add Player</button>
+            {/* <button className="btn admin-btn-primary">+ Add Player</button> */}
           </div>
           <div className="container-fluid">
             <div className="content-card">
@@ -26,8 +26,8 @@ export default function DetailsPage() {
                   Add Existing
                 </Link>
               </div>
-              <Col lg={6} className="m-auto">
-                <div className="step-progress step-1">
+              <Col lg={6} className="m-auto add-player">
+                <div className="step-progress  step-1">
                   <span className="step-line-active"></span>
                   <div className="step active">
                     <img src="/assets/image/steps-active-img.svg" />

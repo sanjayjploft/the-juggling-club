@@ -215,7 +215,7 @@ export default function Page() {
             )}
             {activeTab === "Reminder" && (
               <>
-                <div className="notification-card notification-card2">
+                <div className="notification-card notification-card2 notification-cms ">
                   <div className="notification-card-in mb-4">
                     <h3>
                       Send Reminder On

@@ -19,12 +19,8 @@ export default function Footer() {
             </h2>
 
             <div className="cta-buttons">
-              <Link href={""} className="btn-primary">
-                PLAYER SIGN UP
-              </Link>
-              <Link href={""} className="btn-outline">
-                CLUB SIGN UP
-              </Link>
+              <button className="btn-primary">PLAYER SIGN UP</button>
+              <button className="btn-outline">CLUB SIGN UP</button>
             </div>
           </div>
 

@@ -15,9 +15,9 @@ export default function DetailsPage() {
             <div className="top-heading">
               <h4>Dashboard</h4>
             </div>
-            <button className="btn admin-btn-primary">+ Add Player</button>
+            {/* <button className="btn admin-btn-primary">+ Add Player</button> */}
           </div>
-          <Col lg={6} className="m-auto">
+          <Col lg={6} className="m-auto add-player">
             <div className="step-progress step-2">
               <span className="step-line-active"></span>
               <div className="step active">
@@ -53,7 +53,7 @@ export default function DetailsPage() {
                   <span>Billed monthly</span>
                 </div>
                 <div className="plan-price">
-                  <h3>$199.99</h3>
+                  <h3>$19.99</h3>
                 </div>
               </div>
 
