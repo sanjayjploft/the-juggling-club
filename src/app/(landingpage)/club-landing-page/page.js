@@ -77,17 +77,30 @@ export default function HomePage() {
       </section>
 
       {/* ACTIVATE */}
-      <section className="activate-section">
+      <section className="activate-wrap">
         <div className="container">
-          <div className="activate-box">
-            <div>
+          <div className="activate-box-exact">
+            {/* LEFT */}
+            <div className="activate-left">
               <h3>ACTIVATE YOUR ACCOUNT</h3>
               <p>
                 Players joining through American Football receive a special
-                member rate.
+                member rate. Activate with your club promo code during sign-up.
               </p>
             </div>
-            <button className="btn-primary-custom">ACTIVATE NOW</button>
+
+            {/* RIGHT */}
+            <div className="activate-right">
+              <div className="qr-block">
+                <img src="/assets/image/qr-code-2.svg" alt="QR Code" />
+                <div className="qr-text">
+                  <span>Club Code</span>
+                  <strong>C-AUR-32872</strong>
+                </div>
+              </div>
+
+              <button className="activate-btn-exact">ACTIVATE NOW</button>
+            </div>
           </div>
         </div>
       </section>
@@ -103,14 +116,30 @@ export default function HomePage() {
                 <p>
                   It's fun, competitive, and actually improved my first touch.
                 </p>
-                <span>EMMA J. — U14 Player</span>
+                <div className="user-profile d-flex gap-3">
+                  <div>
+                    <img src="/assets/image/quotes-img-2.png" alt="QR Code" />
+                  </div>
+                  <div className="user-info">
+                    <h4>EMMA J.</h4>
+                    <span> U14 Player</span>
+                  </div>{" "}
+                </div>
               </div>
             </div>
 
             <div className="col-md-6">
               <div className="testimonial-card">
                 <p>Our players love seeing their progress each week.</p>
-                <span>COACH STEVENS — Director of Coaching</span>
+                <div className="user-profile d-flex gap-3">
+                  <div>
+                    <img src="/assets/image/coach-mike.png" alt="QR Code" />
+                  </div>
+                  <div className="user-info">
+                    <h4>Coach Stevens</h4>
+                    <span> Director of Coaching</span>
+                  </div>{" "}
+                </div>
               </div>
             </div>
           </div>
