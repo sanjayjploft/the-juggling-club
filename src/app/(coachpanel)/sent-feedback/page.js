@@ -4,6 +4,7 @@ import { useState } from "react";
 import CoachSidebar from "../../../components/dashboard/CoachSidebar";
 import { Button, Col, Row } from "react-bootstrap";
 import Modal from "react-bootstrap/Modal";
+import Link from "next/link";
 
 export default function Page() {
   const [activeTab, setActiveTab] = useState("Virtual Coach Analysis");

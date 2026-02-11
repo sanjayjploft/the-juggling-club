@@ -1,12 +1,1 @@
-{
-  "/(clubpanel)/club-codes/page": "app/(clubpanel)/club-codes/page.js",
-  "/(clubpanel)/clubplayer-details/page": "app/(clubpanel)/clubplayer-details/page.js",
-  "/(clubpanel)/landing-page-manager/page": "app/(clubpanel)/landing-page-manager/page.js",
-  "/(coachpanel)/coach-rewards/page": "app/(coachpanel)/coach-rewards/page.js",
-  "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
-  "/(landingpage)/club-landing-page/page": "app/(landingpage)/club-landing-page/page.js",
-  "/(public)/club-landing-page/page": "app/(public)/club-landing-page/page.js",
-  "/(public)/page": "app/(public)/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/club-landing-page/page": "app/club-landing-page/page.js"
-}
+{}
