@@ -4,8 +4,7 @@ import { useState } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import CoachSidebar from "../../../components/dashboard/CoachSidebar";
 import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/style.css";
-import VoiceSelector from "../../../components/dashboard/VoiceSelector";
+import "react-phone-input-2/lib/style.css"; 
 import Link from "next/link";
 import FaqAccordion from "../../../components/FaqAccordion";
 export default function Page() {
