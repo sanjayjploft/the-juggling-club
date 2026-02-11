@@ -19,18 +19,22 @@ export default function DashboardPage() {
 
       <main className="msar-main">
         {/* HEADER */}
+         
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
-              <h4>Soccer Academy Elite</h4>
-              <p className="mb-0">
-                Manage and track your team members' progress.
-              </p>
+              <h4>
+                Soccer Academy Elite
+                <span>Manage and track your team members' progress</span>
+              </h4>
             </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
-
         {/* CONTENT */}
         <div className="container-fluid ">
           <div className="card-grid-box">

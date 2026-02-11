@@ -19,11 +19,14 @@ export default function DashboardPage() {
 
       <main className="msar-main">
         {/* HEADER */}
+
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
-              <h4>YOUR TEAMS/GROUPS</h4>
-              <p className="mb-0"> Customize your club's public landing page</p>
+              <h4>
+                YOUR TEAMS/GROUPS
+                <span>Customize your club's public landing page</span>
+              </h4>
             </div>
             <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
               <Form.Floating className="filter-select">
@@ -47,9 +50,12 @@ export default function DashboardPage() {
               </Link>
             </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
-
         {/* CONTENT */}
         <div className="container-fluid ">
           <div className="team-card mb-4">

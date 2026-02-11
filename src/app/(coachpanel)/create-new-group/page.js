@@ -19,20 +19,25 @@ export default function DashboardPage() {
 
       <main className="msar-main">
         {/* HEADER */}
+
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
-              <h4>CREATE A NEW TEAM/GROUP</h4>
-              <p className="mb-0">
-                {" "}
-                Define your team or group and generate an invite code for your
-                players.
-              </p>
+              <h4>
+                CREATE A NEW TEAM/GROUP
+                <span>
+                  Define your team or group and generate an invite code for your
+                  players.
+                </span>
+              </h4>
             </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
-
         {/* CONTENT */}
         <div className="container-fluid ">
           <div className="content-card add-tme">

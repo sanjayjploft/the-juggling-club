@@ -52,20 +52,25 @@ export default function Page() {
 
       <main className="msar-main">
         {/* HEADER */}
+
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
-          <div className="top-heading  pb-0">
+          <div className="top-heading">
             <div>
-              <h4>Send a Message</h4>
-              <p className="mb-0">
-                {" "}
-                Keep your players motivated with personal messages and voice
-                recordings.
-              </p>
+              <h4>
+                Send a Message
+                <span>
+                  Keep your players motivated with personal messages and voice
+                  recordings.
+                </span>
+              </h4>
             </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
-
         {/* CONTENT */}
         <div className="container-fluid">
           <div className="content-card mt-4">

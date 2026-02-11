@@ -5,6 +5,7 @@ import { Button, Col, Row } from "react-bootstrap";
 import Modal from "react-bootstrap/Modal";
 import { useRouter } from "next/navigation";
 import CoachSidebar from "../../../components/dashboard/CoachSidebar";
+import Link from "next/link";
 
 export default function Page() {
   const [activeTab, setActiveTab] = useState("New Submissions");
@@ -19,18 +20,24 @@ export default function Page() {
 
       <main className="msar-main">
         {/* HEADER */}
+
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
-            <h4>
-              Player Videos
-              <span>
-                Review video submissions and provide feedback to your players
-              </span>
-            </h4>
+            <div>
+              <h4>
+                Player Videos
+                <span>
+                  Review video submissions and provide feedback to your players
+                </span>
+              </h4>
+            </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
-
         {/* CONTENT */}
         <div className="container-fluid clb-plr-detl">
           <Row className="align-items-end ">

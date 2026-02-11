@@ -30,16 +30,22 @@ export default function Page() {
 
       <main className="msar-main">
         {/* HEADER */}
+
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
-            <h4>
-              Settings
-              <span>Track player and team performance metrics</span>
-            </h4>
+            <div>
+              <h4>
+                Settings
+                <span>Track player and team performance metrics</span>
+              </h4>
+            </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
-
         {/* CONTENT */}
         <div className="container-fluid clb-plr-detl">
           <Row className="align-items-end ">
@@ -235,7 +241,7 @@ export default function Page() {
                     </Form.Floating>
                   </Col>
                 </div>
-                <div className="notification-card notification-card2 mb-0">
+                <div className="notification-card notification-card2 notification-cms mb-0">
                   <div className="notification-card-in ">
                     <h3>
                       Al Auto-Draft Suggested Message

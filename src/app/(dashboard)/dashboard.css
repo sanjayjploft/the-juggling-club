@@ -3751,6 +3751,12 @@ input.search-inp::placeholder {
   background-size: contain;
   background-repeat: no-repeat;
 }
+.feedback-expln-list.yellow-chekmark li::before {
+  background-image: url("/assets/image/list-checkmark-yellow.svg");
+}
+.feedback-expln-list.yellow-chekmark li {
+  position: relative;
+}
 .floating-phone {
   position: relative;
 }
@@ -4562,11 +4568,11 @@ span.avatar-name {
   line-height: normal;
 }
 
-.gift-rewards-item {
+/* .gift-rewards-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .gift-rewards-list {
   border-radius: 20px;
@@ -4618,4 +4624,67 @@ span.avatar-name {
   padding: 4px 10px;
   display: inline-block;
   margin-left: 5px;
+}
+.progress-rewards .gift-info h4 span {
+  background: rgba(10, 95, 255, 0.3) !important;
+}
+.progress-rewards {
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 5px 0 0 var(--Primary-Badge-Blue, #0a5fff);
+}
+.progress-rewards.luminosity-mode {
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  box-shadow: 0 5px 0 0 var(--Gray, #949494);
+}
+.progress-rewards.luminosity-mode .gift-info h4 span {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+
+.progress-rewards.luminosity-mode .gift-progress {
+  mix-blend-mode: luminosity;
+}
+.rewards-work h4 {
+  font-size: 20px;
+}
+.reward-heading h2 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0px 15px 15px;
+  line-height: 1;
+}
+hr {
+  color: #404040;
+}
+
+h4 {
+}
+
+.reward-heading h4 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0px 15px 15px;
+  line-height: 1;
+}
+
+.donation-bottm-box {
+  padding-left: 37px;
+}
+
+.donation-bottm-box .donation-type {
+  margin-bottom: 20px;
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
