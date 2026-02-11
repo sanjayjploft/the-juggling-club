@@ -1,6 +1,7 @@
 {
   "/(coachpanel)/coach-messages/page": "app/(coachpanel)/coach-messages/page.js",
   "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
+  "/(coachpanel)/leaderboard/page": "app/(coachpanel)/leaderboard/page.js",
   "/(coachpanel)/organizations/page": "app/(coachpanel)/organizations/page.js",
   "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js"
 }

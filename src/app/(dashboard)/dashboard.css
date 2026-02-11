@@ -4451,3 +4451,11 @@ span.avatar-name {
   font-weight: 500;
   line-height: normal;
 }
+
+.plyr-crdin img {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 51px;
+}
