@@ -68,6 +68,10 @@ html, body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu-toggle {
   cursor: pointer;
   z-index: 1001;
@@ -807,7 +811,7 @@ img.simbl-icon {
   background: #ff2b3c;
   border: none;
   border-radius: 30px;
-  padding: 14px 26px;
+  padding: 16px 26px !important;
 }
 
 .cta-buttons .btn-primary {
@@ -832,13 +836,13 @@ img.simbl-icon {
   border: 1px solid var(--Primary-Neon-Red, #ff073a);
   background: none;
   border-radius: 150px;
-  padding: 10px 30px;
   font-family: Bebas Neue;
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   text-decoration: none;
+  padding: 14px 30px !important;
 }
 
 footer {

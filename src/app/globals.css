@@ -70,6 +70,9 @@ body {
   font-family: "Avenir";
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+}
 /* manu css */
 /* Toggle button */
 .menu-toggle {
@@ -201,7 +204,9 @@ nav.nav.nav--open {
   z-index: 999;
   /* background:rgba(255,255,255,0.85); 
   backdrop-filter: blur(10px); */
-  transition: background-color 0.3s ease, padding 0.3s ease; /* smooth transition */
+  transition:
+    background-color 0.3s ease,
+    padding 0.3s ease; /* smooth transition */
 }
 .header__inner {
   display: flex;
@@ -775,7 +780,7 @@ img.simbl-icon {
   background: #ff2b3c;
   color: #fff;
   border: none;
-  padding: 14px 26px;
+  padding: 16px 26px !important;
   border-radius: 30px;
   cursor: pointer;
 }
@@ -805,7 +810,7 @@ img.simbl-icon {
   background: transparent;
   border-radius: 150px;
   border: 1px solid var(--Primary-Neon-Red, #ff073a);
-  padding: 10px 30px;
+  padding: 14px 30px !important;
   text-decoration: none;
 }
 footer {

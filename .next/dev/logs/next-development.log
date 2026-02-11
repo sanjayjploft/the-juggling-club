@@ -1,536 +1,156 @@
-[00:00:01.557] Server  LOG     ✓ Ready in 1061ms
-[00:00:01.559] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.635] Server  LOG     ✓ Ready in 1147ms
+[00:00:01.638] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:04.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:51.670] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:01:14.767] Server  LOG     ✓ Compiled in 128ms
-[00:01:20.110] Server  LOG     ✓ Compiled in 83ms
-[00:01:20.952] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:58:16
-Parsing ecmascript source code failed
-  56 |               <Row>
-  57 |                 <Col lg=
-> 58 |               </Row>
-     |                ^
-  59 |               <div className="gift-info">
-  60 |                 <div>
-  61 |                   <img src="/assets/image/gift-card-img.svg" />
+[00:00:04.437] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:40.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:45.879] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:46.938] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:49.597] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
 
-Expression expected
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+>                               <h3>
+                                ...
+                            ...
+                ...
+              ...
 
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+[00:02:49.597] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
 
-  Client Component SSR:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-[00:01:22.957] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:58:15
-Parsing ecmascript source code failed
-  56 |               <Row>
-  57 |                 <Col lg={}
-> 58 |               </Row>
-     |               ^
-  59 |               <div className="gift-info">
-  60 |                 <div>
-  61 |                   <img src="/assets/image/gift-card-img.svg" />
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <Col lg={5}>
+                                    <div ref={null} className="col-lg-5">
+                                      <div className="floating-c...">
+>                                       <div className="color-input-wrapper">
+                                        ...
+                            ...
+                ...
+              ...
 
-Expression expected
+[00:02:49.597] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[00:02:51.479] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
 
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+>                                     <h5>
+                                      ...
+                                  ...
+                                ...
+                ...
+              ...
 
-  Client Component SSR:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-[00:01:22.957] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:58:16
-Parsing ecmascript source code failed
-  56 |               <Row>
-  57 |                 <Col lg={}
-> 58 |               </Row>
-     |                ^^^^^
-  59 |               <div className="gift-info">
-  60 |                 <div>
-  61 |                   <img src="/assets/image/gift-card-img.svg" />
+[00:02:51.479] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:02:51.479] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
 
-Unterminated regexp literal
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+                                      <h5>
+>                                     <p>
+                                  ...
+                                ...
+                ...
+              ...
 
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-[00:01:24.957] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:58:15
-Parsing ecmascript source code failed
-  56 |               <Row>
-  57 |                 <Col lg={5}
-> 58 |               </Row>
-     |               ^
-  59 |               <div className="gift-info">
-  60 |                 <div>
-  61 |                   <img src="/assets/image/gift-card-img.svg" />
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-[00:01:24.957] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:58:16
-Parsing ecmascript source code failed
-  56 |               <Row>
-  57 |                 <Col lg={5}
-> 58 |               </Row>
-     |                ^^^^^
-  59 |               <div className="gift-info">
-  60 |                 <div>
-  61 |                   <img src="/assets/image/gift-card-img.svg" />
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-[00:01:32.455] Server  LOG     ✓ Compiled in 160ms
-[00:01:35.598] Server  LOG     ✓ Compiled in 142ms
-[00:01:38.186] Server  LOG     ✓ Compiled in 123ms
-[00:01:39.439] Server  LOG     ✓ Compiled in 125ms
-[00:01:41.844] Server  LOG     ✓ Compiled in 120ms
-[00:01:43.551] Server  LOG     ✓ Compiled in 163ms
-[00:01:46.707] Server  LOG     ✓ Compiled in 115ms
-[00:01:48.416] Server  LOG     ✓ Compiled in 123ms
-[00:01:49.613] Server  LOG     ✓ Compiled in 131ms
-[00:02:01.289] Server  LOG     ✓ Compiled in 58ms
-[00:02:14.174] Server  LOG     ✓ Compiled in 185ms
-[00:02:19.330] Server  LOG     ✓ Compiled in 133ms
-[00:02:34.242] Server  LOG     ✓ Compiled in 123ms
-[00:02:47.571] Server  LOG     ✓ Compiled in 95ms
-[00:02:57.130] Server  LOG     ✓ Compiled in 121ms
-[00:03:01.057] Server  LOG     ✓ Compiled in 95ms
-[00:03:07.578] Server  LOG     ✓ Compiled in 97ms
-[00:03:09.991] Server  LOG     ✓ Compiled in 109ms
-[00:03:21.909] Server  LOG     ✓ Compiled in 116ms
-[00:03:32.335] Server  LOG     ✓ Compiled in 120ms
-[00:03:33.602] Server  LOG     ✓ Compiled in 71ms
-[00:03:35.068] Server  LOG     ✓ Compiled in 120ms
-[00:03:44.311] Server  LOG     ✓ Compiled in 113ms
-[00:03:48.080] Server  LOG     ✓ Compiled in 105ms
-[00:03:54.689] Server  LOG     ✓ Compiled in 105ms
-[00:04:04.349] Server  LOG     ✓ Compiled in 101ms
-[00:04:14.640] Server  LOG     ✓ Compiled in 192ms
-[00:04:25.498] Server  LOG     ✓ Compiled in 30ms
-[00:04:25.955] Browser ERROR   ./src/app/(dashboard)/dashboard.css:4622:17
-Parsing CSS source code failed
-  4620 |   margin-left: 5px;
-  4621 | }
-> 4622 | progress-rewards
-       |                 ^
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Server Component]
-[00:04:30.962] Browser ERROR   ./src/app/(dashboard)/dashboard.css:4637:17
-Parsing CSS source code failed
-  4635 |   margin-left: 5px;
-  4636 | }
-> 4637 | progress-rewards
-       |                 ^
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Server Component]
-[00:04:35.280] Server  LOG     ✓ Compiled in 44ms
-[00:04:43.967] Server  LOG     ✓ Compiled in 44ms
-[00:05:02.525] Server  LOG     ✓ Compiled in 48ms
-[00:05:07.248] Server  LOG     ✓ Compiled in 45ms
-[00:05:09.242] Server  LOG     ✓ Compiled in 127ms
-[00:05:25.360] Server  LOG     ✓ Compiled in 41ms
-[00:05:26.334] Server  LOG     ✓ Compiled in 71ms
-[00:05:37.576] Server  LOG     ✓ Compiled in 255ms
-[00:05:54.327] Server  LOG     ✓ Compiled in 165ms
-[00:06:03.358] Server  LOG     ✓ Compiled in 175ms
-[00:06:05.319] Server  LOG     ✓ Compiled in 126ms
-[00:06:07.218] Server  LOG     ✓ Compiled in 124ms
-[00:07:21.907] Server  LOG     ✓ Compiled in 235ms
-[00:07:23.999] Server  LOG     ✓ Compiled in 173ms
-[00:07:50.881] Server  LOG     ✓ Compiled in 160ms
-[00:07:52.672] Server  LOG     ✓ Compiled in 172ms
-[00:07:53.318] Server  LOG     ✓ Compiled in 86ms
-[00:08:06.294] Server  LOG     ✓ Compiled in 128ms
-[00:08:15.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:36.691] Server  LOG     ✓ Compiled in 328ms
-[00:08:39.793] Server  LOG     ✓ Compiled in 219ms
-[00:08:42.766] Server  LOG     ✓ Compiled in 172ms
-[00:10:02.785] Server  LOG     ✓ Compiled in 26ms
-[00:10:02.951] Browser ERROR   ./src/app/(dashboard)/dashboard.css:4631:52
-Parsing CSS source code failed
-  4629 |   box-shadow: 0 5px 0 0 var(--Primary-Badge-Blue, #0a5fff);
-  4630 | }
-> 4631 | .gift-rewards-list.progress-rewards.luminosity-mode
-       |                                                    ^
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Server Component]
-[00:10:04.965] Browser ERROR   ./src/app/(dashboard)/dashboard.css:4631:34
-Parsing CSS source code failed
-  4629 |   box-shadow: 0 5px 0 0 var(--Primary-Badge-Blue, #0a5fff);
-  4630 | }
-> 4631 | .progress-rewards.luminosity-mode
-       |                                  ^
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Server Component]
-[00:10:07.080] Server  LOG     ✓ Compiled in 51ms
-[00:10:12.349] Server  LOG     ✓ Compiled in 49ms
-[00:10:14.639] Server  LOG     ✓ Compiled in 48ms
-[00:10:16.973] Server  LOG     ✓ Compiled in 43ms
-[00:10:30.268] Server  LOG     ✓ Compiled in 55ms
-[00:10:34.208] Server  LOG     ✓ Compiled in 44ms
-[00:10:43.088] Server  LOG     ✓ Compiled in 102ms
-[00:10:50.293] Server  LOG     ✓ Compiled in 158ms
-[00:11:01.329] Server  LOG     ✓ Compiled in 35ms
-[00:11:01.952] Browser ERROR   ./src/app/(dashboard)/dashboard.css:4637:15
-Parsing CSS source code failed
-  4635 | }
-  4636 |
-> 4637 | .gift-progress
-       |               ^
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Client Component Browser]
-    ./src/app/(coachpanel)/layout.js [Server Component]
-[00:11:32.207] Server  LOG     ✓ Compiled in 64ms
-[00:15:00.048] Server  LOG     ✓ Compiled in 140ms
-[00:15:04.181] Server  LOG     ✓ Compiled in 177ms
-[00:15:06.093] Server  LOG     ✓ Compiled in 137ms
-[00:15:10.614] Server  LOG     ✓ Compiled in 144ms
-[00:15:24.158] Server  LOG     ✓ Compiled in 380ms
-[00:15:29.563] Server  LOG     ✓ Compiled in 166ms
-[00:15:50.417] Server  LOG     ✓ Compiled in 154ms
-[00:16:04.051] Server  LOG     ✓ Compiled in 145ms
-[00:16:05.547] Server  LOG     ✓ Compiled in 150ms
-[00:16:07.253] Server  LOG     ✓ Compiled in 201ms
-[00:16:12.009] Server  LOG     ✓ Compiled in 169ms
-[00:16:15.432] Server  LOG     ✓ Compiled in 158ms
-[00:16:17.730] Server  LOG     ✓ Compiled in 130ms
-[00:16:36.101] Server  LOG     ✓ Compiled in 155ms
-[00:16:38.736] Server  LOG     ✓ Compiled in 280ms
-[00:16:42.720] Server  LOG     ✓ Compiled in 264ms
-[00:17:40.282] Server  LOG     ✓ Compiled in 44ms
-[00:17:44.436] Server  LOG     ✓ Compiled in 44ms
-[00:18:00.517] Server  LOG     ✓ Compiled in 239ms
-[00:18:06.076] Server  LOG     ✓ Compiled in 47ms
-[00:18:19.621] Server  LOG     ✓ Compiled in 44ms
-[00:18:20.802] Server  LOG     ✓ Compiled in 39ms
-[00:18:26.598] Server  LOG     ✓ Compiled in 51ms
-[00:18:28.570] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:06.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:14.260] Server  LOG     ✓ Compiled in 89ms
-[00:19:15.600] Server  LOG     ✓ Compiled in 40ms
-[00:19:18.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:40.482] Server  LOG     ✓ Compiled in 168ms
-[00:19:43.569] Server  LOG     ✓ Compiled in 174ms
-[00:19:45.389] Server  LOG     ✓ Compiled in 136ms
-[00:19:47.157] Server  LOG     ✓ Compiled in 158ms
-[00:19:49.526] Server  LOG     ✓ Compiled in 128ms
-[00:20:03.870] Server  LOG     ✓ Compiled in 48ms
-[00:20:40.301] Server  LOG     ✓ Compiled in 37ms
-[00:20:40.966] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:55:11
-Parsing ecmascript source code failed
-  53 |           </div>
-  54 |           <div className=""
-> 55 |           <div className="gift-rewards-list earned-rewards">
-     |           ^
-  56 |             <div className="gift-rewards-item">
-  57 |               <Row>
-  58 |                 <Col lg={5}>
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-[00:20:46.151] Server  LOG     ✓ Compiled in 139ms
-[00:20:51.253] Server  LOG     ✓ Compiled in 214ms
-[00:20:53.810] Server  LOG     ✓ Compiled in 173ms
-[00:20:56.343] Server  LOG     ✓ Compiled in 169ms
-[00:21:00.768] Server  LOG     ✓ Compiled in 190ms
-[00:21:45.688] Server  LOG     ✓ Compiled in 102ms
-[00:21:49.246] Server  LOG     ✓ Compiled in 37ms
-[00:21:52.879] Server  LOG     ✓ Compiled in 43ms
-[00:21:53.607] Server  LOG     ✓ Compiled in 194ms
-[00:21:53.783] Browser ERROR   ./src/app/(coachpanel)/coach-rewards/page.js:55:34
-Parsing ecmascript source code failed
-  53 |           </div>
-  54 |           <div className="reward-heading">
-> 55 |             <h2>Reward Tiers</h4>
-     |                                  ^
-> 56 |           </div>
-     | ^^^^^^^^^^^
-  57 |           <div className="gift-rewards-list earned-rewards">
-  58 |             <div className="gift-rewards-item">
-  59 |               <Row>
-
-Expected '</', got 'jsx text (
-          )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(coachpanel)/coach-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/coach-rewards/page.js [Server Component]
-[00:24:12.034] Server  LOG     ✓ Compiled in 266ms
-[00:24:14.676] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:24:22.666] Server  LOG     ✓ Compiled in 86ms
-[00:24:49.357] Server  LOG     ✓ Compiled in 98ms
-[00:24:51.812] Server  LOG     ✓ Compiled in 81ms
-[00:25:10.484] Server  LOG     ✓ Compiled in 148ms
-[00:25:28.485] Server  LOG     ✓ Compiled in 98ms
-[00:25:28.958] Browser ERROR   ./src/app/(coachpanel)/claim-rewards/page.js:74:17
-Parsing ecmascript source code failed
-  72 |                   </div>
-  73 |                   <Hr
-> 74 |                 </Col>
-     |                 ^
-  75 |               </Row>
-  76 |             </div>
-  77 |           </div>
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/claim-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/claim-rewards/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(coachpanel)/claim-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/claim-rewards/page.js [Server Component]
-[00:25:28.958] Browser ERROR   ./src/app/(coachpanel)/claim-rewards/page.js:74:18
-Parsing ecmascript source code failed
-  72 |                   </div>
-  73 |                   <Hr
-> 74 |                 </Col>
-     |                  ^^^^^
-  75 |               </Row>
-  76 |             </div>
-  77 |           </div>
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/claim-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/claim-rewards/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(coachpanel)/claim-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/claim-rewards/page.js [Server Component]
-[00:25:45.410] Server  LOG     ✓ Compiled in 125ms
-[00:26:01.996] Server  LOG     ✓ Compiled in 45ms
-[00:26:03.949] Server  LOG     ✓ Compiled in 143ms
-[00:26:11.081] Server  LOG     ✓ Compiled in 43ms
-[00:28:36.204] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:28:36.204] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:28:58.143] Server  LOG     ✓ Compiled in 517ms
-[00:29:33.457] Server  LOG     ✓ Compiled in 216ms
-[00:29:48.116] Server  LOG     ✓ Compiled in 117ms
-[00:29:57.955] Server  LOG     ✓ Compiled in 154ms
-[00:30:01.104] Server  LOG     ✓ Compiled in 135ms
-[00:30:10.450] Server  LOG     ✓ Compiled in 137ms
-[00:30:13.652] Server  LOG     ✓ Compiled in 106ms
-[00:50:57.180] Server  LOG     ✓ Compiled in 118ms
-[00:50:58.915] Server  LOG     ✓ Compiled in 113ms
-[00:52:09.589] Server  LOG     ✓ Compiled in 162ms
-[00:52:34.564] Server  LOG     ✓ Compiled in 38ms
-[00:52:34.963] Browser ERROR   ./src/app/(coachpanel)/claim-rewards/page.js:101:21
-Parsing ecmascript source code failed
-   99 |                     </div>
-  100 |                     <div className=""
-> 101 |                     <Col lg={3}>
-      |                     ^
-  102 |                       <Form.Floating>
-  103 |                         <Form.Select>
-  104 |                           <option>Select Charity</option>
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/claim-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/claim-rewards/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(coachpanel)/claim-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/claim-rewards/page.js [Server Component]
-[00:52:44.618] Server  LOG     ✓ Compiled in 157ms
-[00:52:46.472] Server  LOG     ✓ Compiled in 131ms
-[00:52:48.790] Server  LOG     ✓ Compiled in 120ms
-[00:52:51.026] Server  LOG     ✓ Compiled in 114ms
-[00:52:58.870] Server  LOG     ✓ Compiled in 78ms
-[00:52:59.951] Browser ERROR   ./src/app/(coachpanel)/claim-rewards/page.js:102:23
-Parsing ecmascript source code failed
-  100 |                     <div className="Donation-bottm-box">
-  101 |                         <div className=""
-> 102 |                       <Col lg={3}>
-      |                       ^
-  103 |                         <Form.Floating>
-  104 |                           <Form.Select>
-  105 |                             <option>Select Charity</option>
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(coachpanel)/claim-rewards/page.js [Client Component Browser]
-    ./src/app/(coachpanel)/claim-rewards/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(coachpanel)/claim-rewards/page.js [Client Component SSR]
-    ./src/app/(coachpanel)/claim-rewards/page.js [Server Component]
-[00:53:08.879] Server  LOG     ✓ Compiled in 138ms
-[00:53:12.246] Server  LOG     ✓ Compiled in 142ms
-[00:53:24.207] Server  LOG     ✓ Compiled in 237ms
-[00:53:27.698] Server  LOG     ✓ Compiled in 166ms
-[00:54:32.840] Server  LOG     ✓ Compiled in 130ms
-[00:54:45.789] Server  LOG     ✓ Compiled in 124ms
-[00:54:55.070] Server  LOG     ✓ Compiled in 181ms
-[00:55:04.077] Server  LOG     ✓ Compiled in 127ms
-[00:56:32.982] Server  LOG     ✓ Compiled in 141ms
-[00:56:36.255] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:56:44.993] Server  LOG     ✓ Compiled in 132ms
-[00:56:46.678] Server  LOG     ✓ Compiled in 115ms
-[00:56:47.080] Server  LOG     ✓ Compiled in 68ms
-[00:57:18.594] Server  LOG     ✓ Compiled in 116ms
-[00:57:22.430] Server  LOG     ✓ Compiled in 149ms
-[00:57:23.697] Server  LOG     ✓ Compiled in 139ms
-[00:57:29.168] Server  LOG     ✓ Compiled in 109ms
-[00:57:34.783] Server  LOG     ✓ Compiled in 122ms
-[00:57:35.778] Server  LOG     ✓ Compiled in 99ms
-[00:57:35.961] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true m m true m
-[00:57:39.179] Server  LOG     ✓ Compiled in 99ms
-[00:57:58.766] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:58:28.600] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:58:47.668] Server  LOG     ✓ Compiled in 436ms
-[00:58:49.219] Server  LOG     ✓ Compiled in 184ms
-[00:59:03.016] Server  LOG     ✓ Compiled in 359ms
-[00:59:08.288] Server  LOG     ✓ Compiled in 324ms
-[00:59:11.957] Server  LOG     ✓ Compiled in 293ms
-[00:59:19.436] Server  LOG     ✓ Compiled in 265ms
-[00:59:22.669] Server  LOG     ✓ Compiled in 256ms
-[00:59:27.296] Server  LOG     ✓ Compiled in 260ms
-[00:59:29.757] Server  LOG     ✓ Compiled in 356ms
-[00:59:33.760] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[01:00:59.631] Server  LOG     ✓ Compiled in 251ms
-[01:01:07.990] Server  LOG     ✓ Compiled in 191ms
-[01:01:12.260] Server  LOG     ✓ Compiled in 199ms
-[01:01:15.039] Server  LOG     ✓ Compiled in 157ms
-[01:01:17.177] Server  LOG     ✓ Compiled in 150ms
-[01:01:39.283] Server  LOG     ✓ Compiled in 360ms
-[01:01:39.955] Browser ERROR   uncaughtError: ReferenceError: Form is not defined
-[01:01:44.756] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:01:45.009] Server  ERROR   ⨯ ReferenceError: Form is not defined
-[01:01:45.054] Server  LOG     ✓ Compiled in 310ms
-[01:01:45.055] Browser ERROR   uncaughtError: ReferenceError: Form is not defined
-[01:01:45.249] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:01:45.962] Browser ERROR   uncaughtError: ReferenceError: Form is not defined
-[01:01:51.853] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:01:51.861] Server  LOG     ✓ Compiled in 262ms
-[01:01:52.063] Server  ERROR   ⨯ ReferenceError: Form is not defined
-[01:01:52.273] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:01:52.904] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:01:52.904] Browser ERROR   uncaughtError: ReferenceError: Form is not defined
-[01:01:53.096] Server  ERROR   ⨯ ReferenceError: Form is not defined
-[01:01:53.115] Server  LOG     ✓ Compiled in 263ms
-[01:01:53.320] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:01:53.954] Browser ERROR   uncaughtError: ReferenceError: Form is not defined
-[01:02:03.219] Server  LOG     ✓ Compiled in 241ms
-[01:02:03.227] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:02:03.447] Server  ERROR   ⨯ ReferenceError: Form is not defined
-[01:02:03.673] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:02:03.960] Browser ERROR   uncaughtError: ReferenceError: Form is not defined
-[01:02:05.972] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:02:06.168] Server  ERROR   ⨯ ReferenceError: Link is not defined
-[01:02:06.187] Server  LOG     ✓ Compiled in 216ms
-[01:02:06.351] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:02:06.953] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
-[01:02:08.737] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:02:08.957] Server  ERROR   ⨯ ReferenceError: Link is not defined
-[01:02:08.976] Server  LOG     ✓ Compiled in 289ms
-[01:02:09.145] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:02:09.287] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
-[01:02:13.428] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:02:13.676] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[01:02:13.682] Server  LOG     ✓ Compiled in 154ms
-[01:02:13.895] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:02:14.061] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[01:02:16.457] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[01:02:16.457] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[01:02:39.053] Server  LOG     ✓ Compiled in 234ms
-[01:02:45.492] Server  LOG     ✓ Compiled in 214ms
-[01:02:48.606] Server  LOG     ✓ Compiled in 247ms
-[01:02:55.063] Server  LOG     ✓ Compiled in 140ms
-[01:02:57.464] Server  LOG     ✓ Compiled in 155ms
-[01:03:27.312] Server  LOG     ✓ Compiled in 420ms
-[01:03:30.865] Server  LOG     ✓ Compiled in 303ms
-[01:03:32.454] Server  LOG     ✓ Compiled in 351ms
-[01:04:32.411] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:05:22.121] Server  ERROR   ⨯ ReferenceError: Form is not defined
-[01:05:22.954] Browser ERROR   uncaughtError: ReferenceError: Form is not defined
-[01:05:27.945] Server  ERROR   ⨯ ReferenceError: Form is not defined
-[01:05:28.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:05:28.926] Browser ERROR   uncaughtError: ReferenceError: Form is not defined
-[01:05:29.041] Server  ERROR   ⨯ ReferenceError: Form is not defined
-[01:05:29.294] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:05:29.963] Browser ERROR   uncaughtError: ReferenceError: Form is not defined
-[01:05:42.546] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:05:52.600] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[01:05:52.600] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[01:05:53.269] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[01:06:25.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:51.479] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:02:55.266] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:56.518] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:57.990] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:59.267] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:00.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:01.598] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:02.473] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:03:02.473] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:05:27.268] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:05:27.268] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:05:27.268] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:05:35.273] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:36.535] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
