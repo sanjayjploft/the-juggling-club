@@ -2416,7 +2416,7 @@ textarea {
 }
 .ivntr-bt {
   position: absolute;
-  right: 20px;
+  right: 8px;
   top: 13px;
 }
 .comni-perf h3 {
@@ -2913,7 +2913,15 @@ input.search-inp::placeholder {
   gap: 10px;
   font-size: 14px;
 }
+.permissions-box {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.permissions-box label.checkbox-wrapper {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
 .checkbox-wrapper input {
   display: none;
 }
@@ -3940,7 +3948,7 @@ input.form-control.phone-input {
 }
 
 .upload-profile-img {
-  width: 110px;
+  width: max-content;
   text-align: center;
 }
 
@@ -4901,6 +4909,35 @@ hr {
   line-height: normal;
   margin-bottom: 0px;
 }
+.notification-top-cms {
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  border: 1px solid #073f5c;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 25px;
+  display: flex;
+}
+
+.notification-top-cms h3 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.notification-top-cms h3 span {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: block;
+}
 .stat-item {
   border-right: 1px solid #0c3b55;
 }
@@ -5028,6 +5065,46 @@ img.calendar-icon-inp {
   line-height: normal;
   display: inline-block;
 }
+.blue-color-text {
+  color: #0a5fff !important;
+}
+.card-line-cms .player-card h4 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.card-line-cms .player-card h4 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.report-tabs-title {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.report-tabs-title span {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+}
 @media (max-width: 1400px) {
   .player-avatar-info {
     width: 92%;
@@ -5079,5 +5156,8 @@ img.calendar-icon-inp {
   }
   .skill-right img.me-2 {
     margin-right: 0rem !important;
+  }
+  br {
+    display: none;
   }
 }

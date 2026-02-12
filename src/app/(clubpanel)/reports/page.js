@@ -200,9 +200,14 @@ export default function DashboardPage() {
                 <div className="content-card">
                   <div className="billing-card">
                     <div className="tbl-fltr">
-                      <Row className="">
+                      <Row className="mb-3 align-items-center">
                         <Col md={4} className="">
-                          <h2 className="billing-title">BILLING & INVOICES</h2>
+                          <h2 className="report-tabs-title">
+                            Player Details{" "}
+                            <span>
+                              Exportable list of all registered players
+                            </span>
+                          </h2>
                         </Col>
                         <Col
                           md={6}

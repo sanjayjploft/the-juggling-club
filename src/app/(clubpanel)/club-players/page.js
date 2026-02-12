@@ -50,7 +50,7 @@ export default function Page() {
                     </Form.Select>
                     <label>Activity status</label>
                   </Form.Floating>
-                  <Link href="/" className="">
+                  <Link href="#" className="">
                     <img src="/assets/image/export.svg" />
                   </Link>
                 </div>

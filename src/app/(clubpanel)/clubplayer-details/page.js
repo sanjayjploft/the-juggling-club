@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ClubSidebar from "../../../components/dashboard/ClubSidebar";
 import { Col, Row } from "react-bootstrap";
+import Link from "next/link";
 
 export default function Page() {
   const [activeTab, setActiveTab] = useState("profile");
@@ -12,15 +13,22 @@ export default function Page() {
 
       <main className="msar-main">
         {/* HEADER */}
+
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
-            <h4>Players
-              <span>View and manage club players</span>
-            </h4>
+            <div>
+              <h4>
+                Players
+                <span>View and manage club players</span>
+              </h4>
+            </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
-
         {/* CONTENT */}
         <div className="container-fluid clb-plr-detl">
           <div className="dashboard-header">
@@ -50,7 +58,7 @@ export default function Page() {
             <div className="player-card">
               <h4>Total Points</h4>
               <div className="count-info-card">
-                <h6>200</h6>
+                <h6>3,200</h6>
                 <p>Across all skills</p>
               </div>
               <img src="/assets/image/points-icn.svg" />
@@ -84,170 +92,184 @@ export default function Page() {
           <div className="tabbs">
             <button
               className={`tabb ${activeTab === "profile" ? "active" : ""}`}
-              onClick={() => setActiveTab("profile")}
-            >
+              onClick={() => setActiveTab("profile")}>
               Progress
             </button>
 
             <button
               className={`tabb ${activeTab === "billing" ? "active" : ""}`}
-              onClick={() => setActiveTab("billing")}
-            >
+              onClick={() => setActiveTab("billing")}>
               Skills Achieved
             </button>
 
             <button
               className={`tabb ${activeTab === "settings" ? "active" : ""}`}
-              onClick={() => setActiveTab("settings")}
-            >
+              onClick={() => setActiveTab("settings")}>
               Activity
             </button>
           </div>
 
           {/* Tab Content */}
           <div className="tabb-content">
-            {activeTab === "profile" && <p>
-              <h3>Skill Progression
-                <span>Overall progress through all skills and mindset challenges</span>
-              </h3>
-              <div className="">
-              <div className="players-progress-header">
-                <span>Completed</span>
-                <span className="players-count">45%</span>
-              </div>
+            {activeTab === "profile" && (
+              <p>
+                <h3>
+                  Skill Progression
+                  <span>
+                    Overall progress through all skills and mindset challenges
+                  </span>
+                </h3>
+                <div className="">
+                  <div className="players-progress-header">
+                    <span>Completed</span>
+                    <span className="players-count">45%</span>
+                  </div>
 
-              <div className="progress players-progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "45%" }}
-                  aria-valuenow="180"
-                  aria-valuemin="0"
-                  aria-valuemax="250"
-                />
-              </div>
-              <small>45 of 110 completed</small>
-            </div>
-            <Row>
-              <Col md={6}>
-                <div className="date-det">
-                  <p>Joined</p>
-                  <h4>2024-01-15</h4>
+                  <div className="progress players-progress">
+                    <div
+                      className="progress-bar"
+                      role="progressbar"
+                      style={{ width: "45%" }}
+                      aria-valuenow="180"
+                      aria-valuemin="0"
+                      aria-valuemax="250"
+                    />
+                  </div>
+                  <small>45 of 110 completed</small>
                 </div>
-              </Col>
-              <Col md={6}>
-                <div className="date-det">
-                  <p>Last Active</p>
-                  <h4>2024-12-26</h4>
-                </div>
-              </Col> 
-            </Row>
-              </p>}
-            {activeTab === "billing" && <p>
-              <h3>Skills Achieved
-                <span>All skills completed by this player</span>
-              </h3>
-              <Row>
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-level-50.png" />
-                    <h5>Level 50: Around the World</h5>
-                  </div>
-                </Col>
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-level-29.png" />
-                    <h5>LEVEL 29: High Kicks: 15 with Bounce</h5>
-                  </div>
-                </Col> 
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-level-50.png" />
-                    <h5>LEVEL 49: Sitting on Floor: 10</h5>
-                  </div>
-                </Col>
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-level-29.png" />
-                    <h5>LEVEL 25: Non-Preferred Foot: 10</h5>
-                  </div>
-                </Col>
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-level-50.png" />
-                    <h5>LEVEL 47: Rainbow Flick</h5>
-                  </div>
-                </Col>
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-level-29.png" />
-                    <h5>LEVEL 23: Alternating Feet: 10</h5>
-                  </div>
-                </Col>
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-level-50.png" />
-                    <h5>LEVEL 43: High, Low (10 rounds)</h5>
-                  </div>
-                </Col>
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-level-29.png" />
-                    <h5>LEVEL 21: Any Body Part: 25</h5>
-                  </div>
-                </Col>
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-mindset.png" />
-                    <h5>MINDSET | Mental Toughness</h5>
-                  </div>
-                </Col>
-                <Col md={6}>
-                  <div className="date-det-skills">
-                    <img src="/assets/image/badge-level-29.png" />
-                    <h5>LEVEL 20: Neck Stall: 30 seconds</h5>
-                  </div>
-                </Col> 
-              </Row>
-              </p>}
-            {activeTab === "settings" && <p>
-              <h3>Activity Summary</h3>
-              <Row>
-                <Col md={12}>
-                  <div className="skills-smry">
-                    <p>Current Streak</p>
-                    <p><strong>23 Weeks</strong></p>
-                    <div className="inact-sts">Pending</div>
-                  </div>
-                  <div className="skills-smry">
-                    <p>Total Skills Completed</p>
-                    <p><strong>45</strong></p>
-                    <div className="act-sts">Completed</div>
-                  </div>
-                  <div className="skills-smry">
-                    <p>Mindset Challenges Completed</p>
-                    <p><strong>15</strong></p>
-                    <div className="act-sts">Completed</div>
-                  </div>
-                  <div className="skills-smry">
-                    <p>Total Points</p>
-                    <p><strong>3,200</strong></p>
-                    <div className="inact-sts">Pending</div>
-                  </div>
-                  <div className="skills-smry">
-                    <p>Paths Unlocked</p>
-                    <p><strong>4/10</strong></p>
-                    <div className="act-sts">Pending</div>
-                  </div>
-                </Col>
+                <Row>
+                  <Col md={6}>
+                    <div className="date-det">
+                      <p>Joined</p>
+                      <h4>2024-01-15</h4>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det">
+                      <p>Last Active</p>
+                      <h4>2024-12-26</h4>
+                    </div>
+                  </Col>
                 </Row>
-              </p>}
+              </p>
+            )}
+            {activeTab === "billing" && (
+              <p>
+                <h3>
+                  Skills Achieved
+                  <span>All skills completed by this player</span>
+                </h3>
+                <Row>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-level-50.png" />
+                      <h5>Level 50: Around the World</h5>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-level-29.png" />
+                      <h5>LEVEL 29: High Kicks: 15 with Bounce</h5>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-level-50.png" />
+                      <h5>LEVEL 49: Sitting on Floor: 10</h5>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-level-29.png" />
+                      <h5>LEVEL 25: Non-Preferred Foot: 10</h5>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-level-50.png" />
+                      <h5>LEVEL 47: Rainbow Flick</h5>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-level-29.png" />
+                      <h5>LEVEL 23: Alternating Feet: 10</h5>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-level-50.png" />
+                      <h5>LEVEL 43: High, Low (10 rounds)</h5>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-level-29.png" />
+                      <h5>LEVEL 21: Any Body Part: 25</h5>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-mindset.png" />
+                      <h5>MINDSET | Mental Toughness</h5>
+                    </div>
+                  </Col>
+                  <Col md={6}>
+                    <div className="date-det-skills">
+                      <img src="/assets/image/badge-level-29.png" />
+                      <h5>LEVEL 20: Neck Stall: 30 seconds</h5>
+                    </div>
+                  </Col>
+                </Row>
+              </p>
+            )}
+            {activeTab === "settings" && (
+              <p>
+                <h3>Activity Summary</h3>
+                <Row>
+                  <Col md={12}>
+                    <div className="skills-smry">
+                      <p>Current Streak</p>
+                      <p>
+                        <strong>23 Weeks</strong>
+                      </p>
+                      <div className="inact-sts">Pending</div>
+                    </div>
+                    <div className="skills-smry">
+                      <p>Total Skills Completed</p>
+                      <p>
+                        <strong>45</strong>
+                      </p>
+                      <div className="act-sts">Completed</div>
+                    </div>
+                    <div className="skills-smry">
+                      <p>Mindset Challenges Completed</p>
+                      <p>
+                        <strong>15</strong>
+                      </p>
+                      <div className="act-sts">Completed</div>
+                    </div>
+                    <div className="skills-smry">
+                      <p>Total Points</p>
+                      <p>
+                        <strong>3,200</strong>
+                      </p>
+                      <div className="inact-sts">Pending</div>
+                    </div>
+                    <div className="skills-smry">
+                      <p>Paths Unlocked</p>
+                      <p>
+                        <strong>4/10</strong>
+                      </p>
+                      <div className="act-sts">Pending</div>
+                    </div>
+                  </Col>
+                </Row>
+              </p>
+            )}
           </div>
 
-          <div className="current-subs">
-
-            
-          </div>
+          <div className="current-subs"></div>
         </div>
       </main>
     </div>

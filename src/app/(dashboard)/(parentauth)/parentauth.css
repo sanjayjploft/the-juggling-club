@@ -1,10 +1,10 @@
 .club-register-wrapper {
   flex-direction: column;
   justify-content: space-around;
-  max-width: 740px;
-  max-height: 100vh;
+  max-width: 100%;
+  /* height: 100vh; */
   margin: auto;
-  padding: 40px 16px;
+  padding: 0;
   display: flex;
 }
 
@@ -515,9 +515,7 @@
   border: 1px solid #d4d7e3;
   background: #f7fbff;
 }
-.floating-color.has-value input.form-control {
-  color: #000;
-}
+
 /* Floating active */
 .floating-color.has-value label,
 .floating-color:focus-within label {
@@ -538,13 +536,10 @@
 }
 
 .custom-checkbox {
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
-  align-items: center;
   display: flex;
-  border: none;
-  width: auto;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
 }
 
 /* Hide default checkbox */
@@ -769,4 +764,110 @@
   font-weight: 400;
   line-height: normal;
   margin: 20px 0px 0px;
+}
+
+/* parentauth-start */
+.dashboard-main {
+  background-color: #fff;
+}
+.club-register-wrapper {
+  max-width: 100%;
+}
+.special-label {
+  display: none;
+}
+.scan-btn {
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  top: 1px;
+  right: 2px;
+  background-color: #f7fbff;
+  border-radius: 0 12px 12px 0;
+  cursor: pointer;
+}
+.signup-btn {
+  width: 360px;
+  display: inline-block;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  color: #1d1d26;
+  font-size: 12px;
+  margin: 20px 0;
+  justify-content: center;
+  font-weight: 400;
+}
+.divider::before,
+.divider::after {
+  content: "";
+
+  background: linear-gradient(90deg, #2e2e2e 0%, #fff 100%);
+
+  width: 94px;
+  height: 1px;
+}
+
+.divider span {
+  padding: 0 15px;
+}
+.auth-media {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.login-txt {
+  color: #03202f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.login-txt a {
+  color: #0a5fff;
+}
+.auth-title {
+  color: #0c1421;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+}
+.auth-img-wrapper img {
+  border-radius: 24px;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.auth-login {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.auth-back-btn {
+  color: #313131;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+/* parentauth-end */
+@media (max-width: 991px) {
+  .club-logo {
+    width: 100px;
+  }
+  .auth-title {
+    font-size: 25px;
+  }
+  .auth-login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

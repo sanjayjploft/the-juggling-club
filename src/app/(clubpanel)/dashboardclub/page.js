@@ -14,16 +14,17 @@ export default function DashboardPage() {
           <div className="top-heading">
             <div>
               <h4>Dashboard</h4>
-              <p className="mb-0">
+              {/* <p className="mb-0">
                 {" "}
                 Keep your players motivated with personal messages and voice
                 recordings.
-              </p>
+              </p> */}
             </div>
             <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
-              <Button className="ft-btn active">Last 7 days</Button>
-              <Button className="ft-btn">30 days </Button>
-              <Button className="ft-btn">All time</Button>
+              <button className="ft-btn active">Last 7 days</button>
+              <button className="ft-btn">30 days </button>
+              <button className="ft-btn">90 days </button>
+              <button className="ft-btn">All time</button>
             </div>
           </div>
           <div className="user-profile">

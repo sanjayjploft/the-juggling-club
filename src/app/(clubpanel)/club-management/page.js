@@ -12,7 +12,14 @@ export default function Page() {
 
   const fileRef = useRef(null);
   const [file, setFile] = useState(null);
+  const [profileImg, setProfileImg] = useState(null);
 
+  const handleImageUpload = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      setProfileImg(URL.createObjectURL(file));
+    }
+  };
   const handleFileChange = (e) => {
     const selected = e.target.files[0];
     if (selected) {
@@ -106,11 +113,11 @@ export default function Page() {
                             type="text"
                             value={primaryColor}
                             onChange={(e) => setPrimaryColor(e.target.value)}
-                            placeholder="Primary Brand Color *"
+                            placeholder="Primary Brand Color"
                           />
                         </div>
 
-                        <label>Primary Brand Color *</label>
+                        <label>Primary Brand Color</label>
                       </div>
                     </Col>
 
@@ -130,10 +137,10 @@ export default function Page() {
                             type="text"
                             value={secondaryColor}
                             onChange={(e) => setSecondaryColor(e.target.value)}
-                            placeholder="Secondary Brand Color *"
+                            placeholder="Secondary Color"
                           />
                         </div>
-                        <label>Secondary Brand Color *</label>
+                        <label>Secondary Color</label>
                       </div>
                     </Col>
                     <Col lg={12}>
@@ -180,6 +187,26 @@ export default function Page() {
                 <h3>Add Another Coach</h3>
                 <div className="add-tme">
                   <Row>
+                    <Col md={10}>
+                      <div className="upload-profile-img my-5 mt-4">
+                        <label className="upload-box-profile">
+                          {profileImg ? (
+                            <img src={profileImg} alt="Profile" />
+                          ) : (
+                            <span>
+                              {" "}
+                              <img src="/assets/image/upload-icn-profile.svg" />
+                            </span>
+                          )}
+                          <input
+                            type="file"
+                            accept="image/*"
+                            onChange={handleImageUpload}
+                          />
+                        </label>
+                        <div className="lable-profile">Upload Coach Photo</div>
+                      </div>
+                    </Col>
                     <Col md={5}>
                       <Form.Floating className="mb-4">
                         <Form.Control placeholder="Coach Name" />
@@ -241,9 +268,7 @@ export default function Page() {
                     </Col>
                     <Col md={5}>
                       <Form.Floating className="mb-4">
-                        <Form.Select>
-                          <option>Admin Email</option>
-                        </Form.Select>
+                        <Form.Control placeholder="Admin Email" />
                         <label>Admin Email</label>
                       </Form.Floating>
                     </Col>
@@ -251,57 +276,60 @@ export default function Page() {
                   <Row className="adm-per">
                     <Col md={12}>
                       <h4 className="mb-1">Permissions:</h4>
-                      <label className="checkbox-wrapper">
-                        <input
-                          type="checkbox"
-                          checked={checked}
-                          onChange={() => setChecked(!checked)}
-                        />
-                        <span className="custom-checkbox" />
-                        <span className="label-text">
-                          Upload and Update Club Logo
-                        </span>
-                      </label>
-                      <label className="checkbox-wrapper ms-5">
-                        <input
-                          type="checkbox"
-                          checked={checked}
-                          onChange={() => setChecked(!checked)}
-                        />
-                        <span className="custom-checkbox" />
-                        <span className="label-text">
-                          Edit Club Landing Page Content
-                        </span>
-                      </label>
-                      <label className="checkbox-wrapper ms-5">
-                        <input
-                          type="checkbox"
-                          checked={checked}
-                          onChange={() => setChecked(!checked)}
-                        />
-                        <span className="custom-checkbox" />
-                        <span className="label-text">
-                          Manage VoiceTag Recordings
-                        </span>
-                      </label>
-                      <label className="checkbox-wrapper ms-5">
-                        <input
-                          type="checkbox"
-                          checked={checked}
-                          onChange={() => setChecked(!checked)}
-                        />
-                        <span className="custom-checkbox" />
-                        <span className="label-text">Make Payments</span>
-                      </label>
-                      <label className="checkbox-wrapper ms-5">
-                        <input
-                          type="checkbox"
-                          checked={checked}
-                          onChange={() => setChecked(!checked)}
-                        />
-                        <span className="custom-checkbox" />
-                        <span className="label-text">View Reports</span>
-                      </label>
+                      <div className="permissions-box mt-3">
+                        <label className="checkbox-wrapper">
+                          <input
+                            type="checkbox"
+                            checked={checked}
+                            onChange={() => setChecked(!checked)}
+                          />
+                          <span className="custom-checkbox" />
+                          <span className="label-text">
+                            Upload and Update Club Logo
+                          </span>
+                        </label>
+
+                        <label className="checkbox-wrapper">
+                          <input
+                            type="checkbox"
+                            checked={checked}
+                            onChange={() => setChecked(!checked)}
+                          />
+                          <span className="custom-checkbox" />
+                          <span className="label-text">
+                            Edit Club Landing Page Content
+                          </span>
+                        </label>
+                        <label className="checkbox-wrapper">
+                          <input
+                            type="checkbox"
+                            checked={checked}
+                            onChange={() => setChecked(!checked)}
+                          />
+                          <span className="custom-checkbox" />
+                          <span className="label-text">
+                            Manage VoiceTag Recordings
+                          </span>
+                        </label>
+                        <label className="checkbox-wrapper">
+                          <input
+                            type="checkbox"
+                            checked={checked}
+                            onChange={() => setChecked(!checked)}
+                          />
+                          <span className="custom-checkbox" />
+                          <span className="label-text">Make Payments</span>
+                        </label>
+                        <label className="checkbox-wrapper">
+                          <input
+                            type="checkbox"
+                            checked={checked}
+                            onChange={() => setChecked(!checked)}
+                          />
+                          <span className="custom-checkbox" />
+                          <span className="label-text">View Reports</span>
+                        </label>
+                      </div>
                     </Col>
                   </Row>
                   <Button className="btn-next-bg mt-4">Add Admin</Button>
@@ -332,13 +360,16 @@ export default function Page() {
                     hidden
                   />
                 </div>
-                <h3 className="mt-5">
-                  VoiceTag Intro
-                  <span>
-                    Record a 10-15 second welcome message for your club landing
-                    page
-                  </span>
-                </h3>
+                <div className="d-flex align-items-center justify-content-between mt-5">
+                  <h3 className="">
+                    VoiceTag Intro
+                    <span>
+                      Record a 10-15 second welcome message for your club
+                      landing page
+                    </span>
+                  </h3>
+                  <input class="switch mt-0" type="checkbox" />
+                </div>
                 <div className="upload-box" onClick={handleClick}>
                   <div className="upload-content">
                     <div className="upload-icon">

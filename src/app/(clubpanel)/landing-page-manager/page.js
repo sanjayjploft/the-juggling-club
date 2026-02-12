@@ -69,6 +69,18 @@ export default function Page() {
                 </p>
               </div>
             </div>
+            <div className="lndg-pg-card">
+              <div className="count-info-card">
+                <h4>VoiceTag Intro</h4>
+                <h6>Manage voicetag </h6>
+                <p>
+                  Upload/Replace voicetag{" "}
+                  <Link href="/clubplayer-details" className="">
+                    <img src="/assets/image/edit.svg" />
+                  </Link>
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className="tabbs">
@@ -90,9 +102,10 @@ export default function Page() {
             {activeTab === "profile" && (
               <p>
                 <h3>
-                  Skill Progression
+                  Testimonials
                   <span>
-                    Overall progress through all skills and mindset challenges
+                    Add up to 3 player/parent/coach testimonials (max 300 chars
+                    each)
                   </span>
                 </h3>
                 <div className="date-det-skills-spot">
@@ -203,8 +216,8 @@ export default function Page() {
                   <div className="d-flex gap-3 align-items-center">
                     <div>
                       <h5>Coach Spotlight</h5>
-                      <p className="mt-0 grdesd">
-                        Feature lead coach or ambassador
+                      <p className="mt-0 grdesd blue-color-text">
+                        Manage coaches from Club Management → Coach
                       </p>
                     </div>
                   </div>

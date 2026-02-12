@@ -125,11 +125,11 @@ export default function ClubInformation() {
                     type="text"
                     value={primaryColor}
                     onChange={(e) => setPrimaryColor(e.target.value)}
-                    placeholder="Primary Brand Color *"
+                    placeholder="Primary Brand Color"
                   />
                 </div>
 
-                <label>Primary Brand Color *</label>
+                <label>Primary Brand Color</label>
               </div>
             </Col>
 
@@ -151,11 +151,11 @@ export default function ClubInformation() {
                     type="text"
                     value={secondaryColor}
                     onChange={(e) => setSecondaryColor(e.target.value)}
-                    placeholder="Secondary Brand Color *"
+                    placeholder="Secondary Color"
                   />
                 </div>
 
-                <label>Secondary Brand Color *</label>
+                <label>Secondary Color</label>
               </div>
             </Col>
           </Row>
@@ -165,7 +165,7 @@ export default function ClubInformation() {
       {/* Buttons */}
       <div className="action-buttons mt-5">
         <Button className="btn-cancel-outline" onClick={() => router.back()}>
-          Cancel
+          Back
         </Button>
 
         <Button
