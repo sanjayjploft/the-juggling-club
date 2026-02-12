@@ -40,9 +40,9 @@ export default function HowCoachesUseIt() {
           <div className="col-lg-4 step s4">
             <span>4</span>
             <p>
-              View progress anytime
+              You view progress
               <br />
-              <small>through your dashboard</small>
+              <small>anytime through your team dashboard</small>
             </p>
           </div>
           <div className="col-lg-4 step s5">
@@ -50,7 +50,7 @@ export default function HowCoachesUseIt() {
             <p>
               Send encouragement
               <br />
-              <small>to individuals or team</small>
+              <small>to individuals or the whole team</small>
             </p>
           </div>
           <div className="col-lg-4 step s6">
@@ -58,7 +58,7 @@ export default function HowCoachesUseIt() {
             <p>
               Celebrate achievements
               <br />
-              <small>and grow team culture</small>
+              <small>and watch team culture grow</small>
             </p>
           </div>
         </div>

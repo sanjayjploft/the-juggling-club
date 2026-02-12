@@ -82,11 +82,8 @@ export default function PlayerTestimonial() {
                     <span>11 years</span>
                   </div>
                 </div>
-                <h4>Ball Control & Touch</h4>
-                <p>
-                  My first touch is way better now. I feel more in control every
-                  time I get the ball.
-                </p>
+
+                <p>We can actually see the skill improvement week by week.</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -98,10 +95,10 @@ export default function PlayerTestimonial() {
                     <span>13 years</span>
                   </div>
                 </div>
-                <h4>Confidence</h4>
+
                 <p>
-                  I’m not scared to try skills anymore. I actually want the
-                  ball.
+                  My child is more confident not just in games, but in practice
+                  too.
                 </p>
               </div>
             </SwiperSlide>
@@ -114,10 +111,9 @@ export default function PlayerTestimonial() {
                     <span>10 years</span>
                   </div>
                 </div>
-                <h4>Fun & Gamified</h4>
+
                 <p>
-                  It feels like a game, not training. I just want to keep
-                  leveling up.
+                  They want to practice now. That’s been the biggest change.
                 </p>
               </div>
             </SwiperSlide>
@@ -130,8 +126,11 @@ export default function PlayerTestimonial() {
                     <span>12 years</span>
                   </div>
                 </div>
-                <h4>Motivation to Practice</h4>
-                <p>I practice every day just to keep my streak alive.</p>
+
+                <p>
+                  The attitude shift has been incredible more focus, less
+                  resistance.
+                </p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -143,11 +142,8 @@ export default function PlayerTestimonial() {
                     <span>11 years</span>
                   </div>
                 </div>
-                <h4>Ball Control & Touch</h4>
-                <p>
-                  My first touch is way better now. I feel more in control every
-                  time I get the ball.
-                </p>
+
+                <p>We can actually see the skill improvement week by week.</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -159,10 +155,10 @@ export default function PlayerTestimonial() {
                     <span>13 years</span>
                   </div>
                 </div>
-                <h4>Confidence</h4>
+
                 <p>
-                  I’m not scared to try skills anymore. I actually want the
-                  ball.
+                  My child is more confident not just in games, but in practice
+                  too.
                 </p>
               </div>
             </SwiperSlide>
@@ -175,10 +171,9 @@ export default function PlayerTestimonial() {
                     <span>10 years</span>
                   </div>
                 </div>
-                <h4>Fun & Gamified</h4>
+
                 <p>
-                  It feels like a game, not training. I just want to keep
-                  leveling up.
+                  They want to practice now. That’s been the biggest change.
                 </p>
               </div>
             </SwiperSlide>
@@ -191,8 +186,11 @@ export default function PlayerTestimonial() {
                     <span>12 years</span>
                   </div>
                 </div>
-                <h4>Motivation to Practice</h4>
-                <p>I practice every day just to keep my streak alive.</p>
+
+                <p>
+                  The attitude shift has been incredible more focus, less
+                  resistance.
+                </p>
               </div>
             </SwiperSlide>
           </Swiper>

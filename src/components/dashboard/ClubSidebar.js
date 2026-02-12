@@ -45,14 +45,14 @@ const menu = [
   {
     name: "Reports",
     href: "/reports",
-    icon: "/assets/image/settings.svg",
-    activeIcon: "/assets/image/settings-active.svg",
+    icon: "/assets/image/report-menu-icon.svg",
+    activeIcon: "/assets/image/report-menu-icon-active.svg",
   },
   {
     name: "Billing",
     href: "/billing-club",
-    icon: "/assets/image/settings.svg",
-    activeIcon: "/assets/image/settings-active.svg",
+    icon: "/assets/image/bill-menu-icon.svg",
+    activeIcon: "/assets/image/bill-menu-icon-active.svg",
   },
   {
     name: "Settings",

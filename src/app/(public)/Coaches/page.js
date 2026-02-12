@@ -102,7 +102,7 @@ export default function page() {
                       <div className="featureList-item">
                         <div className="icon-box">
                           <img
-                            src="/assets/image/coaching-review.svg"
+                            src="/assets/image/list-chekmark-icon.svg"
                             alt="App mock"
                             className="cover"
                           />
@@ -114,7 +114,7 @@ export default function page() {
                       <div className="featureList-item">
                         <div className="icon-box">
                           <img
-                            src="/assets/image/notifications.svg"
+                            src="/assets/image/list-chekmark-icon.svg"
                             alt="App mock"
                             className="cover"
                           />
@@ -126,7 +126,7 @@ export default function page() {
                       <div className="featureList-item">
                         <div className="icon-box">
                           <img
-                            src="/assets/image/skill-evaluation.svg"
+                            src="/assets/image/list-chekmark-icon.svg"
                             alt="App mock"
                             className="cover"
                           />
@@ -138,7 +138,7 @@ export default function page() {
                       <div className="featureList-item">
                         <div className="icon-box">
                           <img
-                            src="/assets/image/championship-trophy.svg"
+                            src="/assets/image/list-chekmark-icon.svg"
                             alt="App mock"
                             className="cover"
                           />
@@ -150,7 +150,7 @@ export default function page() {
                       <div className="featureList-item">
                         <div className="icon-box">
                           <img
-                            src="/assets/image/reminders-strak.svg"
+                            src="/assets/image/list-chekmark-icon.svg"
                             alt="App mock"
                             className="cover"
                           />

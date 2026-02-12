@@ -1,559 +1,105 @@
-[00:00:01.531] Server  LOG     ✓ Ready in 1063ms
-[00:00:01.534] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.676] Server  LOG     ✓ Ready in 1212ms
+[00:00:03.237] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:04.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:05.546] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:10.288] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:12.929] Server  LOG     ✓ Compiled in 146ms
-[00:06:22.048] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:09:27.873] Server  LOG     ✓ Compiled in 157ms
-[00:09:32.032] Server  LOG     ✓ Compiled in 160ms
-[00:09:56.328] Server  LOG     ✓ Compiled in 91ms
-[00:09:56.810] Browser ERROR   ./src/app/(dashboard)/dashboard.css:4820:13
-Parsing CSS source code failed
-  4818 |
-  4819 |
-> 4820 | billing-club
-       |             ^
+[00:00:05.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:06.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:15.908] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Unexpected end of input
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:11:15.908] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Server Component]
-[00:10:09.794] Server  LOG     ✓ Compiled in 125ms
-[00:12:14.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:45.906] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:09.382] Server  LOG     ✓ Compiled in 87ms
-[00:13:11.043] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:17.906] Server  LOG     ✓ Compiled in 77ms
-[00:13:20.110] Server  LOG     ✓ Compiled in 34ms
-[00:13:20.816] Browser ERROR   ./src/app/(dashboard)/dashboard.css:4823:1
-Parsing CSS source code failed
-  4821 | .subscription-page {
-  4822 |   m
-> 4823 | }
-       | ^
-  4824 |
-  4825 | .subscription-box {
-  4826 |   background: #052536;
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:11:15.908] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:12:12.312] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
 
-Unexpected end of input
+If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
+[00:12:12.313] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
 
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Server Component]
-[01:16:23.289] Server  LOG     ✓ Compiled in 219ms
-[01:16:29.681] Server  LOG     ✓ Compiled in 158ms
-[01:17:14.189] Server  LOG     ✓ Compiled in 77ms
-[01:18:41.295] Server  LOG     ✓ Compiled in 65ms
-[01:18:51.139] Server  LOG     ✓ Compiled in 95ms
-[01:19:00.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:20:26.035] Server  LOG     ✓ Compiled in 154ms
-[01:20:30.405] Server  LOG     ✓ Compiled in 129ms
-[01:20:33.674] Server  LOG     ✓ Compiled in 159ms
-[01:22:11.404] Server  LOG     ✓ Compiled in 194ms
-[01:22:22.153] Server  LOG     ✓ Compiled in 263ms
-[01:22:37.037] Server  LOG     ✓ Compiled in 146ms
-[01:22:45.794] Server  LOG     ✓ Compiled in 137ms
-[01:22:48.143] Server  LOG     ✓ Compiled in 128ms
-[01:22:49.031] Server  LOG     ✓ Compiled in 133ms
-[01:23:34.325] Server  LOG     ✓ Compiled in 215ms
-[01:23:41.244] Server  LOG     ✓ Compiled in 136ms
-[01:23:44.710] Server  LOG     ✓ Compiled in 176ms
-[01:23:50.369] Server  LOG     ✓ Compiled in 155ms
-[01:23:53.757] Server  LOG     ✓ Compiled in 147ms
-[01:23:56.562] Server  LOG     ✓ Compiled in 150ms
-[01:24:03.467] Server  LOG     ✓ Compiled in 181ms
-[01:24:06.667] Server  LOG     ✓ Compiled in 131ms
-[01:24:09.192] Server  LOG     ✓ Compiled in 119ms
-[01:24:36.784] Server  LOG     ✓ Compiled in 26ms
-[01:24:37.805] Browser ERROR   ./src/app/(dashboard)/dashboard.css:4840:1
-Parsing CSS source code failed
-  4838 |   line-height: normal;
-  4839 |   m
-> 4840 | }
-       | ^
-  4841 |
-  4842 | .subscription-box p {
-  4843 |   color: #fff;
+If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
+[00:12:12.629] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:12.851] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Unexpected end of input
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:12:12.851] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Server Component]
-[01:24:38.034] Server  LOG     ✓ Compiled in 92ms
-[01:24:46.206] Server  LOG     ✓ Compiled in 120ms
-[01:24:47.948] Server  LOG     ✓ Compiled in 36ms
-[01:24:48.814] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:44:62
-Parsing ecmascript source code failed
-  42 |                 </div>
-  43 |
-> 44 |                 <div className="badge paid-badge">PAID</span>
-     |                                                              ^
-> 45 |               </div>
-     | ^^^^^^^^^^^^^^^
-  46 |
-  47 |               <div className="team-info-grid subscription-box-info mx-0">
-  48 |                 <div className="team-grid-item">
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:14:55.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:56.087] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Expected '</', got 'jsx text (
-              )'
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:14:56.087] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:18:01.570] Server  LOG     ✓ Compiled in 176ms
+[00:18:03.701] Server  LOG     ✓ Compiled in 143ms
+[00:18:09.494] Server  LOG     ✓ Compiled in 185ms
+[00:18:11.144] Server  LOG     ✓ Compiled in 153ms
+[00:18:15.741] Server  LOG     ✓ Compiled in 138ms
+[00:18:17.571] Server  LOG     ✓ Compiled in 154ms
+[00:18:28.246] Server  LOG     ✓ Compiled in 131ms
+[00:18:31.522] Server  LOG     ✓ Compiled in 136ms
+[00:18:46.214] Server  LOG     ✓ Compiled in 101ms
+[00:18:47.219] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:19:04.081] Server  LOG     ✓ Compiled in 190ms
+[00:25:05.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:08.327] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:25:56.543] Server  LOG     ✓ Compiled in 127ms
+[00:26:10.858] Server  LOG     ✓ Compiled in 119ms
+[00:26:33.035] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:34.028] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:26:52.079] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:52.662] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:24:49.848] Server  LOG     ✓ Compiled in 82ms
-[01:24:53.552] Server  LOG     ✓ Compiled in 120ms
-[01:24:55.418] Server  LOG     ✓ Compiled in 143ms
-[01:24:56.635] Server  LOG     ✓ Compiled in 107ms
-[01:24:58.038] Server  LOG     ✓ Compiled in 159ms
-[01:25:01.425] Server  LOG     ✓ Compiled in 119ms
-[01:25:05.694] Server  LOG     ✓ Compiled in 82ms
-[01:25:15.075] Server  LOG     ✓ Compiled in 32ms
-[01:25:15.812] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:45:77
-Parsing ecmascript source code failed
-  43 |                 <div>
-  44 |                   <div className="badge paid-badge">PAID</div>
-> 45 |                   <div>Your subscription is active and in good standing.</p>
-     |                                                                             ^
-> 46 |                 </div>
-     | ^^^^^^^^^^^^^^^^^
-  47 |               </div>
-  48 |
-  49 |               <div className="team-info-grid subscription-box-info mx-0">
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:26:52.662] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Expected '</', got 'jsx text (
-                )'
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:28:18.027] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:18.569] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:28:18.569] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:25:18.808] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:45:80
-Parsing ecmascript source code failed
-  43 |                 <div>
-  44 |                   <div className="badge paid-badge">PAID</div>
-> 45 |                   <div>Your subscription is active and in good standing.</pdiv>
-     |                                                                                ^
-> 46 |                 </div>
-     | ^^^^^^^^^^^^^^^^^
-  47 |               </div>
-  48 |
-  49 |               <div className="team-info-grid subscription-box-info mx-0">
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:28:18.569] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-Expected '</', got 'jsx text (
-                )'
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
 
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:25:22.790] Server  LOG     ✓ Compiled in 198ms
-[01:25:25.966] Server  LOG     ✓ Compiled in 150ms
-[01:25:41.343] Server  LOG     ✓ Compiled in 160ms
-[01:25:43.098] Server  LOG     ✓ Compiled in 178ms
-[01:26:11.847] Server  LOG     ✓ Compiled in 51ms
-[01:26:36.052] Server  LOG     ✓ Compiled in 117ms
-[01:27:33.360] Server  LOG     ✓ Compiled in 227ms
-[01:27:37.647] Server  LOG     ✓ Compiled in 158ms
-[01:27:39.348] Server  LOG     ✓ Compiled in 165ms
-[01:28:06.265] Server  LOG     ✓ Compiled in 164ms
-[01:28:13.010] Server  LOG     ✓ Compiled in 101ms
-[01:28:21.860] Server  LOG     ✓ Compiled in 261ms
-[01:28:23.202] Server  LOG     ✓ Compiled in 153ms
-[01:28:23.878] Server  LOG     ✓ Compiled in 146ms
-[01:28:29.682] Server  LOG     ✓ Compiled in 126ms
-[01:28:32.442] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:29:29.225] Server  LOG     ✓ Compiled in 94ms
-[01:29:29.810] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:88:21
-Parsing ecmascript source code failed
-  86 |                     <h6>Tier 1 - Small Clubs</h6>
-  87 |                     <iv
-> 88 |                     <h4>$99</h4>
-     |                     ^
-  89 |                     <p className="small">1 - 500 players</p>
-  90 |                     <button className="btn upgrade-btn">
-  91 |                       UPGRADE TO TIER 1
+%s%s https://react.dev/link/hydration-mismatch 
 
-Expression expected
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Coaches" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
 
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:29:29.810] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:88:29
-Parsing ecmascript source code failed
-  86 |                     <h6>Tier 1 - Small Clubs</h6>
-  87 |                     <iv
-> 88 |                     <h4>$99</h4>
-     |                             ^^^^
-  89 |                     <p className="small">1 - 500 players</p>
-  90 |                     <button className="btn upgrade-btn">
-  91 |                       UPGRADE TO TIER 1
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:29:30.810] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:88:21
-Parsing ecmascript source code failed
-  86 |                     <h6>Tier 1 - Small Clubs</h6>
-  87 |                     <
-> 88 |                     <h4>$99</h4>
-     |                     ^
-  89 |                     <p className="small">1 - 500 players</p>
-  90 |                     <button className="btn upgrade-btn">
-  91 |                       UPGRADE TO TIER 1
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:29:30.810] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:88:29
-Parsing ecmascript source code failed
-  86 |                     <h6>Tier 1 - Small Clubs</h6>
-  87 |                     <
-> 88 |                     <h4>$99</h4>
-     |                             ^^^^
-  89 |                     <p className="small">1 - 500 players</p>
-  90 |                     <button className="btn upgrade-btn">
-  91 |                       UPGRADE TO TIER 1
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:29:47.927] Server  LOG     ✓ Compiled in 184ms
-[01:30:09.796] Server  LOG     ✓ Compiled in 174ms
-[01:30:14.654] Server  LOG     ✓ Compiled in 190ms
-[01:30:20.677] Server  LOG     ✓ Compiled in 163ms
-[01:30:24.780] Server  LOG     ✓ Compiled in 146ms
-[01:30:27.533] Server  LOG     ✓ Compiled in 141ms
-[01:30:54.728] Server  LOG     ✓ Compiled in 152ms
-[01:30:59.458] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:31:23.224] Server  LOG     ✓ Compiled in 203ms
-[01:31:25.561] Server  LOG     ✓ Compiled in 136ms
-[01:31:59.071] Server  LOG     ✓ Compiled in 220ms
-[01:32:12.801] Server  LOG     ✓ Compiled in 170ms
-[01:32:16.627] Server  LOG     ✓ Compiled in 86ms
-[01:32:56.651] Server  LOG     ✓ Compiled in 50ms
-[01:33:03.289] Server  LOG     ✓ Compiled in 273ms
-[01:33:05.961] Server  LOG     ✓ Compiled in 167ms
-[01:33:08.429] Server  LOG     ✓ Compiled in 200ms
-[01:33:10.378] Server  LOG     ✓ Compiled in 150ms
-[01:33:12.462] Server  LOG     ✓ Compiled in 126ms
-[01:33:15.057] Server  LOG     ✓ Compiled in 143ms
-[01:33:35.753] Server  LOG     ✓ Compiled in 45ms
-[01:33:58.814] Server  LOG     ✓ Compiled in 65ms
-[01:33:59.813] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:104:39
-Parsing ecmascript source code failed
-  102 |                     <div className="align-items-center d-flex justify-content-between">
-  103 |                       <div>
-> 104 |                         <span>$99</h4>
-      |                                       ^
-> 105 |                         <p className="small">1 - 500 players</p>
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^
-  106 |                       </div>
-  107 |                       <button className="btn upgrade-btn">
-  108 |                         UPGRADE TO TIER 1
-
-Expected '</', got 'jsx text (
-                        )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:34:08.239] Server  LOG     ✓ Compiled in 194ms
-[01:34:10.439] Server  LOG     ✓ Compiled in 183ms
-[01:34:32.154] Server  LOG     ✓ Compiled in 36ms
-[01:34:32.814] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:86:50
-Parsing ecmascript source code failed
-  84 |                 <div className="col-md-4">
-  85 |                   <div className="player-card tier-card">
-> 86 |                     <h3>Tier 1 - Small Clubs</h6>
-     |                                                  ^
-> 87 |                     <div className="align-items-center d-flex justify-content-between">
-     | ^^^^^^^^^^^^^^^^^^^^^
-  88 |                       <div>
-  89 |                         <span>$99</span>
-  90 |                         <p className="small">1 - 500 players</p>
-
-Expected '</', got 'jsx text (
-                    )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:34:38.103] Server  LOG     ✓ Compiled in 35ms
-[01:34:38.814] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:101:50
-Parsing ecmascript source code failed
-   99 |                 <div className="col-md-4">
-  100 |                   <div className="player-card tier-card">
-> 101 |                     <h3>Tier 1 - Small Clubs</h6>
-      |                                                  ^
-> 102 |                     <div className="align-items-center d-flex justify-content-between">
-      | ^^^^^^^^^^^^^^^^^^^^^
-  103 |                       <div>
-  104 |                         <span>$99</span>
-  105 |                         <p className="small">1 - 500 players</p>
-
-Expected '</', got 'jsx text (
-                    )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:34:44.226] Server  LOG     ✓ Compiled in 41ms
-[01:34:44.809] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:116:50
-Parsing ecmascript source code failed
-  114 |                 <div className="col-md-4">
-  115 |                   <div className="player-card tier-card">
-> 116 |                     <h3>Tier 1 - Small Clubs</h6>
-      |                                                  ^
-> 117 |                     <div className="align-items-center d-flex justify-content-between">
-      | ^^^^^^^^^^^^^^^^^^^^^
-  118 |                       <div>
-  119 |                         <span>$99</span>
-  120 |                         <p className="small">1 - 500 players</p>
-
-Expected '</', got 'jsx text (
-                    )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:35:24.644] Server  LOG     ✓ Compiled in 50ms
-[01:35:44.100] Server  LOG     ✓ Compiled in 178ms
-[01:35:51.255] Server  LOG     ✓ Compiled in 104ms
-[01:35:58.849] Server  LOG     ✓ Compiled in 156ms
-[01:36:01.416] Server  LOG     ✓ Compiled in 168ms
-[01:36:25.208] Server  LOG     ✓ Compiled in 47ms
-[01:37:00.392] Server  LOG     ✓ Compiled in 51ms
-[01:37:06.419] Server  LOG     ✓ Compiled in 40ms
-[01:37:06.812] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:105:68
-Parsing ecmascript source code failed
-  103 |                       <div>
-  104 |                         <span className="card-price-tier">$99</span>
-> 105 |                         <pdiv className="small">1 - 500 players</p>
-      |                                                                    ^
-> 106 |                       </div>
-      | ^^^^^^^^^^^^^^^^^^^^^^^
-  107 |                       <button className="btn upgrade-btn">
-  108 |                         UPGRADE TO TIER 1
-  109 |                       </button>
-
-Expected '</', got 'jsx text (
-                      )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:37:08.816] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:105:67
-Parsing ecmascript source code failed
-  103 |                       <div>
-  104 |                         <span className="card-price-tier">$99</span>
-> 105 |                         <div className="small">1 - 500 players</p>
-      |                                                                   ^
-> 106 |                       </div>
-      | ^^^^^^^^^^^^^^^^^^^^^^^
-  107 |                       <button className="btn upgrade-btn">
-  108 |                         UPGRADE TO TIER 1
-  109 |                       </button>
-
-Expected '</', got 'jsx text (
-                      )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:37:16.572] Server  LOG     ✓ Compiled in 196ms
-[01:37:19.228] Server  LOG     ✓ Compiled in 170ms
-[01:37:38.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:38:13.312] Server  LOG     ✓ Compiled in 47ms
-[01:38:37.390] Server  LOG     ✓ Compiled in 322ms
-[01:38:42.625] Server  LOG     ✓ Compiled in 252ms
-[01:38:47.783] Server  LOG     ✓ Compiled in 258ms
-[01:38:53.099] Server  LOG     ✓ Compiled in 159ms
-[01:39:01.555] Server  LOG     ✓ Compiled in 289ms
-[01:39:06.693] Server  LOG     ✓ Compiled in 125ms
-[01:39:11.336] Server  LOG     ✓ Compiled in 172ms
-[01:39:14.705] Server  LOG     ✓ Compiled in 145ms
-[01:39:36.833] Server  LOG     ✓ Compiled in 205ms
-[01:39:50.179] Server  LOG     ✓ Compiled in 152ms
-[01:39:52.782] Server  LOG     ✓ Compiled in 145ms
-[01:39:57.798] Server  LOG     ✓ Compiled in 170ms
-[01:40:00.921] Server  LOG     ✓ Compiled in 130ms
-[01:40:03.560] Server  LOG     ✓ Compiled in 152ms
-[01:40:04.845] Server  LOG     ✓ Compiled in 132ms
-[01:40:21.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:40:51.175] Server  LOG     ✓ Compiled in 261ms
-[01:42:06.255] Server  LOG     ✓ Compiled in 44ms
-[01:42:10.305] Server  LOG     ✓ Compiled in 57ms
-[01:42:13.740] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:42:26.442] Server  LOG     ✓ Compiled in 549ms
-[01:42:30.476] Server  LOG     ✓ Compiled in 307ms
-[01:42:34.723] Server  LOG     ✓ Compiled in 231ms
-[01:42:37.684] Server  LOG     ✓ Compiled in 229ms
-[01:42:41.030] Server  LOG     ✓ Compiled in 165ms
-[01:42:45.187] Server  LOG     ✓ Compiled in 159ms
-[01:42:52.746] Server  LOG     ✓ Compiled in 197ms
-[01:42:56.304] Server  LOG     ✓ Compiled in 169ms
-[01:42:59.950] Server  LOG     ✓ Compiled in 117ms
-[01:43:04.501] Server  LOG     ✓ Compiled in 145ms
-[01:43:19.317] Server  LOG     ✓ Compiled in 262ms
-[01:43:27.547] Server  LOG     ✓ Compiled in 107ms
-[01:43:34.338] Server  LOG     ✓ Compiled in 137ms
-[01:44:07.802] Server  LOG     ✓ Compiled in 146ms
-[01:44:11.410] Server  LOG     ✓ Compiled in 165ms
-[01:44:30.842] Server  LOG     ✓ Compiled in 221ms
-[01:44:32.344] Server  LOG     ✓ Compiled in 159ms
-[01:44:40.685] Server  LOG     ✓ Compiled in 161ms
-[01:44:59.289] Server  LOG     ✓ Compiled in 142ms
-[01:45:34.146] Server  LOG     ✓ Compiled in 195ms
-[01:45:46.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:46:11.657] Server  LOG     ✓ Compiled in 169ms
-[01:46:47.212] Server  LOG     ✓ Compiled in 172ms
-[01:46:50.264] Server  LOG     ✓ Compiled in 108ms
-[01:46:52.766] Server  LOG     ✓ Compiled in 89ms
-[01:46:54.953] Server  LOG     ✓ Compiled in 215ms
-[01:47:03.496] Server  LOG     ✓ Compiled in 87ms
-[01:49:08.637] Server  LOG     ✓ Compiled in 184ms
-[01:49:08.803] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
-[01:49:19.436] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:49:19.446] Server  LOG     ✓ Compiled in 135ms
-[01:49:19.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:49:45.690] Server  LOG     ✓ Compiled in 145ms
-[01:49:51.448] Server  LOG     ✓ Compiled in 439ms
-[01:49:55.588] Server  LOG     ✓ Compiled in 177ms
-[01:49:57.584] Server  LOG     ✓ Compiled in 193ms
-[01:50:04.343] Server  LOG     ✓ Compiled in 142ms
-[01:50:16.476] Server  LOG     ✓ Compiled in 363ms
-[01:56:18.368] Server  LOG     ✓ Compiled in 59ms
-[01:56:18.811] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:124:32
-Parsing ecmascript source code failed
-  122 |                       <Link className="btn upgrade-btn">
-  123 |                         Upgrade to Tier 3
-> 124 |                       </button>
-      |                                ^
-> 125 |                     </div>
-      | ^^^^^^^^^^^^^^^^^^^^^
-  126 |                   </div>
-  127 |                 </div>
-  128 |               </div>
-
-Expected '</', got 'jsx text (
-                    )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:56:22.811] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
-Open your browser's console to view the Component stack trace.
-[01:56:23.549] Server  LOG     ✓ Compiled in 73ms
-[01:56:23.808] Browser ERROR   ./src/app/(clubpanel)/billing-club/page.js:122:37
-Parsing ecmascript source code failed
-  120 |                         <div className="small">1,001+ players</div>
-  121 |                       </div>
-> 122 |                       <Link href={} className="btn upgrade-btn">Upgrade to Tier 3</Link>
-      |                                     ^^^^^^^^^
-  123 |                     </div>
-  124 |                   </div>
-  125 |                 </div>
-
-Expected '</', got 'className'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/billing-club/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/billing-club/page.js [Server Component]
-[01:56:26.246] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:56:26.938] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:56:28.474] Server  LOG     ✓ Compiled in 149ms
-[01:56:31.912] Server  LOG     ✓ Compiled in 294ms
-[01:56:34.079] Server  LOG     ✓ Compiled in 194ms
-[01:56:36.617] Server  LOG     ✓ Compiled in 204ms
-[01:56:38.263] Server  LOG     ✓ Compiled in 208ms
-[01:56:56.920] Server  LOG     ✓ Compiled in 199ms
-[01:57:06.917] Server  LOG     ✓ Compiled in 278ms
+[00:30:08.457] Server  LOG     ✓ Compiled in 227ms
+[00:30:11.395] Server  LOG     ✓ Compiled in 38ms
+[00:30:12.500] Server  LOG     ✓ Compiled in 50ms
+[00:30:17.131] Server  LOG     ✓ Compiled in 43ms
+[00:30:21.447] Server  LOG     ✓ Compiled in 51ms
+[00:30:22.482] Server  LOG     ✓ Compiled in 75ms
+[00:31:00.785] Server  LOG     ✓ Compiled in 49ms
