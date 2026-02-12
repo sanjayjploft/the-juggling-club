@@ -280,10 +280,10 @@ export default function HomePage() {
                 <img src="/assets/image/facebook-icon.svg" />
               </Link>
               <Link href="">
-                <img src="/assets/image/instagram-icon.svg" />
+                <img src="/assets/image/twitter-icon.svg" />
               </Link>
               <Link href="">
-                <img src="/assets/image/twitter-icon.svg" />
+                <img src="/assets/image/instagram-icon.svg" />
               </Link>
             </div>
           </Col>

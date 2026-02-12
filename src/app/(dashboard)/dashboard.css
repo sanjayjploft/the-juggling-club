@@ -4766,3 +4766,52 @@ hr {
 .auto-generated-code.rewards-work {
   margin: 0px 15px;
 }
+
+/* ========== Reports ============== */
+
+.card-line-cms ul li:not(:last-child) {
+  border-bottom: 1px solid #9494944d;
+  padding-bottom: 5px;
+}
+.card-cms-heading h4 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-line-cms .player-card {
+  justify-content: start !important;
+}
+
+.filter-btn-outline {
+  border-radius: 150px;
+  border: 1px solid var(--Primary-Neon-Red, #ff073a);
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--Primary-Neon-Red, #ff073a);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+
+.status {
+  padding: 2px 10px;
+  width: max-content;
+  border-radius: 25px;
+}
+.status.bg-green-tbl {
+  background: #38c600;
+}
+.status.bg-blue-tbl {
+  background: #0a5fff;
+}
