@@ -5105,6 +5105,24 @@ img.calendar-icon-inp {
   line-height: normal;
   display: block;
 }
+.settings-sub-heading h6 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.settings-sub-heading p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 @media (max-width: 1400px) {
   .player-avatar-info {
     width: 92%;
