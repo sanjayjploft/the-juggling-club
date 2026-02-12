@@ -784,7 +784,7 @@ img.simbl-icon {
   gap: 16px;
 }
 
-.btn-primary {
+.cta-buttons .btn-primary {
   background: #ff2b3c;
   color: #fff;
   border: none;
@@ -1521,7 +1521,7 @@ input::placeholder {
 }
 
 .section-title {
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 70px;
   letter-spacing: 1px;
 }
@@ -1831,7 +1831,7 @@ input::placeholder {
   font-family: "Bebas Neue";
   font-size: 70px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
 }
 .contct-mn h1 span {

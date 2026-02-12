@@ -458,7 +458,7 @@ a {
 .stat-card span {
   display: block;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .stat-card p {
@@ -479,7 +479,7 @@ a {
 
 .journey-header h4 {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .journey-country {
@@ -1049,7 +1049,7 @@ a {
 
 .nextup-card .title {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .nextup-card small {

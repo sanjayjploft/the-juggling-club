@@ -26,6 +26,11 @@ export default function page() {
                 <p className="hero__subtitle">
                   Help your child build a growth mindset.
                 </p>
+                <div className="rowBtns rowBtns--left">
+                  <Link href="/login" className="btn btn--primary">
+                    Join Now
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

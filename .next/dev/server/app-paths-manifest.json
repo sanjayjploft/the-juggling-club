@@ -1,9 +1,22 @@
 {
   "/(clubpanel)/(clubauth)/club-information/page": "app/(clubpanel)/(clubauth)/club-information/page.js",
   "/(clubpanel)/club-settings/page": "app/(clubpanel)/club-settings/page.js",
-  "/(clubpanel)/dashboardclub/page": "app/(clubpanel)/dashboardclub/page.js",
   "/(clubpanel)/reports/page": "app/(clubpanel)/reports/page.js",
+  "/(coachpanel)/(clubauth)/signup-coach/page": "app/(coachpanel)/(clubauth)/signup-coach/page.js",
+  "/(coachpanel)/analytics/page": "app/(coachpanel)/analytics/page.js",
+  "/(coachpanel)/coach-messages/page": "app/(coachpanel)/coach-messages/page.js",
   "/(coachpanel)/coach-rewards/page": "app/(coachpanel)/coach-rewards/page.js",
   "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js"
+  "/(coachpanel)/player-progress/page": "app/(coachpanel)/player-progress/page.js",
+  "/(coachpanel)/teams-groups/page": "app/(coachpanel)/teams-groups/page.js",
+  "/(dashboard)/(parentauth)/login/page": "app/(dashboard)/(parentauth)/login/page.js",
+  "/(dashboard)/Playerdetails/page": "app/(dashboard)/Playerdetails/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(public)/Clubs/page": "app/(public)/Clubs/page.js",
+  "/(public)/Coaches/page": "app/(public)/Coaches/page.js",
+  "/(public)/Contact/page": "app/(public)/Contact/page.js",
+  "/(public)/FAQ/page": "app/(public)/FAQ/page.js",
+  "/(public)/Parents/page": "app/(public)/Parents/page.js",
+  "/(public)/Players/page": "app/(public)/Players/page.js",
+  "/(public)/page": "app/(public)/page.js"
 }

@@ -13,14 +13,20 @@ export default function DashboardPage() {
           <div className="top-heading">
             <h4>Dashboard</h4>
             <div className="filter-by-days">
-              <Button className="ft-btn active">Last 7 days</Button>
-              <Button className="ft-btn">30 days </Button>
-              <Button className="ft-btn">All time</Button>
+              <button className="ft-btn active">Last 7 days</button>
+              <button className="ft-btn">30 days </button>
+              <button className="ft-btn">90 days </button>
+              <button className="ft-btn">All time</button>
+              <Link href="/details" className="btn admin-btn-primary">
+                + Add Player
+              </Link>
             </div>
           </div>
-          <Link href="/details" className="btn admin-btn-primary">
-            + Add Player
-          </Link>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
 
         {/* CONTENT */}

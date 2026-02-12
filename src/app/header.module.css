@@ -28,7 +28,7 @@
   font-weight: 800;
   font-size: 12px;
 }
-.brandText{ font-weight: 700; }
+.brandText{ font-weight: 400; }
 
 .nav{ display:none; gap:22px; }
 .navLink{

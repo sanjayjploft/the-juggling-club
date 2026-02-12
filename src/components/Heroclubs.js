@@ -24,7 +24,7 @@ export default function Heroclubs() {
                 build your club's brand.
               </p>
               <div className="rowBtns rowBtns--left">
-                <Link href="" className="btn btn--primary">
+                <Link href="/club-information" className="btn btn--primary">
                   Join Now
                 </Link>
               </div>

@@ -117,7 +117,7 @@ export default function DashboardPage() {
             </div>
           </div>
           <Row className="mt-5">
-            <Col lg={8}>
+            <Col lg={7} xs={12} className="mb-xs-4">
               <div className="quick-actions-style-2 player-card">
                 <h4>Quick Actions</h4>
 
@@ -145,7 +145,7 @@ export default function DashboardPage() {
                 </div>
               </div>
             </Col>
-            <Col md={4}>
+            <Col lg={5} xs={12}>
               <div className="player-card">
                 <h4 className="mb-0">Players Need Encouragement</h4>
                 <p className="sub-text">Haven’t heard from you in 3+ days</p>

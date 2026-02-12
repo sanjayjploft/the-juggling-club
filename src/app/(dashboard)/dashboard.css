@@ -115,6 +115,10 @@ a {
   width: -webkit-fill-available;
   max-width: 75%;
 }
+.msar-sidebar.is-collapsed .msar-logout {
+  padding: 14px 14px 14px 17px;
+  max-width: max-content;
+}
 
 /* ===== MAIN ===== */
 .msar-main {
@@ -481,7 +485,7 @@ a {
 .stat-card span {
   display: block;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .stat-card p {
@@ -502,7 +506,7 @@ a {
 
 .journey-header h4 {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .journey-country {
@@ -1076,7 +1080,7 @@ a {
 
 .nextup-card .title {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .nextup-card small {
@@ -3444,6 +3448,7 @@ input.search-inp::placeholder {
   text-decoration: none;
 }
 .btn-primary {
+  background: var(--Primary-Neon-Red, #ff073a);
   color: var(--White, #fff);
   text-align: center;
   font-family: "Bebas Neue";
@@ -5177,5 +5182,35 @@ img.calendar-icon-inp {
   }
   br {
     display: none;
+  }
+  .insrt-text {
+    transform: translateX(56%);
+  }
+}
+@media (max-width: 1024px) {
+  .tabb {
+    padding: 12px 7px;
+  }
+  .tabbs {
+    gap: 15px;
+  }
+  .overview-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card-grid-box {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  .quick-actions-style-2 .quick-actions-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+  .quick-actions-style-2 .quick-actions-grid a h4 {
+    font-size: 14px;
+  }
+  .quick-actions-style-2 .quick-actions-grid a img {
+    width: 36px;
+  }
+  .player-card-in {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }

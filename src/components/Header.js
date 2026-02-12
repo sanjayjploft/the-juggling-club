@@ -82,16 +82,16 @@ export default function Header() {
           </Link>
 
           <div className="navCtas mobile-cta">
-            <Link href="#" className="btn btn--primary">
-              Sign up
+            <Link href="/login" className="btn btn--primary">
+              Sign in
             </Link>
           </div>
         </nav>
 
         {/* Desktop CTA */}
         <div className="navCtas desktop-cta">
-          <Link href="#" className="btn btn--primary">
-            Sign up
+          <Link href="/login" className="btn btn--primary">
+            Sign in
           </Link>
         </div>
       </div>

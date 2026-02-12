@@ -27,6 +27,11 @@ export default function page() {
                   Motivate your players with skill challenges and positive
                   reinforcement.
                 </p>
+                <div className="rowBtns rowBtns--left">
+                  <Link href="/signup-coach" className="btn btn--primary">
+                    Join Now
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
