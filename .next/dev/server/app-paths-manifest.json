@@ -1,7 +1,5 @@
 {
   "/(clubpanel)/club-settings/page": "app/(clubpanel)/club-settings/page.js",
   "/(clubpanel)/reports/page": "app/(clubpanel)/reports/page.js",
-  "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
-  "/(coachpanel)/organizations/page": "app/(coachpanel)/organizations/page.js",
-  "/(dashboard)/(parentauth)/login/page": "app/(dashboard)/(parentauth)/login/page.js"
+  "/(dashboard)/NotificationsSettings/page": "app/(dashboard)/NotificationsSettings/page.js"
 }

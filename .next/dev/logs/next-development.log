@@ -1,10 +1,17 @@
-[00:00:01.730] Server  LOG     ✓ Ready in 1250ms
-[00:00:02.078] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.709] Server  LOG     ✓ Ready in 1240ms
+[00:00:01.712] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:02.767] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:00:03.578] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:03.798] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:00:03.799] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:04.495] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:04.496] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:04.497] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:04.498] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:04.499] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:04.500] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:04.501] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:04.502] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:05.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.369] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.431] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -22,7 +29,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/reports" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -39,463 +46,49 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:00:11.604] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:27.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:05.898] Server  LOG     ✓ Compiled in 129ms
-[00:04:08.230] Server  LOG     ✓ Compiled in 86ms
-[00:04:10.046] Server  LOG     ✓ Compiled in 72ms
-[00:04:47.165] Server  LOG     ✓ Compiled in 103ms
-[00:05:12.712] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:15.078] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:26.924] Server  LOG     ✓ Compiled in 111ms
-[00:06:22.231] Server  LOG     ✓ Compiled in 149ms
-[00:06:29.439] Server  LOG     ✓ Compiled in 110ms
-[00:06:30.049] Server  LOG     ✓ Compiled in 97ms
-[00:06:38.613] Server  LOG     ✓ Compiled in 95ms
-[00:06:41.810] Server  LOG     ✓ Compiled in 196ms
-[00:07:31.849] Server  LOG     ✓ Compiled in 110ms
-[00:07:33.252] Server  LOG     ✓ Compiled in 102ms
-[00:07:35.538] Server  LOG     ✓ Compiled in 114ms
-[00:07:43.264] Server  LOG     ✓ Compiled in 103ms
-[00:07:44.879] Server  LOG     ✓ Compiled in 121ms
-[00:07:52.521] Server  LOG     ✓ Compiled in 92ms
-[00:08:53.844] Server  LOG     ✓ Compiled in 267ms
-[00:08:56.830] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:10.020] Server  LOG     ✓ Compiled in 110ms
-[00:09:11.125] Server  LOG     ✓ Compiled in 122ms
-[00:09:19.764] Server  LOG     ✓ Compiled in 38ms
-[00:09:20.071] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:49:51
-Parsing ecmascript source code failed
-  47 |               <Col md={5}>
-  48 |                 <Form.Floating className="mb-4">
-> 49 |                   <Form.Control value={Manchester United Youth Academy} />
-     |                                                   ^^^^^^
-  50 |                   <label>Club Name</label>
-  51 |                 </Form.Floating>
-  52 |               </Col>
+[00:00:06.432] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:06.432] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:06.432] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:06.432] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:06.432] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:06.432] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:06.432] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:06.432] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:06.432] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-Expected '</', got 'United'
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
 
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:09:20.072] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:49:51
-Parsing ecmascript source code failed
-  47 |               <Col md={5}>
-  48 |                 <Form.Floating className="mb-4">
-> 49 |                   <Form.Control value={Manchester United Youth Academy} />
-     |                                                   ^^^^^^
-  50 |                   <label>Club Name</label>
-  51 |                 </Form.Floating>
-  52 |               </Col>
+%s%s https://react.dev/link/hydration-mismatch 
 
-Expected '</', got 'United'
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/club-sett..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
 
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:09:23.076] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
-[00:09:39.222] Server  LOG     ✓ Compiled in 150ms
-[00:09:43.049] Server  LOG     ✓ Compiled in 142ms
-[00:09:46.613] Server  LOG     ✓ Compiled in 128ms
-[00:09:50.589] Server  LOG     ✓ Compiled in 128ms
-[00:09:55.728] Server  LOG     ✓ Compiled in 97ms
-[00:09:57.619] Server  LOG     ✓ Compiled in 133ms
-[00:10:03.604] Server  LOG     ✓ Compiled in 87ms
-[00:10:04.074] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true pv pv true pv
-[00:10:06.201] Server  LOG     ✓ Compiled in 47ms
-[00:10:07.073] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:62:43
-Parsing ecmascript source code failed
-  60 |               <Col md={5}>
-  61 |                 <Form.Floating className="mb-4">
-> 62 |                   <Form.Control value={} />
-     |                                           ^
-  63 |                   <label>Contact Email</label>
-  64 |                 </Form.Floating>
-  65 |               </Col>
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:10:07.073] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:64:18
-Parsing ecmascript source code failed
-  62 |                   <Form.Control value={} />
-  63 |                   <label>Contact Email</label>
-> 64 |                 </Form.Floating>
-     |                  ^^^^^^^^^^^^^^^
-  65 |               </Col>
-  66 |               <Col md={5}>
-  67 |                 <Form.Floating className="mb-4">
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:10:07.073] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:62:43
-Parsing ecmascript source code failed
-  60 |               <Col md={5}>
-  61 |                 <Form.Floating className="mb-4">
-> 62 |                   <Form.Control value={} />
-     |                                           ^
-  63 |                   <label>Contact Email</label>
-  64 |                 </Form.Floating>
-  65 |               </Col>
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:10:07.073] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:64:18
-Parsing ecmascript source code failed
-  62 |                   <Form.Control value={} />
-  63 |                   <label>Contact Email</label>
-> 64 |                 </Form.Floating>
-     |                  ^^^^^^^^^^^^^^^
-  65 |               </Col>
-  66 |               <Col md={5}>
-  67 |                 <Form.Floating className="mb-4">
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:10:14.600] Server  LOG     ✓ Compiled in 113ms
-[00:10:16.659] Server  LOG     ✓ Compiled in 110ms
-[00:10:20.051] Server  LOG     ✓ Compiled in 107ms
-[00:10:25.464] Server  LOG     ✓ Compiled in 114ms
-[00:11:30.121] Server  LOG     ✓ Compiled in 143ms
-[00:11:47.005] Server  LOG     ✓ Compiled in 119ms
-[00:11:48.077] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:48.077] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:48.077] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:48.077] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:50.824] Server  LOG     ✓ Compiled in 137ms
-[00:11:59.865] Server  LOG     ✓ Compiled in 329ms
-[00:12:03.152] Server  LOG     ✓ Compiled in 183ms
-[00:12:08.144] Server  LOG     ✓ Compiled in 171ms
-[00:12:11.924] Server  LOG     ✓ Compiled in 116ms
-[00:12:16.853] Server  LOG     ✓ Compiled in 194ms
-[00:12:21.788] Server  LOG     ✓ Compiled in 336ms
-[00:12:27.904] Server  LOG     ✓ Compiled in 137ms
-[00:12:32.922] Server  LOG     ✓ Compiled in 120ms
-[00:12:36.242] Server  LOG     ✓ Compiled in 111ms
-[00:14:44.899] Server  LOG     ✓ Compiled in 182ms
-[00:14:45.066] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:45.066] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:45.066] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:50.088] Server  LOG     ✓ Compiled in 152ms
-[00:14:50.788] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:15:02.566] Server  LOG     ✓ Compiled in 85ms
-[00:15:17.626] Server  LOG     ✓ Compiled in 176ms
-[00:15:27.569] Server  LOG     ✓ Compiled in 129ms
-[00:15:30.976] Server  LOG     ✓ Compiled in 181ms
-[00:15:37.421] Server  LOG     ✓ Compiled in 36ms
-[00:15:38.067] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:123:15
-Parsing ecmascript source code failed
-  121 |             </div>
-  122 |           </div>
-> 123 |         </div>
-      |               ^
-> 124 |       </main>
-      | ^^^^^^^
-  125 |     </div>
-  126 |   );
-  127 | }
-
-Expected '</', got 'jsx text (
-      )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:15:38.067] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:123:15
-Parsing ecmascript source code failed
-  121 |             </div>
-  122 |           </div>
-> 123 |         </div>
-      |               ^
-> 124 |       </main>
-      | ^^^^^^^
-  125 |     </div>
-  126 |   );
-  127 | }
-
-Expected '</', got 'jsx text (
-      )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:15:38.067] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:123:15
-Parsing ecmascript source code failed
-  121 |             </div>
-  122 |           </div>
-> 123 |         </div>
-      |               ^
-> 124 |       </main>
-      | ^^^^^^^
-  125 |     </div>
-  126 |   );
-  127 | }
-
-Expected '</', got 'jsx text (
-      )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:15:38.067] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:123:15
-Parsing ecmascript source code failed
-  121 |             </div>
-  122 |           </div>
-> 123 |         </div>
-      |               ^
-> 124 |       </main>
-      | ^^^^^^^
-  125 |     </div>
-  126 |   );
-  127 | }
-
-Expected '</', got 'jsx text (
-      )'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:15:44.505] Server  LOG     ✓ Compiled in 236ms
-[00:15:49.206] Server  LOG     ✓ Compiled in 159ms
-[00:15:57.420] Server  LOG     ✓ Compiled in 145ms
-[00:16:17.945] Server  LOG     ✓ Compiled in 44ms
-[00:16:18.076] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:129:9
-Parsing ecmascript source code failed
-  127 |           </div>
-  128 |           <div className=""
-> 129 |         </div>
-      |         ^
-  130 |       </main>
-  131 |     </div>
-  132 |   );
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:16:18.076] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:129:10
-Parsing ecmascript source code failed
-  127 |           </div>
-  128 |           <div className=""
-> 129 |         </div>
-      |          ^^^^^
-  130 |       </main>
-  131 |     </div>
-  132 |   );
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:16:18.076] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:129:9
-Parsing ecmascript source code failed
-  127 |           </div>
-  128 |           <div className=""
-> 129 |         </div>
-      |         ^
-  130 |       </main>
-  131 |     </div>
-  132 |   );
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:16:18.076] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:129:10
-Parsing ecmascript source code failed
-  127 |           </div>
-  128 |           <div className=""
-> 129 |         </div>
-      |          ^^^^^
-  130 |       </main>
-  131 |     </div>
-  132 |   );
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:16:22.843] Server  LOG     ✓ Compiled in 234ms
-[00:16:26.004] Server  LOG     ✓ Compiled in 192ms
-[00:16:29.898] Server  LOG     ✓ Compiled in 39ms
-[00:16:30.069] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:130:11
-Parsing ecmascript source code failed
-  128 |           <div className="mt-3">
-  129 |             <Link href={}
-> 130 |           </div>
-      |           ^
-  131 |         </div>
-  132 |       </main>
-  133 |     </div>
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:16:30.069] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:130:12
-Parsing ecmascript source code failed
-  128 |           <div className="mt-3">
-  129 |             <Link href={}
-> 130 |           </div>
-      |            ^^^^^
-  131 |         </div>
-  132 |       </main>
-  133 |     </div>
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:16:30.069] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:130:11
-Parsing ecmascript source code failed
-  128 |           <div className="mt-3">
-  129 |             <Link href={}
-> 130 |           </div>
-      |           ^
-  131 |         </div>
-  132 |       </main>
-  133 |     </div>
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:16:30.069] Browser ERROR   ./src/app/(clubpanel)/club-settings/page.js:130:12
-Parsing ecmascript source code failed
-  128 |           <div className="mt-3">
-  129 |             <Link href={}
-> 130 |           </div>
-      |            ^^^^^
-  131 |         </div>
-  132 |       </main>
-  133 |     </div>
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/club-settings/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/club-settings/page.js [Server Component]
-[00:16:42.431] Server  LOG     ✓ Compiled in 182ms
-[00:16:44.366] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:16:52.441] Server  LOG     ✓ Compiled in 224ms
-[00:16:55.083] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:16:55.083] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:16:55.083] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:16:55.083] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:16:55.083] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:16:55.083] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:16:55.083] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:17:03.034] Server  LOG     ✓ Compiled in 150ms
-[00:17:05.039] Server  LOG     ✓ Compiled in 143ms
-[00:17:09.149] Server  LOG     ✓ Compiled in 165ms
+[00:00:36.749] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:36.749] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:58.248] Server  LOG     ✓ Compiled in 142ms

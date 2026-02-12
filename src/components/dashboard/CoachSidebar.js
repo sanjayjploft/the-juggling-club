@@ -57,7 +57,7 @@ const menu = [
 
   {
     name: "Settings",
-    href: "/settings-coach",
+    href: "/club-settings",
     icon: "/assets/image/settings.svg",
     activeIcon: "/assets/image/settings-active.svg",
   },
