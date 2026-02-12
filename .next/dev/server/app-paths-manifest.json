@@ -1,7 +1,7 @@
 {
-  "/(clubpanel)/club-codes/page": "app/(clubpanel)/club-codes/page.js",
+  "/(clubpanel)/billing-club/page": "app/(clubpanel)/billing-club/page.js",
   "/(clubpanel)/reports/page": "app/(clubpanel)/reports/page.js",
-  "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
-  "/(dashboard)/NotificationsSettings/page": "app/(dashboard)/NotificationsSettings/page.js",
+  "/(dashboard)/Billing/page": "app/(dashboard)/Billing/page.js",
+  "/(dashboard)/Subscription/page": "app/(dashboard)/Subscription/page.js",
   "/_not-found/page": "app/_not-found/page.js"
 }

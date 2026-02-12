@@ -2217,6 +2217,7 @@ textarea {
   padding: 14px 16px;
   text-align: left;
   font-family: Avenir;
+  color: #fff;
 }
 .billing-table th {
   font-size: 15;
@@ -4814,4 +4815,148 @@ hr {
 }
 .status.bg-blue-tbl {
   background: #0a5fff;
+}
+
+/* Billing Club */
+
+.subscription-page {
+  margin: 0px 15px;
+}
+
+.subscription-box {
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #565656;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+}
+
+.subscription-box h6 {
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.subscription-box p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.subscription-box-info {
+  border-radius: 20px;
+  border: 1px solid var(--Primary-Badge-Blue, #0a5fff);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  margin-top: 15px;
+}
+.stat-item {
+  border-right: 1px solid #0c3b55;
+}
+.stat-item:last-child {
+  border-right: none;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #9ec7d8;
+}
+
+.paid-badge {
+  background: #38c600;
+  border-radius: 20px;
+  padding: 4px 10px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.badge-explin {
+  color: var(--Gray, #949494);
+  text-align: right;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 3px;
+}
+
+.upgrade-btn {
+  background: #ff3b3b;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.tier-card h3 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 35px;
+}
+.card-price-tier {
+  color: var(--Primary-Burst-Yellow, #f0ff00);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.player-card.tier-card small {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.note-text {
+  font-size: 12px;
+  color: #9ec7d8;
+}
+
+.custom-table {
+  color: #fff;
+}
+.custom-table th {
+  font-size: 12px;
+  color: #9ec7d8;
+}
+.custom-table td {
+  font-size: 13px;
+}
+
+.upgrade-btn {
+  margin-top: 10px;
+  border-radius: 150px;
+  background: var(--Primary-Neon-Red, #ff073a);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+  .stat-item {
+    border-right: none;
+    margin-bottom: 10px;
+  }
 }

@@ -50,7 +50,7 @@ const menu = [
   },
   {
     name: "Billing",
-    href: "/billing",
+    href: "/billing-club",
     icon: "/assets/image/settings.svg",
     activeIcon: "/assets/image/settings-active.svg",
   },
