@@ -2,7 +2,7 @@
 
 import { useState, useRef } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
-import CoachSidebar from "../../../components/dashboard/CoachSidebar";
+import ClubSidebar from "../../../components/dashboard/ClubSidebar";
 import Link from "next/link";
 
 export default function DashboardPage() {
@@ -10,7 +10,7 @@ export default function DashboardPage() {
   const fileInputRef = useRef(null);
   return (
     <div className="msar-dashboard-wrapper">
-      <CoachSidebar />
+      <ClubSidebar />
 
       <main className="msar-main">
         {/* HEADER */}

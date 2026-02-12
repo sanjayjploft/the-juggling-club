@@ -1,7 +1,7 @@
 {
-  "/(clubpanel)/club-management/page": "app/(clubpanel)/club-management/page.js",
-  "/(clubpanel)/club-players/page": "app/(clubpanel)/club-players/page.js",
-  "/(clubpanel)/club-teams/page": "app/(clubpanel)/club-teams/page.js",
+  "/(clubpanel)/club-codes/page": "app/(clubpanel)/club-codes/page.js",
   "/(clubpanel)/reports/page": "app/(clubpanel)/reports/page.js",
+  "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
+  "/(dashboard)/NotificationsSettings/page": "app/(dashboard)/NotificationsSettings/page.js",
   "/_not-found/page": "app/_not-found/page.js"
 }
