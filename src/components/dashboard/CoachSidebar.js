@@ -15,14 +15,14 @@ const menu = [
   {
     name: "Teams/Groups",
     href: "/teams-groups",
-    icon: "/assets/image/notifications-login.svg",
-    activeIcon: "/assets/image/notifications-active.svg",
+    icon: "/assets/image/teams-groups-menu.svg",
+    activeIcon: "/assets/image/teams-groups-menu-active.svg",
   },
   {
     name: "Player Progress",
     href: "/player-progress",
-    icon: "/assets/image/account.svg",
-    activeIcon: "/assets/image/account-active.svg",
+    icon: "/assets/image/player-progress-menu.svg",
+    activeIcon: "/assets/image/player-progress-menu-active.svg",
   },
   {
     name: "Analytics",
@@ -39,8 +39,8 @@ const menu = [
   {
     name: "Leaderboard",
     href: "/leaderboard",
-    icon: "/assets/image/support.svg",
-    activeIcon: "/assets/image/support-active.svg",
+    icon: "/assets/image/leaderboard-menu.svg",
+    activeIcon: "/assets/image/leaderboard-menu-active.svg",
   },
   {
     name: "Organizations",

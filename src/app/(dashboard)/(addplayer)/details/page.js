@@ -121,7 +121,7 @@ export default function DetailsPage() {
                   </Row>
 
                   <div className="action-buttons mt-5">
-                    <Button className="btn-cancel-outline">Cancel</Button>
+                    <Button className="btn-cancel-outline">Back</Button>
                     <Button
                       className="btn-next-bg"
                       onClick={() => router.push("/plan")}>

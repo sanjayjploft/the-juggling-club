@@ -50,7 +50,7 @@ export default function DashboardPage() {
           <div className="team-card grid-cardor-oganizational mb-4">
             <div className="grid-item-bx">
               <div className="team-heading">
-                Soccer Academy Elite
+                Aurora Soccer Club
                 <div className=" green-bg-pill">Active</div>
                 <div className="blue-bg-pill">Owner</div>
               </div>
@@ -77,9 +77,9 @@ export default function DashboardPage() {
 
             <div className="grid-item-bx ">
               <div className="team-heading">
-                Soccer Academy Elite
+                Youth Training Academy
                 <div className=" green-bg-pill">Active</div>
-                <div className="blue-bg-pill">Owner</div>
+                <div className="blue-bg-pill">Member</div>
               </div>
               <p>Main club organization</p>
             </div>
@@ -101,7 +101,7 @@ export default function DashboardPage() {
             </div>
 
             {/* JOIN CODE */}
-            <div className="grid-item-bx mt-5 mb-3">
+            <div className="grid-item-bx mt-3 mb-3">
               <Link href="/view-players" className="btn-primary">
                 View Players
               </Link>

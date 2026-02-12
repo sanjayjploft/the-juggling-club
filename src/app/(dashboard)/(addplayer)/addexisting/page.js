@@ -14,9 +14,15 @@ export default function DetailsPage() {
         <main className="msar-main">
           <div className="msar-top-bar d-flex justify-content-between align-items-start">
             <div className="top-heading">
-              <h4>Dashboard</h4>
+              <div>
+                <h4>Dashboard</h4>
+              </div>
             </div>
-            <button className="btn admin-btn-primary">+ Add Player</button>
+            <div className="user-profile">
+              <Link href="#">
+                <img src="/assets/image/coach-mike.png" />
+              </Link>
+            </div>
           </div>
           <div className="container-fluid">
             <div className="content-card">
@@ -34,9 +40,13 @@ export default function DetailsPage() {
                     </Col>
 
                     <Col lg={12}>
-                      <Form.Floating>
-                        <Form.Control placeholder="Invite Code" />
-                        <label>Invite Code</label>
+                      <Form.Floating className="position-relative">
+                        <Form.Control placeholder="Player Code" />
+                        <label>Player Code</label>
+                        <img
+                          src="/assets/image/scan-code-icon.svg"
+                          className="scan-code"
+                        />
                       </Form.Floating>
                     </Col>
                   </Row>

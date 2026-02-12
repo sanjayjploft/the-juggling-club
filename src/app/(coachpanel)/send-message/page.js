@@ -73,7 +73,7 @@ export default function Page() {
         </div>
         {/* CONTENT */}
         <div className="container-fluid">
-          <div className="content-card mt-4">
+          <div className="content-card mt-0">
             <div className="row">
               <div className="col-lg-6 col-md-8 col-12">
                 <div className="voice-ui">
@@ -113,7 +113,7 @@ export default function Page() {
                       <label className="send-masg-radio">
                         <input type="radio" name="sendTo" defaultChecked />
                         <span className="send-masg-ui"></span>
-                        <span className="send-masg-text">Group</span>
+                        <span className="send-masg-text">Team/Group</span>
                       </label>
 
                       <label className="send-masg-radio">

@@ -183,7 +183,7 @@ export default function DashboardPage() {
                   <div className="d-flex gap-3">
                     <img src="/assets/image/quotes-img-4.png" />
                     <div>
-                      <h4>Mia Hamm</h4>
+                      <h4 className="mb-0">Mia Hamm</h4>
                       <span className="player-status trial">Trial</span>
                     </div>
                   </div>

@@ -132,18 +132,20 @@ a {
 /* ===== BUTTON ===== */
 .admin-btn-primary {
   z-index: 9;
-  position: relative;
-  border-radius: 18px;
   background: var(--Primary-Neon-Red, #ff073a);
+  border: 1px solid #ff073a;
+  border-radius: 18px;
+  padding: 12px 34px;
+  position: relative;
   color: var(--White, #fff);
   text-align: center;
-  font-family: Avenir;
+  font-family: "Bebas Neue";
   font-size: 22px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
-  padding: 12px 34px;
-  border: 1px solid #ff073a;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
 }
 .admin-btn-primary:hover {
   background: #e60b37;
@@ -211,6 +213,7 @@ a {
   line-height: normal;
   background: transparent;
   padding: 10px 25px;
+  border: none;
 }
 
 .ft-btn.active {
@@ -1543,15 +1546,15 @@ a {
   text-transform: capitalize;
 }
 
-.btn-close {
+.modal-content .btn-close {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 0;
-  border-radius: 0 19px 0 20px;
+  padding: 0 !important;
+  border-radius: 0 19px 0 20px !important;
   background: var(--Primary-Neon-Red, #ff073a);
-  width: 30px;
-  height: 40px;
+  width: 30px !important;
+  height: 40px !important;
   opacity: 1;
 }
 
@@ -1821,11 +1824,11 @@ textarea {
   background: var(--Juggling-Club-Dark-Blue, #03202f);
   box-shadow: 0 10px 20px 0 rgba(10, 95, 255, 0.5);
 }
-.apply-code {
+.apply-code.btn.btn-primary {
   position: absolute;
   right: 10px;
   top: 13px;
-  padding: 4px 30px;
+  padding: 4px 30px !important;
   color: var(--White, #fff);
   text-align: center;
   font-family: "Bebas Neue";
@@ -2270,7 +2273,7 @@ textarea {
   background: #1d1d26;
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 16px 25px;
   gap: 17px;
   margin-bottom: 15px;
 }
@@ -2642,6 +2645,9 @@ input.search-inp::placeholder {
   font-weight: 400;
   margin-top: 10px;
   display: block;
+}
+.tabb-content .tandcpp small {
+  margin-top: 0;
 }
 .date-det {
   border-radius: 20px;
@@ -3440,7 +3446,7 @@ input.search-inp::placeholder {
   letter-spacing: 1.1px;
   text-transform: uppercase;
   border-radius: 150px;
-  padding: 10px 30px;
+  padding: 10px 30px !important;
   display: inline-block;
 }
 /* MOBILE */
@@ -3556,7 +3562,15 @@ input.search-inp::placeholder {
   background: rgba(0, 0, 0, 0.35);
   border-radius: 12px;
 }
-
+.top-players .submission-info h6 {
+  text-transform: uppercase;
+  color: var(--White, #fff);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 /* TEXT */
 .submission-info h6 {
   color: var(--White, #fff);
@@ -3938,7 +3952,15 @@ input.form-control.phone-input {
   font-weight: 800;
   line-height: normal;
 }
-
+.date-det-skills-spot.voice-settings h5 {
+  margin: 0;
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 .voice-card {
   background: linear-gradient(180deg, #021c2b, #011420);
   border-radius: 20px;
@@ -4120,7 +4142,14 @@ input.form-control.phone-input {
   padding: 25px;
   display: block;
 }
-
+.notification-cms h3 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 .btn.admin-save-btn {
   border-radius: 150px;
   background: var(--Primary-Neon-Red, #ff073a);
@@ -4855,6 +4884,23 @@ hr {
   background: var(--Juggling-Club-Dark-Blue, #03202f);
   margin-top: 15px;
 }
+.subscription-box-info h5 {
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.team-info-grid.subscription-box-info .team-grid-item p {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
 .stat-item {
   border-right: 1px solid #0c3b55;
 }
@@ -4958,5 +5004,80 @@ hr {
   .stat-item {
     border-right: none;
     margin-bottom: 10px;
+  }
+}
+
+img.calendar-icon-inp {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.scan-code {
+  position: absolute;
+  right: 10px;
+  top: 53%;
+  transform: translateY(-50%);
+}
+.text-expln {
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+@media (max-width: 1400px) {
+  .player-avatar-info {
+    width: 92%;
+  }
+  .player-avatar {
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .card-box h5,
+  .card-box-level h5 {
+    font-size: 24px;
+  }
+  .activity-card .title {
+    font-size: 20px;
+  }
+  .try-again {
+    padding: 2px 7px;
+    font-size: 12px;
+  }
+  img.video-thumb {
+    width: 70px;
+  }
+  .activity-player-profile {
+    gap: 10px;
+  }
+  .activity-card small {
+    font-size: 11px;
+  }
+  .activity-player-profile {
+    padding: 10px;
+  }
+  .activity-info-player img.me-2 {
+    margin-right: 0.3rem !important;
+  }
+  .skill-info {
+    align-items: center;
+  }
+  .skill-info.d-flex.gap-3,
+  .skill-right.d-flex.gap-3 {
+    gap: 0.4rem !important;
+  }
+  .skill-list-item .skill-info p {
+    font-size: 12px;
+  }
+  .skill-info img {
+    width: 42px;
+  }
+  .skill-right img.me-2 {
+    margin-right: 0rem !important;
   }
 }

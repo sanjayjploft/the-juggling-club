@@ -16,9 +16,10 @@ export default function DashboardPage() {
               <h4>Dashboard</h4>
             </div>
             <div className="filter-by-days">
-              <Button className="ft-btn active">Last 7 days</Button>
-              <Button className="ft-btn">30 days </Button>
-              <Button className="ft-btn">All time</Button>
+              <button className="ft-btn active">Last 7 days</button>
+              <button className="ft-btn">30 days </button>
+              <button className="ft-btn">90 days </button>
+              <button className="ft-btn">All time</button>
             </div>
           </div>
           <div className="user-profile">

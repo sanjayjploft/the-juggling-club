@@ -22,7 +22,7 @@ export default function Page() {
           <div className="top-heading">
             <div>
               <h4>
-                Team Analytics
+                TEAM/GROUP ANALYTICS
                 <span>Track player and team performance metrics</span>
               </h4>
             </div>
@@ -72,12 +72,16 @@ export default function Page() {
                   <label>Teams/Groups</label>
                 </Form.Floating>
 
-                <Form.Floating className="w-100">
+                <Form.Floating className="w-100 position-relative cms-date-inp">
                   <Form.Select>
                     <option selected> All Time</option>
                     <option> All Time</option>
                   </Form.Select>
                   <label>Select Date</label>
+                  <img
+                    className="calendar-icon-inp"
+                    src="/assets/image/calendar.svg"
+                  />
                 </Form.Floating>
 
                 <div className="upload-data-img">

@@ -20,6 +20,19 @@ export default function page() {
             <button className="btn admin-btn-primary">+ Add Player</button>
           </div>
           <div className="container-fluid">
+            <div className="code-disti mb-3">
+              <h4>Code Distribution Tips</h4>
+              <p>• Share your unique Club Code with all players and families</p>
+              <p>
+                • Post or print a QR code (linked to this same Club Code) for
+                easy scanning at practices, games, and events
+              </p>
+              <p>• Send the code via email or SMS for quick digital access</p>
+              <p>
+                • Families receive a 10% subscription discount, and players see
+                your club branding throughout the app
+              </p>
+            </div>
             <div className="content-card">
               <div className="notification-card notification-card2">
                 <div className="notification-card-in">

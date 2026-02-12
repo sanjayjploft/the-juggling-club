@@ -19,7 +19,7 @@ export default function DashboardPage() {
 
       <main className="msar-main">
         {/* HEADER */}
-         
+
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
@@ -64,7 +64,7 @@ export default function DashboardPage() {
               <div className="count-info-card">
                 <h6>13,600</h6>
               </div>
-              <img src="/assets/image/rewards-earned.svg" />
+              <img src="/assets/image/hand-gesture.svg" />
             </div>
           </div>
           <div className="content-card billing-card mt-4">
@@ -90,10 +90,11 @@ export default function DashboardPage() {
                     <th>Rank</th>
                     <th>Name</th>
                     <th>Age</th>
+                    <th>Gender</th>
                     <th>Skills</th>
                     <th>Points</th>
-                    <th>Badges</th>
-                    <th>Status</th>
+                    <th>Streak</th>
+                    <th>Joined</th>
                     <th>Action</th>
                   </tr>
                 </thead>
@@ -103,16 +104,15 @@ export default function DashboardPage() {
                       <img src="/assets/image/rank1.svg" />
                     </td>
                     <td>Alex Johnson</td>
-                    <td>U14</td>
-                    <td>45/110</td>
+                    <td>12-14</td>
+                    <td>Boy</td>
+                    <td>42</td>
                     <td>3,200</td>
-                    <td>15</td>
-                    <td>
-                      <span className="act-sts">Active</span>
-                    </td>
+                    <td>23 Weeks</td>
+                    <td>2024-01-15</td>
                     <td>
                       <Link href="/clubplayer-details" className="">
-                        <img src="/assets/image/view.svg" />
+                        <img src="/assets/image/messages-menu.svg" />
                       </Link>
                     </td>
                   </tr>
@@ -121,16 +121,15 @@ export default function DashboardPage() {
                       <img src="/assets/image/rank2.svg" />
                     </td>
                     <td>Maria Garcia</td>
-                    <td>U12</td>
-                    <td>38/110</td>
+                    <td>10-12</td>
+                    <td>Girl</td>
+                    <td>35</td>
                     <td>2,800</td>
-                    <td>12</td>
-                    <td>
-                      <span className="act-sts">Active</span>
-                    </td>
+                    <td>18 Weeks</td>
+                    <td>2024-01-15</td>
                     <td>
                       <Link href="/clubplayer-details" className="">
-                        <img src="/assets/image/view.svg" />
+                        <img src="/assets/image/messages-menu.svg" />
                       </Link>
                     </td>
                   </tr>
@@ -138,17 +137,16 @@ export default function DashboardPage() {
                     <td>
                       <img src="/assets/image/rank3.svg" />
                     </td>
-                    <td>James Smith</td>
-                    <td>U16</td>
-                    <td>52/110</td>
-                    <td>4,100</td>
-                    <td>18</td>
-                    <td>
-                      <span className="inact-sts">Inactive</span>
-                    </td>
+                    <td>Alex Johnson</td>
+                    <td>12-14</td>
+                    <td>Boy</td>
+                    <td>42</td>
+                    <td>3,200</td>
+                    <td>23 Weeks</td>
+                    <td>2024-01-15</td>
                     <td>
                       <Link href="/clubplayer-details" className="">
-                        <img src="/assets/image/view.svg" />
+                        <img src="/assets/image/messages-menu.svg" />
                       </Link>
                     </td>
                   </tr>
@@ -156,17 +154,33 @@ export default function DashboardPage() {
                     <td>
                       <img src="/assets/image/rank4.svg" />
                     </td>
-                    <td>James Smith</td>
-                    <td>U16</td>
-                    <td>38/110</td>
-                    <td>2,800</td>
-                    <td>10</td>
-                    <td>
-                      <span className="act-sts">Active</span>
-                    </td>
+                    <td>Alex Johnson</td>
+                    <td>12-14</td>
+                    <td>Boy</td>
+                    <td>42</td>
+                    <td>3,200</td>
+                    <td>23 Weeks</td>
+                    <td>2024-01-15</td>
                     <td>
                       <Link href="/clubplayer-details" className="">
-                        <img src="/assets/image/view.svg" />
+                        <img src="/assets/image/messages-menu.svg" />
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="/assets/image/rank1.svg" />
+                    </td>
+                    <td>Alex Johnson</td>
+                    <td>12-14</td>
+                    <td>Boy</td>
+                    <td>42</td>
+                    <td>3,200</td>
+                    <td>23 Weeks</td>
+                    <td>2024-01-15</td>
+                    <td>
+                      <Link href="/clubplayer-details" className="">
+                        <img src="/assets/image/messages-menu.svg" />
                       </Link>
                     </td>
                   </tr>

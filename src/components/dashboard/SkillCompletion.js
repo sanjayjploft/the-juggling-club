@@ -82,8 +82,8 @@ export default function SkillCompletion() {
   return (
     <div className="progress-card">
       <div className="chart-headiang">
-        <h4>Skills Completed Over Time</h4>
-        <p>Cumulative skills completed across all teams (Last 7 weeks)</p>
+        <h4>Skill Completion Rates</h4>
+        <p>Most attempted skills and completion percentages</p>
       </div>
       <div
         style={{

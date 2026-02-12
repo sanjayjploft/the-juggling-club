@@ -104,9 +104,9 @@ export default function VoiceSelector() {
                   handlePlay(voice);
                 }}>
                 {isPlaying ? (
-                  <img src="/assets/image/play-circle.svg" />
-                ) : (
                   <img src="/assets/image/pause-circle.svg" />
+                ) : (
+                  <img src="/assets/image/play-circle.svg" />
                 )}
               </button>
             </div>

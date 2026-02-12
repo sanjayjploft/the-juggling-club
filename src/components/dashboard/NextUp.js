@@ -114,7 +114,7 @@ export default function NextUp() {
         <Modal.Body>
           <div className="video-wrapper">
             <video controls autoPlay>
-              <source src="/assets/video/sample-video.mp4" type="video/mp4" />
+              <source src="/assets/image/hero-bg-video.mp4" type="video/mp4" />
             </video>
           </div>
         </Modal.Body>

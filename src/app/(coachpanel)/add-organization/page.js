@@ -51,8 +51,8 @@ export default function DashboardPage() {
             </div>
             <Col md={5}>
               <Form.Floating className="my-4">
-                <Form.Control placeholder="Team/Group Name" />
-                <label>Team/Group Name *</label>
+                <Form.Control placeholder="Organization Name" />
+                <label>Organization Name</label>
               </Form.Floating>
             </Col>
             <Link href="/join-organization" className="btn-primary mt-2">

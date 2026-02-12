@@ -1,67 +1,39 @@
-[00:00:01.676] Server  LOG     ✓ Ready in 1212ms
-[00:00:03.237] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.633] Server  LOG     ✓ Ready in 1151ms
+[00:00:01.635] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:05.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:06.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:15.908] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:11:15.908] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:11:15.908] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:12:12.312] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
+[00:00:04.218] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
 
 If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
-[00:12:12.313] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
+[00:00:04.218] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
 
 If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
-[00:12:12.629] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:12.851] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:00:04.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.701] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:12:12.851] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:00:05.701] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:14:55.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:56.087] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:05:54.628] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:24.278] Server  ERROR   ⨯ ReferenceError: HowCoachesUseItParents is not defined
+[00:07:24.701] Browser ERROR   uncaughtError: ReferenceError: HowCoachesUseItParents is not defined
+[00:07:30.211] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:30.699] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:14:56.087] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:07:30.699] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:18:01.570] Server  LOG     ✓ Compiled in 176ms
-[00:18:03.701] Server  LOG     ✓ Compiled in 143ms
-[00:18:09.494] Server  LOG     ✓ Compiled in 185ms
-[00:18:11.144] Server  LOG     ✓ Compiled in 153ms
-[00:18:15.741] Server  LOG     ✓ Compiled in 138ms
-[00:18:17.571] Server  LOG     ✓ Compiled in 154ms
-[00:18:28.246] Server  LOG     ✓ Compiled in 131ms
-[00:18:31.522] Server  LOG     ✓ Compiled in 136ms
-[00:18:46.214] Server  LOG     ✓ Compiled in 101ms
-[00:18:47.219] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:19:04.081] Server  LOG     ✓ Compiled in 190ms
-[00:25:05.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:08.327] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:25:56.543] Server  LOG     ✓ Compiled in 127ms
-[00:26:10.858] Server  LOG     ✓ Compiled in 119ms
-[00:26:33.035] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:26:34.028] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:26:52.079] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:26:52.662] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:08:44.839] Server  LOG     ✓ Compiled in 51ms
+[00:09:19.193] Server  LOG     ✓ Compiled in 36ms
+[00:22:53.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:53.335] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:26:52.662] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:22:53.335] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:28:18.027] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:18.569] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:28:18.569] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:28:18.569] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:22:53.335] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -79,7 +51,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Coaches" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/Parents" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -96,10 +68,553 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:30:08.457] Server  LOG     ✓ Compiled in 227ms
-[00:30:11.395] Server  LOG     ✓ Compiled in 38ms
-[00:30:12.500] Server  LOG     ✓ Compiled in 50ms
-[00:30:17.131] Server  LOG     ✓ Compiled in 43ms
-[00:30:21.447] Server  LOG     ✓ Compiled in 51ms
-[00:30:22.482] Server  LOG     ✓ Compiled in 75ms
-[00:31:00.785] Server  LOG     ✓ Compiled in 49ms
+[00:23:29.932] Server  LOG     ✓ Compiled in 171ms
+[00:24:29.535] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:24:53.177] Server  LOG     ✓ Compiled in 68ms
+[00:24:57.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:57.632] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:26:09.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:26.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:46.696] Browser ERROR   ./src/app/(coachpanel)/dashboard-coach/page.js:19:69
+Parsing ecmascript source code failed
+  17 |             </div>
+  18 |             <div className="filter-by-days">
+> 19 |               <button className="ft-btn active">Last 7 days</Button>
+     |                                                                     ^
+> 20 |               <Button className="ft-btn">30 days </Button>
+     | ^^^^^^^^^^^^^^^
+  21 |               <Button className="ft-btn">90 days </Button>
+  22 |               <Button className="ft-btn">All time</Button>
+  23 |             </div>
+
+Expected '</', got 'jsx text (
+              )'
+[00:29:15.759] Server  LOG     ✓ Compiled in 109ms
+[00:29:19.300] Server  LOG     ✓ Compiled in 46ms
+[00:30:28.892] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:30:28.892] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:31:08.138] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:31:54.749] Server  LOG     ✓ Compiled in 184ms
+[00:32:18.490] Server  LOG     ✓ Compiled in 310ms
+[00:33:12.074] Server  LOG     ✓ Compiled in 227ms
+[00:33:23.739] Server  LOG     ✓ Compiled in 169ms
+[00:33:27.005] Server  LOG     ✓ Compiled in 164ms
+[00:33:29.344] Server  LOG     ✓ Compiled in 105ms
+[00:34:33.943] Server  LOG     ✓ Compiled in 184ms
+[00:35:19.187] Server  LOG     ✓ Compiled in 187ms
+[00:35:38.171] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:35:38.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:39.038] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:36:25.555] Server  LOG     ✓ Compiled in 281ms
+[00:36:28.800] Server  LOG     ✓ Compiled in 220ms
+[00:36:32.826] Server  LOG     ✓ Compiled in 251ms
+[00:36:37.954] Server  LOG     ✓ Compiled in 163ms
+[00:36:41.433] Server  LOG     ✓ Compiled in 107ms
+[00:36:45.111] Server  LOG     ✓ Compiled in 357ms
+[00:36:49.286] Server  LOG     ✓ Compiled in 171ms
+[00:36:57.433] Server  LOG     ✓ Compiled in 320ms
+[00:37:00.862] Server  LOG     ✓ Compiled in 191ms
+[00:37:04.693] Server  LOG     ✓ Compiled in 135ms
+[00:38:00.847] Server  LOG     ✓ Compiled in 250ms
+[00:38:02.183] Server  LOG     ✓ Compiled in 273ms
+[00:38:06.863] Server  LOG     ✓ Compiled in 195ms
+[00:38:14.529] Server  LOG     ✓ Compiled in 113ms
+[00:38:34.052] Server  LOG     ✓ Compiled in 134ms
+[00:38:42.223] Server  LOG     ✓ Compiled in 98ms
+[00:39:01.062] Server  LOG     ✓ Compiled in 178ms
+[00:39:10.613] Server  LOG     ✓ Compiled in 142ms
+[00:39:19.996] Server  LOG     ✓ Compiled in 91ms
+[00:39:24.647] Server  LOG     ✓ Compiled in 173ms
+[00:39:29.233] Server  LOG     ✓ Compiled in 197ms
+[00:39:40.566] Server  LOG     ✓ Compiled in 122ms
+[00:39:47.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:48.110] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:39:55.380] Server  LOG     ✓ Compiled in 275ms
+[00:40:01.701] Server  LOG     ✓ Compiled in 184ms
+[00:40:04.249] Server  LOG     ✓ Compiled in 105ms
+[00:40:15.165] Server  LOG     ✓ Compiled in 144ms
+[00:40:15.965] Server  LOG     ✓ Compiled in 78ms
+[00:41:04.876] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:41:04.876] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:42:03.790] Server  LOG     ✓ Compiled in 356ms
+[00:42:08.012] Server  LOG     ✓ Compiled in 260ms
+[00:49:11.863] Server  LOG     ✓ Compiled in 372ms
+[00:56:08.095] Server  LOG     ✓ Compiled in 369ms
+[00:56:38.478] Server  LOG     ✓ Compiled in 72ms
+[00:57:15.448] Server  LOG     ✓ Compiled in 263ms
+[00:57:16.927] Server  LOG     ✓ Compiled in 197ms
+[00:57:17.378] Server  LOG     ✓ Compiled in 154ms
+[00:58:02.409] Server  LOG     ✓ Compiled in 371ms
+[00:58:51.286] Server  LOG     ✓ Compiled in 99ms
+[01:01:02.906] Server  LOG     ✓ Compiled in 281ms
+[01:01:03.692] Browser ERROR   uncaughtError: ReferenceError: FaqAccordionCoach is not defined
+[01:01:07.549] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:01:07.560] Server  LOG     ✓ Compiled in 328ms
+[01:01:08.929] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:09.173] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/settings-..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[01:02:03.638] Server  LOG     ✓ Compiled in 71ms
+[01:02:36.274] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[01:02:36.274] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:03:14.096] Server  LOG     ✓ Compiled in 468ms
+[01:04:18.033] Server  LOG     ✓ Compiled in 419ms
+[01:04:20.570] Server  LOG     ✓ Compiled in 295ms
+[01:04:23.039] Server  LOG     ✓ Compiled in 191ms
+[01:04:25.775] Server  LOG     ✓ Compiled in 247ms
+[01:04:40.038] Server  LOG     ✓ Compiled in 414ms
+[01:04:50.720] Server  LOG     ✓ Compiled in 311ms
+[01:05:02.777] Server  LOG     ✓ Compiled in 283ms
+[01:05:15.708] Server  LOG     ✓ Compiled in 261ms
+[01:05:22.600] Server  LOG     ✓ Compiled in 235ms
+[01:06:06.099] Server  LOG     ✓ Compiled in 80ms
+[01:07:17.752] Server  LOG     ✓ Compiled in 229ms
+[01:07:25.171] Server  LOG     ✓ Compiled in 105ms
+[01:09:21.295] Server  LOG     ✓ Compiled in 152ms
+[01:10:37.381] Server  LOG     ✓ Compiled in 73ms
+[01:11:21.692] Server  LOG     ✓ Compiled in 323ms
+[01:11:26.869] Server  LOG     ✓ Compiled in 281ms
+[01:11:32.532] Server  LOG     ✓ Compiled in 288ms
+[01:11:34.968] Server  LOG     ✓ Compiled in 212ms
+[01:11:37.933] Server  LOG     ✓ Compiled in 201ms
+[01:12:54.982] Server  LOG     ✓ Compiled in 208ms
+[01:13:21.878] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+>                               <h3>
+                                ...
+                            ...
+                ...
+              ...
+
+[01:13:21.879] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="">
+>                                 <div className="players-progress-header">
+                                  ...
+                                ...
+                            ...
+                ...
+              ...
+
+[01:13:21.879] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[01:13:21.879] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div>
+                                ...
+                                  <Col md={6}>
+                                    <div ref={null} className="col-md-6">
+                                      <div className="date-det">
+>                                       <p>
+                                        ...
+                            ...
+                ...
+              ...
+
+[01:13:21.879] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[01:13:21.879] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h4> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div>
+                                ...
+                                  <Col md={6}>
+                                    <div ref={null} className="col-md-6">
+                                      <div className="date-det">
+                                        <p>
+>                                       <h4>
+                            ...
+                ...
+              ...
+
+[01:13:21.880] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h4>
+[01:13:35.909] Server  LOG     ✓ Compiled in 152ms
+[01:13:38.087] Server  LOG     ✓ Compiled in 163ms
+[01:13:40.113] Server  LOG     ✓ Compiled in 162ms
+[01:13:42.297] Server  LOG     ✓ Compiled in 75ms
+[01:14:00.180] Server  LOG     ✓ Compiled in 139ms
+[01:14:01.868] Server  LOG     ✓ Compiled in 54ms
+[01:14:11.694] Server  LOG     ✓ Compiled in 133ms
+[01:14:12.912] Server  LOG     ✓ Compiled in 112ms
+[01:14:14.698] Server  LOG     ✓ Compiled in 120ms
+[01:14:17.531] Server  LOG     ✓ Compiled in 121ms
+[01:14:19.535] Server  LOG     ✓ Compiled in 115ms
+[01:18:27.281] Server  LOG     ✓ Compiled in 210ms
+[01:18:28.503] Server  LOG     ✓ Compiled in 164ms
+[01:18:36.914] Server  LOG     ✓ Compiled in 153ms
+[01:18:40.402] Server  LOG     ✓ Compiled in 129ms
+[01:18:46.079] Server  LOG     ✓ Compiled in 133ms
+[01:18:49.481] Server  LOG     ✓ Compiled in 145ms
+[01:18:51.449] Server  LOG     ✓ Compiled in 101ms
+[01:21:07.113] Server  LOG     ✓ Compiled in 190ms
+[01:21:34.121] Server  LOG     ✓ Compiled in 127ms
+[01:22:17.145] Server  LOG     ✓ Compiled in 82ms
+[01:22:54.552] Server  LOG     ✓ Compiled in 189ms
+[01:23:18.551] Server  LOG     ✓ Compiled in 257ms
+[01:24:24.172] Server  LOG     ✓ Compiled in 90ms
+[01:24:25.021] Server  LOG     ✓ Compiled in 83ms
+[01:25:01.053] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:02.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:10.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:34.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:34.874] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:35.382] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:57.380] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:57.563] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[01:25:59.948] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:16.527] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:27:50.915] Server  LOG     ✓ Compiled in 47ms
+[01:27:54.595] Server  LOG     ✓ Compiled in 82ms
+[01:27:56.511] Server  LOG     ✓ Compiled in 55ms
+[01:27:59.777] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:11.200] Server  LOG     ✓ Compiled in 47ms
+[01:28:12.845] Server  LOG     ✓ Compiled in 53ms
+[01:28:13.697] Browser ERROR   ./src/app/(dashboard)/dashboard.css:5009:1
+Parsing CSS source code failed
+  5007 |     position: relative;
+  5008 |     box-shadow: 0 5px #f0ff00cc;
+> 5009 | }
+       | ^
+  5010 | }
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(coachpanel)/layout.js [Client Component Browser]
+    ./src/app/(coachpanel)/layout.js [Server Component]
+[01:28:16.439] Server  LOG     ✓ Compiled in 43ms
+[01:28:17.479] Server  LOG     ✓ Compiled in 108ms
+[01:28:51.748] Server  LOG     ✓ Compiled in 52ms
+[01:28:54.460] Server  LOG     ✓ Compiled in 45ms
+[01:28:56.439] Server  LOG     ✓ Compiled in 212ms
+[01:56:59.196] Server  LOG     ✓ Compiled in 59ms
+[01:57:01.379] Server  LOG     ✓ Compiled in 44ms
+[01:57:03.025] Server  LOG     ✓ Compiled in 45ms
+[01:57:16.297] Server  LOG     ✓ Compiled in 82ms
+[01:57:18.562] Server  LOG     ✓ Compiled in 42ms
+[01:57:20.501] Server  LOG     ✓ Compiled in 80ms
+[01:58:21.311] Server  LOG     ✓ Compiled in 98ms
+[01:58:24.308] Server  LOG     ✓ Compiled in 50ms
+[01:58:26.376] Server  LOG     ✓ Compiled in 87ms
+[01:58:28.998] Server  LOG     ✓ Compiled in 44ms
+[01:58:49.252] Server  LOG     ✓ Compiled in 57ms
+[01:59:02.222] Server  LOG     ✓ Compiled in 43ms
+[01:59:04.500] Server  LOG     ✓ Compiled in 44ms
+[01:59:06.295] Server  LOG     ✓ Compiled in 55ms
+[01:59:19.521] Server  LOG     ✓ Compiled in 46ms
+[01:59:22.363] Server  LOG     ✓ Compiled in 61ms
+[01:59:24.031] Server  LOG     ✓ Compiled in 89ms
+[01:59:29.170] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:41.820] Server  LOG     ✓ Compiled in 45ms
+[01:59:44.060] Server  LOG     ✓ Compiled in 55ms
+[02:00:12.383] Server  LOG     ✓ Compiled in 98ms
+[02:00:18.565] Server  LOG     ✓ Compiled in 76ms
+[02:00:21.901] Server  LOG     ✓ Compiled in 100ms
+[02:00:27.145] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:36.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:53.527] Server  LOG     ✓ Compiled in 149ms
+[02:03:24.530] Server  LOG     ✓ Compiled in 95ms
+[02:03:35.224] Server  LOG     ✓ Compiled in 61ms
+[02:03:37.680] Server  LOG     ✓ Compiled in 41ms
+[02:03:38.668] Server  LOG     ✓ Compiled in 100ms
+[02:03:59.227] Server  LOG     ✓ Compiled in 70ms
+[02:04:02.741] Server  LOG     ✓ Compiled in 90ms
+[02:04:15.923] Server  LOG     ✓ Compiled in 58ms
+[02:04:18.949] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:04:43.257] Server  LOG     ✓ Compiled in 100ms
+[02:05:44.061] Server  LOG     ✓ Compiled in 60ms
+[02:05:49.207] Server  LOG     ✓ Compiled in 59ms
+[02:05:56.292] Server  LOG     ✓ Compiled in 49ms
+[02:05:57.446] Server  LOG     ✓ Compiled in 203ms
+[02:06:12.213] Server  LOG     ✓ Compiled in 57ms
+[02:06:16.480] Server  LOG     ✓ Compiled in 43ms
+[02:06:23.230] Server  LOG     ✓ Compiled in 71ms
+[02:06:24.807] Server  LOG     ✓ Compiled in 44ms
+[02:06:28.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:07:33.575] Server  LOG     ✓ Compiled in 163ms
+[02:08:13.211] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:08:31.085] Server  LOG     ✓ Compiled in 130ms
+[02:08:33.232] Server  LOG     ✓ Compiled in 95ms
+[02:08:40.414] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:09:46.023] Server  LOG     ✓ Compiled in 49ms
+[02:09:47.899] Server  LOG     ✓ Compiled in 95ms
+[02:09:50.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:10:08.163] Server  LOG     ✓ Compiled in 46ms
+[02:10:09.697] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:11:12.197] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:12:34.259] Server  LOG     ✓ Compiled in 83ms
+[02:12:48.390] Server  LOG     ✓ Compiled in 95ms
+[02:12:53.173] Server  LOG     ✓ Compiled in 103ms
+[02:12:54.299] Server  LOG     ✓ Compiled in 85ms
+[02:12:56.515] Server  LOG     ✓ Compiled in 88ms
+[02:13:11.198] Server  LOG     ✓ Compiled in 87ms
+[02:13:13.949] Server  LOG     ✓ Compiled in 75ms
+[02:13:19.320] Server  LOG     ✓ Compiled in 78ms
+[02:13:20.706] Server  LOG     ✓ Compiled in 81ms
+[02:13:23.525] Server  LOG     ✓ Compiled in 78ms
+[02:13:26.341] Server  LOG     ✓ Compiled in 91ms
+[02:13:31.368] Server  LOG     ✓ Compiled in 80ms
+[02:13:32.237] Server  LOG     ✓ Compiled in 53ms
+[02:13:42.475] Server  LOG     ✓ Compiled in 73ms
+[02:14:21.068] Server  LOG     ✓ Compiled in 66ms
+[02:14:22.238] Server  LOG     ✓ Compiled in 56ms
+[02:14:24.771] Server  LOG     ✓ Compiled in 96ms
+[02:14:26.308] Server  LOG     ✓ Compiled in 61ms
+[02:14:39.695] Server  LOG     ✓ Compiled in 100ms
+[02:14:40.436] Server  LOG     ✓ Compiled in 53ms
+[02:15:36.957] Server  LOG     ✓ Compiled in 120ms
+[02:15:49.836] Server  LOG     ✓ Compiled in 126ms
+[02:16:14.311] Server  LOG     ✓ Compiled in 166ms
+[02:16:48.318] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Billing/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:16:49.052] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[02:16:49.075] Server  LOG     ✓ Compiled in 131ms
+[02:16:49.134] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[02:16:50.029] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:16:50.712] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[02:16:50.714] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:16:50.714] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Billing/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:16:50.716] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:16:51.314] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[02:16:51.342] Server  LOG     ✓ Compiled in 74ms
+[02:16:51.407] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[02:16:51.975] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:16:52.211] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[02:16:55.323] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:16:55.323] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Billing/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:16:55.325] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:16:55.599] Server  LOG     ✓ Compiled in 225ms
+[02:16:56.144] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:17:18.798] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:18:06.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:18:06.595] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:18:43.747] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:19:27.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:19:27.771] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:19:59.369] Server  LOG     ✓ Compiled in 54ms
+[02:20:01.842] Server  LOG     ✓ Compiled in 57ms
+[02:20:03.802] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:21:42.687] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/NotificationsSettings/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:21:42.933] Server  LOG     ✓ Compiled in 64ms
+[02:21:43.184] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:21:43.700] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:21:55.711] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/NotificationsSettings/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:21:56.009] Server  LOG     ✓ Compiled in 37ms
+[02:21:56.300] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:21:56.456] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:22:02.237] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/NotificationsSettings/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:22:02.472] Server  LOG     ✓ Compiled in 37ms
+[02:22:02.724] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:22:03.065] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:22:23.736] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:22:26.817] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:22:30.225] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:22:37.017] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:22:38.596] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:23:21.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:23.359] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:25:14.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:25:16.338] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:25:35.645] Server  LOG     ✓ Compiled in 312ms
+[02:25:40.226] Server  LOG     ✓ Compiled in 287ms
+[02:25:45.856] Server  LOG     ✓ Compiled in 514ms
+[02:25:50.068] Server  LOG     ✓ Compiled in 243ms
+[02:25:53.613] Server  LOG     ✓ Compiled in 193ms
+[02:25:59.593] Server  LOG     ✓ Compiled in 159ms
+[02:26:00.189] Server  LOG     ✓ Compiled in 275ms
+[02:27:04.583] Server  LOG     ✓ Compiled in 81ms
+[02:27:37.864] Server  LOG     ✓ Compiled in 56ms
+[02:27:41.129] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:28:23.598] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

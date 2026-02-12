@@ -25,9 +25,10 @@ export default function Page() {
           <div className="top-heading">
             <div>
               <h4>
-                Player Videos
+                Player Progress
                 <span>
-                  Review video submissions and provide feedback to your players
+                  See what your players are working on — jump in when you want.
+                  
                 </span>
               </h4>
             </div>

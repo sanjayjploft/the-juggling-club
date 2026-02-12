@@ -67,6 +67,9 @@ export default function DetailsPage() {
                     <Form.Floating>
                       <Form.Control placeholder="Expiry" />
                       <label>Expiry</label>
+                      <span className="text-expln">
+                        Auto-renews unless cancelled
+                      </span>
                     </Form.Floating>
                   </Col>
 

@@ -6,7 +6,7 @@ import CoachSidebar from "../../../components/dashboard/CoachSidebar";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import Link from "next/link";
-import FaqAccordion from "../../../components/FaqAccordion";
+import FaqAccordionCoach from "../../../components/FaqAccordionCoach";
 import VoiceSelector from "../../../components/dashboard/VoiceSelector";
 export default function Page() {
   const [activeTab, setActiveTab] = useState("Profile");
@@ -186,7 +186,7 @@ export default function Page() {
               <>
                 <Row>
                   <Col md={12}>
-                    <div className="date-det-skills-spot">
+                    <div className="date-det-skills-spot voice-settings">
                       <div className="d-flex gap-3 align-items-center">
                         <img src="/assets/image/coach-mike.png" />
                         <div>
@@ -224,7 +224,7 @@ export default function Page() {
                 <div className="notification-card notification-card2 notification-cms ">
                   <div className="notification-card-in mb-4">
                     <h3>
-                      Send Reminder On
+                      Weekly Reminder to Message Team
                       <span>
                         Receive a reminder to message your team once per week.
                       </span>
@@ -261,7 +261,7 @@ export default function Page() {
                 <div>
                   <Row className="px-3 mt-4">
                     <Col md={6} className="sprt-faq">
-                      <FaqAccordion />
+                      <FaqAccordionCoach />
                       <div className="deactivate-account">
                         <img src="/assets/image/alert-rd.svg" />
                         <h3>

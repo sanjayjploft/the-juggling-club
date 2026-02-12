@@ -47,9 +47,9 @@ export default function DashboardPage() {
                 <label>Group</label>
               </Form.Floating>
 
-              <Link href="/create-new-group" className="btn-primary">
+              {/* <Link href="/create-new-group" className="btn-primary">
                 Create Group
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="user-profile">
@@ -86,7 +86,7 @@ export default function DashboardPage() {
                     <td>Soccer Academy Elite</td>
 
                     <td>
-                      <Link href="/clubplayer-details" className="">
+                      <Link href="/send-message" className="">
                         <img src="/assets/image/message-white.svg" />
                       </Link>
                     </td>
@@ -102,7 +102,7 @@ export default function DashboardPage() {
                     <td>Soccer Academy Elite</td>
 
                     <td>
-                      <Link href="/clubplayer-details" className="">
+                      <Link href="/send-message" className="">
                         <img src="/assets/image/message-white.svg" />
                       </Link>
                     </td>
@@ -118,7 +118,7 @@ export default function DashboardPage() {
                     <td>Youth Training Group</td>
 
                     <td>
-                      <Link href="/clubplayer-details" className="">
+                      <Link href="/send-message" className="">
                         <img src="/assets/image/message-white.svg" />
                       </Link>
                     </td>
@@ -134,7 +134,7 @@ export default function DashboardPage() {
                     <td>Advanced Players</td>
 
                     <td>
-                      <Link href="/clubplayer-details" className="">
+                      <Link href="/send-message" className="">
                         <img src="/assets/image/message-white.svg" />
                       </Link>
                     </td>

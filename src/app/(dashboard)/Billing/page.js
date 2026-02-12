@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Parentsidebar from "../../../components/dashboard/Parentsidebar";
 
 export default function page() {
@@ -36,50 +37,59 @@ export default function page() {
         <main className="msar-main">
           <div className="msar-top-bar d-flex justify-content-between align-items-start">
             <div className="top-heading">
-              <h4>Billing </h4>
+              <div>
+                <h4>Billing</h4>
+              </div>
             </div>
-            <button className="btn admin-btn-primary">+ Add Player</button>
+            <div className="user-profile">
+              <Link href="#">
+                <img src="/assets/image/coach-mike.png" />
+              </Link>
+            </div>
           </div>
           <div className="container-fluid">
-          <div className="content-card">
-            <div className="billing-card">
-            <h2 className="billing-title">BILLING & INVOICES</h2>
+            <div className="content-card">
+              <div className="billing-card">
+                <h2 className="billing-title">BILLING & INVOICES</h2>
 
-            <div className="table-wrapper">
-              <table className="billing-table">
-                <thead>
-                  <tr>
-                    <th>Date</th>
-                    <th>Plan</th>
-                    <th>Child Name</th>
-                    <th>Amount</th>
-                    <th>Subscription Status</th>
-                    <th>Payment Status</th>
-                    <th>Invoice</th>
-                  </tr>
-                </thead>
+                <div className="table-wrapper">
+                  <table className="billing-table">
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Plan</th>
+                        <th>Child Name</th>
+                        <th>Amount</th>
+                        <th>Subscription Status</th>
+                        <th>Payment Status</th>
+                        <th>Invoice</th>
+                      </tr>
+                    </thead>
 
-                <tbody>
-                  {invoices.map((item, index) => (
-                    <tr key={index}>
-                      <td>{item.date}</td>
-                      <td>{item.plan}</td>
-                      <td>{item.child}</td>
-                      <td>{item.amount}</td>
-                      <td className={`status ${item.subscription.toLowerCase()}`}>
-                        {item.subscription}
-                      </td>
+                    <tbody>
+                      {invoices.map((item, index) => (
+                        <tr key={index}>
+                          <td>{item.date}</td>
+                          <td>{item.plan}</td>
+                          <td>{item.child}</td>
+                          <td>{item.amount}</td>
+                          <td
+                            className={`status ${item.subscription.toLowerCase()}`}>
+                            {item.subscription}
+                          </td>
 
-                      <td className="paid">{item.payment}</td>
+                          <td className="paid">{item.payment}</td>
 
-                      <td className="download"><img src="/assets/image/document-dwd.svg" /></td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+                          <td className="download">
+                            <img src="/assets/image/document-dwd.svg" />
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
-          </div>
-          </div>
           </div>
         </main>
       </div>

@@ -1650,7 +1650,7 @@ input::placeholder {
 .steps-line.desktop {
   z-index: 1;
   position: absolute;
-  top: 55%;
+  top: 58%;
   transform: translateY(-50%);
 }
 
@@ -1921,7 +1921,6 @@ input::placeholder {
 }
 
 .inpt-bx select {
-  appearance: none;
   border: none;
   border-bottom: 1px solid #949494;
   border-radius: 0;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Link from "next/link";
-import HowCoachesUseIt from "../../../components/HowCoachesUseIt";
+import HowCoachesUseItParents from "../../../components/HowCoachesUseItParents";
 import PlayerTestimonial from "../../../components/PlayerTestimonial";
 
 export default function page() {
@@ -317,7 +317,7 @@ export default function page() {
           </div>
         </section>
 
-        <HowCoachesUseIt />
+        <HowCoachesUseItParents />
         <PlayerTestimonial />
         <section className="section pricing-overview">
           <div className="container">

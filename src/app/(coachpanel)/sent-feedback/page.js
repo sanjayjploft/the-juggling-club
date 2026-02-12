@@ -20,9 +20,9 @@ export default function Page() {
           <div className="top-heading">
             <div>
               <h4>
-                Player Videos
+                Player Progress
                 <span>
-                  Review video submissions and provide feedback to your players
+                  See what your players are working on — jump in when you want.
                 </span>
               </h4>
             </div>
@@ -138,7 +138,7 @@ export default function Page() {
                       className=""
                       placeholder="Your Feedback"></textarea>
                     <div className="d-flex  justify-content-between ">
-                      <div className="chrtr-lmt">Max 300 Characters </div>
+                      <div className="chrtr-lmt">Max 500 Characters </div>
                       <div className="chrtr-lmt">
                         The player will receive this feedback in the app with
                         your message{" "}

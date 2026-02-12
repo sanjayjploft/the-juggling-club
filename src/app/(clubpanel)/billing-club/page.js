@@ -19,8 +19,8 @@ export default function DashboardPage() {
           <div className="top-heading">
             <div>
               <h4>
-                Reports
-                <span>View club analytics and player engagement</span>
+                Billing & Payments
+                <span>Manage your club subscription and payments</span>
               </h4>
             </div>
           </div>
@@ -49,10 +49,6 @@ export default function DashboardPage() {
               </div>
 
               <div className="team-info-grid subscription-box-info mx-0">
-                <div className="team-grid-item">
-                  <p>Team Name</p>
-                  <h5>U-12 Development Squad</h5>
-                </div>
                 <div className="team-grid-item">
                   <p>Tier 1</p>
                   <h5>Subscription Tier</h5>
