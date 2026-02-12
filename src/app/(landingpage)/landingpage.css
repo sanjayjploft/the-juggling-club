@@ -47,6 +47,7 @@ body {
   width: 71px;
   height: 80px;
   aspect-ratio: 71/80;
+  object-fit: contain;
 }
 
 .hero-section h1 {
@@ -275,22 +276,6 @@ body {
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
-  .activate-box-exact {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .activate-right {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .activate-btn-exact {
-    width: 100%;
-    text-align: center;
-  }
-}
 
 /* TESTIMONIAL */
 .testimonial-section {
@@ -357,43 +342,255 @@ body {
 }
 
 .coach-card {
-  display: flex;
-  gap: 20px;
-  background: var(--blue-main);
-  color: #fff;
-  padding: 30px;
+  border-radius: 30px;
+  background: radial-gradient(
+    161.39% 113.45% at 40.95% -10.45%,
+    #0055a4 38.13%,
+    #0055a4 100%
+  );
+  box-shadow: 3.122px 9.366px 21.854px 0 rgba(0, 0, 0, 0.06);
   border-radius: 20px;
+  gap: 20px;
+  padding: 30px;
+  display: flex;
+  max-width: 778px;
+  margin: 0 auto;
+}
+.coach-img-crd img {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
+.coach-info-crd h4 {
+  color: var(--Primary-Blues-50, #eff9ff);
+  font-family: Avenir;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.coach-info-crd span {
+  color: var(--Neutrals-0, #fff);
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 184.615% */
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.coach-info-crd p {
+  color: var(--Neutrals-0, #fff);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  margin-bottom: 0px;
+}
 /* LEADERBOARD */
+.medal-left h3 {
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.medal-left p {
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
 .leaderboard-section {
-  background: var(--blue-dark);
-  padding: 80px 0;
+  background: #03202f;
+  padding: 55px 0;
 }
 
 .leaderboard-box {
-  background: #02131f;
-  border-radius: 20px;
-  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #4c4c4c;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
 }
 
 .leader-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 0;
   color: #fff;
+  justify-content: space-between;
+  display: flex;
+  padding: 13px 20px;
+}
+.leader-row:not(:last-child) {
+  border-bottom: 1px solid #4c4c4c;
+}
+.leader-row strong {
+  color: var(--Primary-Badge-Blue, #0a5fff);
+  text-align: right;
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.view-all-leader {
+  text-align: center;
+  margin-top: 24px;
 }
 
+.view-all-leader a {
+  color: #00a86b;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 /* CTA */
 .cta-section {
   text-align: center;
-  padding: 80px 20px;
+  padding: 55px 20px;
 }
-
+.cta-section h2 {
+  color: #000;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 /* FOOTER */
 .footer {
   background: #0b0b0b;
   color: #aaa;
   text-align: center;
-  padding: 30px;
+  padding: 50px 0;
+}
+
+.copy-write-btm {
+  border-top: 1px solid #94949480;
+  padding: 33px 0px 0px;
+  margin-top: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer p {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1400px) {
+  .hero-section h1 {
+    font-size: 62px;
+  }
+  .hero-actions {
+    flex-wrap: wrap;
+  }
+  .hero-sub {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-section h1 {
+    font-size: 42px;
+  }
+  .section-title {
+    font-size: 32px;
+  }
+  .how-card h4 {
+    margin-top: 20px;
+  }
+  .activate-box-exact h3 {
+    font-size: 32px;
+  }
+  .activate-box-exact {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .activate-right {
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .activate-btn-exact {
+    width: 100%;
+    text-align: center;
+  }
+  .activate-right:after {
+    right: 0;
+  }
+  .qr-block {
+    padding: 20px 0 0;
+  }
+  .testimonial-section .section-title {
+    font-size: 32px;
+  }
+  .testimonial-card p {
+    font-size: 18px;
+  }
+  .coach-card {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .coach-img-crd img {
+    width: 100%;
+  }
+  .medal-left h3,
+  .leader-row strong {
+    font-size: 16px;
+  }
+  .cta-section h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-section h1 {
+    font-size: 32px;
+  }
+  .footer p {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  .hero-logo {
+    width: 40px;
+    height: 50px;
+  }
+  .hero-header {
+    top: 10px;
+    left: 5%;
+    right: 5%;
+  }
+  .hero-section {
+    min-height: auto;
+    padding: 130px 0 40px;
+  }
+  .how-section {
+    padding: 50px 0;
+  }
 }

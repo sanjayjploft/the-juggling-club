@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Col, Row } from "react-bootstrap";
 
 export default function HomePage() {
   return (
@@ -152,12 +153,17 @@ export default function HomePage() {
           <h2 className="section-title">MEET OUR COACH</h2>
 
           <div className="coach-card">
-            <img src="/images/coach.jpg" />
-            <div>
+            <div className="coach-img-crd">
+              <img src="/assets/image/coach-mike-big.jpg" />
+            </div>
+            <div className="coach-info-crd">
               <h4>Lead Technical Director</h4>
+              <span>Leaderboard | Juggling Specialist</span>
               <p>
                 With over 15 years of coaching experience, our lead coach brings
-                passion and expertise to every training session.
+                passion and expertise to every training session. Dedicated to
+                helping each player reach their full potential through Juggling
+                Club's innovative approach.
               </p>
             </div>
           </div>
@@ -171,20 +177,74 @@ export default function HomePage() {
 
           <div className="leaderboard-box">
             <div className="leader-row">
-              <img src="/images/medal-gold.png" />
-              <span>Alex Johnson</span>
+              <div className="medal-left d-flex gap-3 align-items-center">
+                <img className="medal-img" src="/assets/image/medal-gold.png" />
+                <div>
+                  <h3>Alex Johnson</h3>
+                  <p>24 badges</p>
+                </div>
+              </div>
               <strong>1850 pts</strong>
             </div>
             <div className="leader-row">
-              <img src="/images/medal-silver.png" />
-              <span>Jordan Smith</span>
+              <div className="medal-left d-flex gap-3 align-items-center">
+                <img
+                  className="medal-img"
+                  src="/assets/image/medal-silver.png"
+                />
+                <div>
+                  <h3>Jordan Smith</h3>
+                  <p>22 badges</p>
+                </div>
+              </div>
               <strong>1680 pts</strong>
             </div>
             <div className="leader-row">
-              <img src="/images/medal-bronze.png" />
-              <span>Casey Williams</span>
+              <div className="medal-left d-flex gap-3 align-items-center">
+                <img
+                  className="medal-img"
+                  src="/assets/image/medal-bronze.png"
+                />
+                <div>
+                  <h3>Casey Williams</h3>
+                  <p>20 badges</p>
+                </div>
+              </div>
               <strong>1540 pts</strong>
             </div>
+            <div className="leader-row">
+              <div className="medal-left d-flex gap-3 align-items-center">
+                4
+                <div>
+                  <h3>Alex Johnson</h3>
+                  <p>24 badges</p>
+                </div>
+              </div>
+              <strong>1850 pts</strong>
+            </div>
+            <div className="leader-row">
+              <div className="medal-left d-flex gap-3 align-items-center">
+                5
+                <div>
+                  <h3>Jordan Smith</h3>
+                  <p>22 badges</p>
+                </div>
+              </div>
+              <strong>1680 pts</strong>
+            </div>
+            <div className="leader-row">
+              <div className="medal-left d-flex gap-3 align-items-center">
+                6
+                <div>
+                  <h3>Casey Williams</h3>
+                  <p>20 badges</p>
+                </div>
+              </div>
+              <strong>1540 pts </strong>
+            </div>
+          </div>
+          <div className="view-all-leader">
+            <Link href="#">View Full Leaderboard</Link>
           </div>
         </div>
       </section>
@@ -197,8 +257,41 @@ export default function HomePage() {
 
       {/* FOOTER */}
       <footer className="footer">
-        <p>support@jugglingclub.app</p>
-        <small>© Juggling Club. All rights reserved.</small>
+        <Row className="align-items-center">
+          <Col lg={4}>
+            <div className=" d-flex gap-3 justify-content-center">
+              <img src="assets/image/club-logo.png" className="hero-logo" />
+              <img
+                src="/assets/image/logo-juggling.svg"
+                className="hero-logo"
+              />
+            </div>
+          </Col>
+          <Col lg={4}>
+            {" "}
+            <p>
+              <img src="/assets/image/arroba.svg" className="me-1" />
+              support@jugglingclub.app
+            </p>
+          </Col>
+          <Col lg={4}>
+            <div className=" d-flex gap-3 justify-content-center">
+              <Link href="">
+                <img src="/assets/image/facebook-icon.svg" />
+              </Link>
+              <Link href="">
+                <img src="/assets/image/instagram-icon.svg" />
+              </Link>
+              <Link href="">
+                <img src="/assets/image/twitter-icon.svg" />
+              </Link>
+            </div>
+          </Col>
+        </Row>
+
+        <div className="copy-write-btm">
+          © Juggling Club. All rights reserved.
+        </div>
       </footer>
     </>
   );

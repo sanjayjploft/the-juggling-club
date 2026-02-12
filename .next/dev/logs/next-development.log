@@ -1,7 +1,890 @@
-[00:00:01.528] Server  LOG     ✓ Ready in 1062ms
-[00:00:02.947] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:20.808] Server  LOG     ✓ Ready in 14.4s
+[00:00:23.882] Server  LOG     ○ Compiling /club-landing-page ...
+[00:00:25.983] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:03.018] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:26.577] Server  LOG     ✓ Compiled in 21ms
-[00:01:44.580] Server  LOG     ✓ Compiled in 16ms
-[00:02:14.769] Server  LOG     ✓ Compiled in 57ms
+[00:00:26.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:23.793] Browser ERROR   ./src/app/(landingpage)/club-landing-page/page.js:263:13
+Parsing ecmascript source code failed
+  261 |           <Col lg={4}>
+  262 |           <div className=""
+> 263 |             <img src="assets/image/club-logo.png" className="hero-logo" />
+      |             ^
+  264 |             <img src="/assets/image/logo-juggling.svg" className="hero-logo" />
+  265 |           </Col>
+  266 |           <Col lg={4}>
+
+Expression expected
+[00:03:32.307] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:57.398] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:59.080] Server  LOG     ✓ Compiled in 23ms
+[00:06:00.851] Server  LOG     ✓ Compiled in 18ms
+[00:06:03.746] Server  LOG     ✓ Compiled in 16ms
+[00:06:36.945] Server  LOG     ✓ Compiled in 16ms
+[00:06:50.786] Server  LOG     ✓ Compiled in 17ms
+[00:06:54.459] Server  LOG     ✓ Compiled in 18ms
+[00:06:57.384] Server  LOG     ✓ Compiled in 15ms
+[00:06:58.238] Server  LOG     ✓ Compiled in 16ms
+[00:07:00.388] Server  LOG     ✓ Compiled in 15ms
+[00:07:08.449] Server  LOG     ✓ Compiled in 22ms
+[00:07:43.444] Server  LOG     ✓ Compiled in 20ms
+[00:07:47.432] Server  LOG     ✓ Compiled in 29ms
+[00:07:48.584] Server  LOG     ✓ Compiled in 20ms
+[00:07:52.053] Server  LOG     ✓ Compiled in 17ms
+[00:08:16.789] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:00.687] Server  LOG     ✓ Compiled in 31ms
+[00:09:02.277] Server  LOG     ✓ Compiled in 16ms
+[00:09:05.159] Server  LOG     ✓ Compiled in 43ms
+[00:09:07.377] Server  LOG     ✓ Compiled in 17ms
+[00:09:09.240] Server  LOG     ✓ Compiled in 20ms
+[00:09:11.793] Server  LOG     ✓ Compiled in 19ms
+[00:09:13.452] Server  LOG     ✓ Compiled in 16ms
+[00:09:45.041] Server  LOG     ✓ Compiled in 18ms
+[00:09:47.355] Server  LOG     ✓ Compiled in 16ms
+[00:10:05.245] Server  LOG     ✓ Compiled in 18ms
+[00:10:09.609] Server  LOG     ✓ Compiled in 16ms
+[00:10:11.140] Server  LOG     ✓ Compiled in 16ms
+[00:10:45.723] Server  LOG     ✓ Compiled in 20ms
+[00:10:47.810] Server  LOG     ✓ Compiled in 16ms
+[00:10:49.894] Server  LOG     ✓ Compiled in 17ms
+[00:11:02.187] Server  LOG     ✓ Compiled in 22ms
+[00:11:04.465] Server  LOG     ✓ Compiled in 15ms
+[00:11:05.682] Server  LOG     ✓ Compiled in 19ms
+[00:11:21.759] Server  LOG     ✓ Compiled in 16ms
+[00:11:23.247] Server  LOG     ✓ Compiled in 19ms
+[00:11:24.041] Server  LOG     ✓ Compiled in 18ms
+[00:11:49.161] Server  LOG     ✓ Compiled in 18ms
+[00:12:01.702] Server  LOG     ✓ Compiled in 17ms
+[00:12:05.125] Server  LOG     ✓ Compiled in 24ms
+[00:12:08.109] Server  LOG     ✓ Compiled in 17ms
+[00:12:10.412] Server  LOG     ✓ Compiled in 16ms
+[00:12:24.970] Server  LOG     ✓ Compiled in 17ms
+[00:12:28.179] Server  LOG     ✓ Compiled in 17ms
+[00:12:29.615] Server  LOG     ✓ Compiled in 16ms
+[00:12:30.369] Server  LOG     ✓ Compiled in 18ms
+[00:12:41.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:55.607] Server  LOG     ✓ Compiled in 16ms
+[00:13:17.549] Server  LOG     ✓ Compiled in 17ms
+[00:13:44.246] Server  LOG     ✓ Compiled in 27ms
+[00:13:44.795] Browser ERROR   ./src/app/(landingpage)/landingpage.css:547:1
+Parsing CSS source code failed
+  545 |   }
+  546 |   center
+> 547 | }
+      | ^
+  548 | @media (max-width: 767px) {
+  549 |   .hero-section h1 {
+  550 |     font-size: 32px;
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(landingpage)/landingpage.css [Client Component Browser]
+    ./src/app/(landingpage)/layout.js [Server Component]
+[00:13:48.135] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:59.290] Server  LOG     ✓ Compiled in 20ms
+[00:14:02.319] Server  LOG     ✓ Compiled in 19ms
+[00:14:03.865] Server  LOG     ✓ Compiled in 19ms
+[00:14:15.942] Server  LOG     ✓ Compiled in 16ms
+[00:14:29.030] Server  LOG     ✓ Compiled in 49ms
+[00:14:31.022] Server  LOG     ✓ Compiled in 16ms
+[00:14:31.711] Server  LOG     ✓ Compiled in 31ms
+[00:14:46.760] Server  LOG     ✓ Compiled in 17ms
+[00:14:48.662] Server  LOG     ✓ Compiled in 16ms
+[00:14:49.130] Server  LOG     ✓ Compiled in 63ms
+[00:15:00.465] Server  LOG     ✓ Compiled in 53ms
+[00:15:03.591] Server  LOG     ✓ Compiled in 22ms
+[00:15:04.829] Server  LOG     ✓ Compiled in 20ms
+[00:15:14.770] Server  LOG     ✓ Compiled in 23ms
+[00:15:20.818] Server  LOG     ✓ Compiled in 20ms
+[00:15:21.479] Server  LOG     ✓ Compiled in 16ms
+[00:15:39.435] Server  LOG     ✓ Compiled in 18ms
+[00:15:40.839] Server  LOG     ✓ Compiled in 39ms
+[00:15:43.458] Server  LOG     ✓ Compiled in 15ms
+[00:15:59.066] Server  LOG     ✓ Compiled in 28ms
+[00:16:00.575] Server  LOG     ✓ Compiled in 15ms
+[00:16:02.519] Server  LOG     ✓ Compiled in 83ms
+[00:16:11.971] Server  LOG     ✓ Compiled in 19ms
+[00:16:23.897] Server  LOG     ✓ Compiled in 20ms
+[00:16:26.584] Server  LOG     ✓ Compiled in 16ms
+[00:16:27.763] Server  LOG     ✓ Compiled in 21ms
+[00:16:53.671] Server  LOG     ✓ Compiled in 19ms
+[00:17:01.432] Server  LOG     ✓ Compiled in 19ms
+[00:17:03.360] Server  LOG     ✓ Compiled in 16ms
+[00:17:04.561] Server  LOG     ✓ Compiled in 23ms
+[00:17:05.998] Server  LOG     ✓ Compiled in 18ms
+[00:17:34.175] Server  LOG     ✓ Compiled in 23ms
+[00:17:36.937] Server  LOG     ✓ Compiled in 15ms
+[00:17:39.685] Server  LOG     ✓ Compiled in 41ms
+[00:17:53.189] Server  LOG     ✓ Compiled in 16ms
+[00:18:31.983] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:58.357] Server  LOG     ✓ Compiled in 18ms
+[00:19:02.349] Server  LOG     ✓ Compiled in 16ms
+[00:19:04.778] Server  LOG     ✓ Compiled in 17ms
+[00:19:09.568] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:30.670] Server  LOG     ✓ Compiled in 17ms
+[00:19:35.719] Server  LOG     ✓ Compiled in 16ms
+[00:19:36.824] Server  LOG     ✓ Compiled in 17ms
+[00:19:48.755] Server  LOG     ✓ Compiled in 32ms
+[00:19:58.442] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:41.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:07.791] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:27:17
+Parsing ecmascript source code failed
+  25 |           <div className="top-heading">
+  26 |             <div>
+> 27 |               h4>
+     |                 ^
+  28 |               Club Codes
+  29 |               <span>Generate and manage club invitation codes for players</span>
+  30 |             </h4>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:22:46.915] Server  LOG     ✓ Compiled in 92ms
+[00:22:58.657] Server  LOG     ✓ Compiled in 40ms
+[00:23:18.003] Server  LOG     ✓ Compiled in 27ms
+[00:23:21.800] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:56:11
+Parsing ecmascript source code failed
+  54 |           </div>
+  55 | <div className=""
+> 56 |           <div className="code-disti">
+     |           ^
+  57 |             <h4>Code Distribution Tips</h4>
+  58 |             <p>• Share your unique Club Code with all players and families</p>
+  59 |             <p>
+
+Expression expected
+[00:23:22.790] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:56:11
+Parsing ecmascript source code failed
+  54 |           </div>
+  55 | <div className="code"
+> 56 |           <div className="code-disti">
+     |           ^
+  57 |             <h4>Code Distribution Tips</h4>
+  58 |             <p>• Share your unique Club Code with all players and families</p>
+  59 |             <p>
+
+Expression expected
+[00:23:39.564] Server  LOG     ✓ Compiled in 55ms
+[00:23:46.041] Server  LOG     ✓ Compiled in 31ms
+[00:23:48.325] Server  LOG     ✓ Compiled in 444ms
+[00:23:54.797] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:58:13
+Parsing ecmascript source code failed
+  56 |             <Row>
+  57 |               <Col lg={}
+> 58 |             </Row>
+     |             ^
+  59 |           </div>
+  60 |           <div className="code-disti">
+  61 |             <h4>Code Distribution Tips</h4>
+
+Expression expected
+[00:23:54.797] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:58:14
+Parsing ecmascript source code failed
+  56 |             <Row>
+  57 |               <Col lg={}
+> 58 |             </Row>
+     |              ^^^^^
+  59 |           </div>
+  60 |           <div className="code-disti">
+  61 |             <h4>Code Distribution Tips</h4>
+
+Unterminated regexp literal
+[00:23:55.805] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:58:13
+Parsing ecmascript source code failed
+  56 |             <Row>
+  57 |               <Col lg={6}
+> 58 |             </Row>
+     |             ^
+  59 |           </div>
+  60 |           <div className="code-disti">
+  61 |             <h4>Code Distribution Tips</h4>
+
+Expression expected
+[00:23:55.805] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:58:14
+Parsing ecmascript source code failed
+  56 |             <Row>
+  57 |               <Col lg={6}
+> 58 |             </Row>
+     |              ^^^^^
+  59 |           </div>
+  60 |           <div className="code-disti">
+  61 |             <h4>Code Distribution Tips</h4>
+
+Unterminated regexp literal
+[00:23:59.285] Server  LOG     ✓ Compiled in 23ms
+[00:24:16.797] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:59:17
+Parsing ecmascript source code failed
+  57 |               <Col lg={8}>
+  58 |               <div className="club-code-info"
+> 59 |                 </Col>
+     |                 ^
+  60 |               <Col lg={4}></Col>
+  61 |             </Row>
+  62 |           </div>
+
+Expression expected
+[00:24:16.797] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:59:18
+Parsing ecmascript source code failed
+  57 |               <Col lg={8}>
+  58 |               <div className="club-code-info"
+> 59 |                 </Col>
+     |                  ^^^^^
+  60 |               <Col lg={4}></Col>
+  61 |             </Row>
+  62 |           </div>
+
+Unterminated regexp literal
+[00:24:19.842] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:59:17
+Parsing ecmascript source code failed
+  57 |               <Col lg={8}>
+  58 |               <div className="club-code-info-right"
+> 59 |                 </Col>
+     |                 ^
+  60 |               <Col lg={4}></Col>
+  61 |             </Row>
+  62 |           </div>
+
+Expression expected
+[00:24:19.842] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:59:18
+Parsing ecmascript source code failed
+  57 |               <Col lg={8}>
+  58 |               <div className="club-code-info-right"
+> 59 |                 </Col>
+     |                  ^^^^^
+  60 |               <Col lg={4}></Col>
+  61 |             </Row>
+  62 |           </div>
+
+Unterminated regexp literal
+[00:24:20.966] Server  LOG     ✓ Compiled in 31ms
+[00:24:34.790] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:62:17
+Parsing ecmascript source code failed
+  60 |                   <h2></h2>
+  61 |                   <div className=""
+> 62 |                 </div>
+     |                 ^
+  63 |               </Col>
+  64 |               <Col lg={4}></Col>
+  65 |             </Row>
+
+Expression expected
+[00:24:34.790] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:62:18
+Parsing ecmascript source code failed
+  60 |                   <h2></h2>
+  61 |                   <div className=""
+> 62 |                 </div>
+     |                  ^^^^^
+  63 |               </Col>
+  64 |               <Col lg={4}></Col>
+  65 |             </Row>
+
+Unterminated regexp literal
+[00:24:40.796] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:62:17
+Parsing ecmascript source code failed
+  60 |                   <h2></h2>
+  61 |                   <div className="code-action"
+> 62 |                 </div>
+     |                 ^
+  63 |               </Col>
+  64 |               <Col lg={4}></Col>
+  65 |             </Row>
+
+Expression expected
+[00:24:40.796] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:62:18
+Parsing ecmascript source code failed
+  60 |                   <h2></h2>
+  61 |                   <div className="code-action"
+> 62 |                 </div>
+     |                  ^^^^^
+  63 |               </Col>
+  64 |               <Col lg={4}></Col>
+  65 |             </Row>
+
+Unterminated regexp literal
+[00:24:43.801] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:63:19
+Parsing ecmascript source code failed
+  61 |                   <div className="code-action">
+  62 |                     <Lin
+> 63 |                   </div>
+     |                   ^
+  64 |                 </div>
+  65 |               </Col>
+  66 |               <Col lg={4}></Col>
+
+Expression expected
+[00:24:43.801] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:63:20
+Parsing ecmascript source code failed
+  61 |                   <div className="code-action">
+  62 |                     <Lin
+> 63 |                   </div>
+     |                    ^^^^^
+  64 |                 </div>
+  65 |               </Col>
+  66 |               <Col lg={4}></Col>
+
+Unterminated regexp literal
+[00:24:44.798] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:63:19
+Parsing ecmascript source code failed
+  61 |                   <div className="code-action">
+  62 |                     <Link
+> 63 |                   </div>
+     |                   ^
+  64 |                 </div>
+  65 |               </Col>
+  66 |               <Col lg={4}></Col>
+
+Expression expected
+[00:24:44.798] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:63:20
+Parsing ecmascript source code failed
+  61 |                   <div className="code-action">
+  62 |                     <Link
+> 63 |                   </div>
+     |                    ^^^^^
+  64 |                 </div>
+  65 |               </Col>
+  66 |               <Col lg={4}></Col>
+
+Unterminated regexp literal
+[00:24:46.803] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:63:19
+Parsing ecmascript source code failed
+  61 |                   <div className="code-action">
+  62 |                     <Link href={}
+> 63 |                   </div>
+     |                   ^
+  64 |                 </div>
+  65 |               </Col>
+  66 |               <Col lg={4}></Col>
+
+Expression expected
+[00:24:46.803] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:63:20
+Parsing ecmascript source code failed
+  61 |                   <div className="code-action">
+  62 |                     <Link href={}
+> 63 |                   </div>
+     |                    ^^^^^
+  64 |                 </div>
+  65 |               </Col>
+  66 |               <Col lg={4}></Col>
+
+Unterminated regexp literal
+[00:24:49.789] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:63:19
+Parsing ecmascript source code failed
+  61 |                   <div className="code-action">
+  62 |                     <Link href=""
+> 63 |                   </div>
+     |                   ^
+  64 |                 </div>
+  65 |               </Col>
+  66 |               <Col lg={4}></Col>
+
+Expression expected
+[00:24:49.789] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:63:20
+Parsing ecmascript source code failed
+  61 |                   <div className="code-action">
+  62 |                     <Link href=""
+> 63 |                   </div>
+     |                    ^^^^^
+  64 |                 </div>
+  65 |               </Col>
+  66 |               <Col lg={4}></Col>
+
+Unterminated regexp literal
+[00:25:21.627] Server  LOG     ✓ Compiled in 47ms
+[00:25:39.799] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:72:17
+Parsing ecmascript source code failed
+  70 |                   </div>
+  71 |                   <div className="code-status"
+> 72 |                 </div>
+     |                 ^
+  73 |               </Col>
+  74 |               <Col lg={4}></Col>
+  75 |             </Row>
+
+Expression expected
+[00:25:39.799] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:72:18
+Parsing ecmascript source code failed
+  70 |                   </div>
+  71 |                   <div className="code-status"
+> 72 |                 </div>
+     |                  ^^^^^
+  73 |               </Col>
+  74 |               <Col lg={4}></Col>
+  75 |             </Row>
+
+Unterminated regexp literal
+[00:25:40.803] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:72:17
+Parsing ecmascript source code failed
+  70 |                   </div>
+  71 |                   <div className="code-status-"
+> 72 |                 </div>
+     |                 ^
+  73 |               </Col>
+  74 |               <Col lg={4}></Col>
+  75 |             </Row>
+
+Expression expected
+[00:25:40.803] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:72:18
+Parsing ecmascript source code failed
+  70 |                   </div>
+  71 |                   <div className="code-status-"
+> 72 |                 </div>
+     |                  ^^^^^
+  73 |               </Col>
+  74 |               <Col lg={4}></Col>
+  75 |             </Row>
+
+Unterminated regexp literal
+[00:25:42.799] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:72:17
+Parsing ecmascript source code failed
+  70 |                   </div>
+  71 |                   <div className="code-status-sec"
+> 72 |                 </div>
+     |                 ^
+  73 |               </Col>
+  74 |               <Col lg={4}></Col>
+  75 |             </Row>
+
+Expression expected
+[00:25:42.799] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:72:18
+Parsing ecmascript source code failed
+  70 |                   </div>
+  71 |                   <div className="code-status-sec"
+> 72 |                 </div>
+     |                  ^^^^^
+  73 |               </Col>
+  74 |               <Col lg={4}></Col>
+  75 |             </Row>
+
+Unterminated regexp literal
+[00:25:48.798] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:73:19
+Parsing ecmascript source code failed
+  71 |                   <div className="code-status-sec">
+  72 |                     <s
+> 73 |                   </div>
+     |                   ^
+  74 |                 </div>
+  75 |               </Col>
+  76 |               <Col lg={4}></Col>
+
+Expression expected
+[00:25:48.798] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:73:20
+Parsing ecmascript source code failed
+  71 |                   <div className="code-status-sec">
+  72 |                     <s
+> 73 |                   </div>
+     |                    ^^^^^
+  74 |                 </div>
+  75 |               </Col>
+  76 |               <Col lg={4}></Col>
+
+Unterminated regexp literal
+[00:25:53.086] Server  LOG     ✓ Compiled in 7ms
+[00:26:27.705] Server  LOG     ✓ Compiled in 76ms
+[00:27:21.790] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:83:15
+Parsing ecmascript source code failed
+  81 |               <Col lg={4}>
+  82 |               <div className="qr"
+> 83 |               </Col>
+     |               ^
+  84 |             </Row>
+  85 |           </div>
+  86 |           <div className="code-disti">
+
+Expression expected
+[00:27:21.790] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:83:16
+Parsing ecmascript source code failed
+  81 |               <Col lg={4}>
+  82 |               <div className="qr"
+> 83 |               </Col>
+     |                ^^^^^
+  84 |             </Row>
+  85 |           </div>
+  86 |           <div className="code-disti">
+
+Unterminated regexp literal
+[00:27:26.792] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:83:15
+Parsing ecmascript source code failed
+  81 |               <Col lg={4}>
+  82 |               <div className="club-code"
+> 83 |               </Col>
+     |               ^
+  84 |             </Row>
+  85 |           </div>
+  86 |           <div className="code-disti">
+
+Expression expected
+[00:27:26.792] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:83:16
+Parsing ecmascript source code failed
+  81 |               <Col lg={4}>
+  82 |               <div className="club-code"
+> 83 |               </Col>
+     |                ^^^^^
+  84 |             </Row>
+  85 |           </div>
+  86 |           <div className="code-disti">
+
+Unterminated regexp literal
+[00:27:31.800] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:83:15
+Parsing ecmascript source code failed
+  81 |               <Col lg={4}>
+  82 |               <div className="club-qr-code"
+> 83 |               </Col>
+     |               ^
+  84 |             </Row>
+  85 |           </div>
+  86 |           <div className="code-disti">
+
+Expression expected
+[00:27:31.800] Browser ERROR   ./src/app/(clubpanel)/club-codes/page.js:83:16
+Parsing ecmascript source code failed
+  81 |               <Col lg={4}>
+  82 |               <div className="club-qr-code"
+> 83 |               </Col>
+     |                ^^^^^
+  84 |             </Row>
+  85 |           </div>
+  86 |           <div className="code-disti">
+
+Unterminated regexp literal
+[00:29:55.728] Server  LOG     ✓ Compiled in 46ms
+[00:30:00.866] Server  LOG     ✓ Compiled in 43ms
+[00:30:09.307] Server  LOG     ✓ Compiled in 59ms
+[00:32:24.140] Server  LOG     ✓ Compiled in 48ms
+[00:32:36.794] Server  LOG     ✓ Compiled in 44ms
+[00:32:37.855] Server  LOG     ✓ Compiled in 46ms
+[00:32:48.423] Server  LOG     ✓ Compiled in 46ms
+[00:32:49.420] Server  LOG     ✓ Compiled in 52ms
+[00:32:51.887] Server  LOG     ✓ Compiled in 43ms
+[00:32:53.052] Server  LOG     ✓ Compiled in 74ms
+[00:32:59.254] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:18.753] Server  LOG     ✓ Compiled in 92ms
+[00:35:41.348] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:36:13.286] Server  LOG     ✓ Compiled in 167ms
+[00:36:21.440] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+>                               <h3>
+                                ...
+                            ...
+                ...
+              ...
+
+[00:36:21.440] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <Col lg={5}>
+                                    <div ref={null} className="col-lg-5">
+                                      <div className="floating-c...">
+>                                       <div className="color-input-wrapper">
+                                        ...
+                            ...
+                ...
+              ...
+
+[00:36:21.440] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[00:36:22.192] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+>                                     <h5>
+                                      ...
+                                  ...
+                                ...
+                ...
+              ...
+
+[00:36:22.192] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:36:22.192] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+                                      <h5>
+>                                     <p>
+                                  ...
+                                ...
+                ...
+              ...
+
+[00:36:22.192] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:36:25.274] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:26.635] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:27.731] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:28.776] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:29.842] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:36:29.842] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:36:54.897] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+>                               <h3>
+                                ...
+                            ...
+                ...
+              ...
+
+[00:36:54.898] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <Col lg={5}>
+                                    <div ref={null} className="col-lg-5">
+                                      <div className="floating-c...">
+>                                       <div className="color-input-wrapper">
+                                        ...
+                            ...
+                ...
+              ...
+
+[00:36:54.898] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[00:36:56.382] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+>                                     <h5>
+                                      ...
+                                  ...
+                                ...
+                ...
+              ...
+
+[00:36:56.382] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:36:56.382] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+                                      <h5>
+>                                     <p>
+                                  ...
+                                ...
+                ...
+              ...
+
+[00:36:56.382] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:37:36.140] Server  LOG     ✓ Compiled in 111ms
+[00:38:52.026] Server  LOG     ✓ Compiled in 413ms
+[00:38:54.229] Server  LOG     ✓ Compiled in 355ms
+[00:38:58.201] Server  LOG     ✓ Compiled in 229ms
+[00:39:00.709] Server  LOG     ✓ Compiled in 343ms
+[00:39:04.024] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h4> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <Row>
+                                <h3>
+                                ...
+                                  <div ref={null} className="adm-per row">
+                                    <Col md={12}>
+                                      <div ref={null} className="col-md-12">
+>                                       <h4 className="mb-1">
+                                        ...
+                            ...
+                ...
+              ...
+
+[00:39:04.024] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h4>
+[00:39:38.608] Server  LOG     ✓ Compiled in 338ms
+[00:39:43.564] Server  LOG     ✓ Compiled in 254ms
+[00:39:46.084] Server  LOG     ✓ Compiled in 209ms
+[00:39:48.363] Server  LOG     ✓ Compiled in 144ms
+[00:40:31.079] Server  LOG     ✓ Compiled in 49ms
+[00:40:35.745] Server  LOG     ✓ Compiled in 18ms
+[00:40:36.103] Server  LOG     ✓ Compiled in 32ms
+[00:41:06.857] Server  LOG     ✓ Compiled in 42ms
+[00:41:10.237] Server  LOG     ✓ Compiled in 30ms
+[00:41:11.487] Server  LOG     ✓ Compiled in 30ms

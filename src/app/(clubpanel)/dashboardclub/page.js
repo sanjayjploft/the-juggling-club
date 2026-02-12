@@ -9,18 +9,29 @@ export default function DashboardPage() {
 
       <main className="msar-main">
         {/* HEADER */}
+
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
-            <h4>Dashboard</h4>
-            <div className="filter-by-days">
+            <div>
+              <h4>Dashboard</h4>
+              <p className="mb-0">
+                {" "}
+                Keep your players motivated with personal messages and voice
+                recordings.
+              </p>
+            </div>
+            <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
               <Button className="ft-btn active">Last 7 days</Button>
               <Button className="ft-btn">30 days </Button>
               <Button className="ft-btn">All time</Button>
             </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
-
         {/* CONTENT */}
         <div className="container-fluid">
           <div className="card-grid-box">

@@ -8,7 +8,7 @@ import { useState } from "react";
 const menu = [
   {
     name: "Dashboard",
-    href: "/dashboard",
+    href: "/dashboardclub",
     icon: "/assets/image/dashboard.svg",
     activeIcon: "/assets/image/dashboard-active.svg",
   },

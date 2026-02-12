@@ -9,69 +9,72 @@ export default function Page() {
 
       <main className="msar-main">
         {/* HEADER */}
+
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
-            <h4>Club Codes
-              <span>Generate and manage club invitation codes for players</span>
-            </h4>
-            <Link href="club-teams/add-team" className="small-btn-admin">Generate New Code</Link>
+            <div>
+              <h4>
+                Club Codes
+                <span>
+                  Generate and manage club invitation codes for players
+                </span>
+              </h4>
+            </div>
           </div>
-          <button className="btn admin-btn-primary">+ Add Player</button>
+          <div className="user-profile">
+            <Link href="#">
+              <img src="/assets/image/coach-mike.png" />
+            </Link>
+          </div>
         </div>
-
         {/* CONTENT */}
         <div className="container-fluid">
-
-            <div className="team-info-grid clb-cds">
-              <div className="team-grid-item">
-                <p>Generate New Code</p>
-                <h5>C-AUR-32871</h5>                
-              </div>
-              <div className="team-grid-item">
-                <p>Created</p>
-                <h5>01-15-2024</h5>                
-              </div>
-              <div className="team-grid-item">
-                <p>Players Linked</p>
-                <h5>425</h5>                
-              </div>
-              <div className="team-grid-item">
-                <p>Status</p>
-                <span className="act-sts">Active</span>               
-              </div>
-              <div className="team-grid-item">
-                <Link href="/clubplayer-details" className=""><img src="/assets/image/copy.svg" /> Copy Code</Link>             
-              </div>
-            </div>
-            <div className="team-info-grid clb-cds">
-              <div className="team-grid-item">
-                <p>Generate New Code</p>
-                <h5>C-AUR-32871</h5>                
-              </div>
-              <div className="team-grid-item">
-                <p>Created</p>
-                <h5>01-15-2024</h5>                
-              </div>
-              <div className="team-grid-item">
-                <p>Players Linked</p>
-                <h5>425</h5>                
-              </div>
-              <div className="team-grid-item">
-                <p>Status</p>
-                <span className="act-sts">Active</span>               
-              </div>
-              <div className="team-grid-item">
-                <Link href="/clubplayer-details" className=""><img src="/assets/image/copy.svg" /> Copy Code</Link>             
-              </div>
-            </div>
-            <div className="code-disti">
-              <h4>Code Distribution Tips</h4>
-              <p>• Share unique codes with different groups (U12, U14, etc.) to track sign-ups by age group</p>
-              <p>• Distribute codes through email, SMS, or printed materials</p>
-              <p>• Families using the code receive 10% discounts</p>
-              <p>• Players' app experiences will be branded with your club</p>
-            </div>
-
+          <div className="club-code-section">
+            <Row className="align-items-center">
+              <Col lg={8}>
+                <div className="club-code-info-right">
+                  <small>Club Code</small>
+                  <h2>C-AUR-32871</h2>
+                  <div className="code-action">
+                    <Link href="" className="copy-code-btn">
+                      {" "}
+                      <img src="/assets/image/copy.svg" /> Copy Code
+                    </Link>
+                    <Link href="" className="share-code-btn">
+                      {" "}
+                      <img src="/assets/image/share-icon.svg" /> Share Code
+                    </Link>
+                  </div>
+                  <div className="code-status-sec">
+                    <div>
+                      Status: <span>Active</span>{" "}
+                    </div>
+                    <div>
+                      <span>425</span> Players Linked
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col lg={4} className="text-end">
+                <div className="club-qr-code">
+                  <img src="/assets/image/qr-code-big.svg" />
+                </div>
+              </Col>
+            </Row>
+          </div>
+          <div className="code-disti">
+            <h4>Code Distribution Tips</h4>
+            <p>• Share your unique Club Code with all players and families</p>
+            <p>
+              • Post or print a QR code (linked to this same Club Code) for easy
+              scanning at practices, games, and events
+            </p>
+            <p>• Send the code via email or SMS for quick digital access</p>
+            <p>
+              • Families receive a 10% subscription discount, and players see
+              your club branding throughout the app
+            </p>
+          </div>
         </div>
       </main>
     </div>
