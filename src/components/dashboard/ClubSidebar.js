@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const menu = [
   {
@@ -65,6 +65,22 @@ const menu = [
 export default function ClubSidebar() {
   const pathname = usePathname();
   const [collapsed, setCollapsed] = useState(false);
+
+  // ✅ AUTO COLLAPSE LOGIC
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1300) {
+        setCollapsed(true);
+      } else {
+        setCollapsed(false);
+      }
+    };
+
+    handleResize(); // first load check
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <aside className={`msar-sidebar ${collapsed ? "is-collapsed" : ""}`}>

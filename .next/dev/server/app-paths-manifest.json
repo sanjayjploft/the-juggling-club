@@ -1,5 +1,9 @@
 {
+  "/(clubpanel)/(clubauth)/club-information/page": "app/(clubpanel)/(clubauth)/club-information/page.js",
   "/(clubpanel)/club-settings/page": "app/(clubpanel)/club-settings/page.js",
+  "/(clubpanel)/dashboardclub/page": "app/(clubpanel)/dashboardclub/page.js",
   "/(clubpanel)/reports/page": "app/(clubpanel)/reports/page.js",
-  "/(dashboard)/NotificationsSettings/page": "app/(dashboard)/NotificationsSettings/page.js"
+  "/(coachpanel)/coach-rewards/page": "app/(coachpanel)/coach-rewards/page.js",
+  "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js"
 }
