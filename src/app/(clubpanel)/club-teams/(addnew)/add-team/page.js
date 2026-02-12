@@ -1,5 +1,6 @@
 import { Button, Col, Form, Row } from "react-bootstrap";
 import ClubSidebar from "../../../../../components/dashboard/ClubSidebar";
+import Link from "next/link";
 
 export default function Page() {
   return (
