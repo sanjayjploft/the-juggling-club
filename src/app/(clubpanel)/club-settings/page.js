@@ -40,8 +40,8 @@ export default function DashboardPage() {
         <div className="container-fluid ">
           <div className="player-card mx-3 mb-4">
             <div className="settings-sub-heading">
-              <h6>Pricing Tiers</h6>
-              <p className="">Club subscription plans based on player count</p>
+              <h6>Basic Information</h6>
+              <p className="">Update your club details</p>
             </div>
             <Row>
               <Col md={5}>

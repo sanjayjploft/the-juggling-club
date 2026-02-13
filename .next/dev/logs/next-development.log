@@ -1,14 +1,47 @@
-[00:00:24.117] Server  LOG     ✓ Ready in 18.2s
-[00:00:24.119] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.664] Server  LOG     ✓ Ready in 1196ms
+[00:00:01.666] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:27.198] Server  LOG     ○ Compiling / ...
-[00:00:35.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:36.439] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:36.470] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:37.323] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:42.312] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:05:14.211] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:14.792] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:05.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.006] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.047] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.178] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:00:06.730] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -42,8 +75,6 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                           <body
 -                           contenteditable="false"
--                           data-new-gr-c-s-check-loaded="14.1132.0"
--                           data-gr-ext-installed=""
                           >
                             ...
                               <PublicLayout>
@@ -424,189 +455,215 @@ It can also happen if the client has a browser extension installed which messes 
                                       ...
                   ...
 
-[00:05:17.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:53.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:13.710] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:15.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:09:15.489] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:10:03.910] Server  LOG     ✓ Compiled in 203ms
-[00:10:09.247] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:09.247] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:09.247] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:09.247] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:09.247] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:09.247] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:09.247] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:12.044] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:10:18.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:18.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:18.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:18.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:18.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:18.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:18.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:21.385] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:21.385] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:21.385] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:21.385] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:21.385] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:21.385] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:21.385] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:25.865] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:25.865] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:25.865] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:25.865] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:25.865] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:25.865] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:25.865] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:38.733] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:56.562] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:10:57.849] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:57.849] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:57.849] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:57.849] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:57.849] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:57.849] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:57.849] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:10:57.849] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:11:01.536] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:01.536] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:01.536] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:01.536] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:01.536] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:01.536] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:01.536] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:11:03.399] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h3> p 
+[00:00:07.078] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
->                               <h3>
-                                ...
-                ...
-              ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
 
-[00:11:03.399] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h5> p 
+[00:00:07.179] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:08.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.187] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:02:07.779] Server  LOG     ✓ Compiled in 212ms
+[00:02:10.318] Server  LOG     ✓ Compiled in 43ms
+[00:02:26.457] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:29.452] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:10.395] Server  LOG     ✓ Compiled in 44ms
+[00:03:13.433] Server  LOG     ✓ Compiled in 40ms
+[00:03:14.876] Server  LOG     ✓ Compiled in 54ms
+[00:03:17.183] Server  LOG     ✓ Compiled in 39ms
+[00:03:18.937] Server  LOG     ✓ Compiled in 92ms
+[00:03:56.788] Server  LOG     ✓ Compiled in 49ms
+[00:03:58.574] Server  LOG     ✓ Compiled in 41ms
+[00:03:59.245] Server  LOG     ✓ Compiled in 44ms
+[00:04:18.112] Server  LOG     ✓ Compiled in 45ms
+[00:04:20.126] Server  LOG     ✓ Compiled in 42ms
+[00:04:21.336] Server  LOG     ✓ Compiled in 49ms
+[00:04:44.889] Server  LOG     ✓ Compiled in 44ms
+[00:04:47.258] Server  LOG     ✓ Compiled in 53ms
+[00:04:49.741] Server  LOG     ✓ Compiled in 40ms
+[00:04:53.139] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:53.616] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
-                                    <div>
->                                     <h5>
-                                      ...
-                                  ...
-                                ...
-                ...
-              ...
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
 
-[00:11:03.399] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <h5>
-[00:11:03.399] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
-                                    <div>
-                                      <h5>
->                                     <p>
-                                  ...
-                                ...
-                ...
-              ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
 
-[00:11:03.399] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[00:11:03.399] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
+[00:05:29.283] Server  LOG     ✓ Compiled in 47ms
+[00:05:32.136] Server  LOG     ✓ Compiled in 45ms
+[00:06:12.760] Server  LOG     ✓ Compiled in 39ms
+[00:06:18.140] Server  LOG     ✓ Compiled in 40ms
+[00:06:21.401] Server  LOG     ✓ Compiled in 60ms
+[00:06:27.709] Server  LOG     ✓ Compiled in 44ms
+[00:06:36.534] Server  LOG     ✓ Compiled in 44ms
+[00:08:46.380] Server  LOG     ✓ Compiled in 55ms
+[00:08:49.344] Server  LOG     ✓ Compiled in 38ms
+[00:08:50.669] Server  LOG     ✓ Compiled in 57ms
+[00:09:13.866] Server  LOG     ✓ Compiled in 226ms
+[00:09:13.968] Browser ERROR   ./src/app/globals.css:1957:5
+Parsing CSS source code failed
+  1955 |   .player-name {
+  1956 |     font-size: 18px;
+> 1957 |   }.
+       |     ^
+  1958 |   .blog-box .blog-info h3 {
+  1959 |     color: var(--Juggling-Club-Dark-Blue, #03202f);
+  1960 |     margin-bottom: 0;
 
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
->                                   <div>
-                                  ...
-                                ...
-                ...
-              ...
+Expected identifier in class selector, got WhiteSpace("\r\n  ")
 
-[00:11:03.399] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <div>
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.js [Server Component]
+[00:09:14.078] Browser ERROR   ./src/app/globals.css:1957:5
+Parsing CSS source code failed
+  1955 |   .player-name {
+  1956 |     font-size: 18px;
+> 1957 |   }.
+       |     ^
+  1958 |   .blog-box .blog-info h3 {
+  1959 |     color: var(--Juggling-Club-Dark-Blue, #03202f);
+  1960 |     margin-bottom: 0;
+
+Expected identifier in class selector, got WhiteSpace("\r\n  ")
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.js [Server Component]
+[00:09:14.172] Browser ERROR   ./src/app/globals.css:1957:5
+Parsing CSS source code failed
+  1955 |   .player-name {
+  1956 |     font-size: 18px;
+> 1957 |   }.
+       |     ^
+  1958 |   .blog-box .blog-info h3 {
+  1959 |     color: var(--Juggling-Club-Dark-Blue, #03202f);
+  1960 |     margin-bottom: 0;
+
+Expected identifier in class selector, got WhiteSpace("\r\n  ")
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.js [Server Component]
+[00:09:14.174] Browser ERROR   ./src/app/globals.css:1957:5
+Parsing CSS source code failed
+  1955 |   .player-name {
+  1956 |     font-size: 18px;
+> 1957 |   }.
+       |     ^
+  1958 |   .blog-box .blog-info h3 {
+  1959 |     color: var(--Juggling-Club-Dark-Blue, #03202f);
+  1960 |     margin-bottom: 0;
+
+Expected identifier in class selector, got WhiteSpace("\r\n  ")
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.js [Server Component]
+[00:09:14.944] Server  LOG     ✓ Compiled in 48ms
+[00:09:17.847] Server  LOG     ✓ Compiled in 39ms
+[00:09:19.145] Server  LOG     ✓ Compiled in 52ms
+[00:09:21.883] Server  LOG     ✓ Compiled in 41ms
+[00:09:48.228] Server  LOG     ✓ Compiled in 67ms
+[00:09:52.544] Server  LOG     ✓ Compiled in 44ms
+[00:09:58.162] Server  LOG     ✓ Compiled in 42ms
+[00:10:08.804] Server  LOG     ✓ Compiled in 50ms
+[00:10:10.779] Server  LOG     ✓ Compiled in 45ms
+[00:10:11.828] Server  LOG     ✓ Compiled in 205ms
+[00:10:30.143] Server  LOG     ✓ Compiled in 40ms
+[00:10:33.669] Server  LOG     ✓ Compiled in 57ms
+[00:11:06.736] Server  LOG     ✓ Compiled in 46ms
+[00:11:09.139] Server  LOG     ✓ Compiled in 42ms
+[00:11:11.641] Server  LOG     ✓ Compiled in 63ms
+[00:11:25.954] Server  LOG     ✓ Compiled in 44ms
+[00:11:27.242] Server  LOG     ✓ Compiled in 47ms
+[00:11:28.892] Server  LOG     ✓ Compiled in 51ms
+[00:11:56.313] Server  LOG     ✓ Compiled in 58ms
+[00:12:02.877] Server  LOG     ✓ Compiled in 41ms
+[00:12:09.097] Server  LOG     ✓ Compiled in 43ms
+[00:12:11.065] Server  LOG     ✓ Compiled in 81ms
+[00:12:12.253] Server  LOG     ✓ Compiled in 46ms
+[00:12:18.542] Server  LOG     ✓ Compiled in 41ms
+[00:12:42.237] Server  LOG     ✓ Compiled in 47ms
+[00:12:45.713] Server  LOG     ✓ Compiled in 156ms
+[00:12:47.981] Server  LOG     ✓ Compiled in 56ms
+[00:14:18.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:26.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:34.753] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:34.754] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:34.755] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:34.756] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:34.757] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:34.758] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:34.759] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:34.762] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:14:35.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:35.606] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:35.606] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:35.606] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:35.606] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:35.607] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:35.607] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:35.607] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:35.607] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
