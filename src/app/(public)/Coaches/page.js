@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Link from "next/link";
 import HowCoachesUseIt from "../../../components/HowCoachesUseIt";
-import PlayerTestimonial from "../../../components/PlayerTestimonial";
+import CoachesTestimonial from "../../../components/CoachesTestimonial";
 
 export default function page() {
   return (
@@ -351,7 +351,7 @@ export default function page() {
           </div>
         </section>
         <HowCoachesUseIt />
-        <PlayerTestimonial />
+        <CoachesTestimonial />
         <section className="section">
           <div className="container">
             <div className="row">

@@ -78,12 +78,14 @@ export default function PlayerTestimonial() {
                 <div className="player-profile">
                   <img src="/assets/image/parent-img-001.png" />
                   <div>
-                    <h5>Parent</h5>
-                    <span>U12 Player</span>
+                    <h5>Coach Alex M.</h5>
                   </div>
                 </div>
 
-                <p>We can actually see the skill improvement week by week.</p>
+                <p>
+                  Players are training on their own more than ever. That alone
+                  has been a game-changer.
+                </p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -91,14 +93,13 @@ export default function PlayerTestimonial() {
                 <div className="player-profile">
                   <img src="/assets/image/parent-img-02.png" />
                   <div>
-                    <h5>Parent</h5>
-                    <span>Sports</span>
+                    <h5>Coach Sarah L.</h5>
                   </div>
                 </div>
 
                 <p>
-                  My child is more confident not just in games, but in practice
-                  too.
+                  Their first touch and ball control have improved noticeably in
+                  just weeks.
                 </p>
               </div>
             </SwiperSlide>
@@ -107,13 +108,13 @@ export default function PlayerTestimonial() {
                 <div className="player-profile">
                   <img src="/assets/image/parent-img-03.png" />
                   <div>
-                    <h5>Parent</h5>
-                    <span>Parent</span>
+                    <h5>Coach Diego R.</h5>
                   </div>
                 </div>
 
                 <p>
-                  They want to practice now. That’s been the biggest change.
+                  I see more confidence on the ball—players try things now
+                  instead of hesitating.
                 </p>
               </div>
             </SwiperSlide>
@@ -122,74 +123,13 @@ export default function PlayerTestimonial() {
                 <div className="player-profile">
                   <img src="/assets/image/parent-img-04.png" />
                   <div>
-                    <h5>Parent</h5>
-                    <span>Academy Athlete</span>
+                    <h5>Coach Mark T.</h5>
                   </div>
                 </div>
 
                 <p>
-                  The attitude shift has been incredible more focus, less
-                  resistance.
-                </p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="player-quotes">
-                <div className="player-profile">
-                  <img src="/assets/image/parent-img-001.png" />
-                  <div>
-                    <h5>Parent</h5>
-                    <span>U12 Player</span>
-                  </div>
-                </div>
-
-                <p>We can actually see the skill improvement week by week.</p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="player-quotes">
-                <div className="player-profile">
-                  <img src="/assets/image/parent-img-02.png" />
-                  <div>
-                    <h5>Parent</h5>
-                    <span>Sports</span>
-                  </div>
-                </div>
-
-                <p>
-                  My child is more confident not just in games, but in practice
-                  too.
-                </p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="player-quotes">
-                <div className="player-profile">
-                  <img src="/assets/image/parent-img-03.png" />
-                  <div>
-                    <h5>Parent</h5>
-                    <span>Parent</span>
-                  </div>
-                </div>
-
-                <p>
-                  They want to practice now. That’s been the biggest change.
-                </p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="player-quotes">
-                <div className="player-profile">
-                  <img src="/assets/image/parent-img-04.png" />
-                  <div>
-                    <h5>Parent</h5>
-                    <span>Academy Athlete</span>
-                  </div>
-                </div>
-
-                <p>
-                  The attitude shift has been incredible more focus, less
-                  resistance.
+                  Practice quality is higher because players show up already
+                  sharp.
                 </p>
               </div>
             </SwiperSlide>

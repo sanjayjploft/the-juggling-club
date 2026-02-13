@@ -1123,6 +1123,7 @@ input::placeholder {
 }
 
 .player-profile {
+  align-items: center;
   gap: 5px;
   margin-bottom: 17px;
   display: flex;
