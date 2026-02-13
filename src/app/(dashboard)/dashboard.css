@@ -5530,3 +5530,7 @@ body {
     border-radius: 18px;
   }
 }
+
+.grdesd.highlight-desc {
+  color: var(--Primary-Badge-Blue, #0a5fff) !important;
+}

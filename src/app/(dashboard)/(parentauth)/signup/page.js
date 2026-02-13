@@ -92,7 +92,7 @@ function page() {
               <Col md={12}>
                 <div className="text-center my-3">
                   <a href="/dashboard" className="btn-next-bg signup-btn">
-                    Signup dd
+                    Signup
                   </a>
                 </div>
               </Col>

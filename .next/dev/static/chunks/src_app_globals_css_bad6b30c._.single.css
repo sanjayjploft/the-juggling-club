@@ -61,11 +61,11 @@
 
 html, body {
   color: #0f172a;
-  background: #fff;
   margin: 0;
   padding: 0;
   font-family: Avenir;
   overflow-x: hidden;
+  background: #fff !important;
 }
 
 a {

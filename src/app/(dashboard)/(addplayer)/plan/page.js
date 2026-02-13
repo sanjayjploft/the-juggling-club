@@ -14,9 +14,15 @@ export default function DetailsPage() {
         <main className="msar-main">
           <div className="msar-top-bar d-flex justify-content-between align-items-start">
             <div className="top-heading">
-              <h4>Dashboard</h4>
+              <div>
+                <h4>Dashboard</h4>
+              </div>
             </div>
-            {/* <button className="btn admin-btn-primary">+ Add Player</button> */}
+            <div className="user-profile">
+              <Link href="#">
+                <img src="/assets/image/coach-mike.png" />
+              </Link>
+            </div>
           </div>
           <Col lg={6} className="m-auto add-player">
             <div className="step-progress step-2">

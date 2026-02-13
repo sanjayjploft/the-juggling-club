@@ -76,7 +76,7 @@ export default function Page() {
                 <h6>Feature your coaches</h6>
                 <p>
                   Add up to 3 featured coaches
-                  <Link href="/clubplayer-details">
+                  <Link href="/coach-spotlight">
                     <img src="/assets/image/edit.svg" alt="" />
                   </Link>
                 </p>
@@ -90,7 +90,7 @@ export default function Page() {
                 <h6>Manage voicetag</h6>
                 <p>
                   Upload/Replace voicetag
-                  <Link href="/clubplayer-details">
+                  <Link href="/voicetag-intro">
                     <img src="/assets/image/edit.svg" alt="" />
                   </Link>
                 </p>
@@ -210,30 +210,48 @@ export default function Page() {
                     desc: "Display top club performers",
                     state: leaderboard,
                     setState: setLeaderboard,
+                    link: null, // ❌ no page open
                   },
                   {
                     title: "Coach Spotlight",
                     desc: "Manage coaches from Club Management → Coach",
                     state: coachSpotlight,
                     setState: setCoachSpotlight,
+                    link: "/coach-spotlight",
+                    highlightDesc: true,
                   },
                   {
                     title: "VoiceTag Intro",
                     desc: "10–15s audio welcome message",
                     state: voiceTag,
                     setState: setVoiceTag,
+                    link: "/voicetag-intro",
                   },
                   {
                     title: "Hero Section",
                     desc: "10–15s Video",
                     state: heroSection,
                     setState: setHeroSection,
+                    link: "/landing-hero-page",
                   },
                 ].map((item, i) => (
                   <div className="date-det-skills-spot mb-2" key={i}>
                     <div>
-                      <h5>{item.title}</h5>
-                      <p className="mt-0 grdesd">{item.desc}</p>
+                      {/* ✅ Conditional clickable heading */}
+                      {item.link ? (
+                        <Link href={item.link} className="heading-link">
+                          <h5>{item.title}</h5>
+                        </Link>
+                      ) : (
+                        <h5>{item.title}</h5> // Leaderboard Embed (no link)
+                      )}
+
+                      <p
+                        className={`mt-0 grdesd ${
+                          item.highlightDesc ? "highlight-desc" : ""
+                        }`}>
+                        {item.desc}
+                      </p>
                     </div>
 
                     <label className="checkbox-wrapper">
@@ -246,6 +264,7 @@ export default function Page() {
                     </label>
                   </div>
                 ))}
+
                 <Button className="btn-next-bg mt-4">Confirm</Button>
               </>
             )}
