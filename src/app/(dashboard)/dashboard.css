@@ -2414,6 +2414,7 @@ textarea {
   line-height: normal;
   letter-spacing: 2.2px;
   text-transform: uppercase;
+  border: none;
 }
 .invite-grgn {
   position: relative;

@@ -116,9 +116,9 @@ export default function page() {
                         David Johnson
                         <span>Primary Guardian</span>
                       </h3>
-                      <Button className="btn-cancel-outline-sml d-block">
+                      <button className="btn-cancel-outline-sml d-block">
                         Remove
-                      </Button>
+                      </button>
                     </div>
                   </div>
                   <div className="notification-card plyr-crdin">
@@ -128,16 +128,16 @@ export default function page() {
                         Michelle Stevens
                         <span>Secondary Guardian</span>
                       </h3>
-                      <Button className="btn-cancel-outline-sml d-block">
+                      <button className="btn-cancel-outline-sml d-block">
                         Remove
-                      </Button>
+                      </button>
                     </div>
                   </div>
                 </div>
               </Col>
             </Row>
             <Row className="px-3 mt-4">
-            <Col lg={6} xs={12} className="mb-4">
+              <Col lg={6} xs={12} className="mb-4">
                 <div className="player-card text-center p-4">
                   <img className="mb-3" src="/assets/image/alert-rd.svg" />
                   <p>
