@@ -15334,7 +15334,8 @@ input::placeholder {
   }
 
   .hero__title {
-    font-size: 76px;
+    letter-spacing: -1.32px;
+    font-size: 60px !important;
   }
 
   .hero {
@@ -15731,13 +15732,6 @@ input::placeholder {
     width: 90px;
   }
 
-  .hero__title, .inner-page .hero__title {
-    letter-spacing: 0;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 1.4;
-  }
-
   .hero__subtitle {
     margin: 15px 0;
     font-size: 16px;
@@ -15848,6 +15842,13 @@ input::placeholder {
 
   .socials {
     margin-top: 30px;
+  }
+
+  .hero__title, .inner-page .hero__title {
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 42px !important;
   }
 }
 

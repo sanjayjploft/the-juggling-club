@@ -1931,11 +1931,15 @@ input::placeholder {
 
 /***************** Responsive ****************/
 @media screen and (max-width: 1400px) {
+  /* br {
+    display: none;
+  } */
   .contct-mn h1 {
     font-size: 60px;
   }
   .hero__title {
-    font-size: 76px;
+    font-size: 60px !important;
+    letter-spacing: -1.32px;
   }
   .hero {
     height: 590px;
@@ -2266,7 +2270,7 @@ input::placeholder {
   }
   .hero__title,
   .inner-page .hero__title {
-    font-size: 32px;
+    font-size: 32px !important;
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 0;
@@ -2364,5 +2368,12 @@ input::placeholder {
   }
   .socials {
     margin-top: 30px;
+  }
+  .hero__title,
+  .inner-page .hero__title {
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 42px !important;
   }
 }

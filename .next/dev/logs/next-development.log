@@ -1,12 +1,44 @@
-[00:00:01.664] Server  LOG     ✓ Ready in 1196ms
-[00:00:01.666] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.724] Server  LOG     ✓ Ready in 1250ms
+[00:00:04.692] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:05.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.006] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.047] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.178] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:05.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.462] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:00:07.168] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -41,7 +73,83 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:00:06.730] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:07.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:30.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:30.672] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:30.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:34.161] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:34.161] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:34.161] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:34.689] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:38.129] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:52.857] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:01:02.337] Server  LOG     ✓ Compiled in 105ms
+[00:01:04.049] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:25.250] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:25.250] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:29.271] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:35.375] Server  LOG     ✓ Compiled in 42ms
+[00:03:38.136] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:54.159] Server  LOG     ✓ Compiled in 49ms
+[00:03:57.032] Server  LOG     ✓ Compiled in 41ms
+[00:04:01.489] Server  LOG     ✓ Compiled in 64ms
+[00:04:09.307] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:04:09.307] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:05:37.562] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:05:37.562] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:06:07.160] Server  LOG     ✓ Compiled in 47ms
+[00:06:08.595] Server  LOG     ✓ Compiled in 46ms
+[00:06:14.635] Server  LOG     ✓ Compiled in 44ms
+[00:06:32.587] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:49.687] Server  LOG     ✓ Compiled in 42ms
+[00:07:19.222] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:39.586] Server  LOG     ✓ Compiled in 44ms
+[00:08:42.175] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:08:42.175] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:08:46.053] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="FAQ/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/FAQ" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(public)/F...">
+                  <SegmentTrieNode>
+                  <Page>
+                    <main className="page">
+                      <div className="section">
+                        <div className="container ...">
+                          <h1>
+                          <Tabs>
+                            <div>
+                              <div>
+                              <div style={{padding:"1..."}}>
+>                               <p>
+                                  <FaqAccordion>
+                                    <div style={{maxWidth:"...", ...}}>
+>                                     <div
+>                                       style={{border:"1px solid ...",padding:"20px",borderRadius:"10px",fontFamily:"Avenir", ...}}
+>                                     >
+                                      ...
+                ...
+              ...
+
+[00:08:46.053] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[00:09:10.675] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:09:23.495] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:27.356] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:10:06.780] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:10:07.468] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:07.818] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:10:07.818] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -59,421 +167,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         data-lt-installed="true"
-                        >
-                          <body
--                           contenteditable="false"
-                          >
-                            ...
-                              <PublicLayout>
-                                ...
-                                  <div className="container-...">
-                                    <LinkComponent href="/" className="brand">
-                                      <a
-                                        className="brand"
-                                        ref={function}
-                                        onClick={function onClick}
-                                        onMouseEnter={function onMouseEnter}
-                                        onTouchStart={function onTouchStart}
-                                        href="/"
--                                       contenteditable="false"
--                                       style={{cursor:"pointer"}}
-                                      >
-                                    <button>
-                                    <nav className={"nav "}>
-                                      <LinkComponent href="/" className="nav__link ...">
-                                        <a
-                                          className="nav__link active"
-                                          ref={function}
-                                          onClick={function onClick}
-                                          onMouseEnter={function onMouseEnter}
-                                          onTouchStart={function onTouchStart}
-                                          href="/"
--                                         contenteditable="false"
--                                         style={{cursor:"pointer"}}
-                                        >
-+                                         Home
-                                      <LinkComponent href="/Players" className={"nav__link "}>
-                                        <a
-                                          className={"nav__link "}
-                                          ref={function}
-                                          onClick={function onClick}
-                                          onMouseEnter={function onMouseEnter}
-                                          onTouchStart={function onTouchStart}
-                                          href="/Players"
--                                         contenteditable="false"
--                                         style={{cursor:"pointer"}}
-                                        >
-+                                         Players
-                                      <LinkComponent href="/Clubs" className={"nav__link "}>
-                                        <a
-                                          className={"nav__link "}
-                                          ref={function}
-                                          onClick={function onClick}
-                                          onMouseEnter={function onMouseEnter}
-                                          onTouchStart={function onTouchStart}
-                                          href="/Clubs"
--                                         contenteditable="false"
--                                         style={{cursor:"pointer"}}
-                                        >
-+                                         Clubs
-                                      <LinkComponent href="/Coaches" className={"nav__link "}>
-                                        <a
-                                          className={"nav__link "}
-                                          ref={function}
-                                          onClick={function onClick}
-                                          onMouseEnter={function onMouseEnter}
-                                          onTouchStart={function onTouchStart}
-                                          href="/Coaches"
--                                         contenteditable="false"
--                                         style={{cursor:"pointer"}}
-                                        >
-+                                         Coaches
-                                      <LinkComponent href="/Parents" className={"nav__link "}>
-                                        <a
-                                          className={"nav__link "}
-                                          ref={function}
-                                          onClick={function onClick}
-                                          onMouseEnter={function onMouseEnter}
-                                          onTouchStart={function onTouchStart}
-                                          href="/Parents"
--                                         contenteditable="false"
--                                         style={{cursor:"pointer"}}
-                                        >
-+                                         Parents
-                                      <LinkComponent href="/FAQ" className={"nav__link "}>
-                                        <a
-                                          className={"nav__link "}
-                                          ref={function}
-                                          onClick={function onClick}
-                                          onMouseEnter={function onMouseEnter}
-                                          onTouchStart={function onTouchStart}
-                                          href="/FAQ"
--                                         contenteditable="false"
--                                         style={{cursor:"pointer"}}
-                                        >
-+                                         FAQ
-                                      <LinkComponent href="/Contact" className={"nav__link "}>
-                                        <a
-                                          className={"nav__link "}
-                                          ref={function}
-                                          onClick={function onClick}
-                                          onMouseEnter={function onMouseEnter}
-                                          onTouchStart={function onTouchStart}
-                                          href="/Contact"
--                                         contenteditable="false"
--                                         style={{cursor:"pointer"}}
-                                        >
-+                                         Contact
-                                      <div className="navCtas mo...">
-                                        <LinkComponent href="/login" className="btn btn--p...">
-                                          <a
-                                            className="btn btn--primary"
-                                            ref={function}
-                                            onClick={function onClick}
-                                            onMouseEnter={function onMouseEnter}
-                                            onTouchStart={function onTouchStart}
-                                            href="/login"
--                                           contenteditable="false"
--                                           style={{cursor:"pointer"}}
-                                          >
-+                                           Sign in
-                                    <div className="navCtas de...">
-                                      <LinkComponent href="/login" className="btn btn--p...">
-                                        <a
-                                          className="btn btn--primary"
-                                          ref={function}
-                                          onClick={function onClick}
-                                          onMouseEnter={function onMouseEnter}
-                                          onTouchStart={function onTouchStart}
-                                          href="/login"
--                                         contenteditable="false"
--                                         style={{cursor:"pointer"}}
-                                        >
-+                                         Sign in
-                                ...
-                                  <Page>
-                                    <main className="page">
-                                      ...
-                                        <div className="rowBtns ro...">
-                                          <LinkComponent>
-                                            <LinkComponent href="/signup" className="btn btn--p...">
-                                              <a
-                                                className="btn btn--primary btn--lg"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/signup"
--                                               contenteditable="false"
--                                               style={{cursor:"pointer"}}
-                                              >
-+                                               Get Started
-                                          <LinkComponent>
-                                            <LinkComponent href="/club-info..." className="btn btn--o...">
-                                              <a
-                                                className="btn btn--outline btn--lg"
-                                                ref={function}
-                                                onClick={function onClick}
-                                                onMouseEnter={function onMouseEnter}
-                                                onTouchStart={function onTouchStart}
-                                                href="/club-information"
--                                               contenteditable="false"
--                                               style={{cursor:"pointer"}}
-                                              >
-+                                               {"For Clubs & Coaches"}
-                                      <section className={"section "}>
-                                        <div className="container">
-                                          <div className="center pt-5">
-                                            <h2>
-                                            <p>
-                                            <div className="rowBtns">
-                                              <a
-                                                href="#"
-                                                className="btn btn--primary"
--                                               contenteditable="false"
--                                               style={{cursor:"pointer"}}
-                                              >
-+                                               Start your adventure
-                                          ...
-                                      <section>
-                                      <PlayerInspiration>
-                                      ...
-                                        <div ref={null} className="row">
-                                          <Col lg="4">
-                                            <div ref={null} className="col-lg-4">
-                                              <div className="blog-box">
-                                                <img>
-                                                <div className="blog-info">
-                                                  <div>
-                                                  <a
-                                                    href="/Parents"
--                                                   contenteditable="false"
--                                                   style={{cursor:"pointer"}}
-                                                  >
-                                          <Col lg="4">
-                                            <div ref={null} className="col-lg-4">
-                                              <div className="blog-box">
-                                                <img>
-                                                <div className="blog-info">
-                                                  <div>
-                                                  <a
-                                                    href="/Coaches"
--                                                   contenteditable="false"
--                                                   style={{cursor:"pointer"}}
-                                                  >
-                                          <Col lg="4">
-                                            <div ref={null} className="col-lg-4">
-                                              <div className="blog-box">
-                                                <img>
-                                                <div className="blog-info">
-                                                  <div>
-                                                  <a
-                                                    href="/Clubs"
--                                                   contenteditable="false"
--                                                   style={{cursor:"pointer"}}
-                                                  >
-                                <PublicLayout>
-                                  <Footer>
-                                    <footer>
-                                      ...
-                                        <div className="cta-buttons">
-                                          <LinkComponent href="/signup" className="btn-primary">
-                                            <a
-                                              className="btn-primary"
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/signup"
--                                             contenteditable="false"
--                                             style={{cursor:"pointer"}}
-                                            >
-+                                             PLAYER SIGN UP
-                                          <LinkComponent href="/club-info..." className="btn-outline">
-                                            <a
-                                              className="btn-outline"
-                                              ref={function}
-                                              onClick={function onClick}
-                                              onMouseEnter={function onMouseEnter}
-                                              onTouchStart={function onTouchStart}
-                                              href="/club-information"
--                                             contenteditable="false"
--                                             style={{cursor:"pointer"}}
-                                            >
-+                                             CLUB SIGN UP
-                                      ...
-                                        <div className="footer-grid">
-                                          ...
-                                            <div className="icons">
-                                              <LinkComponent href="">
-                                                <a
-                                                  ref={function}
-                                                  onClick={function onClick}
-                                                  onMouseEnter={function onMouseEnter}
-                                                  onTouchStart={function onTouchStart}
-                                                  href=""
--                                                 contenteditable="false"
--                                                 style={{cursor:"pointer"}}
-                                                >
-                                              <LinkComponent href="">
-                                                <a
-                                                  ref={function}
-                                                  onClick={function onClick}
-                                                  onMouseEnter={function onMouseEnter}
-                                                  onTouchStart={function onTouchStart}
-                                                  href=""
--                                                 contenteditable="false"
--                                                 style={{cursor:"pointer"}}
-                                                >
-                                              <LinkComponent href="">
-                                                <a
-                                                  ref={function}
-                                                  onClick={function onClick}
-                                                  onMouseEnter={function onMouseEnter}
-                                                  onTouchStart={function onTouchStart}
-                                                  href=""
--                                                 contenteditable="false"
--                                                 style={{cursor:"pointer"}}
-                                                >
-                                          <div>
-                                          <div className="footer-right">
-                                            <div>
-                                              <h4>
-                                              <ul>
-                                                <li>
-                                                  <LinkComponent href="">
-                                                    <a
-                                                      ref={function}
-                                                      onClick={function onClick}
-                                                      onMouseEnter={function onMouseEnter}
-                                                      onTouchStart={function onTouchStart}
-                                                      href=""
--                                                     contenteditable="false"
--                                                     style={{cursor:"pointer"}}
-                                                    >
-+                                                     About Us
-                                                <li>
-                                                  <LinkComponent href="">
-                                                    <a
-                                                      ref={function}
-                                                      onClick={function onClick}
-                                                      onMouseEnter={function onMouseEnter}
-                                                      onTouchStart={function onTouchStart}
-                                                      href=""
--                                                     contenteditable="false"
--                                                     style={{cursor:"pointer"}}
-                                                    >
-+                                                     Our Community
-                                                <li>
-                                                  <LinkComponent href="">
-                                                    <a
-                                                      ref={function}
-                                                      onClick={function onClick}
-                                                      onMouseEnter={function onMouseEnter}
-                                                      onTouchStart={function onTouchStart}
-                                                      href=""
--                                                     contenteditable="false"
--                                                     style={{cursor:"pointer"}}
-                                                    >
-+                                                     Terms of Use
-                                                <li>
-                                                  <LinkComponent href="">
-                                                    <a
-                                                      ref={function}
-                                                      onClick={function onClick}
-                                                      onMouseEnter={function onMouseEnter}
-                                                      onTouchStart={function onTouchStart}
-                                                      href=""
--                                                     contenteditable="false"
--                                                     style={{cursor:"pointer"}}
-                                                    >
-+                                                     Privacy Policy
-                                                <li>
-                                                  <LinkComponent href="">
-                                                    <a
-                                                      ref={function}
-                                                      onClick={function onClick}
-                                                      onMouseEnter={function onMouseEnter}
-                                                      onTouchStart={function onTouchStart}
-                                                      href=""
--                                                     contenteditable="false"
--                                                     style={{cursor:"pointer"}}
-                                                    >
-+                                                     Support
-                                            <div>
-                                              <h4>
-                                              <ul>
-                                                <li>
-                                                  <LinkComponent href="tel:+1 (00...">
-                                                    <a
-                                                      ref={function}
-                                                      onClick={function onClick}
-                                                      onMouseEnter={function onMouseEnter}
-                                                      onTouchStart={function onTouchStart}
-                                                      href="tel:+1 (00) 000 0000"
--                                                     contenteditable="false"
--                                                     style={{cursor:"pointer"}}
-                                                    >
-+                                                     +1 (00) 000 0000
-                                                <li>
-                                                  <LinkComponent href="tel:+61 (0...">
-                                                    <a
-                                                      ref={function}
-                                                      onClick={function onClick}
-                                                      onMouseEnter={function onMouseEnter}
-                                                      onTouchStart={function onTouchStart}
-                                                      href="tel:+61 (00) 000 0000"
--                                                     contenteditable="false"
--                                                     style={{cursor:"pointer"}}
-                                                    >
-+                                                     +61 (00) 000 0000
-                                                <li>
-                                                  <LinkComponent href="mailto:inf...">
-                                                    <a
-                                                      ref={function}
-                                                      onClick={function onClick}
-                                                      onMouseEnter={function onMouseEnter}
-                                                      onTouchStart={function onTouchStart}
-                                                      href="mailto:info@jugglingclub.com"
--                                                     contenteditable="false"
--                                                     style={{cursor:"pointer"}}
-                                                    >
-+                                                     info@jugglingclub.com
-                                      ...
-                  ...
-
-[00:00:07.078] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/signup" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -489,181 +183,3 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:00:07.179] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:08.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.187] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:02:07.779] Server  LOG     ✓ Compiled in 212ms
-[00:02:10.318] Server  LOG     ✓ Compiled in 43ms
-[00:02:26.457] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:29.452] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:10.395] Server  LOG     ✓ Compiled in 44ms
-[00:03:13.433] Server  LOG     ✓ Compiled in 40ms
-[00:03:14.876] Server  LOG     ✓ Compiled in 54ms
-[00:03:17.183] Server  LOG     ✓ Compiled in 39ms
-[00:03:18.937] Server  LOG     ✓ Compiled in 92ms
-[00:03:56.788] Server  LOG     ✓ Compiled in 49ms
-[00:03:58.574] Server  LOG     ✓ Compiled in 41ms
-[00:03:59.245] Server  LOG     ✓ Compiled in 44ms
-[00:04:18.112] Server  LOG     ✓ Compiled in 45ms
-[00:04:20.126] Server  LOG     ✓ Compiled in 42ms
-[00:04:21.336] Server  LOG     ✓ Compiled in 49ms
-[00:04:44.889] Server  LOG     ✓ Compiled in 44ms
-[00:04:47.258] Server  LOG     ✓ Compiled in 53ms
-[00:04:49.741] Server  LOG     ✓ Compiled in 40ms
-[00:04:53.139] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:53.616] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1272.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
-
-[00:05:29.283] Server  LOG     ✓ Compiled in 47ms
-[00:05:32.136] Server  LOG     ✓ Compiled in 45ms
-[00:06:12.760] Server  LOG     ✓ Compiled in 39ms
-[00:06:18.140] Server  LOG     ✓ Compiled in 40ms
-[00:06:21.401] Server  LOG     ✓ Compiled in 60ms
-[00:06:27.709] Server  LOG     ✓ Compiled in 44ms
-[00:06:36.534] Server  LOG     ✓ Compiled in 44ms
-[00:08:46.380] Server  LOG     ✓ Compiled in 55ms
-[00:08:49.344] Server  LOG     ✓ Compiled in 38ms
-[00:08:50.669] Server  LOG     ✓ Compiled in 57ms
-[00:09:13.866] Server  LOG     ✓ Compiled in 226ms
-[00:09:13.968] Browser ERROR   ./src/app/globals.css:1957:5
-Parsing CSS source code failed
-  1955 |   .player-name {
-  1956 |     font-size: 18px;
-> 1957 |   }.
-       |     ^
-  1958 |   .blog-box .blog-info h3 {
-  1959 |     color: var(--Juggling-Club-Dark-Blue, #03202f);
-  1960 |     margin-bottom: 0;
-
-Expected identifier in class selector, got WhiteSpace("\r\n  ")
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:09:14.078] Browser ERROR   ./src/app/globals.css:1957:5
-Parsing CSS source code failed
-  1955 |   .player-name {
-  1956 |     font-size: 18px;
-> 1957 |   }.
-       |     ^
-  1958 |   .blog-box .blog-info h3 {
-  1959 |     color: var(--Juggling-Club-Dark-Blue, #03202f);
-  1960 |     margin-bottom: 0;
-
-Expected identifier in class selector, got WhiteSpace("\r\n  ")
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:09:14.172] Browser ERROR   ./src/app/globals.css:1957:5
-Parsing CSS source code failed
-  1955 |   .player-name {
-  1956 |     font-size: 18px;
-> 1957 |   }.
-       |     ^
-  1958 |   .blog-box .blog-info h3 {
-  1959 |     color: var(--Juggling-Club-Dark-Blue, #03202f);
-  1960 |     margin-bottom: 0;
-
-Expected identifier in class selector, got WhiteSpace("\r\n  ")
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:09:14.174] Browser ERROR   ./src/app/globals.css:1957:5
-Parsing CSS source code failed
-  1955 |   .player-name {
-  1956 |     font-size: 18px;
-> 1957 |   }.
-       |     ^
-  1958 |   .blog-box .blog-info h3 {
-  1959 |     color: var(--Juggling-Club-Dark-Blue, #03202f);
-  1960 |     margin-bottom: 0;
-
-Expected identifier in class selector, got WhiteSpace("\r\n  ")
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:09:14.944] Server  LOG     ✓ Compiled in 48ms
-[00:09:17.847] Server  LOG     ✓ Compiled in 39ms
-[00:09:19.145] Server  LOG     ✓ Compiled in 52ms
-[00:09:21.883] Server  LOG     ✓ Compiled in 41ms
-[00:09:48.228] Server  LOG     ✓ Compiled in 67ms
-[00:09:52.544] Server  LOG     ✓ Compiled in 44ms
-[00:09:58.162] Server  LOG     ✓ Compiled in 42ms
-[00:10:08.804] Server  LOG     ✓ Compiled in 50ms
-[00:10:10.779] Server  LOG     ✓ Compiled in 45ms
-[00:10:11.828] Server  LOG     ✓ Compiled in 205ms
-[00:10:30.143] Server  LOG     ✓ Compiled in 40ms
-[00:10:33.669] Server  LOG     ✓ Compiled in 57ms
-[00:11:06.736] Server  LOG     ✓ Compiled in 46ms
-[00:11:09.139] Server  LOG     ✓ Compiled in 42ms
-[00:11:11.641] Server  LOG     ✓ Compiled in 63ms
-[00:11:25.954] Server  LOG     ✓ Compiled in 44ms
-[00:11:27.242] Server  LOG     ✓ Compiled in 47ms
-[00:11:28.892] Server  LOG     ✓ Compiled in 51ms
-[00:11:56.313] Server  LOG     ✓ Compiled in 58ms
-[00:12:02.877] Server  LOG     ✓ Compiled in 41ms
-[00:12:09.097] Server  LOG     ✓ Compiled in 43ms
-[00:12:11.065] Server  LOG     ✓ Compiled in 81ms
-[00:12:12.253] Server  LOG     ✓ Compiled in 46ms
-[00:12:18.542] Server  LOG     ✓ Compiled in 41ms
-[00:12:42.237] Server  LOG     ✓ Compiled in 47ms
-[00:12:45.713] Server  LOG     ✓ Compiled in 156ms
-[00:12:47.981] Server  LOG     ✓ Compiled in 56ms
-[00:14:18.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:26.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:34.753] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:34.754] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:34.755] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:34.756] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:34.757] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:34.758] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:34.759] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:34.762] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:14:35.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:35.606] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:35.606] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:35.606] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:35.606] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:35.607] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:35.607] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:35.607] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:14:35.607] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
