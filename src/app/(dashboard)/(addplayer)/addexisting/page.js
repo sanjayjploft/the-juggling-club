@@ -52,16 +52,14 @@ export default function DetailsPage() {
                   </Row>
 
                   <div className="action-buttons mt-5">
-                    <Button
+                    <button
                       className="btn-cancel-outline"
                       onClick={() => router.back()}>
                       Cancel
-                    </Button>
-                    <Button
-                      className="btn-next-bg"
-                      onClick={() => router.push("/plan")}>
+                    </button>
+                    <Link href="/plan" className="btn-next-bg">
                       Next
-                    </Button>
+                    </Link>
                   </div>
                 </Form>
               </Col>

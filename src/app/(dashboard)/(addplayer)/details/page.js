@@ -14,9 +14,15 @@ export default function DetailsPage() {
         <main className="msar-main">
           <div className="msar-top-bar d-flex justify-content-between align-items-start">
             <div className="top-heading">
-              <h4>Dashboard</h4>
+              <div>
+                <h4>Dashboard</h4>
+              </div>
             </div>
-            {/* <button className="btn admin-btn-primary">+ Add Player</button> */}
+            <div className="user-profile">
+              <Link href="#">
+                <img src="/assets/image/coach-mike.png" />
+              </Link>
+            </div>
           </div>
           <div className="container-fluid">
             <div className="content-card">
@@ -121,12 +127,16 @@ export default function DetailsPage() {
                   </Row>
 
                   <div className="action-buttons mt-5">
-                    <Button className="btn-cancel-outline">Back</Button>
-                    <Button
+                    <button
+                      className="btn-cancel-outline"
+                      onClick={() => router.back()}>
+                      Back
+                    </button>
+                    <button
                       className="btn-next-bg"
                       onClick={() => router.push("/plan")}>
                       Next
-                    </Button>
+                    </button>
                   </div>
 
                   <div className="info-text mt-4">

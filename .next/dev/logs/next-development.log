@@ -1,15 +1,16 @@
-[00:00:01.759] Server  LOG     ✓ Ready in 1290ms
-[00:00:03.177] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.653] Server  LOG     ✓ Ready in 1187ms
+[00:00:01.655] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:05.526] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:00:06.169] Server  ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:00:06.387] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.598] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:00:07.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.766] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.163] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:00:08.163] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:04.474] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:04.940] Server  ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:00:05.439] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.640] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:05.762] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.948] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.136] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.199] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:07.199] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -45,43 +46,794 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:00:09.122] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:00:22.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.117] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:07.204] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:02:14.627] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:21.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:23.330] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:58.976] Server  LOG     ✓ Compiled in 181ms
+[00:03:02.150] Server  LOG     ✓ Compiled in 184ms
+[00:03:04.457] Server  LOG     ✓ Compiled in 149ms
+[00:03:14.326] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:53.944] Server  LOG     ✓ Compiled in 54ms
+[00:03:54.059] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:72
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <butto className="btn-cancel-outline">Back</Button>
+      |                                                                        ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+Expected '</', got 'jsx text (
+                    )'
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
 
-%s%s https://react.dev/link/hydration-mismatch 
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:54.181] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:72
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <butto className="btn-cancel-outline">Back</Button>
+      |                                                                        ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Playerdet..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
-                        <RootLayout params={Promise}>
-                          <html lang="en">
-                            <body
--                             data-new-gr-c-s-check-loaded="14.1272.0"
--                             data-gr-ext-installed=""
-                            >
-                  ...
+Expected '</', got 'jsx text (
+                    )'
 
-[00:00:38.574] Server  LOG     ✓ Compiled in 120ms
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:54.181] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:72
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <butto className="btn-cancel-outline">Back</Button>
+      |                                                                        ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:54.192] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:72
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <butto className="btn-cancel-outline">Back</Button>
+      |                                                                        ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:54.193] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:72
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <butto className="btn-cancel-outline">Back</Button>
+      |                                                                        ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:55.170] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:73
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <button className="btn-cancel-outline">Back</Button>
+      |                                                                         ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:55.171] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:73
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <button className="btn-cancel-outline">Back</Button>
+      |                                                                         ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:55.180] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:73
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <button className="btn-cancel-outline">Back</Button>
+      |                                                                         ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:55.180] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:73
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <button className="btn-cancel-outline">Back</Button>
+      |                                                                         ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:55.214] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:130:73
+Parsing ecmascript source code failed
+  128 |
+  129 |                   <div className="action-buttons mt-5">
+> 130 |                     <button className="btn-cancel-outline">Back</Button>
+      |                                                                         ^
+> 131 |                     <Button
+      | ^^^^^^^^^^^^^^^^^^^^^
+  132 |                       className="btn-next-bg"
+  133 |                       onClick={() => router.push("/plan")}>
+  134 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/details/page.js [Server Component]
+[00:03:56.927] Server  LOG     ✓ Compiled in 190ms
+[00:03:58.131] Server  LOG     ✓ Compiled in 148ms
+[00:04:30.677] Server  LOG     ✓ Compiled in 140ms
+[00:04:32.083] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:04.529] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:27.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:31.375] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:32.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:34.527] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:35.692] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:38.123] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:05:58.134] Server  LOG     ✓ Compiled in 104ms
+[00:05:58.804] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:59:30
+Parsing ecmascript source code failed
+  57 |                       onClick={() => router.back()}>
+  58 |                       Cancel
+> 59 |                     </Button>
+     |                              ^
+> 60 |                     <Button
+     | ^^^^^^^^^^^^^^^^^^^^^
+  61 |                       className="btn-next-bg"
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+[00:05:59.177] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:59:30
+Parsing ecmascript source code failed
+  57 |                       onClick={() => router.back()}>
+  58 |                       Cancel
+> 59 |                     </Button>
+     |                              ^
+> 60 |                     <Button
+     | ^^^^^^^^^^^^^^^^^^^^^
+  61 |                       className="btn-next-bg"
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+[00:05:59.177] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:59:30
+Parsing ecmascript source code failed
+  57 |                       onClick={() => router.back()}>
+  58 |                       Cancel
+> 59 |                     </Button>
+     |                              ^
+> 60 |                     <Button
+     | ^^^^^^^^^^^^^^^^^^^^^
+  61 |                       className="btn-next-bg"
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+[00:05:59.183] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:59:30
+Parsing ecmascript source code failed
+  57 |                       onClick={() => router.back()}>
+  58 |                       Cancel
+> 59 |                     </Button>
+     |                              ^
+> 60 |                     <Button
+     | ^^^^^^^^^^^^^^^^^^^^^
+  61 |                       className="btn-next-bg"
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+[00:05:59.184] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:59:30
+Parsing ecmascript source code failed
+  57 |                       onClick={() => router.back()}>
+  58 |                       Cancel
+> 59 |                     </Button>
+     |                              ^
+> 60 |                     <Button
+     | ^^^^^^^^^^^^^^^^^^^^^
+  61 |                       className="btn-next-bg"
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+
+Expected '</', got 'jsx text (
+                    )'
+[00:06:02.429] Server  LOG     ✓ Compiled in 157ms
+[00:06:02.933] Server  LOG     ✓ Compiled in 0ms
+[00:06:03.515] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:04.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:05.553] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:06.099] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:07.532] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:09.237] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:15.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:26.936] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:28.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:34.824] Server  LOG     ✓ Compiled in 39ms
+[00:06:35.169] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:64:30
+Parsing ecmascript source code failed
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+> 64 |                     </button>
+     |                              ^
+> 65 |                   </div>
+     | ^^^^^^^^^^^^^^^^^^^
+  66 |                 </Form>
+  67 |               </Col>
+  68 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:35.171] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:64:30
+Parsing ecmascript source code failed
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+> 64 |                     </button>
+     |                              ^
+> 65 |                   </div>
+     | ^^^^^^^^^^^^^^^^^^^
+  66 |                 </Form>
+  67 |               </Col>
+  68 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:35.358] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:64:30
+Parsing ecmascript source code failed
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+> 64 |                     </button>
+     |                              ^
+> 65 |                   </div>
+     | ^^^^^^^^^^^^^^^^^^^
+  66 |                 </Form>
+  67 |               </Col>
+  68 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:42.358] Server  LOG     ✓ Compiled in 43ms
+[00:06:42.634] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:61:23
+Parsing ecmascript source code failed
+  59 |                     </button>
+  60 |                     <Link href=
+> 61 |                       className="btn-next-bg"
+     |                       ^^^^^^^^^
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+  64 |                     </button>
+
+Expected '</', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:43.174] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:61:23
+Parsing ecmascript source code failed
+  59 |                     </button>
+  60 |                     <Link href=
+> 61 |                       className="btn-next-bg"
+     |                       ^^^^^^^^^
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+  64 |                     </button>
+
+Expected '</', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:43.175] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:61:23
+Parsing ecmascript source code failed
+  59 |                     </button>
+  60 |                     <Link href=
+> 61 |                       className="btn-next-bg"
+     |                       ^^^^^^^^^
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+  64 |                     </button>
+
+Expected '</', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:43.903] Server  LOG     ✓ Compiled in 32ms
+[00:06:44.170] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:64:30
+Parsing ecmascript source code failed
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+> 64 |                     </button>
+     |                              ^
+> 65 |                   </div>
+     | ^^^^^^^^^^^^^^^^^^^
+  66 |                 </Form>
+  67 |               </Col>
+  68 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:44.195] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:64:30
+Parsing ecmascript source code failed
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+> 64 |                     </button>
+     |                              ^
+> 65 |                   </div>
+     | ^^^^^^^^^^^^^^^^^^^
+  66 |                 </Form>
+  67 |               </Col>
+  68 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:44.196] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:64:30
+Parsing ecmascript source code failed
+  62 |                       onClick={() => router.push("/plan")}>
+  63 |                       Next
+> 64 |                     </button>
+     |                              ^
+> 65 |                   </div>
+     | ^^^^^^^^^^^^^^^^^^^
+  66 |                 </Form>
+  67 |               </Col>
+  68 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:49.082] Server  LOG     ✓ Compiled in 139ms
+[00:06:51.244] Server  LOG     ✓ Compiled in 92ms
+[00:06:54.836] Server  LOG     ✓ Compiled in 103ms
+[00:06:55.451] Server  LOG     ✓ Compiled in 35ms
+[00:06:55.570] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:65:21
+Parsing ecmascript source code failed
+  63 |                       
+  64 |                       Next
+> 65 |                     </Link>
+     |                     ^
+  66 |                   </div>
+  67 |                 </Form>
+  68 |               </Col>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:55.570] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:65:22
+Parsing ecmascript source code failed
+  63 |                       
+  64 |                       Next
+> 65 |                     </Link>
+     |                      ^^^^^^
+  66 |                   </div>
+  67 |                 </Form>
+  68 |               </Col>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:56.175] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:65:21
+Parsing ecmascript source code failed
+  63 |                       
+  64 |                       Next
+> 65 |                     </Link>
+     |                     ^
+  66 |                   </div>
+  67 |                 </Form>
+  68 |               </Col>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:56.175] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:65:22
+Parsing ecmascript source code failed
+  63 |                       
+  64 |                       Next
+> 65 |                     </Link>
+     |                      ^^^^^^
+  66 |                   </div>
+  67 |                 </Form>
+  68 |               </Col>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:56.175] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:65:21
+Parsing ecmascript source code failed
+  63 |                       
+  64 |                       Next
+> 65 |                     </Link>
+     |                     ^
+  66 |                   </div>
+  67 |                 </Form>
+  68 |               </Col>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:56.175] Browser ERROR   ./src/app/(dashboard)/(addplayer)/addexisting/page.js:65:22
+Parsing ecmascript source code failed
+  63 |                       
+  64 |                       Next
+> 65 |                     </Link>
+     |                      ^^^^^^
+  66 |                   </div>
+  67 |                 </Form>
+  68 |               </Col>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/addexisting/page.js [Server Component]
+[00:06:58.822] Server  LOG     ✓ Compiled in 121ms
+[00:07:00.247] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:05.242] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:48.242] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:49.540] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:07.346] Server  LOG     ✓ Compiled in 96ms
+[00:08:07.453] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:89:28
+Parsing ecmascript source code failed
+  87 |                     onClick={() => router.back()}>
+  88 |                     Back
+> 89 |                   </Button>
+     |                            ^
+> 90 |                   <Button className="btn-next-bg">Pay Now</Button>
+     | ^^^^^^^^^^^^^^^^^^^
+  91 |                 </div>
+  92 |               </Form>
+  93 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:08.175] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:89:28
+Parsing ecmascript source code failed
+  87 |                     onClick={() => router.back()}>
+  88 |                     Back
+> 89 |                   </Button>
+     |                            ^
+> 90 |                   <Button className="btn-next-bg">Pay Now</Button>
+     | ^^^^^^^^^^^^^^^^^^^
+  91 |                 </div>
+  92 |               </Form>
+  93 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:08.175] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:89:28
+Parsing ecmascript source code failed
+  87 |                     onClick={() => router.back()}>
+  88 |                     Back
+> 89 |                   </Button>
+     |                            ^
+> 90 |                   <Button className="btn-next-bg">Pay Now</Button>
+     | ^^^^^^^^^^^^^^^^^^^
+  91 |                 </div>
+  92 |               </Form>
+  93 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:12.021] Server  LOG     ✓ Compiled in 1367ms
+[00:08:12.641] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:17.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:25.662] Server  LOG     ✓ Compiled in 86ms
+[00:08:25.788] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:75:28
+Parsing ecmascript source code failed
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+> 75 |                   </Button>
+     |                            ^
+> 76 |                   <Button
+     | ^^^^^^^^^^^^^^^^^^^
+  77 |                     className="btn-next-bg"
+  78 |                     onClick={() => router.push("/pay")}>
+  79 |                     Next
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:26.176] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:75:28
+Parsing ecmascript source code failed
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+> 75 |                   </Button>
+     |                            ^
+> 76 |                   <Button
+     | ^^^^^^^^^^^^^^^^^^^
+  77 |                     className="btn-next-bg"
+  78 |                     onClick={() => router.push("/pay")}>
+  79 |                     Next
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:26.177] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:75:28
+Parsing ecmascript source code failed
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+> 75 |                   </Button>
+     |                            ^
+> 76 |                   <Button
+     | ^^^^^^^^^^^^^^^^^^^
+  77 |                     className="btn-next-bg"
+  78 |                     onClick={() => router.push("/pay")}>
+  79 |                     Next
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:27.560] Server  LOG     ✓ Compiled in 1455ms
+[00:08:27.919] Server  LOG     ✓ Compiled in 42ms
+[00:08:28.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:29.364] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:32.787] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:33.611] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:34.230] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:34.848] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:35.345] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:57.789] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:58.828] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:59.617] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:00.738] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:01.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:03.607] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:04.857] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:05.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:06.493] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:07.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:08.143] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:08.748] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:09.262] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:10.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:12.609] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:35.679] Server  LOG     ✓ Compiled in 170ms
+[00:09:37.893] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:38.714] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:40.426] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:43.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:46.626] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:47.920] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:49.903] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:50.929] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:51.709] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:52.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:42.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:59.492] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:31.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:32.504] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:49.436] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

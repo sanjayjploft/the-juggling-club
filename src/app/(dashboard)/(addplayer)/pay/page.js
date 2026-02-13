@@ -82,11 +82,11 @@ export default function DetailsPage() {
                 </Row>
 
                 <div className="action-buttons mt-5">
-                  <Button
+                  <button
                     className="btn-cancel-outline"
                     onClick={() => router.back()}>
                     Back
-                  </Button>
+                  </button>
                   <Button className="btn-next-bg">Pay Now</Button>
                 </div>
               </Form>

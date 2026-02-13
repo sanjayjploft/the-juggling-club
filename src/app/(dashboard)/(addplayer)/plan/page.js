@@ -68,11 +68,11 @@ export default function DetailsPage() {
                   </Col>
                 </Row>
                 <div className="action-buttons mt-5">
-                  <Button
+                  <button
                     className="btn-cancel-outline"
                     onClick={() => router.back()}>
                     Back
-                  </Button>
+                  </button>
                   <Button
                     className="btn-next-bg"
                     onClick={() => router.push("/pay")}>

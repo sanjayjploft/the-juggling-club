@@ -88,9 +88,9 @@ export default function ClubInformation() {
 
       {/* Buttons */}
       <div className="action-buttons mt-5">
-        <Button className="btn-cancel-outline" onClick={() => router.back()}>
+        <button className="btn-cancel-outline" onClick={() => router.back()}>
           Back
-        </Button>
+        </button>
 
         <Button
           className="btn-next-bg"
