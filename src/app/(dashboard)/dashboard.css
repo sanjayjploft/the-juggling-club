@@ -5338,6 +5338,14 @@ img.calendar-icon-inp {
     text-align: center;
     margin-top: 20px;
   }
+  .step {
+    z-index: 99;
+    margin: 0;
+    position: relative;
+  }
+  .add-player .subscription {
+    margin: 20px 30px 0px;
+  }
 }
 @media (max-width: 920px) {
   .top-heading {
