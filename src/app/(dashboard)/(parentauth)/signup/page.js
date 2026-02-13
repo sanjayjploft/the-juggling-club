@@ -44,7 +44,7 @@ function page() {
               <Col md={6}>
                 <div className={`floating-phone ${phone ? "has-value" : ""}`}>
                   <PhoneInput
-                    country="in"
+                    country="us" // +1 default
                     value={phone}
                     onChange={(value) => setPhone(value)}
                     inputClass="phone-input"
