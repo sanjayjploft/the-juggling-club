@@ -106,7 +106,7 @@ export default function page() {
                       <Form.Control placeholder="Email" />
                       <label>Email</label>
                     </Form.Floating>
-                    <Button className="btn-primary-sml ivntr-bt">Invite</Button>
+                    <buttom className="btn-primary-sml ivntr-bt">Invite</buttom>
                   </div>
 
                   <div className="notification-card plyr-crdin">

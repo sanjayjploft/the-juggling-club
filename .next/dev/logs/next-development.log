@@ -1,10 +1,10 @@
-[00:00:01.724] Server  LOG     ✓ Ready in 1250ms
-[00:00:04.692] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.988] Server  LOG     ✓ Ready in 1411ms
+[00:00:01.990] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:05.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.462] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:03.650] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:04.223] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.417] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:04.417] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -22,7 +22,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/signup" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -38,7 +38,46 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:00:07.168] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:05.040] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.533] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.773] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.827] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:05.827] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/signup" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:00:06.812] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -73,83 +112,52 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:00:07.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:30.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:30.672] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:30.672] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:34.161] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:34.161] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:34.161] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:34.689] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:38.129] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:00:52.857] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:01:02.337] Server  LOG     ✓ Compiled in 105ms
-[00:01:04.049] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:03:25.250] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:03:25.250] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:03:29.271] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:03:35.375] Server  LOG     ✓ Compiled in 42ms
-[00:03:38.136] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:03:54.159] Server  LOG     ✓ Compiled in 49ms
-[00:03:57.032] Server  LOG     ✓ Compiled in 41ms
-[00:04:01.489] Server  LOG     ✓ Compiled in 64ms
-[00:04:09.307] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:04:09.307] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:05:37.562] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:05:37.562] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:07.160] Server  LOG     ✓ Compiled in 47ms
-[00:06:08.595] Server  LOG     ✓ Compiled in 46ms
-[00:06:14.635] Server  LOG     ✓ Compiled in 44ms
-[00:06:32.587] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:49.687] Server  LOG     ✓ Compiled in 42ms
-[00:07:19.222] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:39.586] Server  LOG     ✓ Compiled in 44ms
-[00:08:42.175] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:08:42.175] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:08:46.053] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="FAQ/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/FAQ" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(public)/F...">
-                  <SegmentTrieNode>
-                  <Page>
-                    <main className="page">
-                      <div className="section">
-                        <div className="container ...">
-                          <h1>
-                          <Tabs>
-                            <div>
-                              <div>
-                              <div style={{padding:"1..."}}>
->                               <p>
-                                  <FaqAccordion>
-                                    <div style={{maxWidth:"...", ...}}>
->                                     <div
->                                       style={{border:"1px solid ...",padding:"20px",borderRadius:"10px",fontFamily:"Avenir", ...}}
->                                     >
-                                      ...
-                ...
-              ...
-
-[00:08:46.053] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <div>
-[00:09:10.675] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:09:23.495] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:09:27.356] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:10:06.780] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:10:07.468] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:07.818] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:10:07.818] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:30.838] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:43.817] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:24.155] Server  LOG     ✓ Compiled in 104ms
+[00:02:27.306] Server  LOG     ✓ Compiled in 42ms
+[00:02:29.088] Server  LOG     ✓ Compiled in 55ms
+[00:02:30.244] Server  LOG     ✓ Compiled in 45ms
+[00:02:32.147] Server  LOG     ✓ Compiled in 50ms
+[00:02:37.803] Server  LOG     ✓ Compiled in 85ms
+[00:02:57.438] Server  LOG     ✓ Compiled in 49ms
+[00:03:00.196] Server  LOG     ✓ Compiled in 44ms
+[00:03:03.030] Server  LOG     ✓ Compiled in 51ms
+[00:03:04.314] Server  LOG     ✓ Compiled in 64ms
+[00:03:44.641] Server  LOG     ✓ Compiled in 51ms
+[00:03:46.373] Server  LOG     ✓ Compiled in 53ms
+[00:04:07.924] Server  LOG     ✓ Compiled in 96ms
+[00:04:10.522] Server  LOG     ✓ Compiled in 42ms
+[00:04:13.185] Server  LOG     ✓ Compiled in 60ms
+[00:04:14.558] Server  LOG     ✓ Compiled in 58ms
+[00:04:32.387] Server  LOG     ✓ Compiled in 53ms
+[00:04:33.672] Server  LOG     ✓ Compiled in 52ms
+[00:04:35.683] Server  LOG     ✓ Compiled in 48ms
+[00:04:37.372] Server  LOG     ✓ Compiled in 62ms
+[00:04:38.890] Server  LOG     ✓ Compiled in 63ms
+[00:04:41.043] Server  LOG     ✓ Compiled in 51ms
+[00:04:45.044] Server  LOG     ✓ Compiled in 58ms
+[00:05:05.142] Server  LOG     ✓ Compiled in 50ms
+[00:05:07.453] Server  LOG     ✓ Compiled in 56ms
+[00:05:08.955] Server  LOG     ✓ Compiled in 91ms
+[00:05:29.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:37.279] Server  LOG     ✓ Compiled in 53ms
+[00:06:44.878] Server  LOG     ✓ Compiled in 119ms
+[00:06:49.785] Server  LOG     ✓ Compiled in 49ms
+[00:06:54.660] Server  LOG     ✓ Compiled in 118ms
+[00:06:55.962] Server  LOG     ✓ Compiled in 49ms
+[00:07:12.888] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:53.450] Server  LOG     ✓ Compiled in 50ms
+[00:07:55.508] Server  LOG     ✓ Compiled in 51ms
+[00:07:56.579] Server  LOG     ✓ Compiled in 110ms
+[00:08:07.498] Server  LOG     ✓ Compiled in 49ms
+[00:08:09.427] Server  LOG     ✓ Compiled in 72ms
+[00:08:31.258] Server  LOG     ✓ Compiled in 47ms
+[00:08:34.545] Server  LOG     ✓ Compiled in 90ms
+[00:08:35.945] Server  LOG     ✓ Compiled in 52ms
+[00:08:38.939] Server  LOG     ✓ Compiled in 110ms
+[00:09:24.625] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:25.065] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -167,7 +175,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/signup" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -183,3 +191,922 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
+[00:09:27.733] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:30.723] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:51.218] Server  LOG     ✓ Compiled in 46ms
+[00:09:53.431] Server  LOG     ✓ Compiled in 44ms
+[00:09:55.469] Server  LOG     ✓ Compiled in 57ms
+[00:09:56.596] Server  LOG     ✓ Compiled in 46ms
+[00:10:38.437] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:01.563] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:01.840] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:01.841] Server  LOG     ✓ Compiled in 174ms
+[00:11:02.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:02.434] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:02.678] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Notificat..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:11:13.159] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:13.400] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:13.400] Server  LOG     ✓ Compiled in 39ms
+[00:11:13.956] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:14.127] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:14.161] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Notificat..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:11:15.039] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:15.375] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:15.384] Server  LOG     ✓ Compiled in 34ms
+[00:11:15.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:16.076] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:16.129] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Notificat..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:11:16.280] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:16.288] Server  LOG     ✓ Compiled in 24ms
+[00:11:16.553] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:17.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:17.275] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Notificat..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:11:17.438] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:18.431] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:18.668] Server  LOG     ✓ Compiled in 38ms
+[00:11:18.670] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:19.085] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:19.158] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:19.361] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Notificat..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:11:22.451] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:22.698] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:22.699] Server  LOG     ✓ Compiled in 43ms
+[00:11:23.219] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:23.381] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:23.426] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Notificat..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:11:24.584] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:24.825] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/Notifications/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:24.827] Server  LOG     ✓ Compiled in 32ms
+[00:11:25.200] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:25.672] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:25.976] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Notificat..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1132.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:11:31.836] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:11:31.836] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:11:31.836] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:11:31.836] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:11:31.836] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:11:36.175] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:11:36.175] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:11:36.175] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:11:36.175] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:11:36.175] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:12:08.717] Server  LOG     ✓ Compiled in 170ms
+[00:12:08.829] Browser ERROR   ./src/app/(dashboard)/AccountSettings/page.js:109:81
+Parsing ecmascript source code failed
+  107 |                       <label>Email</label>
+  108 |                     </Form.Floating>
+> 109 |                     <buttom className="btn-primary-sml ivntr-bt">Invite</Button>
+      |                                                                                 ^
+> 110 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  111 |
+  112 |                   <div className="notification-card plyr-crdin">
+  113 |                     <img src="/assets/image/david-im.png" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:12:09.704] Browser ERROR   ./src/app/(dashboard)/AccountSettings/page.js:109:81
+Parsing ecmascript source code failed
+  107 |                       <label>Email</label>
+  108 |                     </Form.Floating>
+> 109 |                     <buttom className="btn-primary-sml ivntr-bt">Invite</Button>
+      |                                                                                 ^
+> 110 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  111 |
+  112 |                   <div className="notification-card plyr-crdin">
+  113 |                     <img src="/assets/image/david-im.png" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:12:09.822] Browser ERROR   ./src/app/(dashboard)/AccountSettings/page.js:109:81
+Parsing ecmascript source code failed
+  107 |                       <label>Email</label>
+  108 |                     </Form.Floating>
+> 109 |                     <buttom className="btn-primary-sml ivntr-bt">Invite</Button>
+      |                                                                                 ^
+> 110 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  111 |
+  112 |                   <div className="notification-card plyr-crdin">
+  113 |                     <img src="/assets/image/david-im.png" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:12:09.822] Browser ERROR   ./src/app/(dashboard)/AccountSettings/page.js:109:81
+Parsing ecmascript source code failed
+  107 |                       <label>Email</label>
+  108 |                     </Form.Floating>
+> 109 |                     <buttom className="btn-primary-sml ivntr-bt">Invite</Button>
+      |                                                                                 ^
+> 110 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  111 |
+  112 |                   <div className="notification-card plyr-crdin">
+  113 |                     <img src="/assets/image/david-im.png" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:12:10.784] Server  LOG     ✓ Compiled in 170ms
+[00:12:10.788] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/AccountSettings/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:10.790] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/AccountSettings/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:11.170] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:11.171] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:11.172] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:11.237] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:11.238] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:11.239] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:11.748] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:11.773] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:12.055] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:12.055] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:12.055] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:12.055] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:12:12.055] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/AccountSe..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:12:12.811] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:12.811] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:12.811] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:12:12.811] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:12:12.811] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/AccountSe..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:12:49.733] Server  LOG     ✓ Compiled in 51ms
+[00:12:53.070] Server  LOG     ✓ Compiled in 50ms
+[00:12:55.092] Server  LOG     ✓ Compiled in 91ms
+[00:12:57.712] Server  LOG     ✓ Compiled in 75ms
+[00:13:17.068] Server  LOG     ✓ Compiled in 54ms
+[00:13:18.948] Server  LOG     ✓ Compiled in 45ms
+[00:13:20.865] Server  LOG     ✓ Compiled in 95ms
+[00:14:34.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:35.736] Browser WARN    Image with src "/assets/image/logo-juggling.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:14:35.736] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:14:41.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:43.770] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:14:43.770] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:14:43.770] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:15:15.005] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:15:48.208] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:15:48.208] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:15:48.208] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:15:48.208] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. buttom
+[00:16:39.064] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:16:39.064] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:16:39.064] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:16:56.922] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:16:56.922] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:16:56.922] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:17:14.412] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:17:14.412] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:17:14.412] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:18:00.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:02.688] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:18:02.688] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:18:02.688] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:29:26.652] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:26.832] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:31:13.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:13.562] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:32:02.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:03.016] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:32:05.002] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:12.540] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:15.493] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:16.122] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1132.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:32:16.127] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Support" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:33:14.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:29.048] Server  LOG     ✓ Compiled in 55ms
+[00:33:31.337] Server  LOG     ✓ Compiled in 45ms
+[00:33:34.329] Server  LOG     ✓ Compiled in 273ms
+[00:33:51.623] Server  LOG     ✓ Compiled in 62ms
+[00:33:53.123] Server  LOG     ✓ Compiled in 60ms
+[00:34:18.472] Server  LOG     ✓ Compiled in 265ms
+[00:34:20.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:25.641] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:34:25.641] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:34:51.001] Server  LOG     ✓ Compiled in 48ms
+[00:35:00.074] Server  ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:35:00.551] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:01.056] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:35:01.056] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/teams-groups" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:35:16.656] Server  LOG     ✓ Compiled in 46ms
+[00:35:19.441] Server  LOG     ✓ Compiled in 285ms
+[00:35:22.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:22.670] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:35:26.548] Server  LOG     ✓ Compiled in 46ms
+[00:35:28.709] Server  LOG     ✓ Compiled in 247ms
+[00:35:51.251] Server  LOG     ✓ Compiled in 56ms
+[00:35:53.546] Server  LOG     ✓ Compiled in 47ms
+[00:35:55.547] Server  LOG     ✓ Compiled in 47ms
+[00:36:26.146] Server  LOG     ✓ Compiled in 60ms
+[00:36:26.273] Browser ERROR   ./src/app/(dashboard)/dashboard.css:3450:1
+Parsing CSS source code failed
+  3448 |   text-decoration: none;
+  3449 |   d
+> 3450 | }
+       | ^
+  3451 | .btn-primary {
+  3452 |   background: var(--Primary-Neon-Red, #ff073a);
+  3453 |   color: var(--White, #fff);
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(dashboard)/layout.js [Server Component]
+[00:36:26.815] Browser ERROR   ./src/app/(dashboard)/dashboard.css:3450:1
+Parsing CSS source code failed
+  3448 |   text-decoration: none;
+  3449 |   d
+> 3450 | }
+       | ^
+  3451 | .btn-primary {
+  3452 |   background: var(--Primary-Neon-Red, #ff073a);
+  3453 |   color: var(--White, #fff);
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(dashboard)/layout.js [Server Component]
+[00:36:26.815] Browser ERROR   ./src/app/(dashboard)/dashboard.css:3450:1
+Parsing CSS source code failed
+  3448 |   text-decoration: none;
+  3449 |   d
+> 3450 | }
+       | ^
+  3451 | .btn-primary {
+  3452 |   background: var(--Primary-Neon-Red, #ff073a);
+  3453 |   color: var(--White, #fff);
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(dashboard)/layout.js [Server Component]
+[00:36:27.117] Browser ERROR   ./src/app/(dashboard)/dashboard.css:3450:1
+Parsing CSS source code failed
+  3448 |   text-decoration: none;
+  3449 |   d
+> 3450 | }
+       | ^
+  3451 | .btn-primary {
+  3452 |   background: var(--Primary-Neon-Red, #ff073a);
+  3453 |   color: var(--White, #fff);
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(dashboard)/layout.js [Server Component]
+[00:36:28.952] Server  LOG     ✓ Compiled in 44ms
+[00:36:29.934] Server  LOG     ✓ Compiled in 150ms
+[00:36:52.224] Server  LOG     ✓ Compiled in 62ms
+[00:36:54.685] Server  LOG     ✓ Compiled in 314ms
+[00:37:02.956] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:37:02.956] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:37:53.867] Server  LOG     ✓ Compiled in 157ms
+[00:38:15.033] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:15.421] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:38:15.421] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/player-pr..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:38:30.186] Server  LOG     ✓ Compiled in 48ms
+[00:38:32.686] Server  LOG     ✓ Compiled in 48ms
+[00:38:35.349] Server  LOG     ✓ Compiled in 84ms
+[00:38:47.828] Server  LOG     ✓ Compiled in 153ms
+[00:38:49.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:49.916] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:39:31.165] Server  LOG     ✓ Compiled in 66ms
+[00:39:53.776] Server  LOG     ✓ Compiled in 79ms
+[00:39:56.598] Server  LOG     ✓ Compiled in 52ms
+[00:39:59.794] Server  LOG     ✓ Compiled in 56ms
+[00:40:02.445] Server  LOG     ✓ Compiled in 143ms
+[00:40:05.151] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:05.738] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:40:24.668] Server  LOG     ✓ Compiled in 73ms
+[00:45:41.341] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:41.341] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:45:55.501] Server  LOG     ✓ Compiled in 36ms
+[00:45:55.623] Browser ERROR   ./src/app/(dashboard)/dashboard.css:3333:1
+Parsing CSS source code failed
+  3331 |   text-transform: uppercase;
+  3332 |   .team-pill
+> 3333 | }
+       | ^
+  3334 | .settings-icon {
+  3335 |   width: 18px;
+  3336 |   opacity: 0.8;
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(dashboard)/layout.js [Server Component]
+[00:45:55.822] Browser ERROR   ./src/app/(dashboard)/dashboard.css:3333:1
+Parsing CSS source code failed
+  3331 |   text-transform: uppercase;
+  3332 |   .team-pill
+> 3333 | }
+       | ^
+  3334 | .settings-icon {
+  3335 |   width: 18px;
+  3336 |   opacity: 0.8;
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(dashboard)/layout.js [Server Component]
+[00:45:55.822] Browser ERROR   ./src/app/(dashboard)/dashboard.css:3333:1
+Parsing CSS source code failed
+  3331 |   text-transform: uppercase;
+  3332 |   .team-pill
+> 3333 | }
+       | ^
+  3334 | .settings-icon {
+  3335 |   width: 18px;
+  3336 |   opacity: 0.8;
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(dashboard)/layout.js [Server Component]
+[00:45:56.111] Browser ERROR   ./src/app/(dashboard)/dashboard.css:3333:1
+Parsing CSS source code failed
+  3331 |   text-transform: uppercase;
+  3332 |   .team-pill
+> 3333 | }
+       | ^
+  3334 | .settings-icon {
+  3335 |   width: 18px;
+  3336 |   opacity: 0.8;
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(dashboard)/layout.js [Server Component]
+[00:45:59.231] Server  LOG     ✓ Compiled in 208ms
+[00:46:04.681] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:05.023] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:46:43.154] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:43.579] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:47:14.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:14.634] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:47:27.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:28.357] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.

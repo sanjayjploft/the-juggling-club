@@ -67,7 +67,7 @@ export default function ContactInformation() {
       </div>
 
       <div className="rowBtns mt-5">
-        <Link href="" className="btn btn--primary w-50">
+        <Link href="/dashboard-coach" className="btn btn--primary w-50">
           Signup
         </Link>
       </div>

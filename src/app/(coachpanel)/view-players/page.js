@@ -111,7 +111,7 @@ export default function DashboardPage() {
                     <td>23 Weeks</td>
                     <td>2024-01-15</td>
                     <td>
-                      <Link href="/clubplayer-details" className="">
+                      <Link href="/coach-messages" className="">
                         <img src="/assets/image/messages-menu.svg" />
                       </Link>
                     </td>
@@ -128,7 +128,7 @@ export default function DashboardPage() {
                     <td>18 Weeks</td>
                     <td>2024-01-15</td>
                     <td>
-                      <Link href="/clubplayer-details" className="">
+                      <Link href="/coach-messages" className="">
                         <img src="/assets/image/messages-menu.svg" />
                       </Link>
                     </td>
@@ -145,7 +145,7 @@ export default function DashboardPage() {
                     <td>23 Weeks</td>
                     <td>2024-01-15</td>
                     <td>
-                      <Link href="/clubplayer-details" className="">
+                      <Link href="/coach-messages" className="">
                         <img src="/assets/image/messages-menu.svg" />
                       </Link>
                     </td>
@@ -162,7 +162,7 @@ export default function DashboardPage() {
                     <td>23 Weeks</td>
                     <td>2024-01-15</td>
                     <td>
-                      <Link href="/clubplayer-details" className="">
+                      <Link href="/coach-messages" className="">
                         <img src="/assets/image/messages-menu.svg" />
                       </Link>
                     </td>
@@ -179,7 +179,7 @@ export default function DashboardPage() {
                     <td>23 Weeks</td>
                     <td>2024-01-15</td>
                     <td>
-                      <Link href="/clubplayer-details" className="">
+                      <Link href="/coach-messages" className="">
                         <img src="/assets/image/messages-menu.svg" />
                       </Link>
                     </td>
