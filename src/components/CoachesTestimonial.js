@@ -133,6 +133,66 @@ export default function PlayerTestimonial() {
                 </p>
               </div>
             </SwiperSlide>
+            <SwiperSlide>
+              <div className="player-quotes">
+                <div className="player-profile">
+                  <img src="/assets/image/parent-img-001.png" />
+                  <div>
+                    <h5>Coach Alex M.</h5>
+                  </div>
+                </div>
+
+                <p>
+                  Players are training on their own more than ever. That alone
+                  has been a game-changer.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="player-quotes">
+                <div className="player-profile">
+                  <img src="/assets/image/parent-img-02.png" />
+                  <div>
+                    <h5>Coach Sarah L.</h5>
+                  </div>
+                </div>
+
+                <p>
+                  Their first touch and ball control have improved noticeably in
+                  just weeks.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="player-quotes">
+                <div className="player-profile">
+                  <img src="/assets/image/parent-img-03.png" />
+                  <div>
+                    <h5>Coach Diego R.</h5>
+                  </div>
+                </div>
+
+                <p>
+                  I see more confidence on the ball—players try things now
+                  instead of hesitating.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="player-quotes">
+                <div className="player-profile">
+                  <img src="/assets/image/parent-img-04.png" />
+                  <div>
+                    <h5>Coach Mark T.</h5>
+                  </div>
+                </div>
+
+                <p>
+                  Practice quality is higher because players show up already
+                  sharp.
+                </p>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
