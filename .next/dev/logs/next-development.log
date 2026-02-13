@@ -1,12 +1,13 @@
-[00:00:01.728] Server  LOG     ✓ Ready in 1253ms
-[00:00:01.731] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.769] Server  LOG     ✓ Ready in 1298ms
+[00:00:21.109] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:04.817] Server  LOG     ○ Compiling /club-management ...
-[00:00:04.956] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:00:05.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.517] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:00:05.893] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:21.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:29.524] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:29.951] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:30.107] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:02:04.725] Server  LOG     ✓ Compiled in 296ms
+[00:02:43.830] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:44.583] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <h3> p 
 
   ...
@@ -34,7 +35,7 @@ This will cause a hydration error.%s <h3> p
                 ...
               ...
 
-[00:00:05.893] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:02:44.584] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
@@ -67,9 +68,1740 @@ This will cause a hydration error.%s <div> p
                 ...
               ...
 
-[00:00:05.893] Browser ERROR   <%s> cannot contain a nested %s.
+[00:02:44.584] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[00:00:05.893] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:02:45.886] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <div className="date-det-s...">
+                                    <div className="d-flex gap...">
+                                      <img>
+                                      <div>
+>                                       <h5>
+                                        ...
+                                    ...
+                                ...
+                            ...
+                ...
+              ...
+
+[00:02:45.886] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:02:45.886] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <div className="date-det-s...">
+                                    <div className="d-flex gap...">
+                                      <img>
+                                      <div>
+                                        <h5>
+>                                       <p>
+                                    ...
+                                ...
+                            ...
+                ...
+              ...
+
+[00:02:45.886] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:02:45.886] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:03:31.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:25.279] Browser WARN    Image with src "/assets/image/logo-juggling.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:25.279] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:05:34.576] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:43.491] Server  LOG     ✓ Compiled in 89ms
+[00:05:44.677] Server  LOG     ✓ Compiled in 84ms
+[00:05:45.091] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:45.097] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:05:45.450] Server  ERROR   ⨯ ReferenceError: useEffect is not defined
+[00:05:45.480] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:45.480] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:05:45.590] Server  ERROR   ⨯ ReferenceError: useEffect is not defined
+[00:05:45.876] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:46.536] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:46.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:47.090] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:05:47.090] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:05:54.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:56.140] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:56.450] Server  ERROR   ⨯ ReferenceError: useEffe is not defined
+[00:05:56.469] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:56.470] Server  LOG     ✓ Compiled in 60ms
+[00:05:56.549] Server  ERROR   ⨯ ReferenceError: useEffe is not defined
+[00:05:57.186] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:57.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:57.846] Server  LOG     ✓ Compiled in 46ms
+[00:05:57.897] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:58.189] Server  ERROR   ⨯ ReferenceError: useEffect is not defined
+[00:05:58.211] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:58.211] Browser ERROR   uncaughtError: ReferenceError: useEffe is not defined
+[00:05:58.212] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:05:58.361] Server  ERROR   ⨯ ReferenceError: useEffect is not defined
+[00:05:59.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:59.535] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:59.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:00.103] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:06:00.117] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:06:02.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:05.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:06.156] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:06.226] Server  ERROR   ⨯ ReferenceError: useEffect is not defined
+[00:06:06.245] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:06.246] Server  LOG     ✓ Compiled in 55ms
+[00:06:06.319] Server  ERROR   ⨯ ReferenceError: useEffect is not defined
+[00:06:07.232] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:07.304] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:08.086] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:06:08.097] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:06:08.300] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:08.308] Server  LOG     ✓ Compiled in 159ms
+[00:06:08.384] Server  ERROR   ⨯ ReferenceError: useEffect is not defined
+[00:06:08.410] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:08.518] Server  ERROR   ⨯ ReferenceError: useEffect is not defined
+[00:06:09.560] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:09.701] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:09.970] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:10.130] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:06:10.130] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:06:11.162] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:11.513] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:11.513] Server  LOG     ✓ Compiled in 110ms
+[00:06:12.725] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:12.817] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:23.786] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:38.663] Server  LOG     ✓ Compiled in 139ms
+[00:06:45.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:47.250] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:51.436] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:03.729] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:04.049] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:07:05.997] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:07.478] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:07:07.478] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:07.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:09.605] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:12.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:15.103] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:18.250] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:13.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:15.872] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:17.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:18.732] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:19.853] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:21.201] Server  LOG     ✓ Compiled in 127ms
+[00:08:21.308] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                       onClick={() => router.push("/plan")}>
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:22.086] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                       onClick={() => router.push("/plan")}>
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:22.087] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                       onClick={() => router.push("/plan")}>
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:24.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:25.055] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                       onClick={() => router.push("/plan")}>
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:25.055] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                       onClick={() => router.push("/plan")}>
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:25.091] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                       onClick={() => router.push("/plan")}>
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:25.091] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                       onClick={() => router.push("/plan")}>
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:25.091] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                       onClick={() => router.push("/plan")}>
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:25.091] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                       onClick={() => router.push("/plan")}>
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:26.114] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""></Link>
+  136 |                       className="btn-next-bg"
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:26.553] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:26.765] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""></Link>
+  136 |                       className="btn-next-bg"
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:26.765] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""></Link>
+  136 |                       className="btn-next-bg"
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:27.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""></Link>
+  136 |                       className="btn-next-bg"
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:27.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""></Link>
+  136 |                       className="btn-next-bg"
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:27.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""></Link>
+  136 |                       className="btn-next-bg"
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:27.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""></Link>
+  136 |                       className="btn-next-bg"
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:27.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""></Link>
+  136 |                       className="btn-next-bg"
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:27.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""></Link>
+  136 |                       className="btn-next-bg"
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:31.092] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""  className="btn-next-bg"></Link>
+  136 |                      
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:31.092] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""  className="btn-next-bg"></Link>
+  136 |                      
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:31.100] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:59
+Parsing ecmascript source code failed
+  135 |                     <Link href=""  className="btn-next-bg"></Link>
+  136 |                      
+> 137 |                       onClick={() => router.push("/plan")}>
+      |                                                           ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:34.097] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:54
+Parsing ecmascript source code failed
+  135 |                     <Link href="/plan"  className="btn-next-bg"></Link>
+  136 |                      
+> 137 |                       onClick={() => router.push("")}>
+      |                                                      ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:34.097] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:54
+Parsing ecmascript source code failed
+  135 |                     <Link href="/plan"  className="btn-next-bg"></Link>
+  136 |                      
+> 137 |                       onClick={() => router.push("")}>
+      |                                                      ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:34.161] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:137:54
+Parsing ecmascript source code failed
+  135 |                     <Link href="/plan"  className="btn-next-bg"></Link>
+  136 |                      
+> 137 |                       onClick={() => router.push("")}>
+      |                                                      ^
+  138 |                       Next
+  139 |                     </button>
+  140 |                   </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[00:08:35.287] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:36.099] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:36.099] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                       Next
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:37.081] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                     
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:37.225] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                     
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:37.678] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                     
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:37.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:38.014] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                     
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:38.058] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                     
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:38.058] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                     
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:38.087] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                     
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:38.087] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                     
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:38.087] Browser ERROR   ./src/app/(dashboard)/(addplayer)/details/page.js:139:30
+Parsing ecmascript source code failed
+  137 |                        
+  138 |                     
+> 139 |                     </button>
+      |                              ^
+> 140 |                   </div>
+      | ^^^^^^^^^^^^^^^^^^^
+  141 |
+  142 |                   <div className="info-text mt-4">
+  143 |                     <img src="/assets/image/info-chat.svg" className="me-2" />
+
+Expected '</', got 'jsx text (
+                  )'
+[00:08:41.040] Server  LOG     ✓ Compiled in 172ms
+[00:08:41.436] Server  LOG     ✓ Compiled in 55ms
+[00:08:41.858] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:43.057] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:45.003] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:46.031] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:46.381] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:50.234] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:52.887] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:53.615] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:27.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:29.816] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:35.534] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:37.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:40.382] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:43.393] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:45.070] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:59.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:01.411] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:02.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:05.808] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:10:05.808] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:10:05.808] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:10:05.808] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. buttom
+[00:10:05.808] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:10:24.498] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:25.747] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:36.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:37.024] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:10:40.142] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:10:43.860] Server  LOG     ✓ Compiled in 146ms
+[00:10:49.935] Server  LOG     ✓ Compiled in 40ms
+[00:10:50.098] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:94:30
+Parsing ecmascript source code failed
+  92 |
+  93 |                   <
+> 94 |                     className="btn-cancel-outline"
+     |                              ^
+  95 |                     onClick={() => router.back()}>
+  96 |                     Back
+  97 |                   </button>
+
+Expected '</', got '='
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:10:50.099] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:94:30
+Parsing ecmascript source code failed
+  92 |
+  93 |                   <
+> 94 |                     className="btn-cancel-outline"
+     |                              ^
+  95 |                     onClick={() => router.back()}>
+  96 |                     Back
+  97 |                   </button>
+
+Expected '</', got '='
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:10:51.275] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:94:30
+Parsing ecmascript source code failed
+  92 |
+  93 |                   <
+> 94 |                     className="btn-cancel-outline"
+     |                              ^
+  95 |                     onClick={() => router.back()}>
+  96 |                     Back
+  97 |                   </button>
+
+Expected '</', got '='
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:10:51.312] Server  LOG     ✓ Compiled in 38ms
+[00:10:51.418] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:97:28
+Parsing ecmascript source code failed
+   95 |                     onClick={() => router.back()}>
+   96 |                     Back
+>  97 |                   </button>
+      |                            ^
+>  98 |                   <Button className="btn-next-bg">Pay Now</Button>
+      | ^^^^^^^^^^^^^^^^^^^
+   99 |                 </div>
+  100 |               </Form>
+  101 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:10:52.085] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:97:28
+Parsing ecmascript source code failed
+   95 |                     onClick={() => router.back()}>
+   96 |                     Back
+>  97 |                   </button>
+      |                            ^
+>  98 |                   <Button className="btn-next-bg">Pay Now</Button>
+      | ^^^^^^^^^^^^^^^^^^^
+   99 |                 </div>
+  100 |               </Form>
+  101 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:10:52.085] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:97:28
+Parsing ecmascript source code failed
+   95 |                     onClick={() => router.back()}>
+   96 |                     Back
+>  97 |                   </button>
+      |                            ^
+>  98 |                   <Button className="btn-next-bg">Pay Now</Button>
+      | ^^^^^^^^^^^^^^^^^^^
+   99 |                 </div>
+  100 |               </Form>
+  101 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:10:52.797] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:97:28
+Parsing ecmascript source code failed
+   95 |                     onClick={() => router.back()}>
+   96 |                     Back
+>  97 |                   </button>
+      |                            ^
+>  98 |                   <Button className="btn-next-bg">Pay Now</Button>
+      | ^^^^^^^^^^^^^^^^^^^
+   99 |                 </div>
+  100 |               </Form>
+  101 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:10:53.087] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:97:28
+Parsing ecmascript source code failed
+   95 |                     onClick={() => router.back()}>
+   96 |                     Back
+>  97 |                   </button>
+      |                            ^
+>  98 |                   <Button className="btn-next-bg">Pay Now</Button>
+      | ^^^^^^^^^^^^^^^^^^^
+   99 |                 </div>
+  100 |               </Form>
+  101 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:10:53.087] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:97:28
+Parsing ecmascript source code failed
+   95 |                     onClick={() => router.back()}>
+   96 |                     Back
+>  97 |                   </button>
+      |                            ^
+>  98 |                   <Button className="btn-next-bg">Pay Now</Button>
+      | ^^^^^^^^^^^^^^^^^^^
+   99 |                 </div>
+  100 |               </Form>
+  101 |             </div>
+
+Expected '</', got 'jsx text (
+                  )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:10:57.188] Server  LOG     ✓ Compiled in 124ms
+[00:10:58.094] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:11:00.360] Server  LOG     ✓ Compiled in 45ms
+[00:11:00.684] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:19
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                   ^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:00.684] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:20
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                    ^^^^^^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:01.095] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:19
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                   ^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:01.095] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:20
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                    ^^^^^^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:01.095] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:19
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                   ^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:01.095] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:20
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                    ^^^^^^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:04.643] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:04.856] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:19
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                   ^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:04.856] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:20
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                    ^^^^^^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:04.856] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:19
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                   ^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:04.856] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:20
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                    ^^^^^^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:05.093] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:19
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                   ^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:05.093] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:20
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                    ^^^^^^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:05.093] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:19
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                   ^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:05.093] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:20
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                    ^^^^^^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:05.093] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:19
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                   ^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:05.093] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:20
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                    ^^^^^^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:05.093] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:19
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                   ^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:05.093] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:95:20
+Parsing ecmascript source code failed
+  93 |                     className="btn-cancel-outline"
+  94 |                     Back
+> 95 |                   </Link>
+     |                    ^^^^^^
+  96 |                   <Button className="btn-next-bg">Pay Now</Button>
+  97 |                 </div>
+  98 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:06.091] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:06.092] Server  LOG     ✓ Compiled in 138ms
+[00:11:06.540] Server  ERROR   ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[00:11:06.870] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:08.092] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:11:08.132] Server  LOG     ✓ Compiled in 133ms
+[00:11:08.149] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:08.540] Server  ERROR   ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `boolean` instead.
+[00:11:08.560] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:11:08.821] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:09.218] Server  LOG     ✓ Compiled in 45ms
+[00:11:09.328] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:94:28
+Parsing ecmascript source code failed
+  92 |                   <Link
+  93 |                     className="btn-cancel-outline"
+> 94 |                     href={}>
+     |                            ^
+  95 |                     Back
+  96 |                   </Link>
+  97 |                   <Button className="btn-next-bg">Pay Now</Button>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:09.328] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:96:20
+Parsing ecmascript source code failed
+  94 |                     href={}>
+  95 |                     Back
+> 96 |                   </Link>
+     |                    ^^^^^^
+  97 |                   <Button className="btn-next-bg">Pay Now</Button>
+  98 |                 </div>
+  99 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:10.094] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:94:28
+Parsing ecmascript source code failed
+  92 |                   <Link
+  93 |                     className="btn-cancel-outline"
+> 94 |                     href={}>
+     |                            ^
+  95 |                     Back
+  96 |                   </Link>
+  97 |                   <Button className="btn-next-bg">Pay Now</Button>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:10.094] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:96:20
+Parsing ecmascript source code failed
+  94 |                     href={}>
+  95 |                     Back
+> 96 |                   </Link>
+     |                    ^^^^^^
+  97 |                   <Button className="btn-next-bg">Pay Now</Button>
+  98 |                 </div>
+  99 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:10.094] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `boolean` instead.
+Open your browser's console to view the Component stack trace.
+[00:11:10.094] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:94:28
+Parsing ecmascript source code failed
+  92 |                   <Link
+  93 |                     className="btn-cancel-outline"
+> 94 |                     href={}>
+     |                            ^
+  95 |                     Back
+  96 |                   </Link>
+  97 |                   <Button className="btn-next-bg">Pay Now</Button>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:10.094] Browser ERROR   ./src/app/(dashboard)/(addplayer)/pay/page.js:96:20
+Parsing ecmascript source code failed
+  94 |                     href={}>
+  95 |                     Back
+> 96 |                   </Link>
+     |                    ^^^^^^
+  97 |                   <Button className="btn-next-bg">Pay Now</Button>
+  98 |                 </div>
+  99 |               </Form>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/pay/page.js [Server Component]
+[00:11:12.457] Server  LOG     ✓ Compiled in 108ms
+[00:11:12.459] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:13.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:13.855] Server  LOG     ✓ Compiled in 82ms
+[00:11:16.142] Server  LOG     ✓ Compiled in 78ms
+[00:11:17.093] Server  LOG     ✓ Compiled in 168ms
+[00:11:20.610] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:11:25.561] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:26.627] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:39.179] Server  LOG     ✓ Compiled in 109ms
+[00:11:39.389] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:72:30
+Parsing ecmascript source code failed
+  70 |                 <div className="action-buttons mt-5">
+  71 |                   <
+> 72 |                     className="btn-cancel-outline"
+     |                              ^
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+  75 |                   </button>
+
+Expected '</', got '='
+[00:11:40.089] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:72:30
+Parsing ecmascript source code failed
+  70 |                 <div className="action-buttons mt-5">
+  71 |                   <
+> 72 |                     className="btn-cancel-outline"
+     |                              ^
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+  75 |                   </button>
+
+Expected '</', got '='
+[00:11:40.089] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:72:30
+Parsing ecmascript source code failed
+  70 |                 <div className="action-buttons mt-5">
+  71 |                   <
+> 72 |                     className="btn-cancel-outline"
+     |                              ^
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+  75 |                   </button>
+
+Expected '</', got '='
+[00:11:40.089] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:72:30
+Parsing ecmascript source code failed
+  70 |                 <div className="action-buttons mt-5">
+  71 |                   <
+> 72 |                     className="btn-cancel-outline"
+     |                              ^
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+  75 |                   </button>
+
+Expected '</', got '='
+[00:11:40.089] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:72:30
+Parsing ecmascript source code failed
+  70 |                 <div className="action-buttons mt-5">
+  71 |                   <
+> 72 |                     className="btn-cancel-outline"
+     |                              ^
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+  75 |                   </button>
+
+Expected '</', got '='
+[00:11:40.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:40.596] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:72:30
+Parsing ecmascript source code failed
+  70 |                 <div className="action-buttons mt-5">
+  71 |                   <
+> 72 |                     className="btn-cancel-outline"
+     |                              ^
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+  75 |                   </button>
+
+Expected '</', got '='
+[00:11:40.596] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:72:30
+Parsing ecmascript source code failed
+  70 |                 <div className="action-buttons mt-5">
+  71 |                   <
+> 72 |                     className="btn-cancel-outline"
+     |                              ^
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+  75 |                   </button>
+
+Expected '</', got '='
+[00:11:40.962] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:75:28
+Parsing ecmascript source code failed
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+> 75 |                   </button>
+     |                            ^
+> 76 |                   <Button
+     | ^^^^^^^^^^^^^^^^^^^
+  77 |                     className="btn-next-bg"
+  78 |                     onClick={() => router.push("/pay")}>
+  79 |                     Next
+
+Expected '</', got 'jsx text (
+                  )'
+[00:11:41.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:72:30
+Parsing ecmascript source code failed
+  70 |                 <div className="action-buttons mt-5">
+  71 |                   <
+> 72 |                     className="btn-cancel-outline"
+     |                              ^
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+  75 |                   </button>
+
+Expected '</', got '='
+[00:11:41.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:75:28
+Parsing ecmascript source code failed
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+> 75 |                   </button>
+     |                            ^
+> 76 |                   <Button
+     | ^^^^^^^^^^^^^^^^^^^
+  77 |                     className="btn-next-bg"
+  78 |                     onClick={() => router.push("/pay")}>
+  79 |                     Next
+
+Expected '</', got 'jsx text (
+                  )'
+[00:11:41.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:72:30
+Parsing ecmascript source code failed
+  70 |                 <div className="action-buttons mt-5">
+  71 |                   <
+> 72 |                     className="btn-cancel-outline"
+     |                              ^
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+  75 |                   </button>
+
+Expected '</', got '='
+[00:11:41.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:75:28
+Parsing ecmascript source code failed
+  73 |                     onClick={() => router.back()}>
+  74 |                     Back
+> 75 |                   </button>
+     |                            ^
+> 76 |                   <Button
+     | ^^^^^^^^^^^^^^^^^^^
+  77 |                     className="btn-next-bg"
+  78 |                     onClick={() => router.push("/pay")}>
+  79 |                     Next
+
+Expected '</', got 'jsx text (
+                  )'
+[00:11:42.172] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:76:28
+Parsing ecmascript source code failed
+  74 |                     onClick={() => router.back()}>
+  75 |                     Back
+> 76 |                   </button>
+     |                            ^
+> 77 |                   <Button
+     | ^^^^^^^^^^^^^^^^^^^
+  78 |                     className="btn-next-bg"
+  79 |                     onClick={() => router.push("/pay")}>
+  80 |                     Next
+
+Expected '</', got 'jsx text (
+                  )'
+[00:11:43.092] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:76:28
+Parsing ecmascript source code failed
+  74 |                     onClick={() => router.back()}>
+  75 |                     Back
+> 76 |                   </button>
+     |                            ^
+> 77 |                   <Button
+     | ^^^^^^^^^^^^^^^^^^^
+  78 |                     className="btn-next-bg"
+  79 |                     onClick={() => router.push("/pay")}>
+  80 |                     Next
+
+Expected '</', got 'jsx text (
+                  )'
+[00:11:43.092] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:76:28
+Parsing ecmascript source code failed
+  74 |                     onClick={() => router.back()}>
+  75 |                     Back
+> 76 |                   </button>
+     |                            ^
+> 77 |                   <Button
+     | ^^^^^^^^^^^^^^^^^^^
+  78 |                     className="btn-next-bg"
+  79 |                     onClick={() => router.push("/pay")}>
+  80 |                     Next
+
+Expected '</', got 'jsx text (
+                  )'
+[00:11:48.593] Server  LOG     ✓ Compiled in 1595ms
+[00:11:48.989] Server  ERROR   ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[00:11:49.017] Server  LOG     ✓ Compiled in 42ms
+[00:11:49.300] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:50.097] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:11:54.672] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:55.007] Server  ERROR   ⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+[00:11:55.037] Server  LOG     ✓ Compiled in 144ms
+[00:11:55.292] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:56.095] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:11:58.070] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:11:59.250] Server  LOG     ✓ Compiled in 41ms
+[00:11:59.368] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:74:26
+Parsing ecmascript source code failed
+  72 |                   <Link
+  73 |                     className="btn-cancel-outline"
+> 74 |                     href=}>
+     |                          ^
+  75 |                     Back
+  76 |                   </Link>
+  77 |                   <Button
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+[00:11:59.536] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:74:26
+Parsing ecmascript source code failed
+  72 |                   <Link
+  73 |                     className="btn-cancel-outline"
+> 74 |                     href=}>
+     |                          ^
+  75 |                     Back
+  76 |                   </Link>
+  77 |                   <Button
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+[00:12:00.087] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:74:26
+Parsing ecmascript source code failed
+  72 |                   <Link
+  73 |                     className="btn-cancel-outline"
+> 74 |                     href=}>
+     |                          ^
+  75 |                     Back
+  76 |                   </Link>
+  77 |                   <Button
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+[00:12:00.087] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:74:26
+Parsing ecmascript source code failed
+  72 |                   <Link
+  73 |                     className="btn-cancel-outline"
+> 74 |                     href=}>
+     |                          ^
+  75 |                     Back
+  76 |                   </Link>
+  77 |                   <Button
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+[00:12:00.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:74:26
+Parsing ecmascript source code failed
+  72 |                   <Link
+  73 |                     className="btn-cancel-outline"
+> 74 |                     href=}>
+     |                          ^
+  75 |                     Back
+  76 |                   </Link>
+  77 |                   <Button
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+[00:12:00.088] Browser ERROR   ./src/app/(dashboard)/(addplayer)/plan/page.js:74:26
+Parsing ecmascript source code failed
+  72 |                   <Link
+  73 |                     className="btn-cancel-outline"
+> 74 |                     href=}>
+     |                          ^
+  75 |                     Back
+  76 |                   </Link>
+  77 |                   <Button
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(addplayer)/plan/page.js [Server Component]
+[00:12:02.972] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:02.974] Server  LOG     ✓ Compiled in 1387ms
+[00:12:03.547] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:05.657] Server  LOG     ✓ Compiled in 126ms
+[00:12:10.097] Server  LOG     ✓ Compiled in 120ms
+[00:12:11.536] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:12:13.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:17.522] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:12:33.134] Server  LOG     ✓ Compiled in 150ms
+[00:12:59.544] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <SegmentViewNode type="page" pagePath="(clubpanel...">
+      <SegmentTrieNode>
+      <ClientPageRoot Component={function ClubInformation} serverProvidedParams={{...}}>
+        <ClubInformation params={Promise} searchParams={Promise}>
+          <div>
+          <div className="step-form">
+            <Form className="mt-5">
+              <form ref={null} className="mt-5">
+                <Row className="g-4">
+                  <div ref={null} className="g-4 row">
+                    <Col lg={12}>
+                      <div ref={null} className="col-lg-12">
+                        <h3>
+                        <FormGroup className={"floating..."}>
+                          <div className={"floating..."} ref={null}>
+                            <div className="file-box" onClick={function ClubInformation[openFilePicker]}>
+                              <img>
+>                             <p className="placeholder-text">
+>                               <h5>
+                                ...
+                            ...
+                    ...
+          ...
+    ...
+
+[00:13:37.248] Server  LOG     ✓ Compiled in 66ms
+[00:13:45.636] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:14:05.711] Server  LOG     ✓ Compiled in 90ms
+[00:14:09.923] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:28.143] Server  LOG     ✓ Compiled in 67ms
+[00:14:30.711] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:37.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:43.327] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:47.157] Server  LOG     ✓ Compiled in 108ms
+[00:14:49.999] Server  LOG     ✓ Compiled in 80ms
+[00:14:52.116] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:52.710] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -79,92 +1811,44 @@ See this log for the ancestor stack trace. p <div>
 
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-https://react.dev/link/hydration-mismatch
-[00:00:23.071] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h5> p 
+%s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
-                                    <div>
->                                     <h5>
-                                      ...
-                                  ...
-                                ...
-                ...
-              ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/club-players" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="en">
+                            <body
+-                             data-new-gr-c-s-check-loaded="14.1272.0"
+-                             data-gr-ext-installed=""
+                            >
+                  ...
 
-[00:00:23.071] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <h5>
-[00:00:23.071] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
-                                    <div>
-                                      <h5>
->                                     <p>
-                                  ...
-                                ...
-                ...
-              ...
-
-[00:00:23.071] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[00:00:23.071] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:25.037] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
-[00:00:30.638] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:30.846] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:14:56.196] Server  LOG     ✓ Compiled in 41ms
+[00:15:15.485] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <h3> p 
 
   ...
     <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
         <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
           <RedirectBoundary>
             <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
                 <SegmentViewNode type="page" pagePath="(clubpanel...">
                   <SegmentTrieNode>
                   <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
@@ -174,97 +1858,27 @@ This will cause a hydration error.%s <h3> p
                         <main className="msar-main">
                           <div>
                           <div className="container-...">
+                            <div>
                             <div>
                             <div>
                             <div className="tabb-content">
 >                             <p>
 >                               <h3>
                                 ...
+                            ...
                 ...
               ...
 
-[00:00:30.846] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h5> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
-                                    <div>
->                                     <h5>
-                                      ...
-                                  ...
-                                ...
-                ...
-              ...
-
-[00:00:30.846] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <h5>
-[00:00:30.847] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
-                                    <div>
-                                      <h5>
->                                     <p>
-                                  ...
-                                ...
-                ...
-              ...
-
-[00:00:30.847] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[00:00:30.847] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:15:15.485] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
     <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
         <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
           <RedirectBoundary>
             <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
                 <SegmentViewNode type="page" pagePath="(clubpanel...">
                   <SegmentTrieNode>
                   <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
@@ -274,457 +1888,32 @@ This will cause a hydration error.%s <div> p
                         <main className="msar-main">
                           <div>
                           <div className="container-...">
+                            <div>
                             <div>
                             <div>
                             <div className="tabb-content">
 >                             <p>
                                 <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
->                                   <div>
+                                <div className="">
+>                                 <div className="players-progress-header">
                                   ...
                                 ...
+                            ...
                 ...
               ...
 
-[00:00:30.847] Browser ERROR   <%s> cannot contain a nested %s.
+[00:15:15.485] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[00:00:30.847] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:00:31.657] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
-[00:01:14.040] Server  LOG     ✓ Compiled in 222ms
-[00:01:14.162] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:186:17
-Parsing ecmascript source code failed
-  184 |                 </Row>
-  185 |                 <Button className="btn-next-bg mt-4">Add Testimonial</Button>
-> 186 |               </p>
-      |                 ^
-  187 |             )}
-  188 |             {activeTab === "billing" && (
-  189 |               <p>
-
-Expected '</', got 'p'
-[00:01:14.879] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:186:17
-Parsing ecmascript source code failed
-  184 |                 </Row>
-  185 |                 <Button className="btn-next-bg mt-4">Add Testimonial</Button>
-> 186 |               </p>
-      |                 ^
-  187 |             )}
-  188 |             {activeTab === "billing" && (
-  189 |               <p>
-
-Expected '</', got 'p'
-[00:01:19.196] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:01:19.218] Server  LOG     ✓ Compiled in 291ms
-[00:01:19.442] Server  LOG     ✓ Compiled in 56ms
-[00:01:19.554] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:01:19.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:21.309] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
-[00:01:38.863] Server  LOG     ✓ Compiled in 189ms
-[00:01:38.998] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js
-Error evaluating Node.js code
-SyntaxError: D:\Sanjay Choudhary\the-juggling-club\src\app\(clubpanel)\landing-page-manager\page.js: Identifier 'checked2' has already been declared. (12:9)
-
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked2] = useState(false);
-     |          ^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-    [at constructor (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278727)]
-    [at JSXParserMixin.parseVarId (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:403644)]
-    [at JSXParserMixin.parseVar (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:402884)]
-    [at JSXParserMixin.parseVarStatement (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
-    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
-    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseStatementListItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389120)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401423)]
-    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseBlock (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:400923)]
-    [at JSXParserMixin.parseFunctionBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:378053)]
-    [at JSXParserMixin.parseFunctionBodyAndFinish (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:377675)]
-    [at D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404308]
-    [at JSXParserMixin.withSmartMixTopicForbiddingContext (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:383677)]
-    [at JSXParserMixin.parseFunction (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404262)]
-    [at JSXParserMixin.parseExportDefaultExpression (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:414860)]
-    [at JSXParserMixin.parseExport (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:413097)]
-    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391808)]
-    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:38.998] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:10
-Ecmascript file had an error
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked2] = useState(false);
-     |          ^^^^^^^^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-
-the name `checked2` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:38.998] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:20
-Ecmascript file had an error
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked2] = useState(false);
-     |                    ^^^^^^^^^^^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-
-the name `setChecked2` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:39.875] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js
-Error evaluating Node.js code
-SyntaxError: D:\Sanjay Choudhary\the-juggling-club\src\app\(clubpanel)\landing-page-manager\page.js: Identifier 'checked2' has already been declared. (12:9)
-
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked2] = useState(false);
-     |          ^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-    [at constructor (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278727)]
-    [at JSXParserMixin.parseVarId (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:403644)]
-    [at JSXParserMixin.parseVar (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:402884)]
-    [at JSXParserMixin.parseVarStatement (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
-    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
-    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseStatementListItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389120)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401423)]
-    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseBlock (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:400923)]
-    [at JSXParserMixin.parseFunctionBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:378053)]
-    [at JSXParserMixin.parseFunctionBodyAndFinish (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:377675)]
-    [at D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404308]
-    [at JSXParserMixin.withSmartMixTopicForbiddingContext (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:383677)]
-    [at JSXParserMixin.parseFunction (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404262)]
-    [at JSXParserMixin.parseExportDefaultExpression (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:414860)]
-    [at JSXParserMixin.parseExport (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:413097)]
-    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391808)]
-    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:39.875] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:10
-Ecmascript file had an error
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked2] = useState(false);
-     |          ^^^^^^^^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-
-the name `checked2` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:39.875] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:20
-Ecmascript file had an error
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked2] = useState(false);
-     |                    ^^^^^^^^^^^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-
-the name `setChecked2` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:41.370] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js
-Error evaluating Node.js code
-SyntaxError: D:\Sanjay Choudhary\the-juggling-club\src\app\(clubpanel)\landing-page-manager\page.js: Identifier 'checked2' has already been declared. (12:9)
-
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked3] = useState(false);
-     |          ^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-    [at constructor (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278727)]
-    [at JSXParserMixin.parseVarId (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:403644)]
-    [at JSXParserMixin.parseVar (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:402884)]
-    [at JSXParserMixin.parseVarStatement (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
-    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
-    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseStatementListItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389120)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401423)]
-    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseBlock (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:400923)]
-    [at JSXParserMixin.parseFunctionBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:378053)]
-    [at JSXParserMixin.parseFunctionBodyAndFinish (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:377675)]
-    [at D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404308]
-    [at JSXParserMixin.withSmartMixTopicForbiddingContext (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:383677)]
-    [at JSXParserMixin.parseFunction (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404262)]
-    [at JSXParserMixin.parseExportDefaultExpression (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:414860)]
-    [at JSXParserMixin.parseExport (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:413097)]
-    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391808)]
-    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:41.370] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:10
-Ecmascript file had an error
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked3] = useState(false);
-     |          ^^^^^^^^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-
-the name `checked2` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:41.876] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js
-Error evaluating Node.js code
-SyntaxError: D:\Sanjay Choudhary\the-juggling-club\src\app\(clubpanel)\landing-page-manager\page.js: Identifier 'checked2' has already been declared. (12:9)
-
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked3] = useState(false);
-     |          ^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-    [at constructor (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278727)]
-    [at JSXParserMixin.parseVarId (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:403644)]
-    [at JSXParserMixin.parseVar (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:402884)]
-    [at JSXParserMixin.parseVarStatement (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
-    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
-    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseStatementListItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389120)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401423)]
-    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseBlock (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:400923)]
-    [at JSXParserMixin.parseFunctionBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:378053)]
-    [at JSXParserMixin.parseFunctionBodyAndFinish (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:377675)]
-    [at D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404308]
-    [at JSXParserMixin.withSmartMixTopicForbiddingContext (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:383677)]
-    [at JSXParserMixin.parseFunction (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404262)]
-    [at JSXParserMixin.parseExportDefaultExpression (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:414860)]
-    [at JSXParserMixin.parseExport (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:413097)]
-    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391808)]
-    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:41.876] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:10
-Ecmascript file had an error
-  10 |   const [checked1, setChecked1] = useState(false);
-  11 |   const [checked2, setChecked2] = useState(false);
-> 12 |   const [checked2, setChecked3] = useState(false);
-     |          ^^^^^^^^
-  13 |   return (
-  14 |     <div className="msar-dashboard-wrapper">
-  15 |       <ClubSidebar />
-
-the name `checked2` is defined multiple times
-
-Import traces:
-  Client Component Browser:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
-    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
-[00:01:44.274] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:01:44.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:55.294] Server  LOG     ✓ Compiled in 289ms
-[00:01:57.329] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
-[00:02:28.784] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:02:28.792] Server  LOG     ✓ Compiled in 251ms
-[00:02:29.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:46.208] Server  LOG     ✓ Compiled in 247ms
-[00:02:47.813] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
-[00:04:18.025] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:04:18.229] Server  LOG     ✓ Compiled in 306ms
-[00:04:18.448] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:18.882] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h3> p 
+[00:15:15.485] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
 
   ...
     <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
         <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
           <RedirectBoundary>
             <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
                 <SegmentViewNode type="page" pagePath="(clubpanel...">
                   <SegmentTrieNode>
                   <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
@@ -735,96 +1924,460 @@ This will cause a hydration error.%s <h3> p
                           <div>
                           <div className="container-...">
                             <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div>
+                                ...
+                                  <Col md={6}>
+                                    <div ref={null} className="col-md-6">
+                                      <div className="date-det">
+>                                       <p>
+                                        ...
+                            ...
+                ...
+              ...
+
+[00:15:15.485] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:15:15.485] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h4> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div>
+                                ...
+                                  <Col md={6}>
+                                    <div ref={null} className="col-md-6">
+                                      <div className="date-det">
+                                        <p>
+>                                       <h4>
+                            ...
+                ...
+              ...
+
+[00:15:15.485] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h4>
+[00:15:15.485] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:15:20.043] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <Col md={6}>
+                                    <div ref={null} className="col-md-6">
+                                      <div className="date-det-s...">
+                                        <img>
+>                                       <h5>
+                            ...
+                ...
+              ...
+
+[00:15:20.044] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:15:21.484] Server  LOG     ✓ Compiled in 115ms
+[00:15:28.379] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:32.615] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:35.780] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:15:37.344] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <SegmentViewNode type="page" pagePath="(clubpanel...">
+      <SegmentTrieNode>
+      <ClientPageRoot Component={function ClubInformation} serverProvidedParams={{...}}>
+        <ClubInformation params={Promise} searchParams={Promise}>
+          <div>
+          <div className="step-form">
+            <Form className="mt-5">
+              <form ref={null} className="mt-5">
+                <Row className="g-4">
+                  <div ref={null} className="g-4 row">
+                    <Col lg={12}>
+                      <div ref={null} className="col-lg-12">
+                        <h3>
+                        <FormGroup className={"floating..."}>
+                          <div className={"floating..."} ref={null}>
+                            <div className="file-box" onClick={function ClubInformation[openFilePicker]}>
+                              <img>
+>                             <p className="placeholder-text">
+>                               <h5>
+                                ...
+                            ...
+                    ...
+          ...
+    ...
+
+[00:15:39.854] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:15:44.753] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:44.991] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:15:46.879] Browser WARN    Image with src "/assets/image/logo-juggling.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:46.879] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:16:22.382] Server  LOG     ✓ Compiled in 112ms
+[00:16:22.650] Browser ERROR   ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js:91:63
+Parsing ecmascript source code failed
+  89 |       </div>
+  90 |       <p className="login-txt">
+> 91 |         Already have an account? <a href="/login">Login</Link>
+     |                                                               ^
+> 92 |       </p>
+     | ^^^^^^^
+  93 |     </>
+  94 |   );
+  95 | }
+
+Expected '</', got 'jsx text (
+      )'
+[00:16:23.097] Browser ERROR   ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js:91:63
+Parsing ecmascript source code failed
+  89 |       </div>
+  90 |       <p className="login-txt">
+> 91 |         Already have an account? <a href="/login">Login</Link>
+     |                                                               ^
+> 92 |       </p>
+     | ^^^^^^^
+  93 |     </>
+  94 |   );
+  95 | }
+
+Expected '</', got 'jsx text (
+      )'
+[00:16:23.097] Browser ERROR   ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js:91:63
+Parsing ecmascript source code failed
+  89 |       </div>
+  90 |       <p className="login-txt">
+> 91 |         Already have an account? <a href="/login">Login</Link>
+     |                                                               ^
+> 92 |       </p>
+     | ^^^^^^^
+  93 |     </>
+  94 |   );
+  95 | }
+
+Expected '</', got 'jsx text (
+      )'
+[00:16:25.407] Server  LOG     ✓ Compiled in 1511ms
+[00:16:26.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:27.085] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:16:30.473] Server  LOG     ✓ Compiled in 54ms
+[00:16:37.892] Browser WARN    Image with src "/assets/image/logo-juggling.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:37.892] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:16:50.583] Browser ERROR   ./src/app/(dashboard)/(parentauth)/signup/page.js:96:26
+Parsing ecmascript source code failed
+   94 |                   <a href="/dashboard" className="btn-next-bg signup-btn">
+   95 |                     Signup
+>  96 |                   </Link>
+      |                          ^
+>  97 |                 </div>
+      | ^^^^^^^^^^^^^^^^^
+   98 |               </Col>
+   99 |             </Row>
+  100 |           </Form>
+
+Expected '</', got 'jsx text (
+                )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Server Component]
+[00:16:51.089] Browser ERROR   ./src/app/(dashboard)/(parentauth)/signup/page.js:96:26
+Parsing ecmascript source code failed
+   94 |                   <a href="/dashboard" className="btn-next-bg signup-btn">
+   95 |                     Signup
+>  96 |                   </Link>
+      |                          ^
+>  97 |                 </div>
+      | ^^^^^^^^^^^^^^^^^
+   98 |               </Col>
+   99 |             </Row>
+  100 |           </Form>
+
+Expected '</', got 'jsx text (
+                )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Server Component]
+[00:16:51.090] Browser ERROR   ./src/app/(dashboard)/(parentauth)/signup/page.js:96:26
+Parsing ecmascript source code failed
+   94 |                   <a href="/dashboard" className="btn-next-bg signup-btn">
+   95 |                     Signup
+>  96 |                   </Link>
+      |                          ^
+>  97 |                 </div>
+      | ^^^^^^^^^^^^^^^^^
+   98 |               </Col>
+   99 |             </Row>
+  100 |           </Form>
+
+Expected '</', got 'jsx text (
+                )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Client Component Browser]
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Client Component SSR]
+    ./src/app/(dashboard)/(parentauth)/signup/page.js [Server Component]
+[00:16:51.899] Server  LOG     ✓ Compiled in 43ms
+[00:17:13.829] Server  LOG     ✓ Compiled in 267ms
+[00:17:19.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:19.610] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:17:20.855] Browser WARN    Image with src "/assets/image/logo-juggling.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:17:20.855] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:17:25.629] Server  LOG     ✓ Compiled in 158ms
+[00:17:28.879] Server  LOG     ✓ Compiled in 163ms
+[00:17:37.787] Server  LOG     ✓ Compiled in 127ms
+[00:17:40.158] Server  LOG     ✓ Compiled in 131ms
+[00:17:42.745] Server  LOG     ✓ Compiled in 64ms
+[00:17:44.405] Server  LOG     ✓ Compiled in 90ms
+[00:17:49.921] Server  LOG     ✓ Compiled in 108ms
+[00:17:50.083] Browser ERROR   ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js:71:16
+Parsing ecmascript source code failed
+  69 |         <a href="/dashboard-coach" className="btn btn--primary w-50">
+  70 |           Signup
+> 71 |         </Link>
+     |                ^
+> 72 |       </div>
+     | ^^^^^^^
+  73 |       <div class="divider">
+  74 |         <span>or sign up with</span>
+  75 |       </div>
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+[00:17:50.083] Browser ERROR   ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js:71:16
+Parsing ecmascript source code failed
+  69 |         <a href="/dashboard-coach" className="btn btn--primary w-50">
+  70 |           Signup
+> 71 |         </Link>
+     |                ^
+> 72 |       </div>
+     | ^^^^^^^
+  73 |       <div class="divider">
+  74 |         <span>or sign up with</span>
+  75 |       </div>
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+[00:17:50.198] Browser ERROR   ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js:71:16
+Parsing ecmascript source code failed
+  69 |         <a href="/dashboard-coach" className="btn btn--primary w-50">
+  70 |           Signup
+> 71 |         </Link>
+     |                ^
+> 72 |       </div>
+     | ^^^^^^^
+  73 |       <div class="divider">
+  74 |         <span>or sign up with</span>
+  75 |       </div>
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+[00:17:57.622] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:57.762] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:17:59.213] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:01.543] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:01.681] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:18:03.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:15.387] Browser ERROR   ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js:91:63
+Parsing ecmascript source code failed
+  89 |       </div>
+  90 |       <p className="login-txt">
+> 91 |         Already have an account? <a href="/login">Login</Link>
+     |                                                               ^
+> 92 |       </p>
+     | ^^^^^^^
+  93 |     </>
+  94 |   );
+  95 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+[00:18:16.092] Browser ERROR   ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js:91:63
+Parsing ecmascript source code failed
+  89 |       </div>
+  90 |       <p className="login-txt">
+> 91 |         Already have an account? <a href="/login">Login</Link>
+     |                                                               ^
+> 92 |       </p>
+     | ^^^^^^^
+  93 |     </>
+  94 |   );
+  95 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+[00:18:16.092] Browser ERROR   ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js:91:63
+Parsing ecmascript source code failed
+  89 |       </div>
+  90 |       <p className="login-txt">
+> 91 |         Already have an account? <a href="/login">Login</Link>
+     |                                                               ^
+> 92 |       </p>
+     | ^^^^^^^
+  93 |     </>
+  94 |   );
+  95 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/(clubauth)/signup-coach/page.js [Server Component]
+[00:18:16.595] Server  LOG     ✓ Compiled in 140ms
+[00:18:31.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:28.761] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:38.270] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:12.919] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:22:12.379] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:15.770] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
                             <div>
                             <div className="tabb-content">
 >                             <p>
 >                               <h3>
                                 ...
+                            ...
                 ...
               ...
 
-[00:04:18.882] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h5> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
-                                    <div>
->                                     <h5>
-                                      ...
-                                  ...
-                                ...
-                ...
-              ...
-
-[00:04:18.882] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <h5>
-[00:04:18.882] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
-                                    <div>
-                                      <h5>
->                                     <p>
-                                  ...
-                                ...
-                ...
-              ...
-
-[00:04:18.882] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[00:04:18.882] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:22:15.770] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
     <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
+      <LoadingBoundary name="club-manag..." loading={null}>
         <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
           <RedirectBoundary>
             <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
                 <SegmentViewNode type="page" pagePath="(clubpanel...">
                   <SegmentTrieNode>
                   <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
@@ -835,29 +2388,370 @@ This will cause a hydration error.%s <div> p
                           <div>
                           <div className="container-...">
                             <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <Col lg={5}>
+                                    <div ref={null} className="col-lg-5">
+                                      <div className="floating-c...">
+>                                       <div className="color-input-wrapper">
+                                        ...
+                            ...
+                ...
+              ...
+
+[00:22:15.770] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[00:22:15.770] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:22:17.334] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
                             <div>
                             <div className="tabb-content">
 >                             <p>
                                 <h3>
-                                <div className="date-det-s...">
-                                  <div className="d-flex gap...">
->                                   <div>
-                                  ...
                                 ...
+                                  <div className="date-det-s...">
+                                    <div className="d-flex gap...">
+                                      <img>
+                                      <div>
+>                                       <h5>
+                                        ...
+                                    ...
+                                ...
+                            ...
                 ...
               ...
 
-[00:04:18.882] Browser ERROR   <%s> cannot contain a nested %s.
+[00:22:17.334] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:22:17.334] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <div className="date-det-s...">
+                                    <div className="d-flex gap...">
+                                      <img>
+                                      <div>
+                                        <h5>
+>                                       <p>
+                                    ...
+                                ...
+                            ...
+                ...
+              ...
+
+[00:22:17.334] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:22:17.334] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:22:18.634] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h4> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <Row>
+                                <h3>
+                                ...
+                                  <div ref={null} className="adm-per row">
+                                    <Col md={12}>
+                                      <div ref={null} className="col-md-12">
+>                                       <h4 className="mb-1">
+                                        ...
+                            ...
+                ...
+              ...
+
+[00:22:18.634] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h4>
+[00:22:53.303] Server  LOG     ✓ Compiled in 206ms
+[00:23:00.906] Server  LOG     ✓ Compiled in 276ms
+[00:23:03.051] Server  LOG     ✓ Compiled in 370ms
+[00:23:48.791] Server  LOG     ✓ Compiled in 224ms
+[00:24:01.510] Server  LOG     ✓ Compiled in 353ms
+[00:24:06.693] Server  LOG     ✓ Compiled in 147ms
+[00:24:11.132] Server  LOG     ✓ Compiled in 277ms
+[00:24:13.543] Server  LOG     ✓ Compiled in 364ms
+[00:24:21.257] Server  LOG     ✓ Compiled in 203ms
+[00:24:31.886] Server  LOG     ✓ Compiled in 223ms
+[00:24:32.954] Server  LOG     ✓ Compiled in 123ms
+[00:24:34.370] Server  LOG     ✓ Compiled in 181ms
+[00:24:37.037] Server  LOG     ✓ Compiled in 189ms
+[00:24:41.528] Server  LOG     ✓ Compiled in 189ms
+[00:24:43.847] Server  LOG     ✓ Compiled in 176ms
+[00:24:46.237] Server  LOG     ✓ Compiled in 220ms
+[00:25:03.969] Server  LOG     ✓ Compiled in 299ms
+[00:25:09.229] Server  LOG     ✓ Compiled in 237ms
+[00:25:11.976] Server  LOG     ✓ Compiled in 218ms
+[00:25:15.153] Server  LOG     ✓ Compiled in 218ms
+[00:25:17.344] Server  LOG     ✓ Compiled in 160ms
+[00:25:40.255] Server  LOG     ✓ Compiled in 394ms
+[00:25:57.736] Server  LOG     ✓ Compiled in 166ms
+[00:26:20.959] Server  LOG     ✓ Compiled in 260ms
+[00:26:28.128] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <html> body  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/club-land..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="en">
+>                           <body>
+                              ...
+                                <SegmentViewNode type="layout" pagePath="(landingpa...">
+                                  <SegmentTrieNode>
+                                  <link>
+                                  <script>
+                                  <RootLayout>
+>                                   <html lang="en">
+                  ...
+
+[00:26:28.128] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. body <html>
+[00:26:28.128] Browser ERROR   You are mounting a new %s component when a previous one has not first unmounted. It is an error to render more than one %s component at a time and attributes and children of these components will likely fail in unpredictable ways. Please only render a single instance of <%s> and if you need to mount a new one, ensure any previous ones have unmounted first. html html html
+[00:26:28.128] Browser ERROR   You are mounting a new %s component when a previous one has not first unmounted. It is an error to render more than one %s component at a time and attributes and children of these components will likely fail in unpredictable ways. Please only render a single instance of <%s> and if you need to mount a new one, ensure any previous ones have unmounted first. body body body
+[00:28:00.860] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+>                               <h3>
+                                ...
+                            ...
+                ...
+              ...
+
+[00:28:00.860] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <Col lg={5}>
+                                    <div ref={null} className="col-lg-5">
+                                      <div className="floating-c...">
+>                                       <div className="color-input-wrapper">
+                                        ...
+                            ...
+                ...
+              ...
+
+[00:28:00.860] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[00:04:18.882] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:28:01.822] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <div className="date-det-s...">
+                                    <div className="d-flex gap...">
+                                      <img>
+                                      <div>
+>                                       <h5>
+                                        ...
+                                    ...
+                                ...
+                            ...
+                ...
+              ...
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+[00:28:01.822] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:28:01.822] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
 
-https://react.dev/link/hydration-mismatch
-[00:05:30.320] Server  LOG     ✓ Compiled in 264ms
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <div className="date-det-s...">
+                                    <div className="d-flex gap...">
+                                      <img>
+                                      <div>
+                                        <h5>
+>                                       <p>
+                                    ...
+                                ...
+                            ...
+                ...
+              ...
+
+[00:28:01.822] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:28:01.822] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:28:04.654] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h4> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <Row>
+                                <h3>
+                                ...
+                                  <div ref={null} className="adm-per row">
+                                    <Col md={12}>
+                                      <div ref={null} className="col-md-12">
+>                                       <h4 className="mb-1">
+                                        ...
+                            ...
+                ...
+              ...
+
+[00:28:04.654] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h4>

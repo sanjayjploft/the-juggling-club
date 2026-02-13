@@ -30,6 +30,14 @@ export default function Page() {
               Landing Page Manager
               <span>Customize your club's public landing page</span>
             </h4>
+            <div className="btn-cdr d-flex gap-3 align-items-center">
+              <Link href="/club-landing-page" className="small-btn-admin">
+                Preview page
+              </Link>
+              <Link href="#" className="copy-url-btn">
+                <img src="/assets/image/copy-icon.svg" alt="" /> Copy URL
+              </Link>
+            </div>
           </div>
 
           <div className="user-profile">
@@ -43,41 +51,51 @@ export default function Page() {
         <div className="container-fluid clb-plr-detl">
           {/* TOP CARDS */}
           <div className="card-grid-box">
-            {[
-              {
-                title: "Testimonials",
-                desc: "Manage player/coach testimonials",
-                text: "Add up to 3 testimonials",
-              },
-              {
-                title: "Leaderboard",
-                desc: "Configure leaderboard display",
-                text: "Show/hide and customize display",
-              },
-              {
-                title: "Coach Spotlight",
-                desc: "Feature your coaches",
-                text: "Add up to 3 featured coaches",
-              },
-              {
-                title: "VoiceTag Intro",
-                desc: "Manage voicetag",
-                text: "Upload/Replace voicetag",
-              },
-            ].map((item, i) => (
-              <div className="lndg-pg-card" key={i}>
-                <div className="count-info-card">
-                  <h4>{item.title}</h4>
-                  <h6>{item.desc}</h6>
-                  <p>
-                    {item.text}
-                    <Link href="/clubplayer-details">
-                      <img src="/assets/image/edit.svg" alt="" />
-                    </Link>
-                  </p>
-                </div>
+            {/* Testimonials */}
+            <div className="lndg-pg-card">
+              <div className="count-info-card">
+                <h4>Testimonials</h4>
+                <h6>Manage player/coach testimonials</h6>
+                <p>Add up to 3 testimonials</p>
               </div>
-            ))}
+            </div>
+
+            {/* Leaderboard */}
+            <div className="lndg-pg-card">
+              <div className="count-info-card">
+                <h4>Leaderboard</h4>
+                <h6>Configure leaderboard display</h6>
+                <p>Show/hide and customize display</p>
+              </div>
+            </div>
+
+            {/* Coach Spotlight */}
+            <div className="lndg-pg-card">
+              <div className="count-info-card">
+                <h4>Coach Spotlight</h4>
+                <h6>Feature your coaches</h6>
+                <p>
+                  Add up to 3 featured coaches
+                  <Link href="/clubplayer-details">
+                    <img src="/assets/image/edit.svg" alt="" />
+                  </Link>
+                </p>
+              </div>
+            </div>
+
+            {/* VoiceTag Intro */}
+            <div className="lndg-pg-card">
+              <div className="count-info-card">
+                <h4>VoiceTag Intro</h4>
+                <h6>Manage voicetag</h6>
+                <p>
+                  Upload/Replace voicetag
+                  <Link href="/clubplayer-details">
+                    <img src="/assets/image/edit.svg" alt="" />
+                  </Link>
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* TABS */}
@@ -228,7 +246,6 @@ export default function Page() {
                     </label>
                   </div>
                 ))}
-
                 <Button className="btn-next-bg mt-4">Confirm</Button>
               </>
             )}

@@ -13,6 +13,9 @@ a {
   gap: 30px;
   position: relative;
 }
+a.copy-url-btn {
+  color: #fff;
+}
 /* .msar-dashboard-wrapper::after {
   content: "";
   background-image: url(/assets/image/dashbord-shape-profile.svg);

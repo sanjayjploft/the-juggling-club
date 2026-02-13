@@ -91,9 +91,9 @@ function page() {
               </Col>
               <Col md={12}>
                 <div className="text-center my-3">
-                  <Link href="/dashboard" className="btn-next-bg signup-btn">
-                    Signup
-                  </Link>
+                  <a href="/dashboard" className="btn-next-bg signup-btn">
+                    Signup dd
+                  </a>
                 </div>
               </Col>
             </Row>
@@ -119,7 +119,7 @@ function page() {
             </Link>{" "}
           </div>
           <p className="login-txt">
-            Already have an account? <Link href="/login">Login</Link>
+            Already have an account? <a href="/login">Login</a>
           </p>
         </Col>
       </Row>

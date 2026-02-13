@@ -132,11 +132,10 @@ export default function DetailsPage() {
                       onClick={() => router.back()}>
                       Back
                     </button>
-                    <button
-                      className="btn-next-bg"
-                      onClick={() => router.push("/plan")}>
+                    <Link href="/plan" className="btn-next-bg">
+                      {" "}
                       Next
-                    </button>
+                    </Link>
                   </div>
 
                   <div className="info-text mt-4">

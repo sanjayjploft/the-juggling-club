@@ -68,7 +68,7 @@ function page() {
             </div>
             <p className="login-txt">
               Don't you have an account?
-              <Link href="/signup"> Sign Up</Link>
+              <a href="/signup"> Sign Up</a>
             </p>
           </div>
         </Col>

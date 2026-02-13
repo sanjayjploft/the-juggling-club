@@ -89,11 +89,9 @@ export default function DetailsPage() {
                 </Row>
 
                 <div className="action-buttons mt-5">
-                  <button
-                    className="btn-cancel-outline"
-                    onClick={() => router.back()}>
+                  <Link className="btn-cancel-outline" href="/plan">
                     Back
-                  </button>
+                  </Link>
                   <Button className="btn-next-bg">Pay Now</Button>
                 </div>
               </Form>

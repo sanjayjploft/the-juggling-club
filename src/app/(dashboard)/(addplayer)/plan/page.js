@@ -2,6 +2,7 @@
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { useRouter } from "next/navigation";
 import Parentsidebar from "../../../../components/dashboard/Parentsidebar";
+import Link from "next/link";
 
 export default function DetailsPage() {
   const router = useRouter();
@@ -68,11 +69,9 @@ export default function DetailsPage() {
                   </Col>
                 </Row>
                 <div className="action-buttons mt-5">
-                  <button
-                    className="btn-cancel-outline"
-                    onClick={() => router.back()}>
+                  <Link className="btn-cancel-outline" href="/details">
                     Back
-                  </button>
+                  </Link>
                   <Button
                     className="btn-next-bg"
                     onClick={() => router.push("/pay")}>

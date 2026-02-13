@@ -25,6 +25,7 @@ export default function DashboardPage() {
               <button className="ft-btn">30 days </button>
               <button className="ft-btn">90 days </button>
               <button className="ft-btn">All time</button>
+              <button className="ft-btn"></button>
             </div>
           </div>
           <div className="user-profile">

@@ -66,9 +66,9 @@ export default function ContactInformation() {
         </Form>
       </div>
       <div className="rowBtns mt-5">
-        <Link href="/dashboard-coach" className="btn btn--primary w-50">
+        <a href="/dashboard-coach" className="btn btn--primary w-50">
           Signup
-        </Link>
+        </a>
       </div>
       <div class="divider">
         <span>or sign up with</span>
@@ -88,7 +88,7 @@ export default function ContactInformation() {
         </Link>{" "}
       </div>
       <p className="login-txt">
-        Already have an account? <Link href="/login">Login</Link>
+        Already have an account? <a href="/login">Login</a>
       </p>
     </>
   );
