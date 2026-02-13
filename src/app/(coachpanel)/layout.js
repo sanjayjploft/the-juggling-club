@@ -31,7 +31,6 @@ export default function DashboardLayout({ children }) {
     <main className={shouldRemoveClass ? "" : "dashboard-main"}>
       {children}
       <Chatbot />
-      <button onClick={() => setShowChat(true)}>Open Chatbot</button>
 
       {showChat && <Chatbot showButton={false} />}
     </main>

@@ -1,8 +1,6 @@
 {
-  "/(clubpanel)/dashboardclub/page": "app/(clubpanel)/dashboardclub/page.js",
   "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
   "/(coachpanel)/teams-groups/page": "app/(coachpanel)/teams-groups/page.js",
   "/(dashboard)/(parentauth)/signup/page": "app/(dashboard)/(parentauth)/signup/page.js",
-  "/(dashboard)/Playerdetails/page": "app/(dashboard)/Playerdetails/page.js",
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js"
+  "/(dashboard)/Playerdetails/page": "app/(dashboard)/Playerdetails/page.js"
 }
