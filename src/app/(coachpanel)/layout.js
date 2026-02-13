@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../(dashboard)/dashboard.css";
 import { usePathname } from "next/navigation";
@@ -13,7 +13,20 @@ export default function DashboardLayout({ children }) {
   const noDashboardMainPages = ["/signup-coach"];
 
   const shouldRemoveClass = noDashboardMainPages.includes(pathname);
+  useEffect(() => {
+    const handlePageShow = (event) => {
+      if (event.persisted) {
+        // Back/Forward cache se aaya page
+        window.location.reload();
+      }
+    };
 
+    window.addEventListener("pageshow", handlePageShow);
+
+    return () => {
+      window.removeEventListener("pageshow", handlePageShow);
+    };
+  }, []);
   return (
     <main className={shouldRemoveClass ? "" : "dashboard-main"}>
       {children}
