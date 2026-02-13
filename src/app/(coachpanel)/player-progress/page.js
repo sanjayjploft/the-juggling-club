@@ -28,7 +28,6 @@ export default function Page() {
                 Player Progress
                 <span>
                   See what your players are working on — jump in when you want.
-                  
                 </span>
               </h4>
             </div>
@@ -64,7 +63,7 @@ export default function Page() {
               </div>
             </Col>
             <Col lg={4}>
-              <div className="d-flex align-items-center flex gap-3">
+              <div className="d-flex align-items-center flex gap-3 mx-3 mx-lg-0">
                 <input
                   className="search-inp w-100"
                   type="text"

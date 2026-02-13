@@ -3489,19 +3489,6 @@ input.search-inp::placeholder {
     padding: 16px 20px;
   }
 }
-@media (max-width: 767px) {
-  .team-stats-row {
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    padding: 14px 16px;
-    gap: 12px;
-  }
-}
-@media (max-width: 575px) {
-  .team-stats-row {
-    grid-template-columns: 1fr;
-    padding: 12px 14px;
-  }
-}
 
 .table-head > div {
   flex: 1;
@@ -5241,14 +5228,14 @@ img.calendar-icon-inp {
   .btn-outline {
     margin-top: 10px;
   }
-  .msar-main .container-fluid {
+  /* .msar-main .container-fluid {
     padding-bottom: 20px;
     height: calc(100dvh - (20px + 30px));
     overflow-y: auto;
     scrollbar-width: none;
-    -ms-overflow-style: none; /* IE 10+ */
+    -ms-overflow-style: none;  
     padding-top: 20px;
-  }
+  } */
   .msar-main .container-fluid::-webkit-scrollbar {
     display: none;
   }
@@ -5365,5 +5352,25 @@ img.calendar-icon-inp {
   }
   .date-det-skills-spot .d-flex.gap-3.align-items-center {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .team-stats-row {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    padding: 14px 16px;
+    gap: 12px;
+  }
+  .overview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 575px) {
+  .team-stats-row {
+    grid-template-columns: 1fr;
+    padding: 12px 14px;
+  }
+  .overview-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

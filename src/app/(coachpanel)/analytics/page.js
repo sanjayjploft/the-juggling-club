@@ -63,7 +63,7 @@ export default function Page() {
               </div>
             </Col>
             <Col lg={6}>
-              <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
+              <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center mx-3 mx-lg-0">
                 <Form.Floating className="w-100">
                   <Form.Select>
                     <option selected> All</option>

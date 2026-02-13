@@ -345,7 +345,7 @@ export default function page() {
               Pricing Overview
             </h2>
             <Row className="justify-content-center">
-              <Col lg={3}>
+              <Col lg={3} className="tablet-size">
                 <div className="price-box">
                   <p>Tier 1 Club</p>
                   <div className="price-text">
@@ -357,7 +357,7 @@ export default function page() {
                   </Link>
                 </div>
               </Col>
-              <Col lg={3}>
+              <Col lg={3} className="tablet-size">
                 <div className="price-box">
                   <p>Tier 2 Club</p>
                   <div className="price-text">
@@ -369,7 +369,7 @@ export default function page() {
                   </Link>
                 </div>
               </Col>
-              <Col lg={3}>
+              <Col lg={3} className="tablet-size">
                 <div className="price-box">
                   <p>Tier 3 Club</p>
                   <div className="price-text">

@@ -65,12 +65,31 @@ export default function ContactInformation() {
           </Row>
         </Form>
       </div>
-
       <div className="rowBtns mt-5">
         <Link href="/dashboard-coach" className="btn btn--primary w-50">
           Signup
         </Link>
       </div>
+      <div class="divider">
+        <span>or sign up with</span>
+      </div>
+      <div className="auth-media">
+        <Link href="#" className="media-icon">
+          {" "}
+          <img src="/assets/image/apple-icon.svg" alt="Apple Icon" />{" "}
+        </Link>
+        <Link href="#" className="media-icon">
+          {" "}
+          <img src="/assets/image/google-icon.svg" alt="Google Icon" />{" "}
+        </Link>{" "}
+        <Link href="#" className="media-icon">
+          {" "}
+          <img src="/assets/image/facebook_icon.svg" alt="Facebook Icon" />{" "}
+        </Link>{" "}
+      </div>
+      <p className="login-txt">
+        Already have an account? <Link href="/login">Login</Link>
+      </p>
     </>
   );
 }

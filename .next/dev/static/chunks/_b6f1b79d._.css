@@ -15330,7 +15330,7 @@ input::placeholder {
 
 @media screen and (max-width: 1400px) {
   .contct-mn h1 {
-    font-size: 60px;
+    font-size: 42px;
   }
 
   .hero__title {
@@ -15380,6 +15380,7 @@ input::placeholder {
   }
 
   .cta-box {
+    margin: 0 30px;
     padding: 20px 50px;
   }
 
@@ -15393,6 +15394,269 @@ input::placeholder {
 
   .copyright {
     padding: 30px 0;
+  }
+
+  .blog-box {
+    margin-bottom: 30px;
+  }
+
+  .cta-buttons {
+    flex-wrap: wrap;
+  }
+
+  .contct-btm-inf h2 {
+    font-size: 42px;
+  }
+
+  .contct-btm-inf p, .contct-btm-inf p span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .scroll-wrapper, .cta-content h2 br {
+    display: none;
+  }
+
+  .why-join-info {
+    padding-right: 0;
+  }
+
+  .section .offset-1 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .steps-line.desktop {
+    display: none;
+  }
+
+  .steps-row .step:first-child, .steps-row .step:nth-child(2), .steps-row .step:nth-child(23) {
+    margin-bottom: 20px;
+  }
+
+  .step {
+    z-index: 99;
+    margin: 20px 0;
+    position: relative;
+  }
+
+  .steps-row {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .steps-section {
+    margin-bottom: 40px;
+    padding: 50px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    z-index: 999;
+    background: #fff;
+    flex-direction: column;
+    width: 280px;
+    height: 100vh;
+    padding: 70px 20px 20px;
+    transition: all .3s;
+    position: fixed;
+    top: 0;
+    right: -100%;
+  }
+
+  .nav--open {
+    right: 0;
+    gap: 10px !important;
+  }
+
+  .nav__link {
+    padding: 12px 0;
+    font-size: 20px;
+  }
+
+  .desktop-cta {
+    display: none !important;
+  }
+
+  .brand .logo {
+    width: 90px;
+  }
+
+  .hero__subtitle {
+    margin: 15px 0;
+    font-size: 16px;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .mobile-cta {
+    display: block !important;
+  }
+
+  .hero, .inner-page .hero {
+    height: 460px;
+  }
+
+  img.hero__img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .header__inner {
+    align-items: baseline;
+  }
+
+  video.hero__video {
+    opacity: .75;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-heading, .player-quotes .section-heading, .parent-testimonials .section-heading {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .darkHead {
+    margin-bottom: 20px;
+  }
+
+  .player-quotes h4 {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .player-quotes p, .section-dice {
+    font-size: 16px;
+  }
+
+  .cta-image {
+    margin-top: 30px;
+  }
+
+  .footer-grid-shape {
+    display: none;
+  }
+
+  .footer-left, .footer-right {
+    padding: 50px 0 0;
+  }
+
+  .player-quotes {
+    padding: 30px 10px;
+  }
+
+  .parent-testimonials p {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .parent-testimonials .player-profile {
+    margin-top: 15px;
+  }
+
+  .cta-info h3 {
+    font-size: 24px;
+  }
+
+  .cta-bg-img {
+    margin-bottom: 20px;
+    padding: 30px 0;
+  }
+
+  .club-staff-info h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .club-staff-btm-sec {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .club-staff-btm-sec .btm-sec-item h2 {
+    margin: 0;
+  }
+
+  .club-staff-btm-sec .btm-sec-item {
+    flex: 0 0 100%;
+    justify-content: flex-start;
+  }
+
+  .club-staff-info {
+    padding-left: 0;
+  }
+
+  .socials {
+    margin-top: 30px;
+  }
+
+  .hero__title, .inner-page .hero__title {
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 42px !important;
+  }
+
+  .step span {
+    border-radius: 100px !important;
+  }
+
+  .step.s3 span {
+    width: 50px;
+    height: 50px;
+  }
+
+  .enroll-section {
+    height: 290px;
+    max-height: 290px;
+  }
+
+  .links-actin {
+    gap: 30px;
+  }
+
+  .links-actin a {
+    font-size: 16px;
+  }
+
+  .steps-section h2 {
+    margin-bottom: 25px;
+    font-size: 42px;
+  }
+
+  .steps-section .col-lg-4.step, .steps-section .col-lg-3.step {
+    width: 50%;
+  }
+
+  .enroll-section h2, .coaches-parents h2 {
+    font-size: 42px;
+  }
+
+  .tablet-size.col-lg-3 {
+    width: 33%;
+  }
+
+  .cover {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .bg-yellow-style-2 {
+    padding: 50px 30px;
+  }
+
+  .means-parents-info {
+    margin-bottom: 40px;
   }
 }
 
@@ -15409,6 +15673,10 @@ input::placeholder {
 
   .faq-tabs h1 {
     font-size: 35px;
+  }
+
+  .tablet-size.col-lg-3 {
+    width: 100%;
   }
 }
 
@@ -15670,185 +15938,9 @@ input::placeholder {
   .price-features {
     text-align: left;
   }
-}
 
-@media (max-width: 991px) {
-  .steps-line.desktop {
-    display: none;
-  }
-
-  .steps-row .step:first-child, .steps-row .step:nth-child(2), .steps-row .step:nth-child(23) {
-    margin-bottom: 20px;
-  }
-
-  .step {
-    z-index: 99;
-    margin: 20px 0;
-    position: relative;
-  }
-
-  .steps-row {
+  .steps-section .col-lg-4.step {
     width: 100%;
-    margin: 0 auto;
-  }
-
-  .steps-section {
-    margin-bottom: 40px;
-    padding: 50px 0;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav {
-    z-index: 999;
-    background: #fff;
-    flex-direction: column;
-    width: 280px;
-    height: 100vh;
-    padding: 70px 20px 20px;
-    transition: all .3s;
-    position: fixed;
-    top: 0;
-    right: -100%;
-  }
-
-  .nav--open {
-    right: 0;
-    gap: 10px !important;
-  }
-
-  .nav__link {
-    padding: 12px 0;
-    font-size: 20px;
-  }
-
-  .desktop-cta {
-    display: none !important;
-  }
-
-  .brand .logo {
-    width: 90px;
-  }
-
-  .hero__subtitle {
-    margin: 15px 0;
-    font-size: 16px;
-  }
-
-  .nav {
-    display: flex;
-  }
-
-  .mobile-cta {
-    display: block !important;
-  }
-
-  .hero, .inner-page .hero {
-    height: 460px;
-  }
-
-  img.hero__img {
-    object-fit: cover;
-    height: 100%;
-  }
-
-  .header__inner {
-    align-items: baseline;
-  }
-
-  video.hero__video {
-    opacity: .75;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-
-  .section-heading, .player-quotes .section-heading, .parent-testimonials .section-heading {
-    font-size: 32px;
-    line-height: 1.2;
-  }
-
-  .darkHead {
-    margin-bottom: 20px;
-  }
-
-  .player-quotes h4 {
-    margin-bottom: 0;
-    font-size: 18px;
-  }
-
-  .player-quotes p, .section-dice {
-    font-size: 16px;
-  }
-
-  .cta-image {
-    margin-top: 30px;
-  }
-
-  .footer-grid-shape {
-    display: none;
-  }
-
-  .footer-left, .footer-right {
-    padding: 50px 0 0;
-  }
-
-  .player-quotes {
-    padding: 30px 10px;
-  }
-
-  .parent-testimonials p {
-    margin: 0 auto;
-    font-size: 16px;
-  }
-
-  .parent-testimonials .player-profile {
-    margin-top: 15px;
-  }
-
-  .cta-info h3 {
-    font-size: 24px;
-  }
-
-  .cta-bg-img {
-    margin-bottom: 20px;
-    padding: 30px 0;
-  }
-
-  .club-staff-info h2 {
-    margin-top: 20px;
-    font-size: 32px;
-  }
-
-  .club-staff-btm-sec {
-    flex-wrap: wrap;
-    margin-top: 30px;
-  }
-
-  .club-staff-btm-sec .btm-sec-item h2 {
-    margin: 0;
-  }
-
-  .club-staff-btm-sec .btm-sec-item {
-    flex: 0 0 100%;
-    justify-content: flex-start;
-  }
-
-  .club-staff-info {
-    padding-left: 0;
-  }
-
-  .socials {
-    margin-top: 30px;
-  }
-
-  .hero__title, .inner-page .hero__title {
-    letter-spacing: 0;
-    font-weight: 400;
-    line-height: 1;
-    font-size: 42px !important;
   }
 }
 

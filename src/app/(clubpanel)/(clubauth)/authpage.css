@@ -2,7 +2,7 @@
   flex-direction: column;
   justify-content: space-around;
   max-width: 740px;
-  max-height: 100vh;
+  /* max-height: 100vh; */
   margin: auto;
   padding: 40px 16px;
   display: flex;
