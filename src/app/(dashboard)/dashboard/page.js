@@ -94,7 +94,7 @@ export default function DashboardPage() {
                     </div>
                   </div>
                   <div className="btn-cdr">
-                    <Link href="" className="small-btn-admin">
+                    <Link href="/Playerdetails" className="small-btn-admin">
                       View Progress
                     </Link>
                   </div>
@@ -144,7 +144,7 @@ export default function DashboardPage() {
                     </div>
                   </div>
                   <div className="btn-cdr">
-                    <Link href="" className="small-btn-admin">
+                    <Link href="/Playerdetails" className="small-btn-admin">
                       View Progress
                     </Link>
                   </div>

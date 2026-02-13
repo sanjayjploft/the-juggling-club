@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Button } from "react-bootstrap";
 import Modal from "react-bootstrap/Modal";
 
 export default function NextUp() {
@@ -111,6 +112,9 @@ export default function NextUp() {
         centered
         size="lg"
         className="video-modal">
+        <Button className="btn-close" onClick={() => setShow(false)}>
+          <img src="/assets/image/close-icon.svg" />
+        </Button>
         <Modal.Body>
           <div className="video-wrapper">
             <video controls autoPlay>
