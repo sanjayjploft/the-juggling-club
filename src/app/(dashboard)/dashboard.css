@@ -65,7 +65,7 @@ a {
 .msar-menu {
   list-style: none;
   padding: 0;
-  border-bottom: 1px solid #4f636d;
+  /* border-bottom: 1px solid #4f636d; */
 }
 
 .msar-menu li {
@@ -110,14 +110,16 @@ a {
   margin-top: auto;
   padding: 14px 14px 14px 20px;
   display: flex;
-  position: absolute;
+  /* position: absolute;
   bottom: 30px;
   width: -webkit-fill-available;
-  max-width: 75%;
+  max-width: 75%; */
 }
 .msar-sidebar.is-collapsed .msar-logout {
-  padding: 14px 14px 14px 17px;
   max-width: max-content;
+  padding: 14px 14px 14px 17px;
+  /* border-top: 1px solid #4f636d; */
+  margin-top: 40px;
 }
 
 /* ===== MAIN ===== */
@@ -5238,6 +5240,11 @@ img.calendar-icon-inp {
   }
   .btn-outline {
     margin-top: 10px;
+  }
+  .msar-main .container-fluid {
+    padding-bottom: 0px;
+    height: calc(100dvh - (20px + 30px));
+    overflow-y: auto;
   }
 }
 @media (max-width: 1024px) {

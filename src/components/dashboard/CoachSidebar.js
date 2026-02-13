@@ -56,7 +56,7 @@ const menu = [
   },
   {
     name: "Settings",
-    href: "/club-settings",
+    href: "/settings-coach",
     icon: "/assets/image/settings.svg",
     activeIcon: "/assets/image/settings-active.svg",
   },
@@ -113,15 +113,6 @@ export default function CoachSidebar() {
           );
         })}
       </ul>
-
-      {/* TOGGLE */}
-      <button
-        className="msar-sidebar-toggle"
-        onClick={() => setCollapsed(!collapsed)}>
-        ☰
-      </button>
-
-      {/* LOGOUT */}
       <div className="msar-logout">
         <Image
           src="/assets/image/logout-icon.svg"
@@ -131,6 +122,14 @@ export default function CoachSidebar() {
         />
         {!collapsed && <span>Log out</span>}
       </div>
+      {/* TOGGLE */}
+      <button
+        className="msar-sidebar-toggle"
+        onClick={() => setCollapsed(!collapsed)}>
+        ☰
+      </button>
+
+      {/* LOGOUT */}
     </aside>
   );
 }
