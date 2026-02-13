@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Row, Col, Form, Button } from "react-bootstrap";
-import CoachSidebar from "../../../components/dashboard/CoachSidebar";
+import ClubSidebar from "../../../components/dashboard/ClubSidebar";
 import Link from "next/link";
 
 export default function DashboardPage() {
@@ -15,7 +15,7 @@ export default function DashboardPage() {
   };
   return (
     <div className="msar-dashboard-wrapper">
-      <CoachSidebar />
+      <ClubSidebar />
 
       <main className="msar-main">
         {/* HEADER */}
