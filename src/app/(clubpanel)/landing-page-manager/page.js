@@ -7,7 +7,8 @@ import Link from "next/link";
 
 export default function Page() {
   const [activeTab, setActiveTab] = useState("profile");
-  const [checked, setChecked] = useState(false);
+  const [checked1, setChecked1] = useState(false);
+  const [checked2, setChecked2] = useState(false);
   return (
     <div className="msar-dashboard-wrapper">
       <ClubSidebar />
@@ -120,8 +121,8 @@ export default function Page() {
                         <label className="checkbox-wrapper">
                           <input
                             type="checkbox"
-                            checked={checked}
-                            onChange={() => setChecked(!checked)}
+                            checked={checked1}
+                            onChange={() => setChecked1(!checked1)}
                           />
                           <span className="custom-checkbox" />
                           <span className="label-text">
@@ -132,7 +133,7 @@ export default function Page() {
                     </div>
                   </div>
                   <div className="d-flex align-items-center gap-4 text-white">
-                    <Link href="/clubplayer-details" className="">
+                    <Link href="#" className="">
                       <img src="/assets/image/trash.svg" />
                     </Link>
                   </div>
@@ -148,8 +149,8 @@ export default function Page() {
                         <label className="checkbox-wrapper">
                           <input
                             type="checkbox"
-                            checked={checked}
-                            onChange={() => setChecked(!checked)}
+                            checked={checked2}
+                            onChange={() => setChecked2(!checked2)}
                           />
                           <span className="custom-checkbox" />
                           <span className="label-text">
@@ -160,7 +161,7 @@ export default function Page() {
                     </div>
                   </div>
                   <div className="d-flex align-items-center gap-4 text-white">
-                    <Link href="/clubplayer-details" className="">
+                    <Link href="#" className="">
                       <img src="/assets/image/trash.svg" />
                     </Link>
                   </div>

@@ -177,7 +177,7 @@ export default function Page() {
                       <div className="d-flex align-items-center gap-4 text-white">
                         Show
                         <input class="switch mt-0" type="checkbox" />
-                        <Link href="/clubplayer-details" className="">
+                        <Link href="#" className="">
                           <img src="/assets/image/trash.svg" />
                         </Link>
                       </div>
