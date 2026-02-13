@@ -226,20 +226,7 @@ export default function DashboardPage() {
                               Filter
                             </div>
                             <div className="upload-data-img">
-                              {/* ICON */}
-                              <span
-                                className="upload-data"
-                                onClick={() => fileInputRef.current.click()}>
-                                <img src="/assets/image/impact-icon.svg" />
-                              </span>
-
-                              {/* HIDDEN FILE INPUT */}
-                              <input
-                                ref={fileInputRef}
-                                type="file"
-                                accept="image/*"
-                                hidden
-                              />
+                              <img src="/assets/image/impact-icon.svg" />
                             </div>
                           </div>
                         </Col>
