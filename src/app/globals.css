@@ -1931,7 +1931,13 @@ input::placeholder {
 
 /***************** Responsive ****************/
 @media screen and (max-width: 1400px) {
+  .enroll-section {
+    
+    height: 480px;
+    
+}
   /* br {
+
     display: none;
   } */
   .contct-mn h1 {

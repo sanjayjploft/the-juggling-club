@@ -15329,6 +15329,10 @@ input::placeholder {
 }
 
 @media screen and (max-width: 1400px) {
+  .enroll-section {
+    height: 480px;
+  }
+
   .contct-mn h1 {
     font-size: 42px;
   }

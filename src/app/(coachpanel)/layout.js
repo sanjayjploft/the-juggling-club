@@ -1,8 +1,9 @@
 "use client";
-
+import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../(dashboard)/dashboard.css";
 import { usePathname } from "next/navigation";
+import Chatbot from "../../components/dashboard/Chatbot";
 
 export default function DashboardLayout({ children }) {
   const pathname = usePathname();
@@ -15,6 +16,7 @@ export default function DashboardLayout({ children }) {
   return (
     <main className={shouldRemoveClass ? "" : "dashboard-main"}>
       {children}
+      <Chatbot />
     </main>
   );
 }
