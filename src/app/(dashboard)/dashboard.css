@@ -5124,6 +5124,11 @@ img.calendar-icon-inp {
   line-height: normal;
 }
 @media (max-width: 1400px) {
+  .team-info-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 20px;
+    gap: 10px;
+  }
   .player-avatar-info {
     width: 92%;
   }

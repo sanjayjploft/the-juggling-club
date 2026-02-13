@@ -1,5 +1,13 @@
 {
-  "/(dashboard)/(parentauth)/login/page": "app/(dashboard)/(parentauth)/login/page.js",
+  "/(clubpanel)/club-management/page": "app/(clubpanel)/club-management/page.js",
+  "/(clubpanel)/club-teams/page": "app/(clubpanel)/club-teams/page.js",
+  "/(clubpanel)/dashboardclub/page": "app/(clubpanel)/dashboardclub/page.js",
+  "/(clubpanel)/landing-page-manager/page": "app/(clubpanel)/landing-page-manager/page.js",
+  "/(coachpanel)/analytics/page": "app/(coachpanel)/analytics/page.js",
+  "/(coachpanel)/coach-messages/page": "app/(coachpanel)/coach-messages/page.js",
+  "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
+  "/(coachpanel)/player-progress/page": "app/(coachpanel)/player-progress/page.js",
+  "/(coachpanel)/teams-groups/page": "app/(coachpanel)/teams-groups/page.js",
   "/(dashboard)/(parentauth)/signup/page": "app/(dashboard)/(parentauth)/signup/page.js",
-  "/(public)/Coaches/page": "app/(public)/Coaches/page.js"
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js"
 }
