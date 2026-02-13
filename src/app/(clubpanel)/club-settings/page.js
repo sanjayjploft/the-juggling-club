@@ -44,27 +44,27 @@ export default function DashboardPage() {
               <p className="">Update your club details</p>
             </div>
             <Row>
-              <Col md={5}>
+              <Col lg={5} xs={12}>
                 <Form.Floating className="mb-4">
                   <Form.Control value={"Manchester United Youth Academy"} />
                   <label>Club Name</label>
                 </Form.Floating>
               </Col>
-              <Col md={5}>
+              <Col lg={5} xs={12}>
                 <Form.Floating className="mb-4">
                   <Form.Control value={"https://www.manchesterunited.com"} />
                   <label>Website</label>
                 </Form.Floating>
               </Col>
 
-              <Col md={5}>
+              <Col lg={5} xs={12}>
                 <Form.Floating className="mb-4">
                   <Form.Control value={"admin@mufc.com"} />
                   <label>Contact Email</label>
                 </Form.Floating>
               </Col>
 
-              <Col md={5}>
+              <Col lg={5} xs={12}>
                 <Form.Floating className="mb-4">
                   <Form.Control value={"+44 161 676 1994"} />
                   <label>Phone</label>
@@ -78,7 +78,7 @@ export default function DashboardPage() {
               <p className="">Club headquarters address</p>
             </div>
             <Row>
-              <Col md={5}>
+              <Col lg={5} xs={12}>
                 <Form.Floating className="mb-4">
                   <Form.Control
                     value={"Carrington Training Ground, Carrington"}
@@ -86,14 +86,14 @@ export default function DashboardPage() {
                   <label>Street Address</label>
                 </Form.Floating>
               </Col>
-              <Col md={5}>
+              <Col lg={5} xs={12}>
                 <Form.Floating className="mb-4">
                   <Form.Control value={"Manchester"} />
                   <label>City</label>
                 </Form.Floating>
               </Col>
 
-              <Col md={5}>
+              <Col lg={5} xs={12}>
                 <Form.Floating className="mb-4">
                   <Form.Control value={"England"} />
                   <label>Country</label>

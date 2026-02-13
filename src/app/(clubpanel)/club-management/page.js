@@ -187,7 +187,7 @@ export default function Page() {
                 <h3>Add Another Coach</h3>
                 <div className="add-tme">
                   <Row>
-                    <Col md={10}>
+                    <Col lg={10} xs={12}>
                       <div className="upload-profile-img my-5 mt-4">
                         <label className="upload-box-profile">
                           {profileImg ? (
@@ -207,13 +207,13 @@ export default function Page() {
                         <div className="lable-profile">Upload Coach Photo</div>
                       </div>
                     </Col>
-                    <Col md={5}>
+                    <Col lg={5} xs={12}>
                       <Form.Floating className="mb-4">
                         <Form.Control placeholder="Coach Name" />
                         <label>Coach Name</label>
                       </Form.Floating>
                     </Col>
-                    <Col md={5}>
+                    <Col lg={5} xs={12}>
                       <Form.Floating className="mb-4">
                         <Form.Select>
                           <option>Coach Title</option>
@@ -221,10 +221,10 @@ export default function Page() {
                         <label>Coach Title</label>
                       </Form.Floating>
                     </Col>
-                    <Col md={10}>
+                    <Col lg={10} xs={12}>
                       <textarea className="" placeholder="Coach Bio"></textarea>
                     </Col>
-                    <Col md={10} className="chrtr-lmt">
+                    <Col lg={10} xs={12} className="chrtr-lmt">
                       Max 300 Characters{" "}
                     </Col>
                   </Row>
@@ -260,13 +260,13 @@ export default function Page() {
                 <h3>Add New Admin</h3>
                 <div className="add-tme">
                   <Row>
-                    <Col md={5}>
+                    <Col lg={5} xs={12}>
                       <Form.Floating className="mb-4">
                         <Form.Control placeholder="Admin Name" />
                         <label>Admin Name</label>
                       </Form.Floating>
                     </Col>
-                    <Col md={5}>
+                    <Col lg={5} xs={12}>
                       <Form.Floating className="mb-4">
                         <Form.Control placeholder="Admin Email" />
                         <label>Admin Email</label>

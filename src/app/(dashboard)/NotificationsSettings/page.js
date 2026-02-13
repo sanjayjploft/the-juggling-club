@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Parentsidebar from "../../../components/dashboard/Parentsidebar";
 
 export default function page() {
@@ -10,14 +11,21 @@ export default function page() {
         <main className="msar-main">
           <div className="msar-top-bar d-flex justify-content-between align-items-start">
             <div className="top-heading">
-              <h4>
-                Notifications Settings
-                <span>
-                  Choose how you'd like to get important updates and reminders.
-                </span>
-              </h4>
+              <div>
+                <h4>
+                  Notifications Settings
+                  <span>
+                    Choose how you'd like to get important updates and
+                    reminders.
+                  </span>
+                </h4>
+              </div>
             </div>
-            <button className="btn admin-btn-primary">+ Add Player</button>
+            <div className="user-profile">
+              <Link href="#">
+                <img src="/assets/image/coach-mike.png" />
+              </Link>
+            </div>
           </div>
           <div className="container-fluid">
             <div className="code-disti mb-3">

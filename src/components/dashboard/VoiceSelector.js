@@ -119,11 +119,11 @@ export default function VoiceSelector() {
   return (
     <div className="voice-wrapper">
       <Row>
-        <Col md={6}>
+        <Col lg={6} xs={12} className="mb-4 mb-lg-0">
           {" "}
           <VoiceCard title="Male Voices" list={voices.male} />
         </Col>
-        <Col md={6}>
+        <Col lg={6} xs={12}>
           <VoiceCard title="Female Voices" list={voices.female} />
         </Col>
       </Row>

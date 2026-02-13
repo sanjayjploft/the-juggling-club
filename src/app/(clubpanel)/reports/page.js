@@ -210,17 +210,16 @@ export default function DashboardPage() {
                           </h2>
                         </Col>
                         <Col
-                          md={6}
-                          className="d-flex align-items-center mb-3 gap-3 text-end justify-content-end">
-                          <input
-                            className="search-inp w-75"
-                            type="text"
-                            placeholder="Search players by name..."></input>
-                          <Button className="small-btn-admin">Search</Button>
-                        </Col>
-
-                        <Col lg={2}>
-                          <div className="d-flex align-items-center mb-3 gap-3">
+                          md={8}
+                          className="d-flex align-items-center gap-3 text-end justify-content-end flex-wrap">
+                          <div className="d-flex align-items-center gap-3 text-end justify-content-end">
+                            <input
+                              className="search-inp w-75"
+                              type="text"
+                              placeholder="Search players by name..."></input>
+                            <Button className="small-btn-admin">Search</Button>
+                          </div>
+                          <div className="d-flex align-items-center  gap-3">
                             <div className="filter-btn-outline">
                               {" "}
                               <img src="/assets/image/filter-icon.svg" />
@@ -244,104 +243,108 @@ export default function DashboardPage() {
                             </div>
                           </div>
                         </Col>
+
+                        <Col lg={2}></Col>
                       </Row>
                     </div>
-                    <div className="table-wrapper">
-                      <table className="billing-table">
-                        <thead>
-                          <tr>
-                            <th>Name</th>
-                            <th>Age</th>
-                            <th>Gender</th>
-                            <th>Type</th>
-                            <th>Registration</th>
-                            <th>Badges</th>
-                            <th>Points</th>
-                            <th>Last Activity</th>
-                          </tr>
-                        </thead>
+                    <div className="card-grid-box billing-card m-0">
+                      <div className="table-wrapper">
+                        <table className="billing-table">
+                          <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Age</th>
+                              <th>Gender</th>
+                              <th>Type</th>
+                              <th>Registration</th>
+                              <th>Badges</th>
+                              <th>Points</th>
+                              <th>Last Activity</th>
+                            </tr>
+                          </thead>
 
-                        <tbody>
-                          <tr>
-                            <td>Alex Johnson</td>
-                            <td>U12</td>
-                            <td>Boy</td>
+                          <tbody>
+                            <tr>
+                              <td>Alex Johnson</td>
+                              <td>U12</td>
+                              <td>Boy</td>
 
-                            <td>
-                              <div className="status bg-green-tbl">
-                                Club-Linked
-                              </div>
-                            </td>
+                              <td>
+                                <div className="status bg-green-tbl">
+                                  Club-Linked
+                                </div>
+                              </td>
 
-                            <td>2024-01-15</td>
-                            <td>15</td>
-                            <td>3,200</td>
-                            <td>2024-12-26</td>
-                          </tr>
-                          <tr>
-                            <td>Maria Garcia</td>
-                            <td>U14</td>
-                            <td>Girl</td>
+                              <td>2024-01-15</td>
+                              <td>15</td>
+                              <td>3,200</td>
+                              <td>2024-12-26</td>
+                            </tr>
+                            <tr>
+                              <td>Maria Garcia</td>
+                              <td>U14</td>
+                              <td>Girl</td>
 
-                            <td>
-                              <div className="status bg-green-tbl">
-                                Club-Linked
-                              </div>
-                            </td>
+                              <td>
+                                <div className="status bg-green-tbl">
+                                  Club-Linked
+                                </div>
+                              </td>
 
-                            <td>2024-01-15</td>
-                            <td>12</td>
-                            <td>2,800</td>
-                            <td>2024-12-25</td>
-                          </tr>
-                          <tr>
-                            <td>James Smith</td>
-                            <td>U16</td>
-                            <td>Boy</td>
-                            <td>
-                              <div className="status bg-blue-tbl">
-                                Club-Interest
-                              </div>
-                            </td>
-                            <td>2024-03-10</td>
-                            <td>18</td>
-                            <td>4,100</td>
-                            <td>2024-12-26</td>
-                          </tr>
-                          <tr>
-                            <td>James Smith</td>
-                            <td>U16</td>
-                            <td>Girl</td>
+                              <td>2024-01-15</td>
+                              <td>12</td>
+                              <td>2,800</td>
+                              <td>2024-12-25</td>
+                            </tr>
+                            <tr>
+                              <td>James Smith</td>
+                              <td>U16</td>
+                              <td>Boy</td>
+                              <td>
+                                <div className="status bg-blue-tbl">
+                                  Club-Interest
+                                </div>
+                              </td>
+                              <td>2024-03-10</td>
+                              <td>18</td>
+                              <td>4,100</td>
+                              <td>2024-12-26</td>
+                            </tr>
+                            <tr>
+                              <td>James Smith</td>
+                              <td>U16</td>
+                              <td>Girl</td>
 
-                            <td>
-                              <div className="status bg-green-tbl">
-                                Club-Linked
-                              </div>
-                            </td>
+                              <td>
+                                <div className="status bg-green-tbl">
+                                  Club-Linked
+                                </div>
+                              </td>
 
-                            <td>2024-04-05</td>
-                            <td>10</td>
-                            <td>4,100</td>
-                            <td>2024-12-24</td>
-                          </tr>
-                          <tr>
-                            <td>Alex Johnson</td>
-                            <td>U12</td>
-                            <td>Boy</td>
+                              <td>2024-04-05</td>
+                              <td>10</td>
+                              <td>4,100</td>
+                              <td>2024-12-24</td>
+                            </tr>
+                            <tr>
+                              <td>Alex Johnson</td>
+                              <td>U12</td>
+                              <td>Boy</td>
 
-                            <td>
-                              <div className="status bg-green-tbl">
-                                Club-Linked
-                              </div>
-                            </td>
+                              <td>
+                                <div className="status bg-green-tbl">
+                                  Club-Linked
+                                </div>
+                              </td>
 
-                            <td>2024-01-15</td>
-                            <td>15</td>
-                            <td>3,200</td>
-                            <td>2024-12-26</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                              <td>2024-01-15</td>
+                              <td>15</td>
+                              <td>3,200</td>
+                              <td>2024-12-26</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>

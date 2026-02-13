@@ -76,8 +76,9 @@ export default function DashboardPage() {
                   Club subscription plans based on player count
                 </p>
               </div>
-              <div className="row g-3">
-                <div className="col-md-4">
+
+              <Row className="g-3">
+                <Col lg={4} xs={12}>
                   <div className="player-card tier-card">
                     <h3>Tier 1 - Small Clubs</h3>
                     <div className="align-items-center d-flex justify-content-between">
@@ -90,9 +91,9 @@ export default function DashboardPage() {
                       </Link>
                     </div>
                   </div>
-                </div>
+                </Col>
 
-                <div className="col-md-4">
+                <Col lg={4} xs={12}>
                   <div className="player-card tier-card">
                     <h3>Tier 2 - Medium Clubs</h3>
                     <div className="align-items-center d-flex justify-content-between">
@@ -105,9 +106,9 @@ export default function DashboardPage() {
                       </Link>
                     </div>
                   </div>
-                </div>
+                </Col>
 
-                <div className="col-md-4">
+                <Col lg={4} xs={12}>
                   <div className="player-card tier-card">
                     <h3>Tier 3 - Large Clubs</h3>
                     <div className="align-items-center d-flex justify-content-between">
@@ -120,8 +121,8 @@ export default function DashboardPage() {
                       </Link>
                     </div>
                   </div>
-                </div>
-              </div>
+                </Col>
+              </Row>
 
               <p className="note-text mt-3">
                 <img src="/assets/image/chat-icon-info.svg" /> Tier fees are

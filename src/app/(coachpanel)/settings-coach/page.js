@@ -106,7 +106,7 @@ export default function Page() {
                   </Col>
 
                   {/* First Name */}
-                  <Col md={5}>
+                  <Col lg={5} xs={12}>
                     <Form.Floating className="mb-4">
                       <Form.Control
                         value={firstName}
@@ -117,7 +117,7 @@ export default function Page() {
                   </Col>
 
                   {/* Last Name */}
-                  <Col md={5}>
+                  <Col lg={5} xs={12}>
                     <Form.Floating className="mb-4">
                       <Form.Control
                         value={lastName}
@@ -128,7 +128,7 @@ export default function Page() {
                   </Col>
 
                   {/* Email */}
-                  <Col md={5}>
+                  <Col lg={5} xs={12}>
                     <Form.Floating className="mb-4">
                       <Form.Control
                         value={email}
@@ -139,7 +139,7 @@ export default function Page() {
                   </Col>
 
                   {/* Phone */}
-                  <Col md={5}>
+                  <Col lg={5} xs={12} className="mb-4">
                     <div
                       className={`floating-phone ${phone ? "has-value" : ""}`}>
                       <PhoneInput
@@ -156,7 +156,7 @@ export default function Page() {
                   </Col>
 
                   {/* Password */}
-                  <Col md={5}>
+                  <Col lg={5} xs={12}>
                     <Form.Floating className="mb-4">
                       <Form.Control
                         type="password"
@@ -168,7 +168,7 @@ export default function Page() {
                   </Col>
 
                   {/* Confirm Password */}
-                  <Col md={5}>
+                  <Col lg={5} xs={12}>
                     <Form.Floating className="mb-4">
                       <Form.Control
                         type="password"
@@ -260,7 +260,7 @@ export default function Page() {
               <>
                 <div>
                   <Row className="px-3 mt-4">
-                    <Col md={6} className="sprt-faq">
+                    <Col lg={6} xs={12} className="sprt-faq mb-4 mb-lg-0">
                       <FaqAccordionCoach />
                       <div className="deactivate-account">
                         <img src="/assets/image/alert-rd.svg" />
@@ -273,7 +273,7 @@ export default function Page() {
                         </Button>
                       </div>
                     </Col>
-                    <Col md={6}>
+                    <Col lg={6} xs={12}>
                       <div className="player-card">
                         <h4 className="mb-1">24/7 Support</h4>
                         <p>Our support team is available to help anytime.</p>

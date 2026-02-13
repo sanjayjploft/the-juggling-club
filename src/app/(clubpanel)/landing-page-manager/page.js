@@ -167,7 +167,7 @@ export default function Page() {
                 </div>
                 <h3>Add Testimonial</h3>
                 <Row>
-                  <Col md={5}>
+                  <Col lg={5} xs={12}>
                     <Form.Floating className="mb-4">
                       <Form.Control placeholder="Author Name" />
                       <label>Author Name</label>
@@ -175,7 +175,7 @@ export default function Page() {
                   </Col>
                 </Row>
                 <Row>
-                  <Col md={5}>
+                  <Col lg={5} xs={12}>
                     <textarea
                       className=""
                       placeholder="Testimonial Text"></textarea>

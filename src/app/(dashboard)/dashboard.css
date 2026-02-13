@@ -2258,10 +2258,10 @@ textarea {
   font-weight: 500;
 }
 
-.paid {
+/* .paid {
   color: #00ff5f !important;
   font-weight: 500;
-}
+} */
 
 .download {
   text-align: center;
@@ -5242,7 +5242,7 @@ img.calendar-icon-inp {
     margin-top: 10px;
   }
   .msar-main .container-fluid {
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     height: calc(100dvh - (20px + 30px));
     overflow-y: auto;
     scrollbar-width: none;
@@ -5301,6 +5301,61 @@ img.calendar-icon-inp {
   .top-heading {
     padding: 35px 35px 15px;
   }
+  .overview-card {
+    margin: 0 0px 30px;
+  }
+  .quick-item-grid h6 {
+    font-size: 16px;
+  }
+  .quick-item-grid img {
+    width: 42px;
+  }
+  .quick-actions-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    margin: 40px 0;
+  }
+  .quick-actions-card {
+    padding: 24px 15px;
+  }
+  .subs-grid-item {
+    padding-left: 0;
+  }
+  .subs-info-grid h5 {
+    font-size: 20px;
+  }
+  .club-code-info-right h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .club-code-info-right {
+    text-align: center;
+  }
+  .code-action,
+  .code-status-sec {
+    justify-content: center;
+  }
+  .club-qr-code {
+    text-align: center;
+    margin-top: 20px;
+  }
 }
-@media (max-width: 992px) {
+@media (max-width: 920px) {
+  .top-heading {
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 35px 0 20px 35px;
+  }
+  .grid-cardor-oganizational {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .gift-rewards-list.earned-rewards .claim-reward {
+    margin-top: 20px;
+  }
+  .date-det-skills-spot {
+    flex-wrap: wrap;
+  }
+  .date-det-skills-spot .d-flex.gap-3.align-items-center {
+    flex-wrap: wrap;
+  }
 }
