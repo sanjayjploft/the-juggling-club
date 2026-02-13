@@ -7,6 +7,7 @@ import Chatbot from "../../components/dashboard/Chatbot";
 
 export default function DashboardLayout({ children }) {
   const pathname = usePathname();
+  const [showChat, setShowChat] = useState(false);
 
   // pages jahan dashboard-main nahi chahiye
   const noDashboardMainPages = ["/signup-coach"];
@@ -17,6 +18,9 @@ export default function DashboardLayout({ children }) {
     <main className={shouldRemoveClass ? "" : "dashboard-main"}>
       {children}
       <Chatbot />
+      <button onClick={() => setShowChat(true)}>Open Chatbot</button>
+
+      {showChat && <Chatbot showButton={false} />}
     </main>
   );
 }

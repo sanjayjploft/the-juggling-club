@@ -9,7 +9,7 @@ export default function Chatbot({ showButton = true }) {
       {/* Floating Icon (controlled from page) */}
       {showButton && (
         <div className="chatbot-fab" onClick={() => setOpen(true)}>
-          🤖
+          <img src="/assets/image/ai-bot-icon.svg" />
         </div>
       )}
 
@@ -22,13 +22,14 @@ export default function Chatbot({ showButton = true }) {
             </button>
 
             <div className="chatbot-header">
-              <div className="bot-avatar">🤖</div>
+              <div className="bot-avatar">
+                <img src="/assets/image/ai-bot-icon.svg" />
+              </div>
               <div>
                 <h5>Hi Ryan!</h5>
-                <p>How can i assist you today?</p>
               </div>
             </div>
-
+            <p>How can i assist you today?</p>
             <div className="chatbot-actions">
               <button>
                 View upcoming events <span>›</span>
@@ -40,7 +41,10 @@ export default function Chatbot({ showButton = true }) {
 
             <div className="chatbot-input">
               <input type="text" placeholder="Type your message..." />
-              <button className="send-btn">➤</button>
+              <button className="send-btn">
+                {" "}
+                <img src="/assets/image/send-icon-chat-bot.svg" />
+              </button>
             </div>
           </div>
         </div>

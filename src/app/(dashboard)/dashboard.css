@@ -5374,3 +5374,155 @@ img.calendar-icon-inp {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+body {
+  background: #031b28;
+  font-family: Inter, sans-serif;
+}
+
+/* Floating Icon */
+.chatbot-fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0a2a3a;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 150, 255, 0.6);
+  z-index: 1000;
+}
+
+/* Overlay */
+.chatbot-overlay {
+  position: fixed;
+  inset: 0;
+  background: transparent;
+  pointer-events: none;
+  z-index: 999;
+}
+
+/* Chat Box */
+.chatbot-box {
+  pointer-events: auto;
+  border: 1px solid var(--Primary-Badge-Blue, #0a5fff);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  border-radius: 25px;
+  width: 273px;
+  max-width: calc(100vw - 40px);
+  padding: 20px;
+  position: fixed;
+  bottom: 50px;
+  right: 70px;
+  box-shadow: 0 10px 25px #0a5fff66;
+}
+/* Close */
+.chatbot-close {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  background: none;
+  border: none;
+  color: #9fb3c8;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Header */
+.chatbot-header {
+  gap: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.bot-avatar {
+  width: 42px;
+  height: 42px;
+  background: #0b3c55;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatbot-header h5 {
+  margin: 0;
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 16px;
+}
+
+.chatbot-box p {
+  margin: 2px 0 0;
+  color: var(--White, #fff);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Actions */
+.chatbot-actions button {
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px;
+  display: flex;
+  border-radius: 15px;
+  border: 1px solid #5e5e5e;
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: var(--Primary-Badge-Blue, #0a5fff);
+  font-family: Avenir;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+/* Input */
+.chatbot-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--Gray, #949494);
+  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: var(--Gray, #949494);
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 16px;
+}
+
+.send-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .chatbot-box {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+  }
+}
