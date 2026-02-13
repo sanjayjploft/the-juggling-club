@@ -99,15 +99,6 @@ export default function Parentsidebar() {
           );
         })}
       </ul>
-
-      {/* TOGGLE */}
-      <button
-        className="msar-sidebar-toggle"
-        onClick={() => setCollapsed(!collapsed)}>
-        ☰
-      </button>
-
-      {/* LOGOUT */}
       <div className="msar-logout">
         <Image
           src="/assets/image/logout-icon.svg"
@@ -117,6 +108,14 @@ export default function Parentsidebar() {
         />
         {!collapsed && <span>Log out</span>}
       </div>
+      {/* TOGGLE */}
+      <button
+        className="msar-sidebar-toggle"
+        onClick={() => setCollapsed(!collapsed)}>
+        ☰
+      </button>
+
+      {/* LOGOUT */}
     </aside>
   );
 }
