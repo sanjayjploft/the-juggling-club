@@ -1,12 +1,12 @@
-[00:00:02.077] Server  LOG     ✓ Ready in 1571ms
-[00:00:02.080] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.728] Server  LOG     ✓ Ready in 1253ms
+[00:00:01.731] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:05.515] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:00:05.522] Server  LOG     ○ Compiling /club-management ...
-[00:00:06.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.544] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:00:06.776] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:04.817] Server  LOG     ○ Compiling /club-management ...
+[00:00:04.956] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:05.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.517] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:05.893] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <h3> p 
 
   ...
@@ -34,7 +34,7 @@ This will cause a hydration error.%s <h3> p
                 ...
               ...
 
-[00:00:06.776] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:05.893] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
@@ -67,9 +67,9 @@ This will cause a hydration error.%s <div> p
                 ...
               ...
 
-[00:00:06.776] Browser ERROR   <%s> cannot contain a nested %s.
+[00:00:05.893] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[00:00:06.776] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:00:05.893] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -80,127 +80,7 @@ See this log for the ancestor stack trace. p <div>
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
 https://react.dev/link/hydration-mismatch
-[00:00:49.491] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h5> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="club-manag..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                ...
-                                  <div className="date-det-s...">
-                                    <div className="d-flex gap...">
-                                      <img>
-                                      <div>
->                                       <h5>
-                                        ...
-                                    ...
-                                ...
-                            ...
-                ...
-              ...
-
-[00:00:49.491] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <h5>
-[00:00:49.491] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="club-manag..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                ...
-                                  <div className="date-det-s...">
-                                    <div className="d-flex gap...">
-                                      <img>
-                                      <div>
-                                        <h5>
->                                       <p>
-                                    ...
-                                ...
-                            ...
-                ...
-              ...
-
-[00:00:49.491] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[00:00:49.491] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:01:06.231] Server  LOG     ✓ Compiled in 494ms
-[00:01:07.356] Server  LOG     ✓ Compiled in 352ms
-[00:07:12.177] Server  LOG     ✓ Compiled in 362ms
-[00:07:14.346] Server  LOG     ✓ Compiled in 332ms
-[00:07:29.462] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:09:25.010] Server  LOG     ✓ Compiled in 363ms
-[00:09:25.830] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
-[00:09:38.133] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:09:38.147] Server  LOG     ✓ Compiled in 349ms
-[00:09:38.414] Server  ERROR   ⨯ ReferenceError: checked is not defined
-[00:09:38.948] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:39.829] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
-[00:09:43.880] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:09:43.887] Server  LOG     ✓ Compiled in 466ms
-[00:09:44.923] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:45.626] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h3> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="landing-pa..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="msar-dashb...">
-                        <ClubSidebar>
-                        <main className="msar-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
->                               <h3>
-                                ...
-                ...
-              ...
-
-[00:09:45.626] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:23.071] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <h5> p 
 
   ...
@@ -234,9 +114,9 @@ This will cause a hydration error.%s <h5> p
                 ...
               ...
 
-[00:09:45.626] Browser ERROR   <%s> cannot contain a nested %s.
+[00:00:23.071] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <h5>
-[00:09:45.626] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:23.071] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <p> p 
 
   ...
@@ -270,9 +150,112 @@ This will cause a hydration error.%s <p> p
                 ...
               ...
 
-[00:09:45.626] Browser ERROR   <%s> cannot contain a nested %s.
+[00:00:23.071] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <p>
-[00:09:45.626] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:23.071] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:25.037] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
+[00:00:30.638] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:30.846] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+>                               <h3>
+                                ...
+                ...
+              ...
+
+[00:00:30.846] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+>                                     <h5>
+                                      ...
+                                  ...
+                                ...
+                ...
+              ...
+
+[00:00:30.846] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:00:30.847] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+                                      <h5>
+>                                     <p>
+                                  ...
+                                ...
+                ...
+              ...
+
+[00:00:30.847] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:00:30.847] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
@@ -304,9 +287,9 @@ This will cause a hydration error.%s <div> p
                 ...
               ...
 
-[00:09:45.626] Browser ERROR   <%s> cannot contain a nested %s.
+[00:00:30.847] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[00:09:45.626] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:00:30.847] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -317,42 +300,431 @@ See this log for the ancestor stack trace. p <div>
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
 https://react.dev/link/hydration-mismatch
+[00:00:31.657] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
+[00:01:14.040] Server  LOG     ✓ Compiled in 222ms
+[00:01:14.162] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:186:17
+Parsing ecmascript source code failed
+  184 |                 </Row>
+  185 |                 <Button className="btn-next-bg mt-4">Add Testimonial</Button>
+> 186 |               </p>
+      |                 ^
+  187 |             )}
+  188 |             {activeTab === "billing" && (
+  189 |               <p>
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/landing-p..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
-                        <RootLayout params={Promise}>
-                          <html lang="en">
-                            <body
--                             data-new-gr-c-s-check-loaded="14.1272.0"
--                             data-gr-ext-installed=""
-                            >
-                  ...
+Expected '</', got 'p'
+[00:01:14.879] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:186:17
+Parsing ecmascript source code failed
+  184 |                 </Row>
+  185 |                 <Button className="btn-next-bg mt-4">Add Testimonial</Button>
+> 186 |               </p>
+      |                 ^
+  187 |             )}
+  188 |             {activeTab === "billing" && (
+  189 |               <p>
 
-[00:09:50.206] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h4> p 
+Expected '</', got 'p'
+[00:01:19.196] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:19.218] Server  LOG     ✓ Compiled in 291ms
+[00:01:19.442] Server  LOG     ✓ Compiled in 56ms
+[00:01:19.554] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:19.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:21.309] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
+[00:01:38.863] Server  LOG     ✓ Compiled in 189ms
+[00:01:38.998] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js
+Error evaluating Node.js code
+SyntaxError: D:\Sanjay Choudhary\the-juggling-club\src\app\(clubpanel)\landing-page-manager\page.js: Identifier 'checked2' has already been declared. (12:9)
+
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked2] = useState(false);
+     |          ^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+    [at constructor (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
+    [at JSXParserMixin.raise (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
+    [at ScopeHandler.checkRedeclarationInScope (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
+    [at ScopeHandler.declareName (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
+    [at JSXParserMixin.declareNameFromIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
+    [at JSXParserMixin.checkIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
+    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
+    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278727)]
+    [at JSXParserMixin.parseVarId (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:403644)]
+    [at JSXParserMixin.parseVar (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:402884)]
+    [at JSXParserMixin.parseVarStatement (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
+    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
+    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
+    [at JSXParserMixin.parseStatementListItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389120)]
+    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401423)]
+    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
+    [at JSXParserMixin.parseBlock (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:400923)]
+    [at JSXParserMixin.parseFunctionBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:378053)]
+    [at JSXParserMixin.parseFunctionBodyAndFinish (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:377675)]
+    [at D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404308]
+    [at JSXParserMixin.withSmartMixTopicForbiddingContext (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:383677)]
+    [at JSXParserMixin.parseFunction (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404262)]
+    [at JSXParserMixin.parseExportDefaultExpression (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:414860)]
+    [at JSXParserMixin.parseExport (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:413097)]
+    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391808)]
+    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
+    [at JSXParserMixin.parseModuleItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
+    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
+    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
+    [at JSXParserMixin.parseProgram (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
+    [at JSXParserMixin.parseTopLevel (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
+    [at JSXParserMixin.parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
+    [at parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
+    [at parser (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
+    [at <anonymous>]
+    [at normalizeFile (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
+    [at <anonymous>]
+    [at consumeIterator (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\util.js:13:38)]
+    [at transform (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
+    [at async (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:108)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
+    [at async nextBabelLoader (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:63)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:38.998] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:10
+Ecmascript file had an error
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked2] = useState(false);
+     |          ^^^^^^^^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+
+the name `checked2` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:38.998] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:20
+Ecmascript file had an error
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked2] = useState(false);
+     |                    ^^^^^^^^^^^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+
+the name `setChecked2` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:39.875] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js
+Error evaluating Node.js code
+SyntaxError: D:\Sanjay Choudhary\the-juggling-club\src\app\(clubpanel)\landing-page-manager\page.js: Identifier 'checked2' has already been declared. (12:9)
+
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked2] = useState(false);
+     |          ^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+    [at constructor (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
+    [at JSXParserMixin.raise (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
+    [at ScopeHandler.checkRedeclarationInScope (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
+    [at ScopeHandler.declareName (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
+    [at JSXParserMixin.declareNameFromIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
+    [at JSXParserMixin.checkIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
+    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
+    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278727)]
+    [at JSXParserMixin.parseVarId (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:403644)]
+    [at JSXParserMixin.parseVar (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:402884)]
+    [at JSXParserMixin.parseVarStatement (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
+    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
+    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
+    [at JSXParserMixin.parseStatementListItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389120)]
+    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401423)]
+    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
+    [at JSXParserMixin.parseBlock (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:400923)]
+    [at JSXParserMixin.parseFunctionBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:378053)]
+    [at JSXParserMixin.parseFunctionBodyAndFinish (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:377675)]
+    [at D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404308]
+    [at JSXParserMixin.withSmartMixTopicForbiddingContext (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:383677)]
+    [at JSXParserMixin.parseFunction (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404262)]
+    [at JSXParserMixin.parseExportDefaultExpression (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:414860)]
+    [at JSXParserMixin.parseExport (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:413097)]
+    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391808)]
+    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
+    [at JSXParserMixin.parseModuleItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
+    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
+    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
+    [at JSXParserMixin.parseProgram (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
+    [at JSXParserMixin.parseTopLevel (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
+    [at JSXParserMixin.parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
+    [at parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
+    [at parser (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
+    [at <anonymous>]
+    [at normalizeFile (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
+    [at <anonymous>]
+    [at consumeIterator (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\util.js:13:38)]
+    [at transform (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
+    [at async (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:108)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
+    [at async nextBabelLoader (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:63)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:39.875] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:10
+Ecmascript file had an error
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked2] = useState(false);
+     |          ^^^^^^^^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+
+the name `checked2` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:39.875] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:20
+Ecmascript file had an error
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked2] = useState(false);
+     |                    ^^^^^^^^^^^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+
+the name `setChecked2` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:41.370] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js
+Error evaluating Node.js code
+SyntaxError: D:\Sanjay Choudhary\the-juggling-club\src\app\(clubpanel)\landing-page-manager\page.js: Identifier 'checked2' has already been declared. (12:9)
+
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked3] = useState(false);
+     |          ^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+    [at constructor (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
+    [at JSXParserMixin.raise (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
+    [at ScopeHandler.checkRedeclarationInScope (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
+    [at ScopeHandler.declareName (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
+    [at JSXParserMixin.declareNameFromIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
+    [at JSXParserMixin.checkIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
+    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
+    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278727)]
+    [at JSXParserMixin.parseVarId (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:403644)]
+    [at JSXParserMixin.parseVar (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:402884)]
+    [at JSXParserMixin.parseVarStatement (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
+    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
+    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
+    [at JSXParserMixin.parseStatementListItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389120)]
+    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401423)]
+    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
+    [at JSXParserMixin.parseBlock (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:400923)]
+    [at JSXParserMixin.parseFunctionBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:378053)]
+    [at JSXParserMixin.parseFunctionBodyAndFinish (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:377675)]
+    [at D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404308]
+    [at JSXParserMixin.withSmartMixTopicForbiddingContext (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:383677)]
+    [at JSXParserMixin.parseFunction (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404262)]
+    [at JSXParserMixin.parseExportDefaultExpression (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:414860)]
+    [at JSXParserMixin.parseExport (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:413097)]
+    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391808)]
+    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
+    [at JSXParserMixin.parseModuleItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
+    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
+    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
+    [at JSXParserMixin.parseProgram (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
+    [at JSXParserMixin.parseTopLevel (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
+    [at JSXParserMixin.parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
+    [at parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
+    [at parser (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
+    [at <anonymous>]
+    [at normalizeFile (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
+    [at <anonymous>]
+    [at consumeIterator (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\util.js:13:38)]
+    [at transform (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
+    [at async (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:108)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
+    [at async nextBabelLoader (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:63)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:41.370] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:10
+Ecmascript file had an error
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked3] = useState(false);
+     |          ^^^^^^^^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+
+the name `checked2` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:41.876] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js
+Error evaluating Node.js code
+SyntaxError: D:\Sanjay Choudhary\the-juggling-club\src\app\(clubpanel)\landing-page-manager\page.js: Identifier 'checked2' has already been declared. (12:9)
+
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked3] = useState(false);
+     |          ^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+    [at constructor (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
+    [at JSXParserMixin.raise (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
+    [at ScopeHandler.checkRedeclarationInScope (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
+    [at ScopeHandler.declareName (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
+    [at JSXParserMixin.declareNameFromIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
+    [at JSXParserMixin.checkIdentifier (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
+    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
+    [at JSXParserMixin.checkLVal (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:278727)]
+    [at JSXParserMixin.parseVarId (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:403644)]
+    [at JSXParserMixin.parseVar (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:402884)]
+    [at JSXParserMixin.parseVarStatement (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
+    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
+    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
+    [at JSXParserMixin.parseStatementListItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389120)]
+    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401423)]
+    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
+    [at JSXParserMixin.parseBlock (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:400923)]
+    [at JSXParserMixin.parseFunctionBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:378053)]
+    [at JSXParserMixin.parseFunctionBodyAndFinish (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:377675)]
+    [at D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404308]
+    [at JSXParserMixin.withSmartMixTopicForbiddingContext (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:383677)]
+    [at JSXParserMixin.parseFunction (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:404262)]
+    [at JSXParserMixin.parseExportDefaultExpression (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:414860)]
+    [at JSXParserMixin.parseExport (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:413097)]
+    [at JSXParserMixin.parseStatementContent (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:391808)]
+    [at JSXParserMixin.parseStatementLike (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
+    [at JSXParserMixin.parseModuleItem (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
+    [at JSXParserMixin.parseBlockOrModuleBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
+    [at JSXParserMixin.parseBlockBody (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
+    [at JSXParserMixin.parseProgram (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
+    [at JSXParserMixin.parseTopLevel (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
+    [at JSXParserMixin.parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
+    [at parse (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
+    [at parser (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
+    [at <anonymous>]
+    [at normalizeFile (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
+    [at <anonymous>]
+    [at consumeIterator (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\util.js:13:38)]
+    [at transform (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
+    [at async (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:108)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
+    [at async nextBabelLoader (D:\Sanjay Choudhary\the-juggling-club\node_modules\next\dist\build\babel\loader\index.js:36:63)]
+    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [D:\Sanjay Choudhary\the-juggling-club\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:41.876] Browser ERROR   ./src/app/(clubpanel)/landing-page-manager/page.js:12:10
+Ecmascript file had an error
+  10 |   const [checked1, setChecked1] = useState(false);
+  11 |   const [checked2, setChecked2] = useState(false);
+> 12 |   const [checked2, setChecked3] = useState(false);
+     |          ^^^^^^^^
+  13 |   return (
+  14 |     <div className="msar-dashboard-wrapper">
+  15 |       <ClubSidebar />
+
+the name `checked2` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component Browser]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Client Component SSR]
+    ./src/app/(clubpanel)/landing-page-manager/page.js [Server Component]
+[00:01:44.274] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:44.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:55.294] Server  LOG     ✓ Compiled in 289ms
+[00:01:57.329] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
+[00:02:28.784] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:28.792] Server  LOG     ✓ Compiled in 251ms
+[00:02:29.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:46.208] Server  LOG     ✓ Compiled in 247ms
+[00:02:47.813] Browser ERROR   uncaughtError: ReferenceError: checked is not defined
+[00:04:18.025] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:04:18.229] Server  LOG     ✓ Compiled in 306ms
+[00:04:18.448] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:18.882] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
 
   ...
     <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="clubplayer..." loading={null}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
         <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
           <RedirectBoundary>
             <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
                 <SegmentViewNode type="page" pagePath="(clubpanel...">
                   <SegmentTrieNode>
                   <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
@@ -364,24 +736,128 @@ This will cause a hydration error.%s <h4> p
                           <div className="container-...">
                             <div>
                             <div>
+                            <div className="tabb-content">
+>                             <p>
+>                               <h3>
+                                ...
+                ...
+              ...
+
+[00:04:18.882] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
                             <div>
                             <div className="tabb-content">
 >                             <p>
                                 <h3>
-                                <div>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+>                                     <h5>
+                                      ...
+                                  ...
                                 ...
-                                  <Col md={6}>
-                                    <div ref={null} className="col-md-6">
-                                      <div className="date-det">
-                                        <p>
->                                       <h4>
-                            ...
                 ...
               ...
 
-[00:09:50.207] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <h4>
-[00:09:50.207] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:09:56.074] Server  LOG     ✓ Compiled in 234ms
-[00:10:04.336] Server  LOG     ✓ Compiled in 230ms
-[00:12:21.129] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:04:18.882] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:04:18.882] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+                                    <div>
+                                      <h5>
+>                                     <p>
+                                  ...
+                                ...
+                ...
+              ...
+
+[00:04:18.882] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:04:18.882] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing-pa..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing-p..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="date-det-s...">
+                                  <div className="d-flex gap...">
+>                                   <div>
+                                  ...
+                                ...
+                ...
+              ...
+
+[00:04:18.882] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[00:04:18.882] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[00:05:30.320] Server  LOG     ✓ Compiled in 264ms

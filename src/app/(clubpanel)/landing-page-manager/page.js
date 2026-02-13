@@ -7,83 +7,80 @@ import Link from "next/link";
 
 export default function Page() {
   const [activeTab, setActiveTab] = useState("profile");
-  const [checked1, setChecked1] = useState(false);
-  const [checked2, setChecked2] = useState(false);
+
+  // Testimonials
+  const [testimonial1, setTestimonial1] = useState(false);
+  const [testimonial2, setTestimonial2] = useState(false);
+
+  // Page Sections
+  const [leaderboard, setLeaderboard] = useState(false);
+  const [coachSpotlight, setCoachSpotlight] = useState(false);
+  const [voiceTag, setVoiceTag] = useState(false);
+  const [heroSection, setHeroSection] = useState(false);
+
   return (
     <div className="msar-dashboard-wrapper">
       <ClubSidebar />
 
       <main className="msar-main">
         {/* HEADER */}
-
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
-            <div>
-              <h4>
-                Landing Page Manager
-                <span>Customize your club's public landing page</span>
-              </h4>
-            </div>
+            <h4>
+              Landing Page Manager
+              <span>Customize your club's public landing page</span>
+            </h4>
           </div>
+
           <div className="user-profile">
             <Link href="#">
-              <img src="/assets/image/coach-mike.png" />
+              <img src="/assets/image/coach-mike.png" alt="" />
             </Link>
           </div>
         </div>
+
         {/* CONTENT */}
         <div className="container-fluid clb-plr-detl">
+          {/* TOP CARDS */}
           <div className="card-grid-box">
-            <div className="lndg-pg-card">
-              <div className="count-info-card">
-                <h4>Testimonials</h4>
-                <h6>Manage player/coach testimonials</h6>
-                <p>
-                  Add up to 3 testimonials{" "}
-                  <Link href="/clubplayer-details" className="">
-                    <img src="/assets/image/edit.svg" />
-                  </Link>
-                </p>
+            {[
+              {
+                title: "Testimonials",
+                desc: "Manage player/coach testimonials",
+                text: "Add up to 3 testimonials",
+              },
+              {
+                title: "Leaderboard",
+                desc: "Configure leaderboard display",
+                text: "Show/hide and customize display",
+              },
+              {
+                title: "Coach Spotlight",
+                desc: "Feature your coaches",
+                text: "Add up to 3 featured coaches",
+              },
+              {
+                title: "VoiceTag Intro",
+                desc: "Manage voicetag",
+                text: "Upload/Replace voicetag",
+              },
+            ].map((item, i) => (
+              <div className="lndg-pg-card" key={i}>
+                <div className="count-info-card">
+                  <h4>{item.title}</h4>
+                  <h6>{item.desc}</h6>
+                  <p>
+                    {item.text}
+                    <Link href="/clubplayer-details">
+                      <img src="/assets/image/edit.svg" alt="" />
+                    </Link>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="lndg-pg-card">
-              <div className="count-info-card">
-                <h4>Leaderboard</h4>
-                <h6>Configure leaderboard display</h6>
-                <p>
-                  Show/hide and customize display{" "}
-                  <Link href="/clubplayer-details" className="">
-                    <img src="/assets/image/edit.svg" />
-                  </Link>
-                </p>
-              </div>
-            </div>
-            <div className="lndg-pg-card">
-              <div className="count-info-card">
-                <h4>Coach Spotlight</h4>
-                <h6>Feature your coaches</h6>
-                <p>
-                  Add up to 3 featured coaches{" "}
-                  <Link href="/clubplayer-details" className="">
-                    <img src="/assets/image/edit.svg" />
-                  </Link>
-                </p>
-              </div>
-            </div>
-            <div className="lndg-pg-card">
-              <div className="count-info-card">
-                <h4>VoiceTag Intro</h4>
-                <h6>Manage voicetag </h6>
-                <p>
-                  Upload/Replace voicetag{" "}
-                  <Link href="/clubplayer-details" className="">
-                    <img src="/assets/image/edit.svg" />
-                  </Link>
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
 
+          {/* TABS */}
           <div className="tabbs">
             <button
               className={`tabb ${activeTab === "profile" ? "active" : ""}`}
@@ -98,10 +95,11 @@ export default function Page() {
             </button>
           </div>
 
-          {/* Tab Content */}
+          {/* TAB CONTENT */}
           <div className="tabb-content">
+            {/* CONTENT TAB */}
             {activeTab === "profile" && (
-              <p>
+              <>
                 <h3>
                   Testimonials
                   <span>
@@ -109,64 +107,58 @@ export default function Page() {
                     each)
                   </span>
                 </h3>
+
+                {/* Testimonial 1 */}
                 <div className="date-det-skills-spot">
-                  <div className="d-flex gap-3 align-items-center">
-                    <div>
-                      <h5>
-                        It's fun, competitive, and actually improved my first
-                        touch.
-                        <span>— Player 1</span>
-                      </h5>
-                      <p>
-                        <label className="checkbox-wrapper">
-                          <input
-                            type="checkbox"
-                            checked={checked1}
-                            onChange={() => setChecked1(!checked1)}
-                          />
-                          <span className="custom-checkbox" />
-                          <span className="label-text">
-                            Show on landing page
-                          </span>
-                        </label>
-                      </p>
-                    </div>
+                  <div>
+                    <h5>
+                      It's fun, competitive, and actually improved my first
+                      touch.
+                      <span>— Player 1</span>
+                    </h5>
+
+                    <label className="checkbox-wrapper">
+                      <input
+                        type="checkbox"
+                        checked={testimonial1}
+                        onChange={() => setTestimonial1(!testimonial1)}
+                      />
+                      <span className="custom-checkbox" />
+                      <span className="label-text">Show on landing page</span>
+                    </label>
                   </div>
-                  <div className="d-flex align-items-center gap-4 text-white">
-                    <Link href="#" className="">
-                      <img src="/assets/image/trash.svg" />
-                    </Link>
-                  </div>
+
+                  <Link href="#">
+                    <img src="/assets/image/trash.svg" alt="" />
+                  </Link>
                 </div>
+
+                {/* Testimonial 2 */}
                 <div className="date-det-skills-spot">
-                  <div className="d-flex gap-3 align-items-center">
-                    <div>
-                      <h5>
-                        Our players love seeing their progress each week.
-                        <span>— Coach 1</span>
-                      </h5>
-                      <p>
-                        <label className="checkbox-wrapper">
-                          <input
-                            type="checkbox"
-                            checked={checked2}
-                            onChange={() => setChecked2(!checked2)}
-                          />
-                          <span className="custom-checkbox" />
-                          <span className="label-text">
-                            Show on landing page
-                          </span>
-                        </label>
-                      </p>
-                    </div>
+                  <div>
+                    <h5>
+                      Our players love seeing their progress each week.
+                      <span>— Coach 1</span>
+                    </h5>
+
+                    <label className="checkbox-wrapper">
+                      <input
+                        type="checkbox"
+                        checked={testimonial2}
+                        onChange={() => setTestimonial2(!testimonial2)}
+                      />
+                      <span className="custom-checkbox" />
+                      <span className="label-text">Show on landing page</span>
+                    </label>
                   </div>
-                  <div className="d-flex align-items-center gap-4 text-white">
-                    <Link href="#" className="">
-                      <img src="/assets/image/trash.svg" />
-                    </Link>
-                  </div>
+
+                  <Link href="#">
+                    <img src="/assets/image/trash.svg" alt="" />
+                  </Link>
                 </div>
+
                 <h3>Add Testimonial</h3>
+
                 <Row>
                   <Col lg={5} xs={12}>
                     <Form.Floating className="mb-4">
@@ -175,107 +167,70 @@ export default function Page() {
                     </Form.Floating>
                   </Col>
                 </Row>
+
                 <Row>
                   <Col lg={5} xs={12}>
-                    <textarea
-                      className=""
-                      placeholder="Testimonial Text"></textarea>
+                    <textarea placeholder="Testimonial Text" />
                   </Col>
                 </Row>
+
                 <Button className="btn-next-bg mt-4">Add Testimonial</Button>
-              </p>
+              </>
             )}
+
+            {/* PAGE SECTIONS TAB */}
             {activeTab === "billing" && (
-              <p>
+              <>
                 <h3>
                   Page Sections
-                  <span>
-                    Add up to 3 player/parent/coach testimonials (max 300 chars
-                    each)
-                  </span>
+                  <span>Enable or disable landing page sections</span>
                 </h3>
-                <div className="date-det-skills-spot mb-2">
-                  <div className="d-flex gap-3 align-items-center">
+
+                {[
+                  {
+                    title: "Leaderboard Embed",
+                    desc: "Display top club performers",
+                    state: leaderboard,
+                    setState: setLeaderboard,
+                  },
+                  {
+                    title: "Coach Spotlight",
+                    desc: "Manage coaches from Club Management → Coach",
+                    state: coachSpotlight,
+                    setState: setCoachSpotlight,
+                  },
+                  {
+                    title: "VoiceTag Intro",
+                    desc: "10–15s audio welcome message",
+                    state: voiceTag,
+                    setState: setVoiceTag,
+                  },
+                  {
+                    title: "Hero Section",
+                    desc: "10–15s Video",
+                    state: heroSection,
+                    setState: setHeroSection,
+                  },
+                ].map((item, i) => (
+                  <div className="date-det-skills-spot mb-2" key={i}>
                     <div>
-                      <h5>Leaderboard Embed</h5>
-                      <p className="mt-0 grdesd">Display top club performers</p>
+                      <h5>{item.title}</h5>
+                      <p className="mt-0 grdesd">{item.desc}</p>
                     </div>
-                  </div>
-                  <div className="d-flex align-items-center gap-4 text-white">
+
                     <label className="checkbox-wrapper">
                       <input
                         type="checkbox"
-                        checked={checked}
-                        onChange={() => setChecked(!checked)}
+                        checked={item.state}
+                        onChange={() => item.setState(!item.state)}
                       />
                       <span className="custom-checkbox" />
-                      <span className="label-text"></span>
                     </label>
                   </div>
-                </div>
-                <div className="date-det-skills-spot mb-2">
-                  <div className="d-flex gap-3 align-items-center">
-                    <div>
-                      <h5>Coach Spotlight</h5>
-                      <p className="mt-0 grdesd blue-color-text">
-                        Manage coaches from Club Management → Coach
-                      </p>
-                    </div>
-                  </div>
-                  <div className="d-flex align-items-center gap-4 text-white">
-                    <label className="checkbox-wrapper">
-                      <input
-                        type="checkbox"
-                        checked={checked}
-                        onChange={() => setChecked(!checked)}
-                      />
-                      <span className="custom-checkbox" />
-                      <span className="label-text"></span>
-                    </label>
-                  </div>
-                </div>
-                <div className="date-det-skills-spot mb-2">
-                  <div className="d-flex gap-3 align-items-center">
-                    <div>
-                      <h5>VoiceTag Intro</h5>
-                      <p className="mt-0 grdesd">
-                        10-15s audio welcome message
-                      </p>
-                    </div>
-                  </div>
-                  <div className="d-flex align-items-center gap-4 text-white">
-                    <label className="checkbox-wrapper">
-                      <input
-                        type="checkbox"
-                        checked={checked}
-                        onChange={() => setChecked(!checked)}
-                      />
-                      <span className="custom-checkbox" />
-                      <span className="label-text"></span>
-                    </label>
-                  </div>
-                </div>
-                <div className="date-det-skills-spot mb-2">
-                  <div className="d-flex gap-3 align-items-center">
-                    <div>
-                      <h5>Hero Section</h5>
-                      <p className="mt-0 grdesd">10-15s Video</p>
-                    </div>
-                  </div>
-                  <div className="d-flex align-items-center gap-4 text-white">
-                    <label className="checkbox-wrapper">
-                      <input
-                        type="checkbox"
-                        checked={checked}
-                        onChange={() => setChecked(!checked)}
-                      />
-                      <span className="custom-checkbox" />
-                      <span className="label-text"></span>
-                    </label>
-                  </div>
-                </div>
+                ))}
+
                 <Button className="btn-next-bg mt-4">Confirm</Button>
-              </p>
+              </>
             )}
           </div>
         </div>

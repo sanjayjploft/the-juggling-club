@@ -1,6 +1,5 @@
 {
   "/(clubpanel)/club-management/page": "app/(clubpanel)/club-management/page.js",
-  "/(clubpanel)/clubplayer-details/page": "app/(clubpanel)/clubplayer-details/page.js",
   "/(clubpanel)/landing-page-manager/page": "app/(clubpanel)/landing-page-manager/page.js",
   "/(dashboard)/(parentauth)/signup/page": "app/(dashboard)/(parentauth)/signup/page.js"
 }
