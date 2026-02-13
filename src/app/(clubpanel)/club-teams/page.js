@@ -54,7 +54,7 @@ export default function Page() {
               <h5>12</h5>
             </div>
             <div className="team-grid-item">
-              <Link href="/clubplayer-details" className="">
+              <Link href="/reports" className="">
                 <img src="/assets/image/view.svg" />
               </Link>
               <Link href="/clubplayer-details" className="">
@@ -84,7 +84,7 @@ export default function Page() {
               <h5>18</h5>
             </div>
             <div className="team-grid-item">
-              <Link href="/clubplayer-details" className="">
+              <Link href="/reports" className="">
                 <img src="/assets/image/view.svg" />
               </Link>
               <Link href="/clubplayer-details" className="">
@@ -114,7 +114,7 @@ export default function Page() {
               <h5>12</h5>
             </div>
             <div className="team-grid-item">
-              <Link href="/clubplayer-details" className="">
+              <Link href="/reports" className="">
                 <img src="/assets/image/view.svg" />
               </Link>
               <Link href="/clubplayer-details" className="">

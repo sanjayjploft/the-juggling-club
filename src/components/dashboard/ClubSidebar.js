@@ -86,12 +86,14 @@ export default function ClubSidebar() {
     <aside className={`msar-sidebar ${collapsed ? "is-collapsed" : ""}`}>
       {/* LOGO */}
       <div className="msar-logo">
-        <Image
-          src="/assets/image/logo-juggling.svg"
-          alt="logo"
-          width={60}
-          height={60}
-        />
+        <a href="/">
+          <Image
+            src="/assets/image/logo-juggling.svg"
+            alt="logo"
+            width={60}
+            height={60}
+          />
+        </a>
       </div>
 
       {/* MENU */}
