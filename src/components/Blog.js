@@ -15,7 +15,7 @@ export default function Blog() {
                     <h3>Parents</h3>
                     <p>Track your child’s progress.</p>
                   </div>
-                  <a href="#">
+                  <a href="/Parents">
                     <img src="/assets/image/arrow-link.svg" />
                   </a>
                 </div>
@@ -29,7 +29,7 @@ export default function Blog() {
                     <h3>Coaches</h3>
                     <p>Motivate, guide, and reward your players.</p>
                   </div>
-                  <a href="#">
+                  <a href="/Coaches">
                     <img src="/assets/image/arrow-link.svg" />
                   </a>
                 </div>
@@ -46,7 +46,7 @@ export default function Blog() {
                       program..
                     </p>
                   </div>
-                  <a href="#">
+                  <a href="/Clubs">
                     <img src="/assets/image/arrow-link.svg" />
                   </a>
                 </div>

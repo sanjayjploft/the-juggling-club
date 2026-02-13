@@ -27,7 +27,7 @@ export default function page() {
                   Help your child build a growth mindset.
                 </p>
                 <div className="rowBtns rowBtns--left">
-                  <Link href="/login" className="btn btn--primary">
+                  <Link href="/signup" className="btn btn--primary">
                     Join Now
                   </Link>
                 </div>

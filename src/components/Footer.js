@@ -19,7 +19,7 @@ export default function Footer() {
             </h2>
 
             <div className="cta-buttons">
-              <Link href="/login" className="btn-primary">
+              <Link href="/signup" className="btn-primary">
                 PLAYER SIGN UP
               </Link>
               <Link href="/club-information" className="btn-outline">

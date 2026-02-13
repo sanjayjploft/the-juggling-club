@@ -29,10 +29,12 @@ export default function Page() {
                 badges, get feedback, and unlock new challenges.
               </p>
               <div className="rowBtns rowBtns--left">
-                <Link href="#" className="btn btn--primary btn--lg">
+                <Link href="/signup" className="btn btn--primary btn--lg">
                   Get Started
                 </Link>
-                <Link href="#" className="btn btn--outline btn--lg">
+                <Link
+                  href="/club-information"
+                  className="btn btn--outline btn--lg">
                   For Clubs & Coaches
                 </Link>
               </div>

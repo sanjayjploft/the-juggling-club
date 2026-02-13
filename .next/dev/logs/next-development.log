@@ -1,313 +1,98 @@
-[00:00:01.695] Server  LOG     ✓ Ready in 1207ms
-[00:00:01.698] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:14.300] Server  LOG     ✓ Ready in 9.2s
+[00:03:11.211] Server  LOG     ○ Compiling / ...
+[00:03:15.194] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:05.024] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.618] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.121] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:03:15.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:09.717] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:05:09.717] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:05:18.580] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:05:18.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:18.994] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:07:00.407] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
+[00:07:00.408] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/reports" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1272.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
-
-[00:03:12.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:15.966] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:03:15.966] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:03:32.882] Server  LOG     ✓ Compiled in 177ms
-[00:03:34.015] Server  LOG     ✓ Compiled in 190ms
-[00:03:40.970] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:03:40.970] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:03:57.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:06.520] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:04:06.520] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:04:10.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:12.848] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:04:12.848] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:04:12.848] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:04:19.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:21.400] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:04:21.400] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:04:30.250] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:05:35.707] Server  LOG     ✓ Compiled in 101ms
-[00:05:38.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:40.285] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:05:40.285] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:05:40.285] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:05:45.268] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:05:45.268] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:05:49.287] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:05.149] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:29.496] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:35.281] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:46.695] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:48.069] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:06:48.069] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:07:06.863] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:08:03.227] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
+[00:07:01.082] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:01.300] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:08:03.227] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:07:01.300] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:10:36.213] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:10:36.213] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:10:40.227] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:11:14.988] Server  LOG     ✓ Compiled in 84ms
-[00:11:19.267] Server  LOG     ✓ Compiled in 67ms
-[00:11:35.587] Server  LOG     ✓ Compiled in 75ms
-[00:11:38.966] Server  LOG     ✓ Compiled in 60ms
-[00:11:41.707] Server  LOG     ✓ Compiled in 47ms
-[00:11:59.228] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:18.402] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:12:19.225] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:19.225] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:28.519] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:28.519] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:30.966] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:07:01.300] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Parents" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:07:02.684] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:07:02.684] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:22.592] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:39.842] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:39.996] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:07:42.107] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:12:30.966] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:07:42.107] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:12:32.177] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
+[00:07:55.999] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:18.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:18.373] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:08:22.236] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="FAQ/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/FAQ" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(public)/F...">
-                  <SegmentTrieNode>
-                  <Page>
-                    <main className="page">
-                      <div className="section">
-                        <div className="container ...">
-                          <h1>
-                          <Tabs>
-                            <div>
-                              <div>
-                              <div style={{padding:"1..."}}>
->                               <p>
-                                  <FaqAccordion>
-                                    <div style={{maxWidth:"...", ...}}>
->                                     <div
->                                       style={{border:"1px solid ...",padding:"20px",borderRadius:"10px",fontFamily:"Avenir", ...}}
->                                     >
-                                      ...
-                ...
-              ...
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:08:22.237] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-[00:12:32.177] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <div>
-[00:12:53.272] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:53.272] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:54.028] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:54.028] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:56.654] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:56.654] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:13:39.170] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:13:39.170] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:13:43.611] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:13:51.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:34.866] Server  LOG     ✓ Compiled in 138ms
-[00:14:35.096] Browser ERROR   ./src/app/(dashboard)/dashboard/page.js:16:66
-Parsing ecmascript source code failed
-  14 |             <h4>Dashboard</h4>
-  15 |             <div className="filter-by-days">
-> 16 |               <but className="ft-btn active">Last 7 days</Button>
-     |                                                                  ^
-> 17 |               <Button className="ft-btn">30 days </Button>
-     | ^^^^^^^^^^^^^^^
-  18 |               <Button className="ft-btn">All time</Button>
-  19 |             </div>
-  20 |           </div>
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:08:25.306] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:44.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:44.597] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:08:54.056] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:08:54.056] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:54.056] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:08:58.059] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:10:29.420] Server  LOG     ✓ Compiled in 26ms
+[00:10:32.900] Server  LOG     ✓ Compiled in 28ms
+[00:10:53.747] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:53.944] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Expected '</', got 'jsx text (
-              )'
-[00:14:35.096] Browser ERROR   ./src/app/(dashboard)/dashboard/page.js:16:66
-Parsing ecmascript source code failed
-  14 |             <h4>Dashboard</h4>
-  15 |             <div className="filter-by-days">
-> 16 |               <but className="ft-btn active">Last 7 days</Button>
-     |                                                                  ^
-> 17 |               <Button className="ft-btn">30 days </Button>
-     | ^^^^^^^^^^^^^^^
-  18 |               <Button className="ft-btn">All time</Button>
-  19 |             </div>
-  20 |           </div>
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:10:53.944] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-Expected '</', got 'jsx text (
-              )'
-[00:14:36.161] Server  LOG     ✓ Compiled in 25ms
-[00:14:37.097] Browser ERROR   ./src/app/(dashboard)/dashboard/page.js:16:69
-Parsing ecmascript source code failed
-  14 |             <h4>Dashboard</h4>
-  15 |             <div className="filter-by-days">
-> 16 |               <button className="ft-btn active">Last 7 days</Button>
-     |                                                                     ^
-> 17 |               <Button className="ft-btn">30 days </Button>
-     | ^^^^^^^^^^^^^^^
-  18 |               <Button className="ft-btn">All time</Button>
-  19 |             </div>
-  20 |           </div>
-
-Expected '</', got 'jsx text (
-              )'
-[00:14:37.097] Browser ERROR   ./src/app/(dashboard)/dashboard/page.js:16:69
-Parsing ecmascript source code failed
-  14 |             <h4>Dashboard</h4>
-  15 |             <div className="filter-by-days">
-> 16 |               <button className="ft-btn active">Last 7 days</Button>
-     |                                                                     ^
-> 17 |               <Button className="ft-btn">30 days </Button>
-     | ^^^^^^^^^^^^^^^
-  18 |               <Button className="ft-btn">All time</Button>
-  19 |             </div>
-  20 |           </div>
-
-Expected '</', got 'jsx text (
-              )'
-[00:14:39.376] Server  LOG     ✓ Compiled in 74ms
-[00:14:40.100] Browser ERROR   ./src/app/(dashboard)/dashboard/page.js:16:69
-Parsing ecmascript source code failed
-  14 |             <h4>Dashboard</h4>
-  15 |             <div className="filter-by-days">
-> 16 |               <button className="ft-btn active">Last 7 days</Button>
-     |                                                                     ^
-> 17 |               <button className="ft-btn">30 days </Button>
-     | ^^^^^^^^^^^^^^^
-  18 |               <button className="ft-btn">All time</Button>
-  19 |             </div>
-  20 |           </div>
-
-Expected '</', got 'jsx text (
-              )'
-[00:14:40.101] Browser ERROR   ./src/app/(dashboard)/dashboard/page.js:16:69
-Parsing ecmascript source code failed
-  14 |             <h4>Dashboard</h4>
-  15 |             <div className="filter-by-days">
-> 16 |               <button className="ft-btn active">Last 7 days</Button>
-     |                                                                     ^
-> 17 |               <button className="ft-btn">30 days </Button>
-     | ^^^^^^^^^^^^^^^
-  18 |               <button className="ft-btn">All time</Button>
-  19 |             </div>
-  20 |           </div>
-
-Expected '</', got 'jsx text (
-              )'
-[00:14:47.094] Server  LOG     ✓ Compiled in 29ms
-[00:14:56.369] Server  LOG     ✓ Compiled in 35ms
-[00:15:39.142] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:15:55.838] Server  ERROR   ⨯ ReferenceError: Link is not defined
-[00:15:56.171] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
-[00:16:00.328] Server  LOG     ✓ Compiled in 180ms
-[00:16:00.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:15.170] Server  LOG     ✓ Compiled in 101ms
-[00:18:27.105] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:36.354] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:19:36.354] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:19:39.642] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:20:00.342] Server  LOG     ✓ Compiled in 57ms
-[00:20:03.310] Server  LOG     ✓ Compiled in 76ms
-[00:20:21.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:21.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:21.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:21.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:21.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:21.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:21.927] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:26.591] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:26.592] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:26.593] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:26.594] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:26.595] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:26.596] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:26.597] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:26.599] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:20:27.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:27.539] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:27.539] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:27.539] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:27.539] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:27.539] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:27.539] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:27.539] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:20:27.539] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:21:06.368] Server  LOG     ✓ Compiled in 62ms
-[00:22:06.263] Server  LOG     ✓ Compiled in 51ms
-[00:22:09.033] Server  LOG     ✓ Compiled in 100ms
-[00:22:13.717] Server  LOG     ✓ Compiled in 46ms
-[00:22:17.345] Server  LOG     ✓ Compiled in 48ms
-[00:22:20.586] Server  LOG     ✓ Compiled in 86ms
-[00:22:26.599] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:26.600] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:26.602] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:26.604] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:26.605] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:26.605] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:26.607] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:27.066] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:27.505] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:27.505] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:27.505] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:27.505] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:27.505] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:27.505] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:27.505] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:22:27.505] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:22:41.353] Server  LOG     ✓ Compiled in 70ms
-[00:22:54.541] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:22:55.039] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:28:49.217] Server  LOG     ✓ Compiled in 63ms
-[00:28:51.251] Server  LOG     ✓ Compiled in 59ms
-[00:28:53.118] Server  LOG     ✓ Compiled in 239ms
-[00:29:03.111] Server  LOG     ✓ Compiled in 60ms
-[00:29:05.342] Server  LOG     ✓ Compiled in 159ms
-[00:29:07.656] Server  ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:29:08.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:29:08.694] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:29:18.040] Server  LOG     ✓ Compiled in 46ms
-[00:29:21.530] Server  LOG     ✓ Compiled in 58ms
-[00:29:37.042] Server  LOG     ✓ Compiled in 50ms
-[00:29:39.396] Server  LOG     ✓ Compiled in 172ms
-[00:30:02.580] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:30:24.313] Server  LOG     ✓ Compiled in 81ms
-[00:30:27.729] Server  LOG     ✓ Compiled in 88ms
-[00:30:30.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:30:40.535] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:30:41.099] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:10:53.944] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -325,7 +110,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/Parents" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -342,14 +127,14 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:30:56.915] Server  LOG     ✓ Compiled in 83ms
-[00:30:59.477] Server  LOG     ✓ Compiled in 141ms
-[00:31:11.578] Server  LOG     ✓ Compiled in 60ms
-[00:31:14.075] Server  LOG     ✓ Compiled in 47ms
-[00:31:15.667] Server  LOG     ✓ Compiled in 102ms
-[00:31:49.381] Server  LOG     ✓ Compiled in 265ms
-[00:32:31.552] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:31.873] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:10:56.015] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:56.217] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:10:56.218] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:10:56.218] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -367,7 +152,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/Coaches" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -384,8 +169,8 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:32:46.630] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:47.122] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:10:59.267] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:59.495] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -403,7 +188,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/Clubs" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -420,12 +205,5 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:33:16.131] Server  LOG     ✓ Compiled in 142ms
-[00:33:20.556] Server  LOG     ✓ Compiled in 112ms
-[00:34:50.120] Server  LOG     ✓ Compiled in 45ms
-[00:35:01.857] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:35:47.097] Server  LOG     ✓ Compiled in 32ms
-[00:36:40.372] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:48.481] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:36:48.481] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:36:49.806] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:11:05.953] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:11:23.948] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
