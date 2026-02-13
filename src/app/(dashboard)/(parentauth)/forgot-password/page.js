@@ -18,8 +18,7 @@ function page() {
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                fill="none"
-              >
+                fill="none">
                 <path
                   d="M15.75 18.75L9 12L15.75 5.25"
                   stroke="#313131"
@@ -42,7 +41,7 @@ function page() {
                 <Col lg={12}>
                   <Form.Floating>
                     <Form.Control placeholder="Example@email.com" />
-                    <label>Email</label>
+                    <label>Email Address *</label>
                   </Form.Floating>
                 </Col>
 

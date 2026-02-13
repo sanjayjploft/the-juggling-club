@@ -1,20 +1,35 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../(dashboard)/dashboard.css";
+import { usePathname } from "next/navigation";
 import Chatbot from "../../components/dashboard/Chatbot";
 
 export default function DashboardLayout({ children }) {
+  const pathname = usePathname();
   const [showChat, setShowChat] = useState(false);
 
-  return (
-    <>
-      <main className="dashboard-main">
-        {children}
-        <Chatbot />
+  // pages jahan special layout chahiye
+  const noDashboardMainPages = [
+    "/forgot-password",
+    "/login",
+    "/reset-password",
+    "/signup",
+    "/verify-email",
+  ];
 
-        {showChat && <Chatbot showButton={false} />}
-      </main>
-    </>
+  const isSpecialPage = noDashboardMainPages.includes(pathname);
+
+  return (
+    <main
+      className={`
+        ${!isSpecialPage ? "dashboard-main" : ""}
+        ${isSpecialPage ? "onboarding-pages" : ""}
+      `}>
+      {children}
+
+      <Chatbot />
+      {showChat && <Chatbot showButton={false} />}
+    </main>
   );
 }

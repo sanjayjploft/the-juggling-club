@@ -1,6 +1,16 @@
 {
-  "/(dashboard)/(addplayer)/addexisting/page": "app/(dashboard)/(addplayer)/addexisting/page.js",
-  "/(dashboard)/(addplayer)/pay/page": "app/(dashboard)/(addplayer)/pay/page.js",
+  "/(clubpanel)/(clubauth)/brand-identity/page": "app/(clubpanel)/(clubauth)/brand-identity/page.js",
+  "/(clubpanel)/(clubauth)/club-information/page": "app/(clubpanel)/(clubauth)/club-information/page.js",
+  "/(clubpanel)/(clubauth)/contact-information/page": "app/(clubpanel)/(clubauth)/contact-information/page.js",
+  "/(clubpanel)/(clubauth)/subscription-tier/page": "app/(clubpanel)/(clubauth)/subscription-tier/page.js",
+  "/(clubpanel)/(clubauth)/terms-confirmation/page": "app/(clubpanel)/(clubauth)/terms-confirmation/page.js",
+  "/(clubpanel)/(clubauth)/welcome-juggling-club/page": "app/(clubpanel)/(clubauth)/welcome-juggling-club/page.js",
+  "/(clubpanel)/dashboardclub/page": "app/(clubpanel)/dashboardclub/page.js",
+  "/(coachpanel)/(clubauth)/signup-coach/page": "app/(coachpanel)/(clubauth)/signup-coach/page.js",
+  "/(dashboard)/(parentauth)/forgot-password/page": "app/(dashboard)/(parentauth)/forgot-password/page.js",
+  "/(dashboard)/(parentauth)/login/page": "app/(dashboard)/(parentauth)/login/page.js",
+  "/(dashboard)/(parentauth)/reset-password/page": "app/(dashboard)/(parentauth)/reset-password/page.js",
   "/(dashboard)/(parentauth)/signup/page": "app/(dashboard)/(parentauth)/signup/page.js",
-  "/(dashboard)/AccountSettings/page": "app/(dashboard)/AccountSettings/page.js"
+  "/(dashboard)/(parentauth)/verify-email/page": "app/(dashboard)/(parentauth)/verify-email/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js"
 }

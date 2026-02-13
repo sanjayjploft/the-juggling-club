@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../(dashboard)/dashboard.css";
 import { usePathname } from "next/navigation";
@@ -9,7 +9,7 @@ export default function DashboardLayout({ children }) {
   const pathname = usePathname();
   const [showChat, setShowChat] = useState(false);
 
-  // pages jahan dashboard-main nahi chahiye
+  // pages jahan special layout chahiye
   const noDashboardMainPages = [
     "/brand-identity",
     "/club-information",
@@ -19,13 +19,17 @@ export default function DashboardLayout({ children }) {
     "/welcome-juggling-club",
   ];
 
-  const shouldRemoveClass = noDashboardMainPages.includes(pathname);
+  const isSpecialPage = noDashboardMainPages.includes(pathname);
 
   return (
-    <main className={shouldRemoveClass ? "" : "dashboard-main"}>
+    <main
+      className={`
+        ${!isSpecialPage ? "dashboard-main" : ""}
+        ${isSpecialPage ? "onboarding-pages" : ""}
+      `}>
       {children}
-      <Chatbot />
 
+      <Chatbot />
       {showChat && <Chatbot showButton={false} />}
     </main>
   );

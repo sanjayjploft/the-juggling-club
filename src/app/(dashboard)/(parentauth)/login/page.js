@@ -12,13 +12,13 @@ function page() {
               src="/assets/image/logo-juggling.svg"
               className="club-logo m-0"
             />
-            <h2 className="auth-title text-start mt-4">Welcome Back </h2>{" "}
+            <h2 className="auth-title text-start mt-4">Welcome Back 👋</h2>{" "}
             <Form className="mt-3 mt-lg-5">
               <Row className="gy-4">
                 <Col lg={12}>
                   <Form.Floating>
                     <Form.Control placeholder="Example@email.com" />
-                    <label>Email</label>
+                    <label>Email Address *</label>
                   </Form.Floating>
                 </Col>
                 <Col lg={12}>

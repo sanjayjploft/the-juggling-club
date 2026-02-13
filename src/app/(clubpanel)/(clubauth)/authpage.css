@@ -7,7 +7,9 @@
   padding: 40px 16px;
   display: flex;
 }
-
+main.onboarding-pages {
+  background: #fff;
+}
 .club-logo {
   display: block;
   margin: 0 auto 30px;

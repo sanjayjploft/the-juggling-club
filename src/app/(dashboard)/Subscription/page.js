@@ -68,8 +68,8 @@ export default function page() {
               </div>
               <div className="renwl-dte">Renews on July 20, 2026</div>
               <div className="gap-5">
-                <Button className="btn-next-bg me-3">Upgrade</Button>
-                <Button className="btn-cancel-outline">Downgrade</Button>
+                <button className="btn-next-bg me-3">Upgrade</button>
+                <button className="btn-cancel-outline">Downgrade</button>
               </div>
             </div>
             <div className="card-cms-heading mt-4 ms-3">

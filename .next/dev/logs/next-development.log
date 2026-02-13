@@ -1,18 +1,103 @@
-[00:00:01.947] Server  LOG     ✓ Ready in 1434ms
-[00:00:01.952] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.820] Server  LOG     ✓ Ready in 1344ms
+[00:00:03.697] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:04.116] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:05.272] Server  LOG     ○ Compiling /addexisting ...
-[00:00:05.805] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:00:05.806] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:00:05.807] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:00:05.809] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:00:06.559] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.826] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:00:06.826] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:00:06.826] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:00:06.826] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:00:07.809] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.429] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:04.186] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.933] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:12.380] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.694] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:13.220] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:15.343] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.612] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:18.910] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <SegmentViewNode type="page" pagePath="(clubpanel...">
+      <SegmentTrieNode>
+      <ClientPageRoot Component={function ClubInformation} serverProvidedParams={{...}}>
+        <ClubInformation params={Promise} searchParams={Promise}>
+          <div>
+          <div className="step-form">
+            <Form className="mt-5">
+              <form ref={null} className="mt-5">
+                <Row className="g-4">
+                  <div ref={null} className="g-4 row">
+                    <Col lg={12}>
+                      <div ref={null} className="col-lg-12">
+                        <h3>
+                        <FormGroup className={"floating..."}>
+                          <div className={"floating..."} ref={null}>
+                            <div className="file-box" onClick={function ClubInformation[openFilePicker]}>
+                              <img>
+>                             <p className="placeholder-text">
+>                               <h5>
+                                ...
+                            ...
+                    ...
+          ...
+    ...
+
+[00:00:19.707] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:25.823] Browser WARN    Image with src "/assets/image/logo-juggling.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:27.709] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:11.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:48.235] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:48.936] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:48.937] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:54.745] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.030] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.034] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:55.290] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.290] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.290] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.290] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.290] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.290] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.408] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.491] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:03:55.491] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -30,7 +115,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/pay" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -44,83 +129,81 @@ It can also happen if the client has a browser extension installed which messes 
                         <RootLayout params={Promise}>
                           <html lang="en">
                             <body
--                             data-new-gr-c-s-check-loaded="14.1272.0"
--                             data-gr-ext-installed=""
+-                             style={{padding-right:"15px",overflow-x:"hidden",overflow-y:"hidden"}}
                             >
                   ...
 
-[00:00:08.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.896] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:01:23.287] Server  LOG     ✓ Compiled in 106ms
-[00:01:23.428] Browser ERROR   ./src/app/(dashboard)/AccountSettings/page.js:133:32
-Parsing ecmascript source code failed
-  131 |                       <button className="btn-cancel-outline-sml d-block">
-  132 |                         Remove
-> 133 |                       </Button>
-      |                                ^
-> 134 |                     </div>
-      | ^^^^^^^^^^^^^^^^^^^^^
-  135 |                   </div>
-  136 |                 </div>
-  137 |               </Col>
-
-Expected '</', got 'jsx text (
-                    )'
-[00:01:23.436] Browser ERROR   ./src/app/(dashboard)/AccountSettings/page.js:133:32
-Parsing ecmascript source code failed
-  131 |                       <button className="btn-cancel-outline-sml d-block">
-  132 |                         Remove
-> 133 |                       </Button>
-      |                                ^
-> 134 |                     </div>
-      | ^^^^^^^^^^^^^^^^^^^^^
-  135 |                   </div>
-  136 |                 </div>
-  137 |               </Col>
-
-Expected '</', got 'jsx text (
-                    )'
-[00:01:23.546] Browser ERROR   ./src/app/(dashboard)/AccountSettings/page.js:133:32
-Parsing ecmascript source code failed
-  131 |                       <button className="btn-cancel-outline-sml d-block">
-  132 |                         Remove
-> 133 |                       </Button>
-      |                                ^
-> 134 |                     </div>
-      | ^^^^^^^^^^^^^^^^^^^^^
-  135 |                   </div>
-  136 |                 </div>
-  137 |               </Col>
-
-Expected '</', got 'jsx text (
-                    )'
-[00:01:24.861] Server  LOG     ✓ Compiled in 148ms
-[00:01:25.187] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:25.190] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:25.193] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:25.203] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/AccountSettings/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:01:25.369] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:25.370] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:25.372] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:26.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:26.482] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:26.482] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:26.482] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:26.482] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:01:27.059] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/(dashboard)/AccountSettings/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:01:27.310] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:27.341] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:27.377] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:27.437] Server  LOG     ✓ Compiled in 61ms
-[00:01:27.550] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:27.551] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:27.553] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:28.290] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:28.579] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:28.579] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:28.579] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:01:28.579] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:01:28.579] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:03:55.934] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:00.333] Server  LOG     ✓ Compiled in 36ms
+[00:04:12.933] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:12.935] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:13.337] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:38.860] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:38.935] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:38.936] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:41.827] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:41.935] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:42.024] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:42.383] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:42.428] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:42.428] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:42.428] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:42.428] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:42.428] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:42.428] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:42.428] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:42.428] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -138,7 +221,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/AccountSe..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -152,9 +235,122 @@ It can also happen if the client has a browser extension installed which messes 
                         <RootLayout params={Promise}>
                           <html lang="en">
                             <body
--                             data-new-gr-c-s-check-loaded="14.1272.0"
--                             data-gr-ext-installed=""
+-                             style={{padding-right:"15px",overflow-x:"hidden",overflow-y:"hidden"}}
                             >
                   ...
 
-[00:01:43.462] Server  LOG     ✓ Compiled in 104ms
+[00:04:42.922] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:04:50.124] Server  LOG     ✓ Compiled in 60ms
+[00:04:57.014] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:14.923] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:05:14.923] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:05:14.972] Browser ERROR   ./src/app/(clubpanel)/(clubauth)
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:06:07.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:12.317] Server  LOG     ✓ Compiled in 102ms
+[00:07:19.445] Server  LOG     ✓ Compiled in 45ms
+[00:07:26.669] Server  LOG     ✓ Compiled in 50ms
+[00:08:16.870] Server  LOG     ✓ Compiled in 117ms
+[00:08:43.467] Server  LOG     ✓ Compiled in 21ms
+[00:08:45.765] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:47.432] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <SegmentViewNode type="page" pagePath="(clubpanel...">
+      <SegmentTrieNode>
+      <ClientPageRoot Component={function ClubInformation} serverProvidedParams={{...}}>
+        <ClubInformation params={Promise} searchParams={Promise}>
+          <div>
+          <div className="step-form">
+            <Form className="mt-5">
+              <form ref={null} className="mt-5">
+                <Row className="g-4">
+                  <div ref={null} className="g-4 row">
+                    <Col lg={12}>
+                      <div ref={null} className="col-lg-12">
+                        <h3>
+                        <FormGroup className={"floating..."}>
+                          <div className={"floating..."} ref={null}>
+                            <div className="file-box" onClick={function ClubInformation[openFilePicker]}>
+                              <img>
+>                             <p className="placeholder-text">
+>                               <h5>
+                                ...
+                            ...
+                    ...
+          ...
+    ...
+
+[00:08:48.398] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:08:54.646] Browser WARN    Image with src "/assets/image/logo-juggling.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:09:01.082] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:01.276] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:10:12.792] Server  LOG     ✓ Compiled in 444ms
+[00:10:13.459] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:13.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:13.675] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:10:13.941] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:10:22.308] Server  LOG     ✓ Compiled in 49ms
+[00:10:25.593] Server  LOG     ✓ Compiled in 44ms
+[00:10:29.498] Server  LOG     ✓ Compiled in 54ms
+[00:10:34.759] Server  LOG     ✓ Compiled in 46ms
+[00:10:39.824] Server  LOG     ✓ Compiled in 131ms
+[00:10:42.832] Server  LOG     ✓ Compiled in 77ms
+[00:10:46.354] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:46.801] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:11:24.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:25.301] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:11:50.807] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:51.229] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:12:30.539] Server  LOG     ✓ Compiled in 49ms
+[00:12:51.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:52.075] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:12:54.587] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:54.832] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:12:56.177] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:13:03.255] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:03.600] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:13:34.256] Server  LOG     ✓ Compiled in 38ms
+[00:13:43.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:43.881] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:13:50.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:50.509] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:13:51.965] Browser WARN    Image with src "/assets/image/logo-juggling.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:13:51.965] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:14:01.234] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:14:01.234] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:14:01.234] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:14:06.877] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:07.132] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:14:08.300] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:14:33.698] Server  LOG     ✓ Compiled in 35ms
+[00:14:44.739] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:45.016] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:14:50.910] Server  LOG     ✓ Compiled in 33ms
+[00:14:53.645] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:53.917] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:15:01.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:03.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:03.398] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:15:04.357] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:04.840] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:15:06.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:07.053] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:15:29.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:29.830] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:15:32.840] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:33.124] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className

@@ -3333,7 +3333,6 @@ input.search-inp::placeholder {
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
-  font-family: "Avenir";
 }
 .settings-icon {
   width: 18px;
