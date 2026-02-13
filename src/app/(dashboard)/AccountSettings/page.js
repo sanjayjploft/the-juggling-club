@@ -37,21 +37,21 @@ export default function page() {
                 </Col>
                 <Col md={8}>
                   <Row>
-                    <Col md={6}>
+                    <Col lg={6} xs={12} className="mb-3">
                       <Form.Floating>
                         <Form.Control placeholder="" value={"Sarah"} />
                         <label>First Name</label>
                       </Form.Floating>
                     </Col>
-                    <Col md={6}>
+                    <Col lg={6} xs={12} className="mb-3">
                       <Form.Floating>
                         <Form.Control placeholder="" value={"Jonson"} />
                         <label>Last Name</label>
                       </Form.Floating>
                     </Col>
                   </Row>
-                  <Row className="mt-5">
-                    <Col md={6}>
+                  <Row className="">
+                    <Col lg={6} xs={12} className="mb-3">
                       <Form.Floating>
                         <Form.Control
                           placeholder=""
@@ -69,7 +69,7 @@ export default function page() {
             </div>
 
             <Row className="px-3 mt-4">
-              <Col md={6}>
+              <Col lg={6} xs={12} className="mb-3">
                 <div className="player-card">
                   <h4>Linked Players</h4>
                   <div className="notification-card plyr-crdin">
@@ -97,7 +97,7 @@ export default function page() {
                   </Link>
                 </div>
               </Col>
-              <Col md={6}>
+              <Col lg={6} xs={12} className="mb-3">
                 <div className="player-card">
                   <h4 className="mb-1">Guardians</h4>
                   <p>Invite a parent or guardian to manage this account.</p>
@@ -137,7 +137,7 @@ export default function page() {
               </Col>
             </Row>
             <Row className="px-3 mt-4">
-              <Col md={6}>
+            <Col lg={6} xs={12} className="mb-4">
                 <div className="player-card text-center p-4">
                   <img className="mb-3" src="/assets/image/alert-rd.svg" />
                   <p>
@@ -147,7 +147,7 @@ export default function page() {
                   <Button className="btn-next-bg">Delete Account</Button>
                 </div>
               </Col>
-              <Col md={6}>
+              <Col lg={6} xs={12} className="mb-3">
                 <div className="player-card comni-perf">
                   <h4 className="mb-1">Communication Preferences</h4>
                   <div className="notification-card plyr-crdin justify-content-between">

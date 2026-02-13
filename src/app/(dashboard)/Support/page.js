@@ -13,26 +13,32 @@ export default function page() {
         <main className="msar-main">
           <div className="msar-top-bar d-flex justify-content-between align-items-start">
             <div className="top-heading">
-              <h4>
-                Support
-                <span>
-                  We're here to help. Find answers to common questions or
-                  contact us for further assistance.
-                </span>
-              </h4>
+              <div>
+                <h4>
+                  Support
+                  <span>
+                    We're here to help. Find answers to common questions or
+                    contact us for further assistance.
+                  </span>
+                </h4>
+              </div>
             </div>
-            <button className="btn admin-btn-primary">+ Add Player</button>
+            <div className="user-profile">
+              <Link href="#">
+                <img src="/assets/image/coach-mike.png" />
+              </Link>
+            </div>
           </div>
           <div className="container-fluid acnt-stng-cl">
             <Row className="px-3 mt-4">
-              <Col md={6} className="sprt-faq">
+              <Col lg={6} xs={12} className="sprt-faq">
                 <FaqAccordion />
-                <div className="ai-assct">
+                <div className="ai-assct mb-4">
                   <img src="/assets/image/chat-bot.svg" /> AI Assistant Coming
                   Soon
                 </div>
               </Col>
-              <Col md={6}>
+              <Col lg={6} xs={12}>
                 <div className="player-card">
                   <h4 className="mb-1">24/7 Support</h4>
                   <p>Our support team is available to help anytime.</p>
