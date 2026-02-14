@@ -244,7 +244,7 @@ nav.nav.nav--open {
 .nav__link {
   text-decoration: none;
   position: relative;
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Bebas Neue";
   font-size: 24px;
   font-style: normal;
@@ -592,7 +592,7 @@ video.hero__video {
 }
 
 .small-text {
-  color: var(--Primary-Neon-Red, #ff073a);
+  color: #ff073a;
   font-family: "Avenir";
   font-size: 15px;
   font-style: normal;
@@ -615,7 +615,7 @@ video.hero__video {
 
 .that-matters {
   border-radius: 100px;
-  background: var(--White, #fff);
+  background: #fff;
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   width: max-content;
   padding: 8px 20px;
@@ -662,7 +662,7 @@ img.simbl-icon {
 .player-info .player-bio {
   border-radius: 20px 20px 20px 0;
   padding: 25px;
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Bebas Neue";
   font-size: 27px;
   font-style: normal;
@@ -671,16 +671,16 @@ img.simbl-icon {
   text-transform: uppercase;
 }
 .neon-red-bg {
-  background: var(--Primary-Neon-Red, #ff073a);
+  background: #ff073a;
 }
 .badge-blue-bg {
-  background: var(--Primary-Badge-Blue, #0a5fff);
+  background: #0a5fff;
 }
 .dark-blue-bg {
-  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  background: #03202f;
 }
 .explosive-orange {
-  background: var(--Explosive-Orange, #f6921e);
+  background: #f6921e;
 }
 .player-info .player-bio p {
   margin-bottom: 0px;
@@ -690,7 +690,7 @@ img.simbl-icon {
   border-radius: 0 0 20px 20px;
   width: max-content;
   padding: 5px 15px;
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Bebas Neue";
   font-size: 25px;
   font-style: normal;
@@ -726,7 +726,7 @@ img.simbl-icon {
 }
 
 .blog-box .blog-info h3 {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Bebas Neue";
   font-size: 35px;
   font-style: normal;
@@ -736,7 +736,7 @@ img.simbl-icon {
 }
 
 .blog-box .blog-info p {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Avenir";
   font-size: 16px;
   font-style: normal;
@@ -763,14 +763,14 @@ img.simbl-icon {
   justify-content: space-between;
   border-radius: 30px;
   border: 1px solid #f0ff00;
-  background: var(--White, #fff);
+  background: #fff;
   box-shadow: -2px -2px 25px 0 rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 99;
 }
 
 .cta-content h2 {
-  color: var(--Blue-Gray-900, #0f172a);
+  color: #0f172a;
   font-family: "Bebas Neue";
   font-size: 70px;
   font-style: normal;
@@ -793,7 +793,7 @@ img.simbl-icon {
   cursor: pointer;
 }
 .cta-buttons .btn-primary {
-  color: var(--White, #fff);
+  color: #fff;
   text-align: center;
   font-family: "Bebas Neue";
   font-size: 22px;
@@ -805,7 +805,7 @@ img.simbl-icon {
   border-radius: 150px;
 }
 .cta-buttons .btn-outline {
-  color: var(--Primary-Neon-Red, #ff073a);
+  color: #ff073a;
   text-align: center;
   font-family: "Bebas Neue";
   font-size: 22px;
@@ -817,7 +817,7 @@ img.simbl-icon {
   border: none;
   background: transparent;
   border-radius: 150px;
-  border: 1px solid var(--Primary-Neon-Red, #ff073a);
+  border: 1px solid #ff073a;
   padding: 14px 30px !important;
   text-decoration: none;
 }
@@ -825,8 +825,8 @@ footer {
   padding: 56px 0px 0px;
 }
 .footer-section {
-  border-top: 2px solid var(--fffaf-4, #fffaf4);
-  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  border-top: 2px solid #fffaf4;
+  background: #03202f;
   position: relative;
 }
 .footer-section:after {
@@ -858,7 +858,7 @@ footer {
   right: 50%;
 }
 .footer-left h3 {
-  color: var(--Primary-Neon-Red, #ff073a);
+  color: #ff073a;
   font-family: "Bebas Neue";
   font-size: 50px;
   font-style: normal;
@@ -883,7 +883,7 @@ footer {
   outline: none;
   width: 100%;
   padding: 8px;
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Avenir";
   font-size: 16px;
   font-style: normal;
@@ -900,7 +900,7 @@ input::placeholder {
   gap: 30px;
 }
 .socials span {
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Bebas Neue";
   font-size: 24px;
   font-style: normal;
@@ -920,7 +920,7 @@ input::placeholder {
 
 .footer-right h4 {
   margin-bottom: 32px;
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Bebas Neue";
   font-size: 30px;
   font-style: normal;
@@ -936,7 +936,7 @@ input::placeholder {
 
 .footer-right li a {
   margin-bottom: 8px;
-  color: var(--White, #fff);
+  color: #fff;
   font-family: "Avenir";
   font-size: 16px;
   font-style: normal;
@@ -948,8 +948,8 @@ input::placeholder {
 
 .copyright {
   text-align: center;
-  border-top: 2px solid var(--fffaf-4, #fffaf4);
-  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  border-top: 2px solid #fffaf4;
+  background: #03202f;
   padding: 47px 0px;
   color: #fff;
   font-family: "Avenir";
@@ -983,11 +983,11 @@ input::placeholder {
 .small-chip {
   display: inline-block;
   border-radius: 100px;
-  border: 1px solid var(--Neutral-200, #eaecf0);
-  background: var(--Neutral-50, #f9fafb);
+  border: 1px solid #eaecf0;
+  background: #f9fafb;
   padding: 6px 16px 6px 12px;
   align-items: center;
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   text-align: center;
   font-family: "Avenir";
   font-size: 14px;
@@ -1008,7 +1008,7 @@ input::placeholder {
 }
 
 .why-join-info h5 {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Avenir";
   font-size: 20px;
   font-style: normal;
@@ -1018,7 +1018,7 @@ input::placeholder {
 }
 
 .why-join-info p {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Avenir";
   font-size: 20px;
   font-style: normal;
@@ -1078,7 +1078,7 @@ input::placeholder {
 .player-quotes {
   border-radius: 30px;
   border: 1px solid #ddd;
-  background: var(--White, #fff);
+  background: #fff;
   padding: 40px 30px;
   height: 100%;
 }
@@ -1138,7 +1138,7 @@ input::placeholder {
   margin-bottom: 0;
 }
 .player-quotes .section-heading {
-  color: var(--neutral-neutral-900, #1e242c);
+  color: #1e242c;
   font-family: "Bebas Neue";
   font-size: 56px;
   font-style: normal;
@@ -1155,7 +1155,7 @@ input::placeholder {
 }
 
 .parent-testimonials p {
-  color: var(--Base-Black, #23242a);
+  color: #23242a;
   text-align: center;
   font-family: "Avenir";
   font-size: 30px;
@@ -1181,7 +1181,7 @@ input::placeholder {
 }
 
 .parent-testimonials .player-profile h5 {
-  color: var(--Base-Black, #23242a);
+  color: #23242a;
   font-family: "Bebas Neue";
   font-size: 30px;
   font-style: normal;
@@ -1190,7 +1190,7 @@ input::placeholder {
 }
 
 .parent-testimonials .player-profile span {
-  color: var(--Base-Black, #23242a);
+  color: #23242a;
   font-family: "Avenir";
   font-size: 16px;
   font-style: normal;
@@ -1223,7 +1223,7 @@ input::placeholder {
 }
 
 .cta-info h3 {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   text-align: center;
   font-family: "Avenir";
   font-size: 45px;
@@ -1258,7 +1258,7 @@ input::placeholder {
 }
 
 .club-staff-info h6 {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Avenir";
   font-size: 16px;
   font-style: normal;
@@ -1294,8 +1294,8 @@ input::placeholder {
 
 .club-staff-btm-sec .btm-sec-item {
   border-radius: 12px;
-  border: 1px solid var(--neutral-neutral-50, #edeef0);
-  background: var(--White, #fff);
+  border: 1px solid #edeef0;
+  background: #fff;
   box-shadow: 5px 15px 50px 0 rgba(246, 146, 30, 0.2);
   display: inline-flex;
   padding: 12px 15px;
@@ -1305,7 +1305,7 @@ input::placeholder {
 }
 
 .club-staff-btm-sec .btm-sec-item h2 {
-  color: var(--Black, #1d1d26);
+  color: #1d1d26;
   font-family: "Avenir";
   font-size: 15px;
   font-style: normal;
@@ -1314,7 +1314,7 @@ input::placeholder {
   margin-bottom: 0px;
 }
 .featureList .featureList-item h4 {
-  color: var(--101010, #101010);
+  color: #101010;
   font-family: "Bebas Neue";
   font-size: 25px;
   font-style: normal;
@@ -1344,7 +1344,7 @@ input::placeholder {
 }
 
 .price-box p {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Avenir";
   font-size: 25px;
   font-style: normal;
@@ -1353,7 +1353,7 @@ input::placeholder {
 }
 
 .price-box .price-text {
-  color: var(--Black, #1d1d26);
+  color: #1d1d26;
   font-family: "Bebas Neue";
   font-size: 50px;
   font-style: normal;
@@ -1363,7 +1363,7 @@ input::placeholder {
 }
 
 .price-box .price-text small {
-  color: var(--Black, #1d1d26);
+  color: #1d1d26;
   font-family: "Avenir";
   font-size: 18px;
   font-style: normal;
@@ -1374,7 +1374,7 @@ input::placeholder {
 }
 
 .price-box h6 {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Avenir";
   font-size: 17.3px;
   font-style: normal;
@@ -1503,7 +1503,7 @@ input::placeholder {
 }
 
 .celebrate-progress h2 span {
-  color: var(--Primary-Neon-Red, #ff073a);
+  color: #ff073a;
   font-family: "Avenir";
 }
 
@@ -1533,7 +1533,7 @@ input::placeholder {
 }
 
 .steps-section h2 {
-  color: var(--White, #fff);
+  color: #fff;
   text-align: center;
   font-family: "Bebas Neue";
   font-size: 60px;
@@ -1565,7 +1565,7 @@ input::placeholder {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: var(--Primary-Badge-Blue, #0a5fff);
+  color: #0a5fff;
   text-align: center;
   font-family: "Avenir";
   font-size: 24px;
@@ -1576,7 +1576,7 @@ input::placeholder {
   margin-bottom: 15px;
 }
 .step p {
-  color: var(--White, #fff);
+  color: #fff;
   letter-spacing: -0.18px;
   border-left: 2px solid #ff073a;
   font-family: "Avenir";
@@ -1596,7 +1596,7 @@ input::placeholder {
 }
 .step.s2 span {
   border-radius: 28px 28px 8px 8px;
-  background: var(--White, #fff);
+  background: #fff;
 }
 
 .step.s3 span {
@@ -1615,13 +1615,13 @@ input::placeholder {
 
 .steps-cta {
   border-radius: 100px;
-  background: var(--White, #fff);
+  background: #fff;
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   width: max-content;
   margin: 0 auto;
   position: absolute;
   bottom: 0;
-  color: var(--Primary-Neon-Red, #ff073a);
+  color: #ff073a;
   text-align: center;
   font-family: "Avenir";
   font-size: 24px;
@@ -1644,7 +1644,7 @@ input::placeholder {
 }
 
 .links-actin a {
-  color: var(--Primary-Badge-Blue, #0a5fff);
+  color: #0a5fff;
   font-family: "Avenir";
   font-size: 22px;
   font-style: normal;
@@ -1690,7 +1690,7 @@ input::placeholder {
 }
 
 .means-info h3 {
-  color: var(--Black, #1d1d26);
+  color: #1d1d26;
   font-family: "Bebas Neue";
   font-size: 48px;
   font-style: normal;
@@ -1699,7 +1699,7 @@ input::placeholder {
 }
 
 .means-info p {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Avenir";
   font-size: 20px;
   font-style: normal;
@@ -1776,7 +1776,7 @@ input::placeholder {
 }
 
 .price-features li {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Avenir";
   font-size: 13px;
   font-style: normal;
@@ -1788,7 +1788,7 @@ input::placeholder {
   margin-bottom: 20px;
 }
 .price-expl-text {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   text-align: center;
   font-family: "Avenir";
   font-size: 17px;
@@ -1828,7 +1828,7 @@ input::placeholder {
 }
 .contct-mn h1 {
   font-size: 70px;
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-family: "Bebas Neue";
   font-size: 70px;
   font-style: normal;
@@ -1940,7 +1940,6 @@ input::placeholder {
     height: 480px;
   }
   /* br {
-
     display: none;
   } */
   .contct-mn h1 {
@@ -2242,14 +2241,13 @@ input::placeholder {
     max-width: 110px;
   }
   .faq-tabs h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
   .tablet-size.col-lg-3 {
     width: 100%;
   }
 }
 
-/* Mobile */
 @media (max-width: 767.99px) {
   .featureList {
     grid-template-columns: 1fr;

@@ -44,7 +44,7 @@ main.onboarding-pages {
 }
 
 .step-item p {
-  color: var(--Gray, #949494);
+  color: #949494;
   text-align: center;
   letter-spacing: 1px;
   font-family: Bebas Neue;
@@ -80,7 +80,7 @@ main.onboarding-pages {
 
 .form-floating > label {
   padding: 1rem 0.75rem;
-  color: var(--Gray, #949494);
+  color: #949494;
   text-align: center;
   font-feature-settings:
     "liga" off,
@@ -133,9 +133,9 @@ main.onboarding-pages {
   flex: 1;
   padding: 14px 30px;
   border-radius: 150px;
-  border: 1px solid var(--Primary-Neon-Red, #ff073a);
+  border: 1px solid #ff073a;
   background: transparent;
-  color: var(--Primary-Neon-Red, #ff073a);
+  color: #ff073a;
   text-align: center;
   font-family: "Bebas Neue";
   font-size: 22px;
@@ -149,8 +149,8 @@ main.onboarding-pages {
 .btn-next-bg {
   flex: 1;
   border-radius: 150px;
-  background: var(--Primary-Neon-Red, #ff073a);
-  color: var(--White, #fff);
+  background: #ff073a;
+  color: #fff;
   text-align: center;
   font-family: "Bebas Neue";
   font-size: 22px;
@@ -232,7 +232,7 @@ main.onboarding-pages {
 }
 
 .text-info-form {
-  color: var(--Gray, #949494);
+  color: #949494;
   font-family: Avenir;
   font-size: 13px;
   font-style: normal;
@@ -243,8 +243,8 @@ main.onboarding-pages {
 
 .plan-card {
   border-radius: 20px;
-  border: 1px solid var(--Gray, #949494);
-  background: var(--Juggling-Club-Dark-Blue, #03202f);
+  border: 1px solid #949494;
+  background: #03202f;
   padding: 26px 28px;
   display: flex;
   justify-content: space-between;
@@ -253,7 +253,7 @@ main.onboarding-pages {
 }
 
 .plan-info h3 {
-  color: var(--White, #fff);
+  color: #fff;
   font-family: Avenir;
   font-size: 25px;
   font-style: normal;
@@ -264,7 +264,7 @@ main.onboarding-pages {
 
 .plan-info span {
   display: inline-block;
-  color: var(--Gray, #949494);
+  color: #949494;
   font-family: Avenir;
   font-size: 15px;
   font-style: normal;
@@ -272,7 +272,7 @@ main.onboarding-pages {
   line-height: normal;
 }
 .plan-price h3 {
-  color: var(--White, #fff);
+  color: #fff;
   text-align: right;
   font-family: "Bebas Neue";
   font-size: 35px;
@@ -283,7 +283,7 @@ main.onboarding-pages {
 }
 
 .plan-price span {
-  color: var(--Primary-Burst-Yellow, #f0ff00);
+  color: #f0ff00;
   font-family: Avenir;
   font-size: 12px;
   font-style: normal;
@@ -307,7 +307,7 @@ main.onboarding-pages {
 }
 
 .plan-card ul li h5 {
-  color: var(--White, #fff);
+  color: #fff;
   font-family: Avenir;
   font-size: 18px;
   font-style: normal;
@@ -317,7 +317,7 @@ main.onboarding-pages {
 }
 
 .plan-card ul li span {
-  color: var(--White, #fff);
+  color: #fff;
   text-align: right;
   font-family: Avenir;
   font-size: 18px;
@@ -330,7 +330,7 @@ main.onboarding-pages {
 }
 
 .plan-card ul li b {
-  color: var(--White, #fff);
+  color: #fff;
   font-family: Avenir;
   font-size: 18px;
   font-style: normal;
@@ -355,11 +355,11 @@ main.onboarding-pages {
   padding: 16px;
   display: flex;
   border-radius: 20px;
-  border: 1px dashed var(--Juggling-Club-Dark-Blue, #03202f);
-  background: var(--White, #fff);
+  border: 1px dashed #03202f;
+  background: #fff;
 }
 .clublogo-heading {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-feature-settings:
     "liga" off,
     "clig" off;
@@ -385,7 +385,7 @@ main.onboarding-pages {
   margin-bottom: 0;
 }
 .placeholder-text {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   text-align: center;
   font-feature-settings:
     "liga" off,
@@ -497,7 +497,7 @@ main.onboarding-pages {
   top: 50%;
   left: 56px;
   transform: translateY(-50%);
-  color: var(--Gray, #949494);
+  color: #949494;
   text-align: center;
   font-feature-settings:
     "liga" off,
@@ -590,7 +590,7 @@ main.onboarding-pages {
 
 /* Text */
 .checkbox-text {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-feature-settings:
     "liga" off,
     "clig" off;
@@ -626,7 +626,7 @@ main.onboarding-pages {
 }
 
 .terms-confirmation p {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-feature-settings:
     "liga" off,
     "clig" off;
@@ -659,7 +659,7 @@ main.onboarding-pages {
 }
 
 .terms-confirmation p {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   font-feature-settings:
     "liga" off,
     "clig" off;
@@ -695,7 +695,7 @@ main.onboarding-pages {
 }
 
 .welcome-box h4 ~ span {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   text-align: center;
   font-feature-settings:
     "liga" off,
@@ -709,7 +709,7 @@ main.onboarding-pages {
 
 .club-code {
   border-radius: 15px;
-  background: var(--White, #fff);
+  background: #fff;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
   max-width: 430px;
   padding: 16px;
@@ -717,7 +717,7 @@ main.onboarding-pages {
 }
 
 .club-code span {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   text-align: center;
   font-feature-settings:
     "liga" off,
@@ -732,7 +732,7 @@ main.onboarding-pages {
 }
 
 .club-code h6 {
-  color: var(--Primary-Badge-Blue, #0a5fff);
+  color: #0a5fff;
   text-align: center;
   font-feature-settings:
     "liga" off,
@@ -746,7 +746,7 @@ main.onboarding-pages {
 }
 
 .club-code p {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   text-align: center;
   font-feature-settings:
     "liga" off,
@@ -760,7 +760,7 @@ main.onboarding-pages {
 }
 
 .redirecting {
-  color: var(--Juggling-Club-Dark-Blue, #03202f);
+  color: #03202f;
   text-align: center;
   font-feature-settings:
     "liga" off,
