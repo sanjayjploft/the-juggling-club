@@ -1,52 +1,23 @@
-[00:00:23.198] Server  LOG     ✓ Ready in 17.2s
-[00:00:34.221] Server  LOG     ○ Compiling / ...
-[00:00:41.822] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:02.091] Server  LOG     ✓ Ready in 1598ms
+[00:00:02.094] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:41.905] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:04.212] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:10.065] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:00:05.866] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.802] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
+
+If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
+[00:00:16.803] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
+
+If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
+[00:00:17.262] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.394] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:05:10.065] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:00:17.394] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:05:10.065] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:05:12.301] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:05:15.217] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:05:15.458] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:15.695] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:05:17.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:17.715] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:05:58.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:11.454] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:11.454] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:06:11.454] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:15.413] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:37.736] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:49.802] Server  LOG     ✓ Compiled in 62ms
-[00:07:51.584] Server  LOG     ✓ Compiled in 44ms
-[00:07:56.366] Server  LOG     ✓ Compiled in 58ms
-[00:07:58.694] Server  LOG     ✓ Compiled in 52ms
-[00:08:03.172] Server  LOG     ✓ Compiled in 294ms
-[00:08:22.337] Server  LOG     ✓ Compiled in 47ms
-[00:08:26.026] Server  LOG     ✓ Compiled in 85ms
-[00:08:39.678] Server  LOG     ✓ Compiled in 56ms
-[00:08:41.157] Server  LOG     ✓ Compiled in 57ms
-[00:08:43.440] Server  LOG     ✓ Compiled in 65ms
-[00:09:41.079] Server  LOG     ✓ Compiled in 72ms
-[00:09:57.145] Server  LOG     ✓ Finished filesystem cache database compaction in 12.7s
-[00:10:44.459] Server  LOG     ✓ Compiled in 83ms
-[00:11:58.604] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:12:16.141] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:12:16.142] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:12:59.421] Server  LOG     ✓ Compiled in 34ms
-[00:13:02.858] Server  LOG     ✓ Compiled in 22ms
-[00:13:05.149] Server  LOG     ✓ Compiled in 19ms
-[00:13:22.763] Server  LOG     ✓ Compiled in 20ms
-[00:13:26.075] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:30.199] Server  LOG     ✓ Compiled in 20ms
-[00:13:33.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:34.239] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:49.049] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:22.033] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:22.369] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -64,7 +35,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/Clubs" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -81,266 +52,5 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:13:42.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:46.069] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:13:49.584] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:13:51.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:54.288] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:14:20.141] Server  LOG     ✓ Compiled in 456ms
-[00:14:20.377] Browser ERROR   ./src/app/(dashboard)/(parentauth)/login/page.js:41:28
-Parsing ecmascript source code failed
-  39 |                     <a href="/dashboard" className="btn-next-bg">
-  40 |                       Sign In
-> 41 |                     </Link>
-     |                            ^
-> 42 |                   </div>
-     | ^^^^^^^^^^^^^^^^^^^
-  43 |                 </Col>
-  44 |               </Row>
-  45 |             </Form>
-
-Expected '</', got 'jsx text (
-                  )'
-[00:14:20.878] Browser ERROR   ./src/app/(dashboard)/(parentauth)/login/page.js:41:28
-Parsing ecmascript source code failed
-  39 |                     <a href="/dashboard" className="btn-next-bg">
-  40 |                       Sign In
-> 41 |                     </Link>
-     |                            ^
-> 42 |                   </div>
-     | ^^^^^^^^^^^^^^^^^^^
-  43 |                 </Col>
-  44 |               </Row>
-  45 |             </Form>
-
-Expected '</', got 'jsx text (
-                  )'
-[00:14:21.927] Server  LOG     ✓ Compiled in 143ms
-[00:14:22.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:22.844] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:23.372] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:14:25.655] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:27.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:27.894] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:19:09.261] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:19:21.171] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:19:31.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:45.206] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:20:52.167] Server  LOG     ✓ Compiled in 99ms
-[00:20:59.622] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:17.439] Server  LOG     ✓ Compiled in 43ms
-[00:21:24.139] Server  LOG     ✓ Compiled in 187ms
-[00:21:24.267] Browser ERROR   ./src/app/globals.css:2484:5
-Parsing CSS source code failed
-  2482 |     margin: 0 30px;
-  2483 |     padding: 40px 20px;
-> 2484 |   }.
-       |     ^
-  2485 |   .social-mcn {
-  2486 |   text-align: right;
-  2487 |   display: flex;
-
-Expected identifier in class selector, got WhiteSpace("\r\n  ")
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:21:24.880] Browser ERROR   ./src/app/globals.css:2484:5
-Parsing CSS source code failed
-  2482 |     margin: 0 30px;
-  2483 |     padding: 40px 20px;
-> 2484 |   }.
-       |     ^
-  2485 |   .social-mcn {
-  2486 |   text-align: right;
-  2487 |   display: flex;
-
-Expected identifier in class selector, got WhiteSpace("\r\n  ")
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:21:25.897] Server  LOG     ✓ Compiled in 74ms
-[00:21:28.553] Server  LOG     ✓ Compiled in 82ms
-[00:21:30.354] Server  LOG     ✓ Compiled in 62ms
-[00:24:40.387] Server  LOG     ✓ Compiled in 55ms
-[00:24:42.030] Server  LOG     ✓ Compiled in 47ms
-[00:24:43.881] Server  LOG     ✓ Compiled in 49ms
-[00:24:44.647] Server  LOG     ✓ Compiled in 45ms
-[00:24:55.506] Server  LOG     ✓ Compiled in 46ms
-[00:24:59.347] Server  LOG     ✓ Compiled in 56ms
-[00:25:13.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:28.525] Server  LOG     ✓ Compiled in 45ms
-[00:25:30.744] Server  LOG     ✓ Compiled in 83ms
-[00:25:30.878] Browser ERROR   ./src/app/globals.css:2492:2
-Parsing CSS source code failed
-  2490 |         padding: 20px 15px;
-  2491 |   }
-> 2492 |  {
-       |  ^
-  2493 |     font-size: 16px;
-  2494 |   }
-  2495 | }
-
-Invalid empty selector
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:25:30.976] Browser ERROR   ./src/app/globals.css:2492:2
-Parsing CSS source code failed
-  2490 |         padding: 20px 15px;
-  2491 |   }
-> 2492 |  {
-       |  ^
-  2493 |     font-size: 16px;
-  2494 |   }
-  2495 | }
-
-Invalid empty selector
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:25:32.850] Browser ERROR   ./src/app/globals.css:2492:2
-Parsing CSS source code failed
-  2490 |         padding: 20px 15px;
-  2491 |   }
-> 2492 |  {
-       |  ^
-  2493 |     font-size: 16px;
-  2494 |   }
-  2495 | }
-
-Invalid empty selector
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:25:32.870] Browser ERROR   ./src/app/globals.css:2492:2
-Parsing CSS source code failed
-  2490 |         padding: 20px 15px;
-  2491 |   }
-> 2492 |  {
-       |  ^
-  2493 |     font-size: 16px;
-  2494 |   }
-  2495 | }
-
-Invalid empty selector
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:25:34.004] Server  LOG     ✓ Compiled in 61ms
-[00:25:39.760] Server  LOG     ✓ Compiled in 59ms
-[00:25:39.870] Browser ERROR   ./src/app/globals.css:2493:3
-Parsing CSS source code failed
-  2491 |     padding: 20px 15px;
-  2492 |     ba
-> 2493 |   }
-       |   ^
-  2494 | }
-  2495 |
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:25:39.914] Browser ERROR   ./src/app/globals.css:2493:3
-Parsing CSS source code failed
-  2491 |     padding: 20px 15px;
-  2492 |     ba
-> 2493 |   }
-       |   ^
-  2494 | }
-  2495 |
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:25:42.894] Server  LOG     ✓ Compiled in 62ms
-[00:25:46.545] Server  LOG     ✓ Compiled in 43ms
-[00:26:21.352] Server  LOG     ✓ Compiled in 45ms
-[00:26:23.608] Server  LOG     ✓ Compiled in 123ms
-[00:26:24.599] Server  LOG     ✓ Compiled in 50ms
-[00:26:26.800] Server  LOG     ✓ Compiled in 46ms
-[00:26:28.903] Server  LOG     ✓ Compiled in 56ms
-[00:26:32.909] Server  LOG     ✓ Compiled in 51ms
-[00:27:13.548] Server  LOG     ✓ Compiled in 89ms
-[00:27:42.977] Server  LOG     ✓ Compiled in 53ms
-[00:28:14.187] Server  LOG     ✓ Compiled in 51ms
-[00:28:17.286] Server  LOG     ✓ Compiled in 44ms
-[00:28:18.959] Server  LOG     ✓ Compiled in 48ms
-[00:28:27.484] Server  LOG     ✓ Compiled in 44ms
-[00:28:32.990] Server  LOG     ✓ Compiled in 64ms
-[00:28:33.175] Browser ERROR   ./src/app/globals.css:2488:3
-Parsing CSS source code failed
-  2486 |     flex-direction: row;
-  2487 |     ga
-> 2488 |   }
-       |   ^
-  2489 |   .social-mcn a {
-  2490 |     margin: 0;
-  2491 |   }
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:28:33.866] Browser ERROR   ./src/app/globals.css:2488:3
-Parsing CSS source code failed
-  2486 |     flex-direction: row;
-  2487 |     ga
-> 2488 |   }
-       |   ^
-  2489 |   .social-mcn a {
-  2490 |     margin: 0;
-  2491 |   }
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:29:51.187] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:29:56.760] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:29:56.760] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:29:56.760] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:30:00.765] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:31:26.948] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:31:26.948] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:31:36.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:43.979] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:41:39.624] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:42:11.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:42:35.111] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:43:14.411] Server  LOG     ✓ Compiled in 60ms
-[00:43:16.824] Server  LOG     ✓ Compiled in 46ms
-[00:43:19.982] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:43:19.982] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:43:23.994] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:43:29.925] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:43:29.926] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:01:33.516] Server  LOG     ✓ Compiled in 99ms
+[00:01:35.805] Server  LOG     ✓ Compiled in 61ms

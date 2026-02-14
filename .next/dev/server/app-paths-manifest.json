@@ -1,13 +1,4 @@
 {
-  "/(clubpanel)/(clubauth)/club-information/page": "app/(clubpanel)/(clubauth)/club-information/page.js",
-  "/(coachpanel)/(clubauth)/signup-coach/page": "app/(coachpanel)/(clubauth)/signup-coach/page.js",
-  "/(dashboard)/(parentauth)/login/page": "app/(dashboard)/(parentauth)/login/page.js",
-  "/(dashboard)/(parentauth)/signup/page": "app/(dashboard)/(parentauth)/signup/page.js",
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
   "/(public)/Clubs/page": "app/(public)/Clubs/page.js",
-  "/(public)/Coaches/page": "app/(public)/Coaches/page.js",
-  "/(public)/Contact/page": "app/(public)/Contact/page.js",
-  "/(public)/Parents/page": "app/(public)/Parents/page.js",
-  "/(public)/Players/page": "app/(public)/Players/page.js",
-  "/(public)/page": "app/(public)/page.js"
+  "/(public)/Coaches/page": "app/(public)/Coaches/page.js"
 }

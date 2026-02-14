@@ -2511,4 +2511,7 @@ input::placeholder {
     max-width: 90%;
     margin: 0 auto;
   }
+  .logo.logo--small {
+    height: 70px;
+  }
 }

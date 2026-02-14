@@ -2667,6 +2667,10 @@ input::placeholder {
     max-width: 90%;
     margin: 0 auto;
   }
+
+  .logo.logo--small {
+    height: 70px;
+  }
 }
 
 /*# sourceMappingURL=src_app_globals_css_bad6b30c._.single.css.map*/

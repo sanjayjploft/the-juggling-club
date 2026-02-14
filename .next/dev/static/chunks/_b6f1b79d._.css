@@ -16009,6 +16009,10 @@ input::placeholder {
     max-width: 90%;
     margin: 0 auto;
   }
+
+  .logo.logo--small {
+    height: 70px;
+  }
 }
 
 /*# sourceMappingURL=_b6f1b79d._.css.map*/
