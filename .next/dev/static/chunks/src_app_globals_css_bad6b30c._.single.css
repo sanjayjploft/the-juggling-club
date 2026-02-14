@@ -2671,6 +2671,10 @@ input::placeholder {
   .logo.logo--small {
     height: 70px;
   }
+
+  .header__inner {
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=src_app_globals_css_bad6b30c._.single.css.map*/

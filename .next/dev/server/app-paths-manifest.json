@@ -3,12 +3,9 @@
   "/(clubpanel)/(clubauth)/club-information/page": "app/(clubpanel)/(clubauth)/club-information/page.js",
   "/(clubpanel)/(clubauth)/contact-information/page": "app/(clubpanel)/(clubauth)/contact-information/page.js",
   "/(clubpanel)/(clubauth)/subscription-tier/page": "app/(clubpanel)/(clubauth)/subscription-tier/page.js",
-  "/(dashboard)/(parentauth)/login/page": "app/(dashboard)/(parentauth)/login/page.js",
-  "/(dashboard)/(parentauth)/signup/page": "app/(dashboard)/(parentauth)/signup/page.js",
-  "/(dashboard)/AccountSettings/page": "app/(dashboard)/AccountSettings/page.js",
-  "/(dashboard)/Notifications/page": "app/(dashboard)/Notifications/page.js",
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(clubpanel)/(clubauth)/terms-confirmation/page": "app/(clubpanel)/(clubauth)/terms-confirmation/page.js",
+  "/(clubpanel)/(clubauth)/welcome-juggling-club/page": "app/(clubpanel)/(clubauth)/welcome-juggling-club/page.js",
+  "/(clubpanel)/dashboardclub/page": "app/(clubpanel)/dashboardclub/page.js",
   "/(public)/Clubs/page": "app/(public)/Clubs/page.js",
-  "/(public)/Coaches/page": "app/(public)/Coaches/page.js",
   "/(public)/page": "app/(public)/page.js"
 }

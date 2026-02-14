@@ -16013,6 +16013,10 @@ input::placeholder {
   .logo.logo--small {
     height: 70px;
   }
+
+  .header__inner {
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=_b6f1b79d._.css.map*/
