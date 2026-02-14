@@ -2514,7 +2514,7 @@ input::placeholder {
   .logo.logo--small {
     height: 70px;
   }
-  .header__inner {
+  .header.header--scrolled .header__inner {
     align-items: center;
   }
 }

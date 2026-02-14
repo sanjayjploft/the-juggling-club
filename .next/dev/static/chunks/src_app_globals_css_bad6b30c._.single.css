@@ -2672,7 +2672,7 @@ input::placeholder {
     height: 70px;
   }
 
-  .header__inner {
+  .header.header--scrolled .header__inner {
     align-items: center;
   }
 }
