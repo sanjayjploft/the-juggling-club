@@ -220,16 +220,6 @@
 /* Focus border */
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
-  .step-progress {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .step-line {
-    display: none;
-  }
-}
 
 .text-info-form {
   color: var(--Gray, #949494);

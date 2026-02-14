@@ -1,56 +1,73 @@
-[00:00:02.091] Server  LOG     ✓ Ready in 1598ms
-[00:00:02.094] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.724] Server  LOG     ✓ Ready in 1247ms
+[00:00:01.726] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:05.866] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.802] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
+[00:00:04.774] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
 
 If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
-[00:00:16.803] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
+[00:00:04.774] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
 
 If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
-[00:00:17.262] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:17.394] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:00:05.107] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.244] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:00:17.394] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:00:05.244] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:00:49.049] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:22.033] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:22.369] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
+[00:00:05.581] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.944] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:18.184] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:20.468] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:28.731] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:31.578] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:31.578] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:31.578] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:00:31.578] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. buttom
+[00:00:31.578] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:33.449] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:48.183] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:55.403] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Clubs" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1272.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
+    <SegmentViewNode type="page" pagePath="(clubpanel...">
+      <SegmentTrieNode>
+      <ClientPageRoot Component={function ClubInformation} serverProvidedParams={{...}}>
+        <ClubInformation params={Promise} searchParams={Promise}>
+          <div>
+          <div className="step-form">
+            <Form className="mt-5">
+              <form ref={null} className="mt-5">
+                <Row className="g-4">
+                  <div ref={null} className="g-4 row">
+                    <Col lg={12}>
+                      <div ref={null} className="col-lg-12">
+                        <h3>
+                        <FormGroup className={"floating..."}>
+                          <div className={"floating..."} ref={null}>
+                            <div className="file-box" onClick={function ClubInformation[openFilePicker]}>
+                              <img>
+>                             <p className="placeholder-text">
+>                               <h5>
+                                ...
+                            ...
+                    ...
+          ...
+    ...
 
-[00:01:33.516] Server  LOG     ✓ Compiled in 99ms
-[00:01:35.805] Server  LOG     ✓ Compiled in 61ms
+[00:01:03.363] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:01:03.363] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:04.581] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:01:05.294] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:05.511] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:01:07.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:07.851] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:01:12.168] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:37.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:29.302] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:38.604] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:52.905] Server  LOG     ✓ Compiled in 37ms
+[00:03:56.645] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:04:39.383] Server  LOG     ✓ Compiled in 27ms
+[00:04:57.820] Server  LOG     ✓ Compiled in 30ms
+[00:05:32.401] Server  LOG     ✓ Compiled in 32ms

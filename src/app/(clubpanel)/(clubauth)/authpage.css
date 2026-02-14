@@ -776,3 +776,27 @@ main.onboarding-pages {
 .chatbot-fab {
   display: none;
 }
+.card-info-text {
+  color: #000000;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+@media (max-width: 768px) {
+  .step-progress {
+    display: none;
+  }
+  .subscription {
+    margin-top: 0;
+  }
+
+  .step-line {
+    display: none;
+  }
+  .step-form form.mt-5 {
+    margin-top: 0px !important;
+  }
+}
