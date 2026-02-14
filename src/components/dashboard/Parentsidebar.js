@@ -102,13 +102,15 @@ export default function Parentsidebar() {
         })}
       </ul>
       <div className="msar-logout">
-        <Image
-          src="/assets/image/logout-icon.svg"
-          alt=""
-          width={18}
-          height={18}
-        />
-        {!collapsed && <span>Log out</span>}
+        <a href="/">
+          <Image
+            src="/assets/image/logout-icon.svg"
+            alt=""
+            width={18}
+            height={18}
+          />
+          {!collapsed && <span>Log out</span>}
+        </a>
       </div>
       {/* TOGGLE */}
       <button

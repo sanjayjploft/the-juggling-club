@@ -23,10 +23,10 @@ export default function HeroinnerSection() {
                 confidence with every touch.
               </p>
               <div className="rowBtns rowBtns--left">
-                <Link href="/login" className="btn btn--primary btn--lg">
+                <Link href="/signup" className="btn btn--primary btn--lg">
                   Join Now
                 </Link>
-                <Link href="/login" className="btn btn--outline btn--lg">
+                <Link href="/signup" className="btn btn--outline btn--lg">
                   For Parents
                 </Link>
               </div>

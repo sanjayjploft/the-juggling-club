@@ -1,8 +1,103 @@
-[00:00:01.784] Server  LOG     ✓ Ready in 1317ms
-[00:00:01.788] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.846] Server  LOG     ✓ Ready in 1346ms
+[00:00:01.849] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:04.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:23.963] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:26.864] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:09:35.706] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:38.005] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:04.178] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:04.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.026] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:39.022] Browser ERROR   ./src/components/dashboard/Parentsidebar.js:118:16
+Parsing ecmascript source code failed
+  116 |         onClick={() => setCollapsed(!collapsed)}>
+  117 |         ☰
+> 118 |       </button>
+      |                ^
+> 119 |
+      | ^
+> 120 |       {/* LOGOUT */}
+      | ^^^^^^^
+  121 |     </aside>
+  122 |   );
+  123 | }
+
+Expected '</', got 'jsx text (
+
+      )'
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/Parentsidebar.js
+    ./src/app/(dashboard)/dashboard/page.js
+[00:01:10.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:13.501] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:37.602] Server  LOG     ✓ Compiled in 105ms
+[00:02:03.024] Browser ERROR   ./src/components/dashboard/CoachSidebar.js:120:9
+Parsing ecmascript source code failed
+  118 |       <div className="msar-logout">
+  119 |         <a href=""
+> 120 |         <Image
+      |         ^
+  121 |           src="/assets/image/logout-icon.svg"
+  122 |           alt=""
+  123 |           width={18}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/components/dashboard/CoachSidebar.js [Client Component Browser]
+    ./src/app/(coachpanel)/organizations/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/organizations/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/dashboard/CoachSidebar.js [Client Component SSR]
+    ./src/app/(coachpanel)/organizations/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/organizations/page.js [Server Component]
+[00:02:21.774] Server  LOG     ✓ Compiled in 129ms
+[00:02:32.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:34.021] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:34.656] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:35.144] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:10.308] Server  LOG     ✓ Compiled in 120ms
+[00:03:12.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:13.941] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:10.805] Server  LOG     ✓ Compiled in 347ms
+[00:04:13.434] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:13.796] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1272.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:04:14.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:18.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:20.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:28.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:29.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

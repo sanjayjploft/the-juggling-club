@@ -5123,6 +5123,11 @@ img.calendar-icon-inp {
   font-weight: 400;
   line-height: normal;
 }
+.msar-logout span {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+}
 @media (max-width: 1400px) {
   .team-info-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
