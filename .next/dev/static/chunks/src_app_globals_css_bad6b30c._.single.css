@@ -2675,6 +2675,10 @@ input::placeholder {
   .header.header--scrolled .header__inner {
     align-items: center;
   }
+
+  .hero, .inner-page .hero {
+    height: 380px;
+  }
 }
 
 /*# sourceMappingURL=src_app_globals_css_bad6b30c._.single.css.map*/

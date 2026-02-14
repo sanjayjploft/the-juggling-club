@@ -16017,6 +16017,10 @@ input::placeholder {
   .header.header--scrolled .header__inner {
     align-items: center;
   }
+
+  .hero, .inner-page .hero {
+    height: 380px;
+  }
 }
 
 /*# sourceMappingURL=_b6f1b79d._.css.map*/
