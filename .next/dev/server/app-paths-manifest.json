@@ -1,6 +1,4 @@
 {
-  "/(clubpanel)/(clubauth)/club-information/page": "app/(clubpanel)/(clubauth)/club-information/page.js",
-  "/(public)/Clubs/page": "app/(public)/Clubs/page.js",
-  "/(public)/FAQ/page": "app/(public)/FAQ/page.js",
-  "/(public)/page": "app/(public)/page.js"
+  "/(clubpanel)/clubplayer-details/page": "app/(clubpanel)/clubplayer-details/page.js",
+  "/(public)/FAQ/page": "app/(public)/FAQ/page.js"
 }

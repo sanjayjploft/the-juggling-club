@@ -1,158 +1,9 @@
-[00:00:01.742] Server  LOG     ✓ Ready in 1272ms
-[00:00:01.744] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:23.273] Server  LOG     ✓ Ready in 17.3s
+[00:00:23.275] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:04.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.416] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:49.716] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:57.816] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:39.215] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:02:27.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:45.788] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:47.322] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:03:00.422] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:03:21.346] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:45.379] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:35.853] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:05:52.098] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="FAQ/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/FAQ" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(public)/F...">
-                  <SegmentTrieNode>
-                  <Page>
-                    <main className="page">
-                      <div className="section">
-                        <div className="container ...">
-                          <h1>
-                          <Tabs>
-                            <div>
-                              <div>
-                              <div style={{padding:"1..."}}>
->                               <p>
-                                  <FaqAccordion>
-                                    <div style={{maxWidth:"...", ...}}>
->                                     <div
->                                       style={{border:"1px solid ...",padding:"20px",borderRadius:"10px",fontFamily:"Avenir", ...}}
->                                     >
-                                      ...
-                ...
-              ...
-
-[00:05:52.098] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <div>
-[00:05:52.098] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:05:54.478] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="FAQ/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/FAQ" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(public)/F...">
-                  <SegmentTrieNode>
-                  <Page>
-                    <main className="page">
-                      <div className="section">
-                        <div className="container ...">
-                          <h1>
-                          <Tabs>
-                            <div>
-                              <div>
-                              <div style={{padding:"1..."}}>
->                               <p>
-                                  <FaqAccordion>
-                                    <div style={{maxWidth:"...", ...}}>
->                                     <div
->                                       style={{border:"1px solid ...",padding:"20px",borderRadius:"10px",fontFamily:"Avenir", ...}}
->                                     >
-                                      ...
-                ...
-              ...
-
-[00:05:54.478] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <div>
-[00:05:58.280] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="FAQ/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/FAQ" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(public)/F...">
-                  <SegmentTrieNode>
-                  <Page>
-                    <main className="page">
-                      <div className="section">
-                        <div className="container ...">
-                          <h1>
-                          <Tabs>
-                            <div>
-                              <div>
-                              <div style={{padding:"1..."}}>
->                               <p>
-                                  <FaqAccordion>
-                                    <div style={{maxWidth:"...", ...}}>
-                                      <div style={{border:"1p...", ...}}>
-                                        <button>
->                                       <p style={{marginTop:"10px",color:"#000",marginBottom:"0"}}>
-                                      ...
-                ...
-              ...
-
-[00:05:58.280] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[00:07:10.018] Server  LOG     ✓ Compiled in 109ms
-[00:07:12.899] Server  LOG     ✓ Compiled in 44ms
-[00:07:15.066] Server  LOG     ✓ Compiled in 66ms
-[00:07:29.400] Server  LOG     ✓ Compiled in 50ms
-[00:07:45.598] Server  LOG     ✓ Compiled in 54ms
-[00:08:15.724] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="FAQ/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/FAQ" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(public)/F...">
-                  <SegmentTrieNode>
-                  <Page>
-                    <main className="page">
-                      <div className="section">
-                        <div className="container ...">
-                          <h1>
-                          <Tabs>
-                            <div>
-                              <div>
-                              <div style={{padding:"1..."}}>
->                               <p>
-                                  <FaqAccordion>
-                                    <div style={{maxWidth:"...", ...}}>
-                                      <div style={{border:"1p...", ...}}>
-                                        <button>
->                                       <p style={{marginTop:"10px",color:"#000",marginBottom:"0"}}>
-                                      ...
-                ...
-              ...
-
-[00:08:15.725] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[00:08:18.200] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:18.553] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:26.366] Server  LOG     ○ Compiling /FAQ ...
+[00:00:34.257] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:35.143] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <div> p 
 
   ...
@@ -179,9 +30,9 @@ This will cause a hydration error.%s <div> p
                 ...
               ...
 
-[00:08:18.553] Browser ERROR   <%s> cannot contain a nested %s.
+[00:00:35.143] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. p <div>
-[00:08:18.553] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:00:35.144] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -192,89 +43,159 @@ See this log for the ancestor stack trace. p <div>
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
 https://react.dev/link/hydration-mismatch
-[00:15:12.694] Server  LOG     ✓ Compiled in 66ms
-[00:15:14.665] Server  LOG     ✓ Compiled in 46ms
-[00:15:19.870] Server  LOG     ✓ Compiled in 49ms
-[00:15:22.754] Server  LOG     ✓ Compiled in 40ms
-[00:15:33.097] Server  LOG     ✓ Compiled in 51ms
-[00:15:45.824] Server  LOG     ✓ Compiled in 39ms
-[00:16:06.380] Server  LOG     ✓ Compiled in 43ms
-[00:16:09.718] Server  LOG     ✓ Compiled in 41ms
-[00:16:16.778] Server  LOG     ✓ Compiled in 39ms
-[00:16:23.662] Server  LOG     ✓ Compiled in 41ms
-[00:16:42.333] Server  LOG     ✓ Compiled in 47ms
-[00:17:01.212] Server  LOG     ✓ Compiled in 41ms
-[00:17:15.637] Server  LOG     ✓ Compiled in 40ms
-[00:17:17.220] Server  LOG     ✓ Compiled in 61ms
-[00:17:32.867] Server  LOG     ✓ Compiled in 44ms
-[00:18:52.495] Server  LOG     ✓ Compiled in 44ms
-[00:18:59.152] Server  LOG     ✓ Compiled in 43ms
-[00:19:03.660] Server  LOG     ✓ Compiled in 38ms
-[00:19:05.820] Server  LOG     ✓ Compiled in 57ms
-[00:19:09.947] Server  LOG     ✓ Compiled in 53ms
-[00:19:12.065] Server  LOG     ✓ Compiled in 81ms
-[00:19:15.887] Server  LOG     ✓ Compiled in 360ms
-[00:19:16.005] Browser ERROR   ./src/app/globals.css:999:1
-Parsing CSS source code failed
-   997 |   text-transform: uppercase;
-   998 |   margin-bottom: 20px;
->  999 | }
-       | ^
-  1000 |
-  1001 | .why-join-info h2 {
-  1002 |   color: #090909;
+[00:15:10.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:11.569] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
 
-Unexpected token CloseCurlyBracket
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+>                               <h3>
+                                ...
+                            ...
+                ...
+              ...
 
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:19:17.995] Browser ERROR   ./src/app/globals.css:986:28
-Parsing CSS source code failed
-  984 |   display: inline-block;
-  985 |   border-radius: 100px;
-> 986 |   border: 1px solid #eaecf0) ;
-      |                            ^
-  987 |   background: var(--Neutral-50, #f9fafb);
-  988 |   padding: 6px 16px 6px 12px;
-  989 |   align-items: center;
+[00:15:11.570] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
 
-Unexpected token CloseParenthesis
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div className="">
+>                                 <div className="players-progress-header">
+                                  ...
+                                ...
+                            ...
+                ...
+              ...
 
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:19:22.309] Server  LOG     ✓ Compiled in 110ms
-[00:19:24.412] Server  LOG     ✓ Compiled in 55ms
-[00:19:27.997] Server  LOG     ✓ Compiled in 42ms
-[00:19:30.469] Server  LOG     ✓ Compiled in 38ms
-[00:19:34.737] Server  LOG     ✓ Compiled in 109ms
-[00:19:36.624] Server  LOG     ✓ Compiled in 40ms
-[00:19:39.703] Server  LOG     ✓ Compiled in 53ms
-[00:19:41.462] Server  LOG     ✓ Compiled in 53ms
-[00:19:43.531] Server  LOG     ✓ Compiled in 46ms
-[00:19:45.184] Server  LOG     ✓ Compiled in 44ms
-[00:19:48.514] Server  LOG     ✓ Compiled in 42ms
-[00:19:51.407] Server  LOG     ✓ Compiled in 39ms
-[00:19:56.690] Server  LOG     ✓ Compiled in 48ms
-[00:19:58.180] Server  LOG     ✓ Compiled in 78ms
-[00:22:14.998] Browser ERROR   ./src/app/(dashboard)/dashboard.css:1363:1
-Parsing CSS source code failed
-  1361 |   line-height: 1;
-  1362 |   align-items: center;
-> 1363 | }
-       | ^
-  1364 | .activity-card,
-  1365 | .levels-box {
-  1366 |   max-height: 350px;
+[00:15:11.570] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[00:15:11.570] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
 
-Unexpected token CloseCurlyBracket
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div>
+                                ...
+                                  <Col md={6}>
+                                    <div ref={null} className="col-md-6">
+                                      <div className="date-det">
+>                                       <p>
+                                        ...
+                            ...
+                ...
+              ...
 
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Server Component]
-[00:22:16.843] Server  LOG     ✓ Compiled in 34ms
+[00:15:11.570] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:15:11.570] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h4> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="clubplayer..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="msar-dashb...">
+                        <ClubSidebar>
+                        <main className="msar-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div>
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <div>
+                                ...
+                                  <Col md={6}>
+                                    <div ref={null} className="col-md-6">
+                                      <div className="date-det">
+                                        <p>
+>                                       <h4>
+                            ...
+                ...
+              ...
+
+[00:15:11.570] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h4>
+[00:15:11.570] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[00:15:11.911] Browser WARN    Image with src "http://192.168.5.112:3000/assets/image/logo-juggling.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:24.230] Server  LOG     ✓ Compiled in 49ms
+[00:15:26.658] Server  LOG     ✓ Compiled in 129ms
