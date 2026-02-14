@@ -772,3 +772,7 @@ main.onboarding-pages {
   line-height: normal;
   margin: 20px 0px 0px;
 }
+
+.chatbot-fab {
+  display: none;
+}

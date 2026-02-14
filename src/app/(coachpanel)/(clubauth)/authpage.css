@@ -804,3 +804,7 @@
 .login-txt a {
   color: #0a5fff;
 }
+
+.chatbot-fab {
+  display: none;
+}

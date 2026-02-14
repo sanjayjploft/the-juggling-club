@@ -36,9 +36,9 @@ function page() {
 
                 <Col lg={12}>
                   <div className="text-end">
-                    <Link href="/dashboard" className="btn-next-bg">
+                    <a href="/dashboard" className="btn-next-bg">
                       Sign In
-                    </Link>
+                    </a>
                   </div>
                 </Col>
               </Row>

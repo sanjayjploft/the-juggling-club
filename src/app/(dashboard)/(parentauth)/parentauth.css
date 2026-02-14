@@ -870,3 +870,6 @@ main.onboarding-pages {
     justify-content: center;
   }
 }
+.chatbot-fab {
+  display: none;
+}
