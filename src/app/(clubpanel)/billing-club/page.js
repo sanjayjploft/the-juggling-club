@@ -13,8 +13,6 @@ export default function DashboardPage() {
       <ClubSidebar />
 
       <main className="msar-main">
-        {/* HEADER */}
-
         <div className="msar-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
@@ -68,7 +66,6 @@ export default function DashboardPage() {
               </div>
             </div>
 
-            {/* PRICING TIERS */}
             <div className="subscription-box mb-4">
               <div className="mb-3">
                 <h6>Pricing Tiers</h6>
@@ -131,7 +128,6 @@ export default function DashboardPage() {
               </p>
             </div>
 
-            {/* INVOICE HISTORY */}
             <div className="subscription-box mb-4">
               <div className="mb-3">
                 <h6>INVOICE HISTORY</h6>
@@ -215,7 +211,6 @@ export default function DashboardPage() {
               </div>
             </div>
 
-            {/* PAYMENT METHOD */}
             <div className="subscription-box">
               <div className="mb-3">
                 <h6>Payment Method</h6>

@@ -8,14 +8,24 @@ export default function RecentActivity() {
   const [show, setShow] = useState(false);
   const [copied, setCopied] = useState(false);
   const handleCopy = async () => {
+    const text = window.location.href;
+
     try {
-      if (typeof window !== "undefined") {
-        await navigator.clipboard.writeText(window.location.href);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
+      if (navigator?.clipboard?.writeText) {
+        await navigator.clipboard.writeText(text);
+      } else {
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
       }
+
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
     } catch (err) {
-      console.error("Copy failed", err);
+      console.error("Copy failed:", err);
     }
   };
   return (
@@ -170,14 +180,16 @@ export default function RecentActivity() {
                   className="me-2"
                   alt="copy"
                 />
-                {copied ? "Link Copied!" : "Copy Link"}
+                Copy Link
               </div>
+
               <div className="action-link">
                 <img src="/assets/image/mail-icon.svg" className="me-2" />
                 Email
               </div>
             </div>
           </div>
+          {copied && <div className="copy-success">Link Copied!</div>}
         </Modal.Body>
       </Modal>
     </>

@@ -44,13 +44,16 @@ function page() {
               <Col md={6}>
                 <div className={`floating-phone ${phone ? "has-value" : ""}`}>
                   <PhoneInput
-                    country="us" // +1 default
-                    value={phone}
+                    country="us" // US flag +1 default
+                    value={phone} // IMPORTANT
                     onChange={(value) => setPhone(value)}
                     inputClass="phone-input"
                     containerClass="phone-container"
                     buttonClass="phone-flag"
                     enableSearch
+                    countryCodeEditable={false} // user +1 edit na kar sake
+                    disableCountryCode={false} // flag ke sath code show hoga
+                    placeholder="" // placeholder remove
                   />
 
                   <label className="floating-label">Phone Number *</label>

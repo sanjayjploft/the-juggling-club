@@ -29,7 +29,7 @@ function page() {
                     />
                     <label>Password</label>
                   </Form.Floating>
-                  <p className="login-txt text-end mt-2">
+                  <p className="login-txt text-end mt-3 mb-0">
                     <Link href="/forgot-password">Forgot Password?</Link>
                   </p>
                 </Col>
@@ -44,7 +44,7 @@ function page() {
               </Row>
             </Form>
             <div class="divider">
-              <span>or sign up with</span>
+              <span>or sign in with</span>
             </div>
             <div className="auth-media">
               <Link href="#" className="media-icon">

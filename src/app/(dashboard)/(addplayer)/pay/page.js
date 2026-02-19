@@ -24,79 +24,87 @@ export default function DetailsPage() {
               </Link>
             </div>
           </div>
-          <Col lg={6} className="m-auto add-player">
-            <div className="step-progress step-3">
-              <span className="step-line-active"></span>
-              <div className="step active">
-                <img src="/assets/image/steps-active-img.svg" />
-                Details
+          <div className="container-fluid">
+            <div className="content-card">
+              <div className="sabheading mb-2">
+                <h2>Add Player</h2>
               </div>
-              <div className="step active">
-                {" "}
-                <img src="/assets/image/steps-active-img.svg" />
-                Plan
-              </div>
-              <div className="step active">
-                {" "}
-                <img src="/assets/image/steps-active-img.svg" />
-                Pay
-              </div>
-            </div>
-            <div className="subscription">
-              <h4>Select Subscription</h4>
-              <div className="plan-card mb-1">
-                <ul>
-                  <li>
-                    <h5>Player</h5> <span>leo</span>
-                  </li>
-                  <li>
-                    <h5>Plan:</h5> <span>Annual Plan</span>
-                  </li>
-                  <li>
-                    <b>Total:</b> <span className="price-totl">$199.99</span>
-                  </li>
-                </ul>
-              </div>
-              <p className="card-info-text">
-                You are paying as Parent for this child
-              </p>
-
-              <Form className="mt-5">
-                <h4 className="text-start mb-3">Card Details</h4>
-                <Row className="g-4">
-                  <Col lg={12}>
-                    <Form.Floating>
-                      <Form.Control placeholder="Card Number" />
-                      <label>Card Number</label>
-                    </Form.Floating>
-                  </Col>
-                  <Col lg={6}>
-                    <Form.Floating>
-                      <Form.Control placeholder="Expiry" />
-                      <label>Expiry</label>
-                      <span className="text-expln">
-                        Auto-renews unless cancelled
-                      </span>
-                    </Form.Floating>
-                  </Col>
-
-                  <Col lg={6}>
-                    <Form.Floating>
-                      <Form.Control placeholder="CVV" />
-                      <label>CVV</label>
-                    </Form.Floating>
-                  </Col>
-                </Row>
-
-                <div className="action-buttons mt-5">
-                  <Link className="btn-cancel-outline" href="/plan">
-                    Back
-                  </Link>
-                  <Button className="btn-next-bg">Pay Now</Button>
+              <Col lg={6} className="m-auto add-player">
+                <div className="step-progress step-3">
+                  <span className="step-line-active"></span>
+                  <div className="step active">
+                    <img src="/assets/image/steps-active-img.svg" />
+                    Details
+                  </div>
+                  <div className="step active">
+                    {" "}
+                    <img src="/assets/image/steps-active-img.svg" />
+                    Plan
+                  </div>
+                  <div className="step active">
+                    {" "}
+                    <img src="/assets/image/steps-active-img.svg" />
+                    Pay
+                  </div>
                 </div>
-              </Form>
+                <div className="subscription">
+                  <h4>Select Subscription</h4>
+                  <div className="plan-card mb-1">
+                    <ul>
+                      <li>
+                        <h5>Player</h5> <span>leo</span>
+                      </li>
+                      <li>
+                        <h5>Plan:</h5> <span>Annual Plan</span>
+                      </li>
+                      <li>
+                        <b>Total:</b>{" "}
+                        <span className="price-totl">$199.99</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <p className="card-info-text">
+                    You are paying as Parent for this child
+                  </p>
+
+                  <Form className="mt-5">
+                    <h4 className="text-start mb-3">Card Details</h4>
+                    <Row className="g-4">
+                      <Col lg={12}>
+                        <Form.Floating>
+                          <Form.Control placeholder="Card Number" />
+                          <label>Card Number</label>
+                        </Form.Floating>
+                      </Col>
+                      <Col lg={6}>
+                        <Form.Floating>
+                          <Form.Control placeholder="Expiry" />
+                          <label>Expiry</label>
+                          <span className="text-expln">
+                            Auto-renews unless cancelled
+                          </span>
+                        </Form.Floating>
+                      </Col>
+
+                      <Col lg={6}>
+                        <Form.Floating>
+                          <Form.Control placeholder="CVV" />
+                          <label>CVV</label>
+                        </Form.Floating>
+                      </Col>
+                    </Row>
+
+                    <div className="action-buttons mt-5">
+                      <Link className="btn-cancel-outline" href="/plan">
+                        Back
+                      </Link>
+                      <Button className="btn-next-bg">Pay Now</Button>
+                    </div>
+                  </Form>
+                </div>
+              </Col>
             </div>
-          </Col>
+          </div>
         </main>
       </div>
     </>

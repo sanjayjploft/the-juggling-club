@@ -26,7 +26,7 @@ export default function DetailsPage() {
           </div>
           <div className="container-fluid">
             <div className="content-card">
-              <div className="sabheading">
+              <div className="sabheading mb-2">
                 <h2>Add Player</h2>
                 <Link href="/addexisting" className="small-btn-admin">
                   Add Existing
@@ -84,6 +84,8 @@ export default function DetailsPage() {
                       <Form.Floating>
                         <Form.Select>
                           <option>Gender</option>
+                          <option>Male</option>
+                          <option>Female</option>
                         </Form.Select>
                         <label>Gender</label>
                       </Form.Floating>
@@ -92,8 +94,34 @@ export default function DetailsPage() {
                     <Col lg={6}>
                       <Form.Floating>
                         <Form.Select>
-                          <option>Country</option>
+                          <option value="">Select Country</option>
+                          <option>India</option>
+                          <option>United States</option>
+                          <option>United Kingdom</option>
+                          <option>Canada</option>
+                          <option>Australia</option>
+                          <option>Germany</option>
+                          <option>France</option>
+                          <option>Italy</option>
+                          <option>Spain</option>
+                          <option>Netherlands</option>
+                          <option>Switzerland</option>
+                          <option>Sweden</option>
+                          <option>Norway</option>
+                          <option>Denmark</option>
+                          <option>United Arab Emirates</option>
+                          <option>Saudi Arabia</option>
+                          <option>Singapore</option>
+                          <option>Japan</option>
+                          <option>South Korea</option>
+                          <option>China</option>
+                          <option>Brazil</option>
+                          <option>South Africa</option>
+                          <option>New Zealand</option>
+                          <option>Mexico</option>
+                          <option>Indonesia</option>
                         </Form.Select>
+
                         <label>Country</label>
                       </Form.Floating>
                     </Col>
@@ -102,6 +130,8 @@ export default function DetailsPage() {
                       <Form.Floating>
                         <Form.Select>
                           <option>Preferred Foot</option>
+                          <option>Left</option>
+                          <option>Right</option>
                         </Form.Select>
                         <label>Preferred Foot</label>
                       </Form.Floating>
@@ -111,6 +141,9 @@ export default function DetailsPage() {
                       <Form.Floating>
                         <Form.Select>
                           <option>Skill Level</option>
+                          <option>Starter </option>
+                          <option>Intermediate </option>
+                          <option>Advanced</option>
                         </Form.Select>
                         <label>Skill Level</label>
                       </Form.Floating>
@@ -119,7 +152,9 @@ export default function DetailsPage() {
                     <Col lg={6}>
                       <Form.Floating>
                         <Form.Select>
-                          <option>Virtual Coach</option>
+                          <option>Virtual Coach 1</option>
+                          <option>Virtual Coach 2</option>
+                          <option>Virtual Coach 3</option>
                         </Form.Select>
                         <label>Virtual Coach</label>
                       </Form.Floating>
@@ -127,11 +162,9 @@ export default function DetailsPage() {
                   </Row>
 
                   <div className="action-buttons mt-5">
-                    <button
-                      className="btn-cancel-outline"
-                      onClick={() => router.back()}>
+                    <Link href="/dashboard" className="btn-cancel-outline">
                       Back
-                    </button>
+                    </Link>
                     <Link href="/plan" className="btn-next-bg">
                       {" "}
                       Next

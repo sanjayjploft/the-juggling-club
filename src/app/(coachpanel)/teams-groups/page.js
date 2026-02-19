@@ -114,7 +114,9 @@ export default function DashboardPage() {
                 </small>
               </Col>
 
-              <Col md={6} className="text-md-end text-center mb-4">
+              <Col
+                md={6}
+                className="text-md-end text-center mb-4 button-mobile">
                 <Link href="/view-players" className="btn-primary">
                   VIEW PLAYERS
                 </Link>
@@ -183,14 +185,16 @@ export default function DashboardPage() {
                 </small>
               </Col>
 
-              <Col md={6} className="text-md-end text-center mb-4">
+              <Col
+                md={6}
+                className="text-md-end text-center mb-4 button-mobile">
                 <Link href="/view-players" className="btn-primary">
                   VIEW PLAYERS
                 </Link>
                 <Link href={""} className="btn-outline ms-3">
                   SEND MESSAGE
                 </Link>
-                <Link href={""} className=" ms-3">
+                <Link href={""} className="ms-3">
                   <img src="/assets/image/settings.svg" className="" />
                 </Link>
               </Col>

@@ -785,6 +785,9 @@ main.onboarding-pages {
   line-height: normal;
   margin-bottom: 0px;
 }
+input.form-control.phone-input{
+  color: #000;
+}
 @media (max-width: 768px) {
   .step-progress {
     display: none;

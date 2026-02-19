@@ -69,7 +69,7 @@ export default function page() {
             </div>
 
             <Row className="px-3 mt-4">
-              <Col lg={6} xs={12} className="mb-3">
+              <Col lg={6} xs={12} className="mb-4">
                 <div className="player-card">
                   <h4>Linked Players</h4>
                   <div className="notification-card plyr-crdin">
@@ -92,12 +92,14 @@ export default function page() {
                       <Button className="btn-primary-sml">Manage</Button>
                     </div>
                   </div>
-                  <Link href="" className="btn-cancel-outline-sml d-block mb-3">
+                  <Link
+                    href="/details"
+                    className="btn-cancel-outline-sml d-block mb-3">
                     + Link a Player
                   </Link>
                 </div>
               </Col>
-              <Col lg={6} xs={12} className="mb-3">
+              <Col lg={6} xs={12} className="mb-4">
                 <div className="player-card">
                   <h4 className="mb-1">Guardians</h4>
                   <p>Invite a parent or guardian to manage this account.</p>
@@ -136,7 +138,7 @@ export default function page() {
                 </div>
               </Col>
             </Row>
-            <Row className="px-3 mt-4">
+            <Row className="px-3 mt-0">
               <Col lg={6} xs={12} className="mb-4">
                 <div className="player-card text-center p-4">
                   <img className="mb-3" src="/assets/image/alert-rd.svg" />
@@ -147,7 +149,7 @@ export default function page() {
                   <Button className="btn-next-bg">Delete Account</Button>
                 </div>
               </Col>
-              <Col lg={6} xs={12} className="mb-3">
+              <Col lg={6} xs={12} className="mb-4">
                 <div className="player-card comni-perf">
                   <h4 className="mb-1">Communication Preferences</h4>
                   <div className="notification-card plyr-crdin justify-content-between">

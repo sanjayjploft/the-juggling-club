@@ -39,7 +39,7 @@ export default function ContactInformation() {
               <div className={`floating-phone ${phone ? "has-value" : ""}`}>
                 <PhoneInput
                   country="in"
-                  value={phone}
+                  // value={phone}
                   onChange={(value) => setPhone(value)}
                   inputClass="phone-input"
                   containerClass="phone-container"

@@ -52,7 +52,6 @@ export default function DashboardPage() {
                   <p>Badges</p>
                 </div>
                 <div className="reword-item">
-                  <img src="/assets/image/icon-level-advanced.svg" />
                   <span>37</span>
                   <p>Level</p>
                 </div>

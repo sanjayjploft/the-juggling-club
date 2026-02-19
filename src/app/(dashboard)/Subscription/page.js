@@ -76,7 +76,7 @@ export default function page() {
               <h4>Billing & Invoices</h4>
             </div>
             <div className="table-wrapper subsc-rder">
-              <table className="billing-table">
+              <table className="billing-table table-responsive">
                 <thead>
                   <tr>
                     <th>Date</th>

@@ -757,7 +757,9 @@
   line-height: normal;
   margin: 20px 0px 0px;
 }
-
+input.form-control.phone-input {
+  color: #000;
+}
 .divider {
   display: flex;
   align-items: center;

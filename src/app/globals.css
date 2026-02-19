@@ -667,7 +667,7 @@ img.simbl-icon {
   font-size: 27px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 118.519% */
+  line-height: 32px;
   text-transform: uppercase;
 }
 .neon-red-bg {
@@ -731,7 +731,7 @@ img.simbl-icon {
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 91.429% */
+  line-height: 32px;
   margin-bottom: 12px;
 }
 
@@ -744,7 +744,7 @@ img.simbl-icon {
   line-height: normal;
   margin-bottom: 0px;
   display: -webkit-box;
-  -webkit-line-clamp: 1; /* number of lines */
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }

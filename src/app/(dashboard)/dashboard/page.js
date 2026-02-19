@@ -15,7 +15,6 @@ export default function DashboardPage() {
             <div className="filter-by-days">
               <button className="ft-btn active">Last 7 days</button>
               <button className="ft-btn">30 days </button>
-              <button className="ft-btn">90 days </button>
               <button className="ft-btn">All time</button>
               <Link href="/details" className="btn admin-btn-primary">
                 + Add Player
@@ -65,7 +64,6 @@ export default function DashboardPage() {
                     <p>Badges</p>
                   </div>
                   <div className="reword-item">
-                    <img src="/assets/image/icon-level-advanced.svg" />
                     <span>37</span>
                     <p>Level</p>
                   </div>
@@ -116,7 +114,6 @@ export default function DashboardPage() {
                     <p>Badges</p>
                   </div>
                   <div className="reword-item">
-                    <img src="/assets/image/icon-level-advanced.svg" />
                     <span>47</span>
                     <p>Level</p>
                   </div>
@@ -166,7 +163,6 @@ export default function DashboardPage() {
                     <p>Badges</p>
                   </div>
                   <div className="reword-item">
-                    <img src="/assets/image/icon-level-advanced.svg" />
                     <span>54</span>
                     <p>Level</p>
                   </div>
