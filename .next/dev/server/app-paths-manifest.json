@@ -1,16 +1,4 @@
 {
-  "/(coachpanel)/add-organization/page": "app/(coachpanel)/add-organization/page.js",
-  "/(coachpanel)/analytics/page": "app/(coachpanel)/analytics/page.js",
-  "/(coachpanel)/claim-rewards/page": "app/(coachpanel)/claim-rewards/page.js",
-  "/(coachpanel)/coach-messages/page": "app/(coachpanel)/coach-messages/page.js",
-  "/(coachpanel)/coach-rewards/page": "app/(coachpanel)/coach-rewards/page.js",
-  "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
   "/(coachpanel)/join-organization/page": "app/(coachpanel)/join-organization/page.js",
-  "/(coachpanel)/leaderboard/page": "app/(coachpanel)/leaderboard/page.js",
-  "/(coachpanel)/organizations/page": "app/(coachpanel)/organizations/page.js",
-  "/(coachpanel)/send-message/page": "app/(coachpanel)/send-message/page.js",
-  "/(coachpanel)/sent-feedback/page": "app/(coachpanel)/sent-feedback/page.js",
-  "/(coachpanel)/settings-coach/page": "app/(coachpanel)/settings-coach/page.js",
-  "/(public)/page": "app/(public)/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/(coachpanel)/send-message/page": "app/(coachpanel)/send-message/page.js"
 }
