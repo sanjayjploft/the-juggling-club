@@ -2520,3 +2520,21 @@ input::placeholder {
     height: 380px;
   }
 }
+
+.password-field {
+  position: relative;
+}
+
+.password-field .eye-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.password-field input {
+  padding-right: 45px; /* icon space */
+}

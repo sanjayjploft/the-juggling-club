@@ -10,6 +10,8 @@ import { Row, Col, Form, Button } from "react-bootstrap";
 function page() {
   const [phone, setPhone] = useState("");
   const router = useRouter();
+   const [showPassword, setShowPassword] = useState(false);
+   const [showConfirm, setShowConfirm] = useState(false);
   return (
     <div>
       <Row>
@@ -80,19 +82,46 @@ function page() {
                 </Form.Floating>
               </Col>
               <Col md={6}>
-                <Form.Floating>
-                  <Form.Control placeholder="Password" type="password" />
-                  <label>Password</label>
-                </Form.Floating>
+                <div className="password-field">
+                  <Form.Floating>
+                    <Form.Control
+                      type={showPassword ? "text" : "password"}
+                      placeholder="Password"
+                    />
+                    <label>Password</label>
+                  </Form.Floating>
+
+                  <img
+                    src={
+                      showPassword
+                        ? "/assets/image/eye-open.svg"
+                        : "/assets/image/eye-close.svg"
+                    }
+                    className="eye-icon"
+                    onClick={() => setShowPassword(!showPassword)}
+                  />
+                </div>
               </Col>
               <Col md={6}>
-                <Form.Floating>
-                  <Form.Control
-                    placeholder="Confirm Password"
-                    type="password"
+                <div className="password-field">
+                  <Form.Floating>
+                    <Form.Control
+                      type={showConfirm ? "text" : "password"}
+                      placeholder="Confirm Password"
+                    />
+                    <label>Confirm Password</label>
+                  </Form.Floating>
+
+                  <img
+                    src={
+                      showConfirm
+                        ? "/assets/image/eye-open.svg"
+                        : "/assets/image/eye-close.svg"
+                    }
+                    className="eye-icon"
+                    onClick={() => setShowConfirm(!showConfirm)}
                   />
-                  <label>Confirm Password</label>
-                </Form.Floating>
+                </div>
               </Col>
               <Col md={12}>
                 <div className="text-center my-3">

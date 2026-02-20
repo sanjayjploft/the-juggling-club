@@ -124,8 +124,8 @@ export default function Page() {
                       <h4>38</h4>
                     </div>
                     <div className="overview-grid-item">
-                      <span>Completion Rate</span>
-                      <h4>84%</h4>
+                      <span>Total Badges</span>
+                      <h4>28</h4>
                     </div>
                     <div className="overview-grid-item">
                       <span>Player Active Streaks</span>

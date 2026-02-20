@@ -101,7 +101,7 @@ export default function DashboardPage() {
                   Using default AI voice. Add your <br /> voice to personalize
                   messages!
                 </p>
-                <Link href="" className="card-btn">
+                <Link href="/settings-coach" className="card-btn">
                   Upload your voice
                 </Link>
               </div>
@@ -111,7 +111,7 @@ export default function DashboardPage() {
               <h4>Rewards</h4>
               <div className="count-info-card">
                 <p>Amazon Gift Cards</p>
-                <Link href="" className="card-btn">
+                <Link href="/coach-rewards" className="card-btn">
                   View Rewards
                 </Link>
               </div>
@@ -124,23 +124,23 @@ export default function DashboardPage() {
                 <h4>Quick Actions</h4>
 
                 <div className="quick-actions-grid">
-                  <Link href="">
+                  <Link href="/create-new-group">
                     <img src="/assets/image/create-group.svg" />
                     <h4>Create Group</h4>
                   </Link>
-                  <Link href="">
+                  <Link href="/teams-groups">
                     <img src="/assets/image/share-join-code.svg" />
                     <h4>Share Join Code</h4>
                   </Link>
-                  <Link href="">
+                  <Link href="/leaderboard">
                     <img src="/assets/image/view-leaderboard.svg" />
                     <h4>View Leaderboard</h4>
                   </Link>
-                  <Link href="">
+                  <Link href="/coach-messages">
                     <img src="/assets/image/send-message.svg" />
                     <h4>Send Message</h4>
                   </Link>
-                  <Link href="">
+                  <Link href="/coach-rewards">
                     <img src="/assets/image/view-rewards.svg" />
                     <h4>View Rewards</h4>
                   </Link>
@@ -158,7 +158,9 @@ export default function DashboardPage() {
                       Leo Messi
                       <span>U12 Academy</span>
                     </h3>
-                    <Button className="btn-primary-sml">Encourage Now</Button>
+                    <Link href={"/send-message"} className="btn-primary-sml">
+                      Encourage Now
+                    </Link>
                   </div>
                 </div>
                 <div className="notification-card plyr-crdin">
@@ -168,7 +170,9 @@ export default function DashboardPage() {
                       Michael Lee
                       <span>No contact in 6 days</span>
                     </h3>
-                    <Button className="btn-primary-sml">Encourage Now</Button>
+                    <Link href={"/send-message"} className="btn-primary-sml">
+                      Encourage Now
+                    </Link>
                   </div>
                 </div>
                 <div className="notification-card plyr-crdin">
@@ -178,7 +182,9 @@ export default function DashboardPage() {
                       Mia Hamm
                       <span>U12 Academy</span>
                     </h3>
-                    <Button className="btn-primary-sml">Encourage Now</Button>
+                    <Link href={"/send-message"} className="btn-primary-sml">
+                      Encourage Now
+                    </Link>
                   </div>
                 </div>
               </div>

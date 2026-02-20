@@ -1,8 +1,12 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import React from "react";
 import { Row, Col, Form, Button } from "react-bootstrap";
 
 function page() {
+  const [showPassword, setShowPassword] = useState(false);
   return (
     <div>
       <Row className="align-items-center">
@@ -24,13 +28,25 @@ function page() {
                   </Form.Floating>
                 </Col>
                 <Col lg={12}>
-                  <Form.Floating>
-                    <Form.Control
-                      placeholder="At least 8 characters"
-                      type="password"
+                  <div className="password-field mb-4">
+                    <Form.Floating>
+                      <Form.Control
+                        type={showPassword ? "text" : "password"}
+                        placeholder="Password"
+                      />
+                      <label>Password</label>
+                    </Form.Floating>
+
+                    <img
+                      src={
+                        showPassword
+                          ? "/assets/image/eye-open.svg"
+                          : "/assets/image/eye-close.svg"
+                      }
+                      className="eye-icon"
+                      onClick={() => setShowPassword(!showPassword)}
                     />
-                    <label>Password</label>
-                  </Form.Floating>
+                  </div>
                   <p className="login-txt text-end mt-3 mb-0">
                     <Link href="/forgot-password">Forgot Password?</Link>
                   </p>

@@ -9,6 +9,8 @@ import Link from "next/link";
 export default function ContactInformation() {
   const [phone, setPhone] = useState("");
   const router = useRouter();
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirm, setShowConfirm] = useState(false);
   return (
     <>
       <div className="step-form">
@@ -54,16 +56,48 @@ export default function ContactInformation() {
               </div>
             </Col>
             <Col lg={6}>
-              <Form.Floating>
-                <Form.Control placeholder="Password " />
-                <label>Password </label>
-              </Form.Floating>
+              <div className="password-field">
+                <Form.Floating>
+                  <Form.Control
+                    type={showPassword ? "text" : "password"}
+                    placeholder="Password"
+                  />
+                  <label>Password</label>
+                </Form.Floating>
+
+                <img
+                  src={
+                    showPassword
+                      ? "/assets/image/eye-open.svg"
+                      : "/assets/image/eye-close.svg"
+                  }
+                  className="eye-icon"
+                  onClick={() => setShowPassword(!showPassword)}
+                />
+              </div>
             </Col>
+
+            {/* CONFIRM PASSWORD */}
             <Col lg={6}>
-              <Form.Floating>
-                <Form.Control placeholder="Confirm Password " />
-                <label>Confirm Password </label>
-              </Form.Floating>
+              <div className="password-field">
+                <Form.Floating>
+                  <Form.Control
+                    type={showConfirm ? "text" : "password"}
+                    placeholder="Confirm Password"
+                  />
+                  <label>Confirm Password</label>
+                </Form.Floating>
+
+                <img
+                  src={
+                    showConfirm
+                      ? "/assets/image/eye-open.svg"
+                      : "/assets/image/eye-close.svg"
+                  }
+                  className="eye-icon"
+                  onClick={() => setShowConfirm(!showConfirm)}
+                />
+              </div>
             </Col>
           </Row>
         </Form>

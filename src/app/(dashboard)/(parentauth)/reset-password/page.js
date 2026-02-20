@@ -1,8 +1,13 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import React from "react";
 import { Row, Col, Form, Button } from "react-bootstrap";
 
 function page() {
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirm, setShowConfirm] = useState(false);
   return (
     <div>
       <Row className="align-items-center">
@@ -18,22 +23,46 @@ function page() {
             <Form className="mt-3 mt-lg-5">
               <Row className="gy-4">
                 <Col lg={12}>
-                  <Form.Floating>
-                    <Form.Control
-                      placeholder="At least 8 characters"
-                      type="password"
+                  <div className="password-field">
+                    <Form.Floating>
+                      <Form.Control
+                        type={showPassword ? "text" : "password"}
+                        placeholder="Password"
+                      />
+                      <label>Password</label>
+                    </Form.Floating>
+
+                    <img
+                      src={
+                        showPassword
+                          ? "/assets/image/eye-open.svg"
+                          : "/assets/image/eye-close.svg"
+                      }
+                      className="eye-icon"
+                      onClick={() => setShowPassword(!showPassword)}
                     />
-                    <label>Password</label>
-                  </Form.Floating>
+                  </div>
                 </Col>
                 <Col lg={12}>
-                  <Form.Floating>
-                    <Form.Control
-                      placeholder="At least 8 characters"
-                      type="password"
+                  <div className="password-field">
+                    <Form.Floating>
+                      <Form.Control
+                        type={showConfirm ? "text" : "password"}
+                        placeholder="Confirm Password"
+                      />
+                      <label>Confirm Password</label>
+                    </Form.Floating>
+
+                    <img
+                      src={
+                        showConfirm
+                          ? "/assets/image/eye-open.svg"
+                          : "/assets/image/eye-close.svg"
+                      }
+                      className="eye-icon"
+                      onClick={() => setShowConfirm(!showConfirm)}
                     />
-                    <label>Confirm Password</label>
-                  </Form.Floating>
+                  </div>
                 </Col>
 
                 <Col lg={12}>

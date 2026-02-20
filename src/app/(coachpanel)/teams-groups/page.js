@@ -31,16 +31,20 @@ export default function DashboardPage() {
             <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
               <Form.Floating className="filter-select">
                 <Form.Select>
-                  <option selected> 20</option>
-                  <option> 25</option>
+                  <option selected> Age group</option>
+                  <option> U12</option>
+                  <option> U14</option>
+                  <option> U16</option>
+                  <option> U16</option>
                 </Form.Select>
                 <label>Age group</label>
               </Form.Floating>
 
               <Form.Floating className="filter-select">
                 <Form.Select>
-                  <option selected> Status</option>
-                  <option> Status</option>
+                  <option selected> Activity status</option>
+                  <option> Active Group </option>
+                  <option> Inactive group</option>
                 </Form.Select>
                 <label>Activity status</label>
               </Form.Floating>
@@ -76,8 +80,8 @@ export default function DashboardPage() {
                 <h6>12</h6>
               </div>
               <div>
-                <p>Age Range</p>
-                <h6>16-18</h6>
+                <p>Age Group </p>
+                <h6>U16</h6>
               </div>
               <div>
                 <p>Gender</p>
@@ -120,7 +124,7 @@ export default function DashboardPage() {
                 <Link href="/view-players" className="btn-primary">
                   VIEW PLAYERS
                 </Link>
-                <Link href={""} className="btn-outline ms-3">
+                <Link href={"/send-message"} className="btn-outline ms-3">
                   SEND MESSAGE
                 </Link>
                 <Link href={""} className=" ms-3">
@@ -134,8 +138,7 @@ export default function DashboardPage() {
             <Row className="align-items-center mb-3">
               <Col md={6}>
                 <div className="team-heading">
-                  Youth Training Group{" "}
-                  <span className="team-pill">TeamTeam</span>
+                  Youth Training Group <span className="team-pill">Team</span>
                 </div>
               </Col>
             </Row>
@@ -147,8 +150,8 @@ export default function DashboardPage() {
                 <h6>8</h6>
               </div>
               <div>
-                <p>Age Range</p>
-                <h6>12-15</h6>
+                <p>Age Group </p>
+                <h6>U14</h6>
               </div>
               <div>
                 <p>Gender</p>
@@ -191,7 +194,7 @@ export default function DashboardPage() {
                 <Link href="/view-players" className="btn-primary">
                   VIEW PLAYERS
                 </Link>
-                <Link href={""} className="btn-outline ms-3">
+                <Link href={"/send-message"} className="btn-outline ms-3">
                   SEND MESSAGE
                 </Link>
                 <Link href={""} className="ms-3">

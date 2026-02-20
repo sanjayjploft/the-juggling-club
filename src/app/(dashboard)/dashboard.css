@@ -2389,7 +2389,9 @@ textarea {
   margin-bottom: 16px;
   font-family: "Bebas Neue";
 }
-
+table a {
+  color: #fff;
+}
 .table-wrapper {
   overflow-x: auto;
   border-radius: 12px;
@@ -2497,6 +2499,7 @@ textarea {
   display: flex;
   width: 100%;
   align-items: center;
+  flex-wrap: wrap;
 }
 .notification-card-in p {
   color: #949494;
@@ -2509,6 +2512,13 @@ textarea {
 .notification-card-in input.switch {
   margin: 0px;
 }
+.player-card.setting-form-crd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+
 /***************** Notifications Page ****************/
 /* BACKDROP */
 .logout-backdrop {
@@ -3748,10 +3758,10 @@ input.search-inp::placeholder {
     padding: 16px 20px;
   }
 }
-
+/* 
 .table-head > div {
   flex: 1;
-}
+} */
 .auto-generated-code {
   border-radius: 15px;
   background: rgba(10, 95, 255, 0.15);
@@ -4069,7 +4079,7 @@ input.search-inp::placeholder {
 .feed-status span {
   border-radius: 25px;
   background: #00d40b;
-  padding: 0 11px;
+  padding: 5px 11px;
   color: #fff;
   text-align: center;
   font-size: 12px;
@@ -4146,7 +4156,7 @@ input.search-inp::placeholder {
 }
 .react-tel-input .selected-flag {
   height: 100%;
-  width: 80px !important;
+  width: 70px !important;
   padding: 0 0px 0px 16px !important;
 }
 
@@ -4157,6 +4167,7 @@ input.form-control.phone-input {
   border-radius: 10px;
   height: 58px;
   width: 100%;
+  padding-left: 90px;
 }
 
 .upload-profile-img .upload-box-profile {
@@ -5608,6 +5619,11 @@ img.calendar-icon-inp {
   }
   .card-grid-box {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin: 0;
+  }
+  .content-card {
+    padding: 25px 20px;
+    margin: 20px 0px;
   }
   .quick-actions-style-2 .quick-actions-grid {
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));

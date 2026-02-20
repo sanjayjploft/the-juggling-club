@@ -5,50 +5,50 @@ const voices = {
     {
       id: 1,
       name: "Ryan",
-      image: "https://randomuser.me/api/portraits/men/11.jpg",
+      image: "/assets/image/quotes-img-1.png",
     },
     {
       id: 2,
       name: "Leo",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      image: "/assets/image/quotes-img-2.png",
     },
     {
       id: 3,
       name: "Marcus",
-      image: "https://randomuser.me/api/portraits/men/45.jpg",
+      image: "/assets/image/quotes-img-3.png",
     },
     {
       id: 4,
       name: "Theo",
-      image: "https://randomuser.me/api/portraits/men/67.jpg",
+      image: "/assets/image/quotes-img-4.png",
     },
   ],
   female: [
     {
       id: 5,
       name: "Taylor",
-      image: "https://randomuser.me/api/portraits/women/21.jpg",
+      image: "/assets/image/player-img01.png",
     },
     {
       id: 6,
       name: "Ava",
-      image: "https://randomuser.me/api/portraits/women/33.jpg",
+      image: "/assets/image/player-img02.png",
     },
     {
       id: 7,
       name: "Jordan",
-      image: "https://randomuser.me/api/portraits/women/54.jpg",
+      image: "/assets/image/coach-mike.png",
     },
     {
       id: 8,
       name: "Riley",
-      image: "https://randomuser.me/api/portraits/women/68.jpg",
+      image: "/assets/image/activity-vid-img.png",
     },
   ],
 };
 
 export default function VoiceSelector() {
-  const [activeVoice, setActiveVoice] = useState(null);
+  const [activeVoice, setActiveVoice] = useState(voices.male[0].id);
   const [playingId, setPlayingId] = useState(null);
 
   const handlePlay = (voice) => {

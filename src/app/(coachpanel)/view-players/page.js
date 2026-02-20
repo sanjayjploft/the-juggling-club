@@ -103,7 +103,9 @@ export default function DashboardPage() {
                     <td>
                       <img src="/assets/image/rank1.svg" />
                     </td>
-                    <td>Alex Johnson</td>
+                    <td>
+                      <Link href={"/sent-feedback"}>Alex Johnson</Link>
+                    </td>
                     <td>12-14</td>
                     <td>Boy</td>
                     <td>42</td>
@@ -120,7 +122,10 @@ export default function DashboardPage() {
                     <td>
                       <img src="/assets/image/rank2.svg" />
                     </td>
-                    <td>Maria Garcia</td>
+                    <td>
+                      {" "}
+                      <Link href={"/sent-feedback"}>Maria Garcia</Link>
+                    </td>
                     <td>10-12</td>
                     <td>Girl</td>
                     <td>35</td>
@@ -137,7 +142,10 @@ export default function DashboardPage() {
                     <td>
                       <img src="/assets/image/rank3.svg" />
                     </td>
-                    <td>Alex Johnson</td>
+                    <td>
+                      {" "}
+                      <Link href={"/sent-feedback"}>James Smith</Link>
+                    </td>
                     <td>12-14</td>
                     <td>Boy</td>
                     <td>42</td>
@@ -154,7 +162,10 @@ export default function DashboardPage() {
                     <td>
                       <img src="/assets/image/rank4.svg" />
                     </td>
-                    <td>Alex Johnson</td>
+                    <td>
+                      {" "}
+                      <Link href={"/sent-feedback"}>Alex Johnson</Link>
+                    </td>
                     <td>12-14</td>
                     <td>Boy</td>
                     <td>42</td>
@@ -171,7 +182,10 @@ export default function DashboardPage() {
                     <td>
                       <img src="/assets/image/rank1.svg" />
                     </td>
-                    <td>Alex Johnson</td>
+                    <td>
+                      {" "}
+                      <Link href={"/sent-feedback"}>Johnson </Link>
+                    </td>
                     <td>12-14</td>
                     <td>Boy</td>
                     <td>42</td>

@@ -14,10 +14,9 @@ export default function Page() {
   const [firstName, setFirstName] = useState("Alex");
   const [lastName, setLastName] = useState("Johnson");
   const [email, setEmail] = useState("Alex_johnson02@gmail.com");
-  const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
   const [profileImg, setProfileImg] = useState(null);
-
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirm, setShowConfirm] = useState(false);
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -36,7 +35,7 @@ export default function Page() {
             <div>
               <h4>
                 Settings
-                <span>Track player and team performance metrics</span>
+                <span>Manage your account settings </span>
               </h4>
             </div>
           </div>
@@ -157,26 +156,48 @@ export default function Page() {
 
                   {/* Password */}
                   <Col lg={5} xs={12}>
-                    <Form.Floating className="mb-4">
-                      <Form.Control
-                        type="password"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
+                    <div className="password-field mb-4">
+                      <Form.Floating>
+                        <Form.Control
+                          type={showPassword ? "text" : "password"}
+                          placeholder="Password"
+                        />
+                        <label>Password</label>
+                      </Form.Floating>
+
+                      <img
+                        src={
+                          showPassword
+                            ? "/assets/image/eye-open.svg"
+                            : "/assets/image/eye-close.svg"
+                        }
+                        className="eye-icon"
+                        onClick={() => setShowPassword(!showPassword)}
                       />
-                      <label>Password</label>
-                    </Form.Floating>
+                    </div>
                   </Col>
 
                   {/* Confirm Password */}
                   <Col lg={5} xs={12}>
-                    <Form.Floating className="mb-4">
-                      <Form.Control
-                        type="password"
-                        value={confirmPassword}
-                        onChange={(e) => setConfirmPassword(e.target.value)}
+                    <div className="password-field mb-4">
+                      <Form.Floating>
+                        <Form.Control
+                          type={showConfirm ? "text" : "password"}
+                          placeholder="Confirm Password"
+                        />
+                        <label>Confirm Password</label>
+                      </Form.Floating>
+
+                      <img
+                        src={
+                          showConfirm
+                            ? "/assets/image/eye-open.svg"
+                            : "/assets/image/eye-close.svg"
+                        }
+                        className="eye-icon"
+                        onClick={() => setShowConfirm(!showConfirm)}
                       />
-                      <label>Confirm Password</label>
-                    </Form.Floating>
+                    </div>
                   </Col>
                 </Row>
                 <Button className="btn-next-bg">Update</Button>
@@ -235,7 +256,12 @@ export default function Page() {
                     <Form.Floating>
                       <Form.Select>
                         <option selected> Monday</option>
-                        <option> Monday</option>
+                        <option> Tuesday</option>
+                        <option> Wednesday</option>
+                        <option> Thursday</option>
+                        <option> Friday</option>
+                        <option> Saturday</option>
+                        <option> Sunday </option>
                       </Form.Select>
                       <label>Send Reminder On</label>
                     </Form.Floating>
@@ -274,27 +300,33 @@ export default function Page() {
                       </div>
                     </Col>
                     <Col lg={6} xs={12}>
-                      <div className="player-card">
-                        <h4 className="mb-1">24/7 Support</h4>
-                        <p>Our support team is available to help anytime.</p>
-                        <Form.Floating className="mb-4">
-                          <Form.Control placeholder="Name" />
-                          <label>Name</label>
-                        </Form.Floating>
-                        <Form.Floating className="mb-4">
-                          <Form.Control placeholder="Email" />
-                          <label>Email</label>
-                        </Form.Floating>
-                        <Form.Floating className="mb-4">
-                          <Form.Select>
-                            <option>Subject</option>
-                          </Form.Select>
-                          <label>Subject</label>
-                        </Form.Floating>
-                        <textarea
-                          className="mb-4"
-                          placeholder="Message"></textarea>
-                        <Button className="btn-next-bg">Send Message</Button>
+                      <div className="player-card setting-form-crd">
+                        <div>
+                          <div>
+                            <h4 className="mb-1">24/7 Support</h4>
+                            <p>
+                              Our support team is available to help anytime.
+                            </p>
+                          </div>
+                          <Form.Floating className="mb-4">
+                            <Form.Control placeholder="Name" />
+                            <label>Name</label>
+                          </Form.Floating>
+                          <Form.Floating className="mb-4">
+                            <Form.Control placeholder="Email" />
+                            <label>Email</label>
+                          </Form.Floating>
+                          <Form.Floating className="mb-4">
+                            <Form.Select>
+                              <option>Subject</option>
+                            </Form.Select>
+                            <label>Subject</label>
+                          </Form.Floating>
+                          <textarea
+                            className="mb-4"
+                            placeholder="Message"></textarea>
+                          <Button className="btn-next-bg">Send Message</Button>
+                        </div>
                         <div className="tandcpp">
                           <Link href="/" className="">
                             Terms of Use

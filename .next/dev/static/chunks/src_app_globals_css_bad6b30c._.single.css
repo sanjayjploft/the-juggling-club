@@ -2680,4 +2680,22 @@ input::placeholder {
   }
 }
 
+.password-field {
+  position: relative;
+}
+
+.password-field .eye-icon {
+  cursor: pointer;
+  z-index: 10;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+.password-field input {
+  padding-right: 45px;
+}
+
 /*# sourceMappingURL=src_app_globals_css_bad6b30c._.single.css.map*/

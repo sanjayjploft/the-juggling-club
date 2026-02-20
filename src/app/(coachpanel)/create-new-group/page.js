@@ -58,7 +58,12 @@ export default function DashboardPage() {
               </Col>
               <Col md={5}>
                 <Form.Floating className="mb-4">
-                  <Form.Control placeholder="Age Range" />
+                  <Form.Select>
+                    <option>Age Range </option>
+                    <option>U12</option>
+                    <option>U14</option>
+                    <option>U16</option>
+                  </Form.Select>
                   <label>Age Range (Optional)</label>
                 </Form.Floating>
               </Col>
@@ -87,7 +92,9 @@ export default function DashboardPage() {
               </Col>
             </Row>
 
-            <Button className="btn-next-bg">Create Group</Button>
+            <Link href={"/teams-groups"} className="btn-next-bg">
+              Create Group
+            </Link>
           </div>
         </div>
       </main>

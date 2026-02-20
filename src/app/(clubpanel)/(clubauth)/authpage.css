@@ -217,8 +217,9 @@ main.onboarding-pages {
   height: 100%;
   padding: 0 0 0 15px !important;
 }
-.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus {
-    background-color: #f7fbff;
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background-color: #f7fbff;
 }
 /* Focus border */
 
@@ -235,7 +236,8 @@ main.onboarding-pages {
 }
 
 .text-info-form {
-  color: #949494; font-size: 13px;
+  color: #949494;
+  font-size: 13px;
   font-style: normal;
   font-weight: 350;
   line-height: normal;
@@ -254,7 +256,8 @@ main.onboarding-pages {
 }
 
 .plan-info h3 {
-  color: #fff; font-size: 25px;
+  color: #fff;
+  font-size: 25px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -263,7 +266,8 @@ main.onboarding-pages {
 
 .plan-info span {
   display: inline-block;
-  color: #949494; font-size: 15px;
+  color: #949494;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -280,7 +284,8 @@ main.onboarding-pages {
 }
 
 .plan-price span {
-  color: #f0ff00; font-size: 12px;
+  color: #f0ff00;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -302,7 +307,8 @@ main.onboarding-pages {
 }
 
 .plan-card ul li h5 {
-  color: #fff; font-size: 18px;
+  color: #fff;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -311,7 +317,8 @@ main.onboarding-pages {
 
 .plan-card ul li span {
   color: #fff;
-  text-align: right; font-size: 18px;
+  text-align: right;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -321,7 +328,8 @@ main.onboarding-pages {
 }
 
 .plan-card ul li b {
-  color: #fff; font-size: 18px;
+  color: #fff;
+  font-size: 18px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -343,13 +351,13 @@ main.onboarding-pages {
   height: 180px;
   padding: 16px;
   display: flex;
-  border-radius: 20px; 
-   background-image: url("/assets/image/file-uplod-bg-lg.svg");
-       background-size: 100%;
-    background-repeat: no-repeat;
+  border-radius: 20px;
+  background-image: url("/assets/image/file-uplod-bg-lg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .clublogo-heading {
-  color: #03202f; 
+  color: #03202f;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -476,7 +484,7 @@ main.onboarding-pages {
   left: 56px;
   transform: translateY(-50%);
   color: #949494;
-  text-align: center;   
+  text-align: center;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -564,7 +572,7 @@ main.onboarding-pages {
 
 /* Text */
 .checkbox-text {
-  color: #03202f; 
+  color: #03202f;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -583,7 +591,7 @@ main.onboarding-pages {
 }
 
 .terms-confirmation h4 {
-  color: #000; 
+  color: #000;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -646,7 +654,7 @@ main.onboarding-pages {
 
 .welcome-box h4 ~ span {
   color: #03202f;
-  text-align: center; 
+  text-align: center;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -664,7 +672,7 @@ main.onboarding-pages {
 
 .club-code span {
   color: #03202f;
-  text-align: center; 
+  text-align: center;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -675,7 +683,7 @@ main.onboarding-pages {
 
 .club-code h6 {
   color: #0a5fff;
-  text-align: center; 
+  text-align: center;
   font-size: 25px;
   font-style: normal;
   font-weight: 900;
@@ -685,7 +693,7 @@ main.onboarding-pages {
 
 .club-code p {
   color: #03202f;
-  text-align: center; 
+  text-align: center;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -695,7 +703,7 @@ main.onboarding-pages {
 
 .redirecting {
   color: #03202f;
-  text-align: center; 
+  text-align: center;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -707,15 +715,32 @@ main.onboarding-pages {
   display: none;
 }
 .card-info-text {
-  color: #000000; 
+  color: #000000;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 0px;
 }
-input.form-control.phone-input{
+input.form-control.phone-input {
   color: #000;
+}
+.password-field {
+  position: relative;
+}
+
+.password-field .eye-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.password-field input {
+  padding-right: 45px; /* icon space */
 }
 @media (max-width: 768px) {
   .step-progress {

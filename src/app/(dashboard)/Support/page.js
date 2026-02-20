@@ -39,25 +39,29 @@ export default function page() {
                 </div>
               </Col>
               <Col lg={6} xs={12}>
-                <div className="player-card">
-                  <h4 className="mb-1">24/7 Support</h4>
-                  <p>Our support team is available to help anytime.</p>
-                  <Form.Floating className="mb-4">
-                    <Form.Control placeholder="Name" />
-                    <label>Name</label>
-                  </Form.Floating>
-                  <Form.Floating className="mb-4">
-                    <Form.Control placeholder="Email" />
-                    <label>Email</label>
-                  </Form.Floating>
-                  <Form.Floating className="mb-4">
-                    <Form.Select>
-                      <option>Subject</option>
-                    </Form.Select>
-                    <label>Subject</label>
-                  </Form.Floating>
-                  <textarea className="mb-4" placeholder="Message"></textarea>
-                  <Button className="btn-next-bg">Send Message</Button>
+                <div className="player-card setting-form-crd">
+                  <div>
+                    <div>
+                      <h4 className="mb-1">24/7 Support</h4>
+                      <p>Our support team is available to help anytime.</p>
+                    </div>
+                    <Form.Floating className="mb-4">
+                      <Form.Control placeholder="Name" />
+                      <label>Name</label>
+                    </Form.Floating>
+                    <Form.Floating className="mb-4">
+                      <Form.Control placeholder="Email" />
+                      <label>Email</label>
+                    </Form.Floating>
+                    <Form.Floating className="mb-4">
+                      <Form.Select>
+                        <option>Subject</option>
+                      </Form.Select>
+                      <label>Subject</label>
+                    </Form.Floating>
+                    <textarea className="mb-4" placeholder="Message"></textarea>
+                    <Button className="btn-next-bg">Send Message</Button>
+                  </div>
                   <div className="tandcpp">
                     <Link href="/" className="">
                       Terms of Use
