@@ -87,7 +87,7 @@ export default function ClubInformation() {
               <h3 className="clublogo-heading">Club Logo (PNG/JPG) *</h3>
               <Form.Group className={`floating-file ${file ? "has-file" : ""}`}>
                 <div className="file-box" onClick={openFilePicker}>
-                  <img src="/assets/image/upload-file.svg" />
+                  
                   {file ? (
                     <div className="file-preview">
                       {getPreview()}
@@ -96,8 +96,7 @@ export default function ClubInformation() {
                     </div>
                   ) : (
                     <p className="placeholder-text">
-                      <h5>Click to upload or drag and drop</h5>
-                      PNG, JPG up to 2MB
+                      
                     </p>
                   )}
                 </div>

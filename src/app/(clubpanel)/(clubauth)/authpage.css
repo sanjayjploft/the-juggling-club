@@ -82,10 +82,6 @@ main.onboarding-pages {
   padding: 1rem 0.75rem;
   color: #949494;
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -170,7 +166,7 @@ main.onboarding-pages {
 .phone-input {
   width: 100% !important;
   height: 52px !important;
-  padding-left: 80px !important;
+  padding-left: 85px !important;
   font-size: 14px;
   color: #000;
   background-color: #f7fbff !important;
@@ -179,7 +175,11 @@ main.onboarding-pages {
   height: 58px;
   padding: 1rem 0.75rem;
 }
-
+.react-tel-input .selected-flag .arrow {
+  position: relative;
+  top: 50%;
+  left: 40px !important;
+}
 /* Flag button */
 .phone-flag {
   border-right: 1px solid #ddd !important;
@@ -215,7 +215,10 @@ main.onboarding-pages {
 .react-tel-input .selected-flag {
   width: 70px !important;
   height: 100%;
-  padding: 0 0 0 25px !important;
+  padding: 0 0 0 15px !important;
+}
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus {
+    background-color: #f7fbff;
 }
 /* Focus border */
 
@@ -232,9 +235,7 @@ main.onboarding-pages {
 }
 
 .text-info-form {
-  color: #949494;
-  font-family: Avenir;
-  font-size: 13px;
+  color: #949494; font-size: 13px;
   font-style: normal;
   font-weight: 350;
   line-height: normal;
@@ -253,9 +254,7 @@ main.onboarding-pages {
 }
 
 .plan-info h3 {
-  color: #fff;
-  font-family: Avenir;
-  font-size: 25px;
+  color: #fff; font-size: 25px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -264,9 +263,7 @@ main.onboarding-pages {
 
 .plan-info span {
   display: inline-block;
-  color: #949494;
-  font-family: Avenir;
-  font-size: 15px;
+  color: #949494; font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -283,9 +280,7 @@ main.onboarding-pages {
 }
 
 .plan-price span {
-  color: #f0ff00;
-  font-family: Avenir;
-  font-size: 12px;
+  color: #f0ff00; font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -307,9 +302,7 @@ main.onboarding-pages {
 }
 
 .plan-card ul li h5 {
-  color: #fff;
-  font-family: Avenir;
-  font-size: 18px;
+  color: #fff; font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -318,9 +311,7 @@ main.onboarding-pages {
 
 .plan-card ul li span {
   color: #fff;
-  text-align: right;
-  font-family: Avenir;
-  font-size: 18px;
+  text-align: right; font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -330,9 +321,7 @@ main.onboarding-pages {
 }
 
 .plan-card ul li b {
-  color: #fff;
-  font-family: Avenir;
-  font-size: 18px;
+  color: #fff; font-size: 18px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -354,16 +343,13 @@ main.onboarding-pages {
   height: 180px;
   padding: 16px;
   display: flex;
-  border-radius: 20px;
-  border: 1px dashed #03202f;
-  background: #fff;
+  border-radius: 20px; 
+   background-image: url("/assets/image/file-uplod-bg-lg.svg");
+       background-size: 100%;
+    background-repeat: no-repeat;
 }
 .clublogo-heading {
-  color: #03202f;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
+  color: #03202f; 
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -374,10 +360,6 @@ main.onboarding-pages {
 .placeholder-text h5 {
   color: #000;
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -387,10 +369,6 @@ main.onboarding-pages {
 .placeholder-text {
   color: #03202f;
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
   font-size: 12px;
   font-style: normal;
   font-weight: 350;
@@ -498,11 +476,7 @@ main.onboarding-pages {
   left: 56px;
   transform: translateY(-50%);
   color: #949494;
-  text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
+  text-align: center;   
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -590,11 +564,7 @@ main.onboarding-pages {
 
 /* Text */
 .checkbox-text {
-  color: #03202f;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
+  color: #03202f; 
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -613,11 +583,7 @@ main.onboarding-pages {
 }
 
 .terms-confirmation h4 {
-  color: #000;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
+  color: #000; 
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -627,10 +593,6 @@ main.onboarding-pages {
 
 .terms-confirmation p {
   color: #03202f;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -647,10 +609,6 @@ main.onboarding-pages {
 
 .terms-confirmation h4 {
   color: #000;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -660,10 +618,6 @@ main.onboarding-pages {
 
 .terms-confirmation p {
   color: #03202f;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -682,10 +636,6 @@ main.onboarding-pages {
 .welcome-box h4 {
   color: #000;
   text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
   font-size: 30px;
   font-style: normal;
   font-weight: 800;
@@ -696,11 +646,7 @@ main.onboarding-pages {
 
 .welcome-box h4 ~ span {
   color: #03202f;
-  text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
+  text-align: center; 
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -718,11 +664,7 @@ main.onboarding-pages {
 
 .club-code span {
   color: #03202f;
-  text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
+  text-align: center; 
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -733,11 +675,7 @@ main.onboarding-pages {
 
 .club-code h6 {
   color: #0a5fff;
-  text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
+  text-align: center; 
   font-size: 25px;
   font-style: normal;
   font-weight: 900;
@@ -747,11 +685,7 @@ main.onboarding-pages {
 
 .club-code p {
   color: #03202f;
-  text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
+  text-align: center; 
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -761,11 +695,7 @@ main.onboarding-pages {
 
 .redirecting {
   color: #03202f;
-  text-align: center;
-  font-feature-settings:
-    "liga" off,
-    "clig" off;
-  font-family: Avenir;
+  text-align: center; 
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -777,8 +707,7 @@ main.onboarding-pages {
   display: none;
 }
 .card-info-text {
-  color: #000000;
-  font-family: Avenir;
+  color: #000000; 
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

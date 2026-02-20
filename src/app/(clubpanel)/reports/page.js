@@ -4,10 +4,12 @@ import { useState, useRef } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import ClubSidebar from "../../../components/dashboard/ClubSidebar";
 import Link from "next/link";
+import PlayerFilterModal from "../../../components/dashboard/PlayerFilterModal";
 
 export default function DashboardPage() {
   const [activeTab, setActiveTab] = useState("Summary Report");
   const fileInputRef = useRef(null);
+  const [openFilter, setOpenFilter] = useState(false);
   return (
     <div className="msar-dashboard-wrapper">
       <ClubSidebar />
@@ -220,8 +222,9 @@ export default function DashboardPage() {
                             <Button className="small-btn-admin">Search</Button>
                           </div>
                           <div className="d-flex align-items-center  gap-3">
-                            <div className="filter-btn-outline">
-                              {" "}
+                            <div
+                              className="filter-btn-outline"
+                              onClick={() => setOpenFilter(true)}>
                               <img src="/assets/image/filter-icon.svg" />
                               Filter
                             </div>
@@ -236,7 +239,7 @@ export default function DashboardPage() {
                     </div>
                     <div className="card-grid-box billing-card m-0">
                       <div className="table-wrapper">
-                        <table className="billing-table">
+                        <table className="billing-table clubplayer-list">
                           <thead>
                             <tr>
                               <th>Name</th>
@@ -252,7 +255,13 @@ export default function DashboardPage() {
 
                           <tbody>
                             <tr>
-                              <td>Alex Johnson</td>
+                              <td>
+                                {" "}
+                                <Link href={"/clubplayer-details"}>
+                                  {" "}
+                                  Alex Johnson{" "}
+                                </Link>
+                              </td>
                               <td>U12</td>
                               <td>Boy</td>
 
@@ -268,7 +277,13 @@ export default function DashboardPage() {
                               <td>2024-12-26</td>
                             </tr>
                             <tr>
-                              <td>Maria Garcia</td>
+                              <td>
+                                {" "}
+                                <Link href={"/clubplayer-details"}>
+                                  {" "}
+                                  Maria Garcia
+                                </Link>
+                              </td>
                               <td>U14</td>
                               <td>Girl</td>
 
@@ -284,7 +299,12 @@ export default function DashboardPage() {
                               <td>2024-12-25</td>
                             </tr>
                             <tr>
-                              <td>James Smith</td>
+                              <td>
+                                {" "}
+                                <Link href={"/clubplayer-details"}>
+                                  James Smith
+                                </Link>
+                              </td>
                               <td>U16</td>
                               <td>Boy</td>
                               <td>
@@ -298,7 +318,12 @@ export default function DashboardPage() {
                               <td>2024-12-26</td>
                             </tr>
                             <tr>
-                              <td>James Smith</td>
+                              <td>
+                                {" "}
+                                <Link href={"/clubplayer-details"}>
+                                  James Smith
+                                </Link>
+                              </td>
                               <td>U16</td>
                               <td>Girl</td>
 
@@ -314,7 +339,12 @@ export default function DashboardPage() {
                               <td>2024-12-24</td>
                             </tr>
                             <tr>
-                              <td>Alex Johnson</td>
+                              <td>
+                                {" "}
+                                <Link href={"/clubplayer-details"}>
+                                  Alex Johnson
+                                </Link>
+                              </td>
                               <td>U12</td>
                               <td>Boy</td>
 
@@ -340,6 +370,10 @@ export default function DashboardPage() {
           </div>
         </div>
       </main>
+      <PlayerFilterModal
+        open={openFilter}
+        onClose={() => setOpenFilter(false)}
+      />
     </div>
   );
 }

@@ -188,6 +188,19 @@ export default function Page() {
 
                 <Row>
                   <Col lg={5} xs={12}>
+                    <Form.Floating className="mb-4">
+                      <Form.Select>
+                        <option>Select User Type</option>
+                        <option>Player</option>
+                        <option>Parent</option>
+                        <option>Coach</option>
+                      </Form.Select>
+                      <label>Select User Type </label>
+                    </Form.Floating>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col lg={5} xs={12}>
                     <textarea placeholder="Testimonial Text" />
                   </Col>
                 </Row>

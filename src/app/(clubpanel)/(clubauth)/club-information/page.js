@@ -73,7 +73,32 @@ export default function ClubInformation() {
             <Col lg={12}>
               <Form.Floating>
                 <Form.Select>
-                  <option>Country*</option>
+                  <option value="">Select Country</option>
+                  <option>India</option>
+                  <option>United States</option>
+                  <option>United Kingdom</option>
+                  <option>Canada</option>
+                  <option>Australia</option>
+                  <option>Germany</option>
+                  <option>France</option>
+                  <option>Italy</option>
+                  <option>Spain</option>
+                  <option>Netherlands</option>
+                  <option>Switzerland</option>
+                  <option>Sweden</option>
+                  <option>Norway</option>
+                  <option>Denmark</option>
+                  <option>United Arab Emirates</option>
+                  <option>Saudi Arabia</option>
+                  <option>Singapore</option>
+                  <option>Japan</option>
+                  <option>South Korea</option>
+                  <option>China</option>
+                  <option>Brazil</option>
+                  <option>South Africa</option>
+                  <option>New Zealand</option>
+                  <option>Mexico</option>
+                  <option>Indonesia</option>
                 </Form.Select>
                 <label>Country*</label>
               </Form.Floating>

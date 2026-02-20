@@ -9,7 +9,12 @@ export default function HomePage() {
         <div className="container hero-content">
           <div className="hero-header">
             <img src="assets/image/club-logo.png" className="hero-logo" />
-            <img src="/assets/image/logo-juggling.svg" className="hero-logo" />
+            <Link href="/">
+              <img
+                src="/assets/image/logo-juggling.svg"
+                className="hero-logo"
+              />
+            </Link>
           </div>
 
           <h1>
@@ -24,7 +29,7 @@ export default function HomePage() {
           </p>
 
           <div className="hero-actions">
-            <Link href={""} className="btn-primary-custom">
+            <Link href={"/signup"} className="btn-primary-custom">
               ACTIVATE MY ACCOUNT
             </Link>
             <Link href={""} className="btn-secondary-custom">
@@ -100,7 +105,9 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <button className="activate-btn-exact">ACTIVATE NOW</button>
+              <Link href={"/signup"} className="activate-btn-exact">
+                ACTIVATE NOW
+              </Link>
             </div>
           </div>
         </div>

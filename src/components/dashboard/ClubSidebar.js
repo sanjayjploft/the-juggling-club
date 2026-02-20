@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import LogoutModal from "./LogoutModal";
 
 const menu = [
   {
@@ -65,7 +66,7 @@ const menu = [
 export default function ClubSidebar() {
   const pathname = usePathname();
   const [collapsed, setCollapsed] = useState(false);
-
+  const [showLogout, setShowLogout] = useState(false);
   // ✅ AUTO COLLAPSE LOGIC
   useEffect(() => {
     const handleResize = () => {
@@ -115,17 +116,17 @@ export default function ClubSidebar() {
           );
         })}
       </ul>
-      <div className="msar-logout">
-        <a href="/">
-          <Image
-            src="/assets/image/logout-icon.svg"
-            alt=""
-            width={18}
-            height={18}
-          />
-          {!collapsed && <span>Log out</span>}
-        </a>
+      <div className="msar-logout" onClick={() => setShowLogout(true)}>
+        <Image
+          src="/assets/image/logout-icon.svg"
+          alt=""
+          width={18}
+          height={18}
+        />
+
+        {!collapsed && <span>Log out</span>}
       </div>
+      <LogoutModal open={showLogout} onClose={() => setShowLogout(false)} />
       {/* TOGGLE */}
       <button
         className="msar-sidebar-toggle"

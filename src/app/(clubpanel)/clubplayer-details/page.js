@@ -69,7 +69,10 @@ export default function Page() {
                 <h6>15</h6>
                 <p>Skills accomplished</p>
               </div>
-              <img src="/assets/image/badges-ern.svg" />
+              <img
+                style={{ mixBlendMode: "luminosity" }}
+                src="/assets/image/badges-ern.svg"
+              />
             </div>
             <div className="player-card">
               <h4>Countries Unlocked</h4>
@@ -162,61 +165,61 @@ export default function Page() {
                 <Row>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-level-50.png" />
+                      <img src="/assets/image/badge-level-50.svg" />
                       <h5>Level 50: Around the World</h5>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-level-29.png" />
+                      <img src="/assets/image/badge-level-29.svg" />
                       <h5>LEVEL 29: High Kicks: 15 with Bounce</h5>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-level-50.png" />
+                      <img src="/assets/image/badge-level-49.svg" />
                       <h5>LEVEL 49: Sitting on Floor: 10</h5>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-level-29.png" />
+                      <img src="/assets/image/badge-level-25.svg" />
                       <h5>LEVEL 25: Non-Preferred Foot: 10</h5>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-level-50.png" />
+                      <img src="/assets/image/badge-level-47.svg" />
                       <h5>LEVEL 47: Rainbow Flick</h5>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-level-29.png" />
+                      <img src="/assets/image/badge-level-23.svg" />
                       <h5>LEVEL 23: Alternating Feet: 10</h5>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-level-50.png" />
+                      <img src="/assets/image/badge-level-43.svg" />
                       <h5>LEVEL 43: High, Low (10 rounds)</h5>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-level-29.png" />
+                      <img src="/assets/image/badge-level-21.svg" />
                       <h5>LEVEL 21: Any Body Part: 25</h5>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-mindset.png" />
+                      <img src="/assets/image/badge-mindset.svg" />
                       <h5>MINDSET | Mental Toughness</h5>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="date-det-skills">
-                      <img src="/assets/image/badge-level-29.png" />
+                      <img src="/assets/image/badge-level-20.svg" />
                       <h5>LEVEL 20: Neck Stall: 30 seconds</h5>
                     </div>
                   </Col>

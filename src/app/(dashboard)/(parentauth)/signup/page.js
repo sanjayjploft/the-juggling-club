@@ -14,7 +14,9 @@ function page() {
     <div>
       <Row>
         <Col lg={12} className="text-center">
-          <img src="/assets/image/logo-juggling.svg" className="club-logo" />
+          <a href="/club-landing-page">
+            <img src="/assets/image/logo-juggling.svg" className="club-logo" />
+          </a>
           <h2 className="auth-title">Sign up to Parent</h2>{" "}
         </Col>
       </Row>

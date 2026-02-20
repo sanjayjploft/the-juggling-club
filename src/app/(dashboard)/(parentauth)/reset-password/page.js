@@ -8,10 +8,12 @@ function page() {
       <Row className="align-items-center">
         <Col lg={6}>
           <div className="auth-login">
-            <img
-              src="/assets/image/logo-juggling.svg"
-              className="club-logo m-0"
-            />
+            <a href="/club-landing-page">
+              <img
+                src="/assets/image/logo-juggling.svg"
+                className="club-logo"
+              />
+            </a>
             <h2 className="auth-title text-start mt-4 mb-4">Reset Password</h2>{" "}
             <Form className="mt-3 mt-lg-5">
               <Row className="gy-4">

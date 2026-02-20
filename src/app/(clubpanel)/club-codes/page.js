@@ -15,9 +15,7 @@ export default function Page() {
             <div>
               <h4>
                 Club Codes
-                <span>
-                  Generate and manage club invitation codes for players
-                </span>
+                <span>Manage club invitation code</span>
               </h4>
             </div>
           </div>

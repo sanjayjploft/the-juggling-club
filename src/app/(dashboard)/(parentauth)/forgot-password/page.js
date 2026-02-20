@@ -8,10 +8,12 @@ function page() {
       <Row className="align-items-center">
         <Col lg={6}>
           <div className="auth-login">
-            <img
-              src="/assets/image/logo-juggling.svg"
-              className="club-logo m-0"
-            />
+            <a href="/club-landing-page">
+              <img
+                src="/assets/image/logo-juggling.svg"
+                className="club-logo"
+              />
+            </a>
             <Link href="/login" className="auth-back-btn">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

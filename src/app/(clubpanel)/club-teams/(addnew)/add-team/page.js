@@ -39,7 +39,10 @@ export default function Page() {
               <Col md={5}>
                 <Form.Floating className="mb-4">
                   <Form.Select>
-                    <option>Age Group</option>
+                    <option>U-12</option>
+                    <option>U-14</option>
+                    <option>U-16</option>
+                    <option>U-18</option>
                   </Form.Select>
                   <label>Age Group</label>
                 </Form.Floating>
@@ -54,6 +57,11 @@ export default function Page() {
                 <Form.Floating className="mb-4">
                   <Form.Select>
                     <option>Select Players</option>
+                    <option>Andrés Iniesta</option>
+                    <option>Zlatan Ibrahimovic</option>
+                    <option>Radamel Falcao</option>
+                    <option>Robin van Persie</option>
+                    <option>Andrea Pirlo</option>
                   </Form.Select>
                   <label>Select Players</label>
                 </Form.Floating>
@@ -65,7 +73,9 @@ export default function Page() {
                 </Form.Floating>
               </Col>
             </Row>
-            <Button className="btn-next-bg">Create Team</Button>
+            <Link href={"/club-players"} className="btn-next-bg">
+              Create Team
+            </Link>
           </div>
         </div>
       </main>

@@ -1,8 +1,11 @@
+"use client";
+import { useState } from "react";
 import { Button, Col, Row } from "react-bootstrap";
 import ClubSidebar from "../../../components/dashboard/ClubSidebar";
 import Link from "next/link";
 
 export default function Page() {
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
   return (
     <div className="msar-dashboard-wrapper">
       <ClubSidebar />
@@ -57,8 +60,14 @@ export default function Page() {
               <Link href="/reports" className="">
                 <img src="/assets/image/view.svg" />
               </Link>
-              <Link href="/clubplayer-details" className="">
-                <img src="/assets/image/trash.svg" />
+              <Link
+                href="#"
+                className=""
+                onClick={(e) => {
+                  e.preventDefault();
+                  setShowDeleteModal(true);
+                }}>
+                <img src="/assets/image/trash.svg" alt="delete" />
               </Link>
             </div>
           </div>
@@ -124,6 +133,35 @@ export default function Page() {
           </div>
         </div>
       </main>
+      {showDeleteModal && (
+        <div className="delete-modal-overlay">
+          <div className="delete-modal-box">
+            <h5>Delete Team</h5>
+
+            <p>
+              Are you sure you want to delete this team? This action cannot be
+              undone.
+            </p>
+
+            <div className="delete-modal-actions">
+              <button
+                className="btn-no"
+                onClick={() => setShowDeleteModal(false)}>
+                No
+              </button>
+
+              <button
+                className="btn-yes"
+                onClick={() => {
+                  console.log("Team Deleted");
+                  setShowDeleteModal(false);
+                }}>
+                Yes
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

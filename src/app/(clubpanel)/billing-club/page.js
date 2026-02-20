@@ -84,7 +84,7 @@ export default function DashboardPage() {
                         <div className="small">1 - 500 players</div>
                       </div>
                       <Link href="" className="btn upgrade-btn">
-                        Upgrade to Tier 1
+                        Current Plan
                       </Link>
                     </div>
                   </div>
