@@ -29,11 +29,7 @@ export default function DashboardPage() {
                 groups or join existing ones.
               </p>
             </div>
-            <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
-              <Link href="" className="btn-primary">
-                View Preference
-              </Link>
-            </div>
+            
           </div>
           <div className="user-profile">
             <Link href="#">

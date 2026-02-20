@@ -1,4 +1,8 @@
 {
+  "/(coachpanel)/claim-rewards/page": "app/(coachpanel)/claim-rewards/page.js",
+  "/(coachpanel)/coach-rewards/page": "app/(coachpanel)/coach-rewards/page.js",
   "/(coachpanel)/join-organization/page": "app/(coachpanel)/join-organization/page.js",
+  "/(coachpanel)/leaderboard/page": "app/(coachpanel)/leaderboard/page.js",
+  "/(coachpanel)/organizations/page": "app/(coachpanel)/organizations/page.js",
   "/(coachpanel)/send-message/page": "app/(coachpanel)/send-message/page.js"
 }
