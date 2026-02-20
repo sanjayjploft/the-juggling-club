@@ -1,8 +1,10 @@
 {
   "/(coachpanel)/claim-rewards/page": "app/(coachpanel)/claim-rewards/page.js",
-  "/(coachpanel)/coach-rewards/page": "app/(coachpanel)/coach-rewards/page.js",
   "/(coachpanel)/join-organization/page": "app/(coachpanel)/join-organization/page.js",
-  "/(coachpanel)/leaderboard/page": "app/(coachpanel)/leaderboard/page.js",
-  "/(coachpanel)/organizations/page": "app/(coachpanel)/organizations/page.js",
-  "/(coachpanel)/send-message/page": "app/(coachpanel)/send-message/page.js"
+  "/(public)/Clubs/page": "app/(public)/Clubs/page.js",
+  "/(public)/Coaches/page": "app/(public)/Coaches/page.js",
+  "/(public)/Contact/page": "app/(public)/Contact/page.js",
+  "/(public)/Parents/page": "app/(public)/Parents/page.js",
+  "/(public)/Players/page": "app/(public)/Players/page.js",
+  "/(public)/page": "app/(public)/page.js"
 }

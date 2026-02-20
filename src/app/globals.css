@@ -1845,6 +1845,7 @@ input::placeholder {
   text-align: right;
   display: flex;
   flex-direction: column;
+      align-items: end;
 }
 .social-mcn a {
   text-align: center;
@@ -1852,7 +1853,7 @@ input::placeholder {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin: 0 auto 20px;
+  margin:20px 0;
   padding: 15px;
   display: flex;
   align-items: center;

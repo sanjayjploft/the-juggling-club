@@ -399,7 +399,7 @@ export default function page() {
             </div>
             <div className="row">
               <div className="links-actin">
-                <Link href="">Start Your Child’s Journey</Link>
+                <Link href="">Want to see how coaches use it?</Link>
 
                 <Link href="">From a participating club?</Link>
               </div>

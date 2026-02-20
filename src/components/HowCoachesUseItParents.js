@@ -12,10 +12,10 @@ export default function HowCoachesUseItParents() {
               fill
               priority
             />
-          </div>{" "}
+          </div>
           <div className="col-lg-3 step s1">
             <span>1</span>
-            <p>Register your child (or join via your club’s promo code)</p>
+            <p>Register your child (or join via your club's promo code)</p>
           </div>
           <div className="col-lg-3 step s2">
             <span>2</span>
@@ -44,7 +44,7 @@ export default function HowCoachesUseItParents() {
         </div>
       </div>
       <div className="steps-cta text-center">
-        That’s it. No extra work. Big results.
+        No setup, no monitoring, no complexity.
       </div>
     </section>
   );
