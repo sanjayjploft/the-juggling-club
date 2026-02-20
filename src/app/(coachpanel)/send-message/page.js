@@ -6,7 +6,7 @@ import { Button, Col, Form, Row } from "react-bootstrap";
 
 export default function Page() {
   const fileRef = useRef(null);
-
+const [sendTo, setSendTo] = useState("team");
   const [messageType, setMessageType] = useState("voice");
   const [error, setError] = useState("");
   const [fileName, setFileName] = useState("");
@@ -111,13 +111,23 @@ export default function Page() {
 
                     <div className="voice-radio-row">
                       <label className="send-masg-radio">
-                        <input type="radio" name="sendTo" defaultChecked />
+                        <input
+                          type="radio"
+                          name="sendTo"
+                          checked={sendTo === "team"}
+                          onChange={() => setSendTo("team")}
+                        />
                         <span className="send-masg-ui"></span>
                         <span className="send-masg-text">Team/Group</span>
                       </label>
 
                       <label className="send-masg-radio">
-                        <input type="radio" name="sendTo" />
+                        <input
+                          type="radio"
+                          name="sendTo"
+                          checked={sendTo === "player"}
+                          onChange={() => setSendTo("player")}
+                        />
                         <span className="send-masg-ui"></span>
                         <span className="send-masg-text">
                           Individual Player
@@ -128,10 +138,13 @@ export default function Page() {
                   <div className="mass-coman mt-4">
                     <Form.Floating className="w-100">
                       <Form.Select>
-                        <option selected> All</option>
-                        <option> All</option>
+                        <option>All</option>
+                        <option>All</option>
                       </Form.Select>
-                      <label>Teams/Groups</label>
+
+                      <label>
+                        {sendTo === "player" ? "Select Player" : "Teams/Groups"}
+                      </label>
                     </Form.Floating>
                   </div>
                   {/* TEXT MESSAGE */}

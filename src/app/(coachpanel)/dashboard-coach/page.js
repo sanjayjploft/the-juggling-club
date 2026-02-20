@@ -119,7 +119,7 @@ export default function DashboardPage() {
             </div>
           </div>
           <Row className="mt-5">
-            <Col lg={7} xs={12} className="mb-xs-4">
+            <Col lg={7} xs={12} className="mb-4 mb-lg-0">
               <div className="quick-actions-style-2 player-card">
                 <h4>Quick Actions</h4>
 

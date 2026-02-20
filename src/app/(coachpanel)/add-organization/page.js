@@ -30,8 +30,8 @@ export default function DashboardPage() {
               </p>
             </div>
             <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
-              <Link href="/add-organization" className="btn-primary">
-                Add Organization
+              <Link href="/join-organization" className="btn-primary">
+                Join Organization
               </Link>
             </div>
           </div>

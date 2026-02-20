@@ -6,10 +6,11 @@ import CoachSidebar from "../../../components/dashboard/CoachSidebar";
 import Link from "next/link";
 import Progress from "../../../components/dashboard/Progress";
 import SkillCompletion from "../../../components/dashboard/SkillCompletion";
-
+import { useRouter } from "next/navigation";
 export default function Page() {
   const [activeTab, setActiveTab] = useState("Overview");
   const fileInputRef = useRef(null);
+const router = useRouter();
 
   return (
     <div className="msar-dashboard-wrapper">
@@ -221,7 +222,7 @@ export default function Page() {
                       <div className="submission-left">
                         <div className="submission-info">
                           <h6>3-Ball Shower</h6>
-                          <p className="skill">3-Ball Shower</p>
+                          <p className="skill">10 of 14 players</p>
                         </div>
                       </div>
 
@@ -291,7 +292,9 @@ export default function Page() {
                     <p>Players ranked by overall performance metrics</p>
                   </div>
                   <Row className="mt-4">
-                    <div className="submission-card mb-3">
+                    <div
+                      className="submission-card mb-3"
+                      onClick={() => router.push("/sent-feedback")}>
                       {/* LEFT */}
                       <div className="submission-left">
                         <div className="rank1-cms">
@@ -313,7 +316,9 @@ export default function Page() {
                         </div>
                       </div>
                     </div>
-                    <div className="submission-card mb-3">
+                    <div
+                      className="submission-card mb-3"
+                      onClick={() => router.push("/sent-feedback")}>
                       {/* LEFT */}
                       <div className="submission-left">
                         <div className="rank1-cms">
@@ -335,7 +340,9 @@ export default function Page() {
                         </div>
                       </div>
                     </div>
-                    <div className="submission-card mb-3">
+                    <div
+                      className="submission-card mb-3"
+                      onClick={() => router.push("/sent-feedback")}>
                       {/* LEFT */}
                       <div className="submission-left">
                         <div className="rank1-cms">
@@ -357,7 +364,9 @@ export default function Page() {
                         </div>
                       </div>
                     </div>
-                    <div className="submission-card mb-3">
+                    <div
+                      className="submission-card mb-3"
+                      onClick={() => router.push("/sent-feedback")}>
                       {/* LEFT */}
                       <div className="submission-left">
                         <div className="rank1-cms">
@@ -379,7 +388,9 @@ export default function Page() {
                         </div>
                       </div>
                     </div>
-                    <div className="submission-card mb-3">
+                    <div
+                      className="submission-card mb-3"
+                      onClick={() => router.push("/sent-feedback")}>
                       {/* LEFT */}
                       <div className="submission-left">
                         <div className="rank1-cms">

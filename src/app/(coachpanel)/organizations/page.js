@@ -47,7 +47,7 @@ export default function DashboardPage() {
           <div className="sub-heading-card">
             <h4>Active Organizations (2)</h4>
           </div>
-          <div className="team-card grid-cardor-oganizational mb-4">
+          <div className="team-card grid-cardor-oganizational mb-4 top-card-orgin">
             <div className="grid-item-bx">
               <div className="team-heading">
                 Aurora Soccer Club
@@ -72,36 +72,20 @@ export default function DashboardPage() {
               </Link>
             </div>
           </div>
-          <div className="team-card mb-4">
-            {/* HEADER */}
-
-            <div className="grid-item-bx ">
+          <div className="team-card grid-cardor-oganizational mb-4  top-card-orgin">
+            <div className="grid-item-bx">
               <div className="team-heading">
                 Youth Training Academy
                 <div className=" green-bg-pill">Active</div>
-                <div className="blue-bg-pill">Member</div>
+                <div className="blue-bg-pill">Owner</div>
               </div>
               <p>Main club organization</p>
             </div>
-
-            {/* STATS */}
-            <div className="team-stats-row mt-3">
-              <div>
-                <p>Players</p>
-                <h6>12</h6>
-              </div>
-              <div>
-                <p>Joined</p>
-                <h6>U18</h6>
-              </div>
-              <div>
-                <p>Type</p>
-                <h6>Academy</h6>
-              </div>
+            <div className="grid-item-bx">
+              <div className="oganiz-plr">Players</div>
+              <h5>12</h5>
             </div>
-
-            {/* JOIN CODE */}
-            <div className="grid-item-bx mt-3 mb-3">
+            <div className="grid-item-bx">
               <Link href="/view-players" className="btn-primary">
                 View Players
               </Link>
@@ -113,6 +97,7 @@ export default function DashboardPage() {
               </Link>
             </div>
           </div>
+
           <div className="sub-heading-card">
             <h4>Pending Approval (1)</h4>
           </div>

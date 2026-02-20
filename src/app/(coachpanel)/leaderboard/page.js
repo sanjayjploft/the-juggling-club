@@ -36,7 +36,7 @@ export default function DashboardPage() {
                   <option selected> 20</option>
                   <option> 25</option>
                 </Form.Select>
-                <label>View</label>
+                <label>Level</label>
               </Form.Floating>
 
               <Form.Floating className="filter-select">
