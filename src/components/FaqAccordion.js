@@ -1,36 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { playerFaqs } from "../constants/faqData";
 
-const faqs = [
-  {
-    question: "How do I upload a video?",
-    answer:
-      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
-  },
-  {
-    question: "What happens after I complete a skill?",
-    answer:
-      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
-  },
-  {
-    question: "How do I upload a video?",
-    answer:
-      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
-  },
-  {
-    question: "How do I upload a video?",
-    answer:
-      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
-  },
-  {
-    question: "How do I upload a video?",
-    answer:
-      "You’ll receive feedback to help you improve, and your next recommended skills unlock so you always know what to work on next.",
-  },
-];
-
-export default function FaqAccordion() {
+export default function FaqAccordion({ items = playerFaqs }) {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -39,9 +12,9 @@ export default function FaqAccordion() {
 
   return (
     <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
-      {faqs.map((faq, index) => (
+      {items.map((faq, index) => (
         <div
-          key={index}
+          key={faq.id || index}
           style={{
             border: "1px solid #EAEAEA",
             padding: "20px",
@@ -51,6 +24,7 @@ export default function FaqAccordion() {
           }}>
           <button
             onClick={() => toggleFAQ(index)}
+            aria-expanded={openIndex === index}
             style={{
               width: "100%",
               textAlign: "left",
@@ -58,16 +32,15 @@ export default function FaqAccordion() {
               border: "none",
               fontSize: "16.5px",
               fontFamily: "Avenir",
-              fontWeight: "800",
               cursor: "pointer",
               display: "flex",
               justifyContent: "space-between",
               padding: "0",
               fontWeight: openIndex === index ? "800" : "400",
-              color: openIndex === index ? "#03202F" : "#03202F",
+              color: "#03202F",
             }}>
             {faq.question}
-            <span>{openIndex === index ? "−" : "+"}</span>
+            <span aria-hidden="true">{openIndex === index ? "−" : "+"}</span>
           </button>
 
           {openIndex === index && (

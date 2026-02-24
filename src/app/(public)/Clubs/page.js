@@ -1,7 +1,11 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Link from "next/link";
 import Heroclubs from "../../../components/Heroclubs";
+
+export const metadata = {
+  title: "Clubs",
+  description: "Partner with us to develop your players, inspire your teams, and build your club brand.",
+};
 
 export default function page() {
   return (

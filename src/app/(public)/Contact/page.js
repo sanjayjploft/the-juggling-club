@@ -1,6 +1,10 @@
 import Link from "next/link";
-import React from "react";
 import { Col, Row } from "react-bootstrap";
+
+export const metadata = {
+  title: "Contact",
+  description: "Get in touch with The Juggling Club team.",
+};
 
 export default function Page() {
   return (

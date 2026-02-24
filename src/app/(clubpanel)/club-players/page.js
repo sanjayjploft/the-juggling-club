@@ -4,13 +4,13 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="msar-dashboard-wrapper">
+    <div className="juggling-dashboard-wrapper">
       <ClubSidebar />
 
-      <main className="msar-main">
+      <main className="juggling-main">
         {/* HEADER */}
 
-        <div className="msar-top-bar d-flex justify-content-between align-items-start">
+        <div className="juggling-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
               <h4>

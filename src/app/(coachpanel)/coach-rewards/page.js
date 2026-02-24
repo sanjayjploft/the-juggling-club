@@ -14,12 +14,12 @@ export default function DashboardPage() {
     setTimeout(() => setCopied(false), 1500);
   };
   return (
-    <div className="msar-dashboard-wrapper">
+    <div className="juggling-dashboard-wrapper">
       <CoachSidebar />
 
-      <main className="msar-main">
+      <main className="juggling-main">
         {/* HEADER */}
-        <div className="msar-top-bar d-flex justify-content-between align-items-start">
+        <div className="juggling-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
               <h4>Your Rewards</h4>
@@ -166,13 +166,7 @@ export default function DashboardPage() {
                     </div>
                   </div>
                 </Col>
-                <Col lg={5} className="text-end">
-                  <div className="claim-reward">
-                    {/* <Link href="#" className="btn-primary">
-                      Claim Reward
-                    </Link> */}
-                  </div>
-                </Col>
+               
               </Row>
             </div>
           </div>
@@ -229,9 +223,7 @@ export default function DashboardPage() {
                 </Col>
                 <Col lg={5} className="text-end">
                   <div className="claim-reward">
-                    {/* <Link href="#" className="btn-primary">
-                      Claim Reward
-                    </Link> */}
+                   
                   </div>
                 </Col>
               </Row>

@@ -1,3 +1,3 @@
 export default function HeaderLogin() {
-  return <>dsd</>;
+  return null;
 }

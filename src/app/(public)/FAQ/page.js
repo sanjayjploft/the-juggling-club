@@ -1,5 +1,9 @@
 import Tabs from "../../../components/Tabs";
-import React from "react";
+
+export const metadata = {
+  title: "FAQ",
+  description: "Frequently asked questions about The Juggling Club platform.",
+};
 
 export default function Page() {
   return (

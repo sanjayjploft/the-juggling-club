@@ -1,15 +1,11 @@
-"use client";
-import { useState, useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+"use client"; 
 import "../(dashboard)/dashboard.css";
 import { usePathname } from "next/navigation";
 import Chatbot from "../../components/dashboard/Chatbot";
 
 export default function DashboardLayout({ children }) {
-  const pathname = usePathname();
-  const [showChat, setShowChat] = useState(false);
-
-  // pages jahan special layout chahiye
+  const pathname = usePathname(); 
+ 
   const noDashboardMainPages = [
     "/brand-identity",
     "/club-information",
@@ -30,7 +26,7 @@ export default function DashboardLayout({ children }) {
       {children}
 
       <Chatbot />
-      {showChat && <Chatbot showButton={false} />}
+       
     </main>
   );
 }

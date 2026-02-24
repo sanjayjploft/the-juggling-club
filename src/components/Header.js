@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -18,7 +19,6 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // route change pe menu close
   useEffect(() => {
     setMenuOpen(false);
   }, [pathname]);
@@ -27,23 +27,27 @@ export default function Header() {
     <header className={`header ${scrolled ? "header--scrolled" : ""}`}>
       <div className="container-fluid header__inner">
         <Link href="/" className="brand">
-          <img
+          <Image
             src="/assets/image/logo-juggling.svg"
             alt="Juggling Club"
+            width={165}
+            height={165}
             className={`logo ${scrolled ? "logo--small" : ""}`}
+            priority
           />
         </Link>
 
-        {/* Mobile Toggle Button */}
         <button
           className={`menu-toggle ${menuOpen ? "open" : ""}`}
-          onClick={() => setMenuOpen(!menuOpen)}>
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={menuOpen}
+        >
           <span></span>
           <span></span>
           <span></span>
         </button>
 
-        {/* Navigation */}
         <nav className={`nav ${menuOpen ? "nav--open" : ""}`}>
           <Link
             href="/"
@@ -88,7 +92,6 @@ export default function Header() {
           </div>
         </nav>
 
-        {/* Desktop CTA */}
         <div className="navCtas desktop-cta">
           <Link href="/login" className="btn btn--primary">
             Sign in

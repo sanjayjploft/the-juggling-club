@@ -1,0 +1,96 @@
+export const coachSteps = [
+  {
+    id: 1,
+    colClass: "col-lg-4",
+    stepClass: "s1",
+    text: "Invite your players",
+    subtext: "(promo code or club onboarding)",
+  },
+  {
+    id: 2,
+    colClass: "col-lg-4",
+    stepClass: "s2",
+    text: "Players train independently",
+    subtext: "with the 100-level skill path",
+  },
+  {
+    id: 3,
+    colClass: "col-lg-4",
+    stepClass: "s3",
+    text: "AI provides coaching feedback",
+    subtext: "on every video",
+  },
+  {
+    id: 4,
+    colClass: "col-lg-4",
+    stepClass: "s4",
+    text: "You view progress",
+    subtext: "anytime through your team dashboard",
+  },
+  {
+    id: 5,
+    colClass: "col-lg-4",
+    stepClass: "s5",
+    text: "Send encouragement",
+    subtext: "to individuals or the whole team",
+  },
+  {
+    id: 6,
+    colClass: "col-lg-4",
+    stepClass: "s6",
+    text: "Celebrate achievements",
+    subtext: "and watch team culture grow",
+  },
+];
+
+export const parentSteps = [
+  {
+    id: 1,
+    colClass: "col-lg-3",
+    stepClass: "s1",
+    text: "Register your child (or join via your club's promo code)",
+    subtext: null,
+  },
+  {
+    id: 2,
+    colClass: "col-lg-3",
+    stepClass: "s2",
+    text: "Download the app",
+    subtext: null,
+  },
+  {
+    id: 3,
+    colClass: "col-lg-3",
+    stepClass: "s3",
+    text: "Your child starts the 100-level skill journey",
+    subtext: null,
+  },
+  {
+    id: 4,
+    colClass: "col-lg-3",
+    stepClass: "s4",
+    text: "They upload short juggling videos",
+    subtext: null,
+  },
+  {
+    id: 5,
+    colClass: "col-lg-4",
+    stepClass: "s5",
+    text: "They receive personalized feedback within minutes",
+    subtext: null,
+  },
+  {
+    id: 6,
+    colClass: "col-lg-4",
+    stepClass: "s6",
+    text: "They earn badges, streaks, stamps, and unlock countries",
+    subtext: null,
+  },
+  {
+    id: 7,
+    colClass: "col-lg-4",
+    stepClass: "s7",
+    text: "You watch their confidence and skill grow",
+    subtext: null,
+  },
+];

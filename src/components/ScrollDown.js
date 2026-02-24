@@ -1,5 +1,3 @@
-"use client";
-
 export default function ScrollDown() {
   return (
     <div className="scroll-wrapper">

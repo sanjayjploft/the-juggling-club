@@ -1,33 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "react-bootstrap";
-import Modal from "react-bootstrap/Modal";
+import VideoModal from "./VideoModal";
 
 export default function NextUp() {
   const [show, setShow] = useState(false);
-  const [copied, setCopied] = useState(false);
-  const handleCopy = async () => {
-    const text = window.location.href;
 
-    try {
-      if (navigator?.clipboard?.writeText) {
-        await navigator.clipboard.writeText(text);
-      } else {
-        const textarea = document.createElement("textarea");
-        textarea.value = text;
-        document.body.appendChild(textarea);
-        textarea.select();
-        document.execCommand("copy");
-        document.body.removeChild(textarea);
-      }
-
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch (err) {
-      console.error("Copy failed:", err);
-    }
-  };
   return (
     <>
       <div className="card-box">
@@ -35,30 +13,29 @@ export default function NextUp() {
 
         <div className="activity-card success">
           <div className="activity-player-profile">
-            <div className="acti-video" onClick={() => setShow(true)}>
+            <button className="acti-video" onClick={() => setShow(true)} aria-label="Play Shooting Fundamentals video">
               <img
                 src="/assets/image/activity-vid-img.png"
-                alt="video thumbnail"
+                alt="Shooting Fundamentals video thumbnail"
                 className="video-thumb"
               />
               <span className="doller-icon">
                 <img src="/assets/image/coin-icon.png" alt="" />
               </span>
-              {/* Play Icon */}
               <span className="play-icon">
-                <img src="/assets/image/play-icon.svg" alt="play" />
+                <img src="/assets/image/play-icon.svg" alt="" />
               </span>
-            </div>
+            </button>
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-30.png" className="me-2" />
+                <img src="/assets/image/level-30.png" className="me-2" alt="Level 30" />
                 Shooting Fundamentals
               </p>
               <small>Virtual Coach:</small>
               <div className="d-flex justify-content-between">
                 <span>
-                  <img src="/assets/image/calendar.svg" className="me-2" />
+                  <img src="/assets/image/calendar.svg" className="me-2" alt="" />
                   Tomorrow
                 </span>
               </div>
@@ -66,30 +43,29 @@ export default function NextUp() {
           </div>
 
           <div className="activity-player-profile">
-            <div className="acti-video" onClick={() => setShow(true)}>
+            <button className="acti-video" onClick={() => setShow(true)} aria-label="Play Right Foot Juggle video">
               <img
                 src="/assets/image/activity-vid-img-1.png"
-                alt="video thumbnail"
+                alt="Right Foot Juggle video thumbnail"
                 className="video-thumb"
               />
               <span className="doller-icon">
                 <img src="/assets/image/coin-icon.png" alt="" />
               </span>
-              {/* Play Icon */}
               <span className="play-icon">
-                <img src="/assets/image/play-icon.svg" alt="play" />
+                <img src="/assets/image/play-icon.svg" alt="" />
               </span>
-            </div>
+            </button>
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-25.png" className="me-2" />
+                <img src="/assets/image/level-25.png" className="me-2" alt="Level 25" />
                 Right Foot Juggle
               </p>
               <small>Coach:</small>
               <div className="d-flex justify-content-between">
                 <span>
-                  <img src="/assets/image/calendar.svg" className="me-2" />
+                  <img src="/assets/image/calendar.svg" className="me-2" alt="" />
                   Yesterday
                 </span>
               </div>
@@ -97,30 +73,29 @@ export default function NextUp() {
           </div>
 
           <div className="activity-player-profile">
-            <div className="acti-video" onClick={() => setShow(true)}>
+            <button className="acti-video" onClick={() => setShow(true)} aria-label="Play Right Foot Juggle video">
               <img
                 src="/assets/image/activity-vid-img.png"
-                alt="video thumbnail"
+                alt="Right Foot Juggle video thumbnail"
                 className="video-thumb"
               />
               <span className="doller-icon">
                 <img src="/assets/image/coin-icon.png" alt="" />
               </span>
-              {/* Play Icon */}
               <span className="play-icon">
-                <img src="/assets/image/play-icon.svg" alt="play" />
+                <img src="/assets/image/play-icon.svg" alt="" />
               </span>
-            </div>
+            </button>
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-23.png" className="me-2" />
+                <img src="/assets/image/level-23.png" className="me-2" alt="Level 23" />
                 RIGHT FOOT JUGGLE
               </p>
               <small>Coach:</small>
               <div className="d-flex justify-content-between">
                 <span>
-                  <img src="/assets/image/calendar.svg" className="me-2" />
+                  <img src="/assets/image/calendar.svg" className="me-2" alt="" />
                   Today
                 </span>
               </div>
@@ -128,61 +103,7 @@ export default function NextUp() {
           </div>
         </div>
       </div>
-      <Modal
-        show={show}
-        onHide={() => setShow(false)}
-        centered
-        size="lg"
-        className="video-modal">
-        <div className="modl-heading">
-          <h3>Right Foot Juggle</h3>
-        </div>
-        <Button className="btn-close" onClick={() => setShow(false)}>
-          <img src="/assets/image/close-icon.svg" />
-        </Button>
-        <Modal.Body>
-          <div className="video-wrapper">
-            <video controls autoPlay>
-              <source src="/assets/image/hero-bg-video.mp4" type="video/mp4" />
-            </video>
-            <div className="video-info">
-              <div className="coach-details">
-                <img src="/assets/image/coach-small-img.png" />
-                <p>Coach James: "Great speed!"</p>
-              </div>
-              <div className="coach-details">
-                <img src="/assets/image/ai-avatar-img.png" />
-                <p>Coach Klaus Kickenbauer: "Great Knee Control!"</p>
-              </div>
-            </div>
-          </div>
-          <div className="mdl-footer">
-            <div className="status-left">
-              Status:{" "}
-              <div className="status-box-mdl">
-                <img src="/assets/image/check-path.svg" className="me-2" />
-                Accomplished
-              </div>
-            </div>
-            <div className="action-mdl">
-              <div className="action-link cursor" onClick={handleCopy}>
-                <img
-                  src="/assets/image/copy-icon.svg"
-                  className="me-2"
-                  alt="copy"
-                />
-                Copy Link
-              </div>
-
-              <div className="action-link">
-                <img src="/assets/image/mail-icon.svg" className="me-2" />
-                Email
-              </div>
-            </div>
-          </div>
-          {copied && <div className="copy-success">Link Copied!</div>}
-        </Modal.Body>
-      </Modal>
+      <VideoModal show={show} onHide={() => setShow(false)} title="Right Foot Juggle" />
     </>
   );
 }

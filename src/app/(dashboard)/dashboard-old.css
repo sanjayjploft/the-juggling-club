@@ -7,13 +7,13 @@ a {
   padding: 30px;
 }
 /* ===== LAYOUT ===== */
-.msar-dashboard-wrapper {
+.juggling-dashboard-wrapper {
   min-height: 95vh;
   display: flex;
   gap: 30px;
   position: relative;
 }
-.msar-dashboard-wrapper::after {
+.juggling-dashboard-wrapper::after {
   content: "";
   background-image: url(/assets/image/dashbord-shape.svg);
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ a {
   pointer-events: none; /* click/block issue na ho */
 }
 /* ===== SIDEBAR ===== */
-.msar-sidebar {
+.juggling-sidebar {
   color: #fff;
   width: 260px;
   padding: 20px 35px;
@@ -36,31 +36,31 @@ a {
   background: var(--Juggling-Club-Dark-Blue, #03202f);
 }
 
-.msar-sidebar.is-collapsed {
+.juggling-sidebar.is-collapsed {
   width: 80px;
   padding: 20px 15px;
 }
-.is-collapsed .msar-sidebar-toggle {
+.is-collapsed .juggling-sidebar-toggle {
   right: -45%;
 }
-.msar-logo {
+.juggling-logo {
   text-align: center;
   margin-bottom: 30px;
 }
-.msar-logo img {
+.juggling-logo img {
   max-width: 100%;
 }
-.msar-menu {
+.juggling-menu {
   list-style: none;
   padding: 0;
   border-bottom: 1px solid #4f636d;
 }
 
-.msar-menu li {
+.juggling-menu li {
   margin-bottom: 10px;
 }
 
-.msar-menu li a {
+.juggling-menu li a {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -70,12 +70,12 @@ a {
   text-decoration: none;
 }
 
-.msar-menu li.active a {
+.juggling-menu li.active a {
   background: #fff;
   color: #000;
 }
 
-.msar-sidebar-toggle {
+.juggling-sidebar-toggle {
   color: #fff;
   background: #051f2f;
   border: 2px solid #c5c5c5;
@@ -89,7 +89,7 @@ a {
   top: 79px;
 }
 
-.msar-logout {
+.juggling-logout {
   border: 1px solid #0a5fff;
   border-radius: 14px;
   justify-content: left;
@@ -105,7 +105,7 @@ a {
 }
 
 /* ===== MAIN ===== */
-.msar-main {
+.juggling-main {
   flex: 1;
   background: #03202f;
   border-radius: 30px;
@@ -113,7 +113,7 @@ a {
 }
 
 /* RIGHT TOP ROUND SAME AS IMAGE */
-.msar-top-bar {
+.juggling-top-bar {
   background: transparent;
 }
 
@@ -149,7 +149,7 @@ a {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 992px) {
-  .msar-sidebar {
+  .juggling-sidebar {
     position: fixed;
     z-index: 999;
     height: 100%;
@@ -157,7 +157,7 @@ a {
     top: 0;
   }
 
-  .msar-main {
+  .juggling-main {
     margin-left: 80px;
   }
 }

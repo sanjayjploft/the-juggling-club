@@ -209,12 +209,10 @@ nav.nav.nav--open {
 .header {
   position: sticky;
   top: 0;
-  z-index: 999;
-  /* background:rgba(255,255,255,0.85); 
-  backdrop-filter: blur(10px); */
+  z-index: 999; 
   transition:
     background-color 0.3s ease,
-    padding 0.3s ease; /* smooth transition */
+    padding 0.3s ease;  
 }
 .header__inner {
   display: flex;
@@ -1940,9 +1938,7 @@ input::placeholder {
   .enroll-section {
     height: 480px;
   }
-  /* br {
-    display: none;
-  } */
+ 
   .contct-mn h1 {
     font-size: 42px;
   }

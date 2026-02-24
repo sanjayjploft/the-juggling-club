@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -29,37 +30,63 @@ export default function Footer() {
           </div>
 
           <div className="cta-image">
-            <img src="/assets/image/player-cta-img.png" alt="Player" />
+            <Image
+              src="/assets/image/player-cta-img.png"
+              alt="Player kicking ball"
+              width={400}
+              height={400}
+            />
           </div>
         </div>
       )}
 
-      {/* FOOTER CONTENT — ALL PAGES */}
       <section className="footer-section">
         <div className="container">
           <div className="footer-grid">
-            {/* LEFT */}
             <div className="footer-left">
               <h3>JOIN THE JUGGLING CLUB</h3>
 
               <div className="newsletter">
                 <span>
-                  <img src="/assets/image/fi_mail.svg" />
+                  <Image
+                    src="/assets/image/fi_mail.svg"
+                    alt=""
+                    width={20}
+                    height={20}
+                  />
                 </span>
-                <input placeholder="GET NEWSLETTER" />
+                <input
+                  placeholder="GET NEWSLETTER"
+                  aria-label="Email for newsletter"
+                />
               </div>
 
               <div className="socials">
                 <span>FOLLOW US</span>
                 <div className="icons">
-                  <Link href="">
-                    <img src="/assets/image/fb-icon.svg" />
+                  <Link href="" aria-label="Facebook">
+                    <Image
+                      src="/assets/image/fb-icon.svg"
+                      alt="Facebook"
+                      width={24}
+                      height={24}
+                    />
                   </Link>
-                  <Link href="">
-                    <img src="/assets/image/tw-icon.svg" />
+                  <Link href="" aria-label="Twitter">
+                    <Image
+                      src="/assets/image/tw-icon.svg"
+                      alt="Twitter"
+                      width={24}
+                      height={24}
+                    />
                   </Link>
-                  <Link href="">
-                    <img src="/assets/image/ig-icon.svg" />
+                  <Link href="" aria-label="Instagram">
+                    <Image
+                      src="/assets/image/ig-icon.svg"
+                      alt="Instagram"
+                      width={24}
+                      height={24}
+                    />
                   </Link>
                 </div>
               </div>
@@ -67,7 +94,6 @@ export default function Footer() {
 
             <div className="footer-grid-shape"></div>
 
-            {/* RIGHT */}
             <div className="footer-right">
               <div>
                 <h4>USEFUL LINKS</h4>

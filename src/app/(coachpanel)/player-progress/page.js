@@ -15,13 +15,13 @@ export default function Page() {
     router.push("/sent-feedback");
   };
   return (
-    <div className="msar-dashboard-wrapper">
+    <div className="juggling-dashboard-wrapper">
       <CoachSidebar />
 
-      <main className="msar-main">
+      <main className="juggling-main">
         {/* HEADER */}
 
-        <div className="msar-top-bar d-flex justify-content-between align-items-start">
+        <div className="juggling-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
               <h4>
@@ -250,9 +250,7 @@ export default function Page() {
           centered
           size="lg"
           className="video-modal">
-          {/* <div className="modl-heading">
-            <h3>Right Foot Juggle</h3>
-          </div> */}
+         
           <button className="btn-close" onClick={() => setShow(false)}>
             <img src="/assets/image/close-icon.svg" />
           </button>

@@ -4,21 +4,17 @@ import ClubSidebar from "../../../components/dashboard/ClubSidebar";
 
 export default function DashboardPage() {
   return (
-    <div className="msar-dashboard-wrapper">
+    <div className="juggling-dashboard-wrapper">
       <ClubSidebar />
 
-      <main className="msar-main">
+      <main className="juggling-main">
         {/* HEADER */}
 
-        <div className="msar-top-bar d-flex justify-content-between align-items-start">
+        <div className="juggling-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
               <h4>Dashboard</h4>
-              {/* <p className="mb-0">
-                {" "}
-                Keep your players motivated with personal messages and voice
-                recordings.
-              </p> */}
+              
             </div>
             <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
               <button className="ft-btn active">Last 7 days</button>

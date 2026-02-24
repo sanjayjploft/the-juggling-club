@@ -3,6 +3,11 @@ import ScrollDown from "../../components/ScrollDown";
 import PlayerInspiration from "../../components/PlayerInspiration";
 import Blog from "../../components/Blog";
 
+export const metadata = {
+  title: "Home",
+  description: "Master your soccer juggling skills with AI coaching and personalized feedback.",
+};
+
 export default function Page() {
   return (
     <main className="page">
@@ -10,11 +15,7 @@ export default function Page() {
       <section className="sectionTop position-relative">
         <div className="container-fluid">
           <div className="hero">
-            {/* <img
-              src="/assets/image/hero.jpg"
-              alt="Hero background"
-              className="hero__img"
-            /> */}
+           
             <video className="hero__video" autoPlay muted loop playsInline>
               <source src="/assets/image/hero-bg-video.mp4" type="video/mp4" />
               Your browser does not support the video tag.

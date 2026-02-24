@@ -1,7 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { defaultAutoplay } from "../constants/swiperConfig";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -20,23 +22,26 @@ export default function Parenttestimonials() {
             modules={[Autoplay, Pagination, Navigation]}
             slidesPerView={1}
             loop={true}
-            autoplay={{
-              delay: 4000,
-              disableOnInteraction: false,
-            }}
+            autoplay={defaultAutoplay}
             navigation={{
               nextEl: ".custom-swiper-next",
               prevEl: ".custom-swiper-prev",
             }}
-            className="hero-swiper">
+            className="hero-swiper"
+          >
             <SwiperSlide>
               <div className="parent-testimonials">
                 <p>
-                  “We’ve seen a real improvement in his ball control and first
-                  touch within weeks.”
+                  &quot;We&apos;ve seen a real improvement in his ball control and first
+                  touch within weeks.&quot;
                 </p>
                 <div className="player-profile">
-                  <img src="/assets/image/parent-img-01.png" />
+                  <Image
+                    src="/assets/image/parent-img-01.png"
+                    alt="Andry Ford"
+                    width={60}
+                    height={60}
+                  />
                   <div>
                     <h5>Andry Ford</h5>
                     <span>Parent of U12 player</span>

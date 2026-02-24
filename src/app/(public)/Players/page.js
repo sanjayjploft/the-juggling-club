@@ -1,9 +1,13 @@
-import React from "react";
 import HeroinnerSection from "../../../components/HeroinnerSection";
 import { Col, Row } from "react-bootstrap";
 import Playerquotes from "../../../components/Playerquotes";
 import Parenttestimonials from "../../../components/Parenttestimonials";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Players",
+  description: "Turn your soccer practice into a global adventure with personalized skill training.",
+};
 
 export default function page() {
   return (

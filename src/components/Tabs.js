@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import FaqAccordion from "../components/FaqAccordion";
+import FaqAccordion from "./FaqAccordion";
 
 const tabs = [
   { id: "tab1", label: "Players" },
@@ -15,11 +15,17 @@ export default function Tabs() {
 
   return (
     <div>
-      {/* Tabs Header */}
-      <div style={{ display: "block", gap: "12px", textAlign: "center" }}>
+      <div
+        role="tablist"
+        style={{ display: "block", gap: "12px", textAlign: "center" }}
+      >
         {tabs.map((tab) => (
           <button
             key={tab.id}
+            role="tab"
+            aria-selected={activeTab === tab.id}
+            aria-controls={`panel-${tab.id}`}
+            id={`tab-${tab.id}`}
             onClick={() => setActiveTab(tab.id)}
             style={{
               padding: "10px 16px",
@@ -32,36 +38,22 @@ export default function Tabs() {
                 activeTab === tab.id
                   ? "2px solid #FF073A"
                   : "2px solid transparent",
-              fontWeight: activeTab === tab.id ? "800" : "800",
+              fontWeight: "800",
               color: activeTab === tab.id ? "#FF073A" : "#03202F",
-            }}>
+            }}
+          >
             {tab.label}
           </button>
         ))}
       </div>
 
-      {/* Tabs Content */}
-      <div style={{ padding: "16px 0" }}>
-        {activeTab === "tab1" && (
-          <p>
-            <FaqAccordion />
-          </p>
-        )}
-        {activeTab === "tab2" && (
-          <p>
-            <FaqAccordion />
-          </p>
-        )}
-        {activeTab === "tab3" && (
-          <p>
-            <FaqAccordion />
-          </p>
-        )}
-        {activeTab === "tab4" && (
-          <p>
-            <FaqAccordion />
-          </p>
-        )}
+      <div
+        role="tabpanel"
+        id={`panel-${activeTab}`}
+        aria-labelledby={`tab-${activeTab}`}
+        style={{ padding: "16px 0" }}
+      >
+        <FaqAccordion />
       </div>
     </div>
   );

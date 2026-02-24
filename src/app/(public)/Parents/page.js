@@ -1,8 +1,12 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Link from "next/link";
 import HowCoachesUseItParents from "../../../components/HowCoachesUseItParents";
 import PlayerTestimonial from "../../../components/PlayerTestimonial";
+
+export const metadata = {
+  title: "Parents",
+  description: "Track your child's soccer progress and watch their confidence grow.",
+};
 
 export default function page() {
   return (
@@ -386,7 +390,7 @@ export default function page() {
           <div className="container">
             <div className="row">
               <div className="enroll-section price-whitout-hed">
-                {/* <h2>Ready to build your club’s legacy?</h2> */}
+               
                 <div className="action-btn">
                   <Link href="" className="btn btn--primary">
                     Start Your Child’s Journey

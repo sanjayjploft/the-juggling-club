@@ -8,10 +8,10 @@ import FaqAccordion from "../../../components/FaqAccordion";
 export default function page() {
   return (
     <>
-      <div className="msar-dashboard-wrapper">
+      <div className="juggling-dashboard-wrapper">
         <Parentsidebar />
-        <main className="msar-main">
-          <div className="msar-top-bar d-flex justify-content-between align-items-start">
+        <main className="juggling-main">
+          <div className="juggling-top-bar d-flex justify-content-between align-items-start">
             <div className="top-heading">
               <div>
                 <h4>

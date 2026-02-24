@@ -1,15 +1,12 @@
-"use client";
-import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+"use client"; 
 import "../(dashboard)/dashboard.css";
 import { usePathname } from "next/navigation";
 import Chatbot from "../../components/dashboard/Chatbot";
 
 export default function DashboardLayout({ children }) {
-  const pathname = usePathname();
-  const [showChat, setShowChat] = useState(false);
+  const pathname = usePathname(); 
 
-  // pages jahan dashboard-main nahi chahiye
+
   const noDashboardMainPages = ["/signup-coach"];
 
   const shouldRemoveClass = noDashboardMainPages.includes(pathname);
@@ -19,7 +16,7 @@ export default function DashboardLayout({ children }) {
       {children}
       <Chatbot />
 
-      {showChat && <Chatbot showButton={false} />}
+      
     </main>
   );
 }

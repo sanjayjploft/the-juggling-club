@@ -1,172 +1,629 @@
-[00:00:01.709] Server  LOG     ✓ Ready in 1266ms
-[00:00:01.711] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:32.269] Server  LOG     ✓ Ready in 24.6s
+[00:00:35.398] Server  LOG     ○ Compiling / ...
+[00:00:44.894] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:04.797] Server  LOG     ○ Compiling /claim-rewards ...
-[00:00:05.444] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.198] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.387] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.009] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:44.935] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:48.915] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:00:48.915] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:48.915] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:45:25.174] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:45:25.174] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[01:06:19.454] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[01:06:22.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:42.969] Server  LOG     ✓ Compiled in 789ms
+[01:12:10.282] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:12:11.367] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[01:12:11.367] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[01:12:11.367] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[01:12:11.367] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. buttom
+[01:12:11.367] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:18:24.510] Server  ERROR   ⨯ ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "../../../components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:24.517] Server  ERROR   ⨯ ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "../../../components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:24.962] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "../../../components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:18:28.479] Server  ERROR   ⨯ ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:28.482] Server  ERROR   ⨯ ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:28.486] Server  ERROR   ⨯ ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:28.490] Server  ERROR   ⨯ ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:28.952] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:18:28.952] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:18.959] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:18.959] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:19.960] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:19.960] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:29.950] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:29.950] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:32.962] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:32.962] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:43.979] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:43.979] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:43.979] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:43.979] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:44.951] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:44.951] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:44.951] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:44.951] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:44.951] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:44.951] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.954] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.954] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:28:07.869] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:08.008] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:28:08.008] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:28:09.954] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:28:09.954] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:28:16.969] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:28:16.969] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:28:16.969] Browser ERROR   ./src/app/(public)/Parents/page.js:4:1
+Module not found: Can't resolve '@components/HowCoachesUseItParents'
+  2 | import { Col, Row } from "react-bootstrap";
+  3 | import Link from "next/link";
+> 4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+  6 |
+  7 | export default function page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:28:16.969] Browser ERROR   ./src/app/(public)/Parents/page.js:5:1
+Module not found: Can't resolve '@components/PlayerTestimonial'
+  3 | import Link from "next/link";
+  4 | import HowCoachesUseItParents from "@components/HowCoachesUseItParents";
+> 5 | import PlayerTestimonial from "@components/PlayerTestimonial";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export default function page() {
+  8 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[01:28:18.326] Server  LOG     ✓ Compiled in 299ms
+[01:29:48.485] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:33:19.980] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:33:25.459] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:38:33.527] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/join-orga..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1274.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="juggling-d...">
+                        <ClubSidebar>
+                        <main className="juggling-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+>                               <h3>
+                                ...
+                            ...
+                ...
+              ...
 
-[00:00:07.045] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
+[01:38:33.527] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/claim-rew..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1274.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="juggling-d...">
+                        <ClubSidebar>
+                        <main className="juggling-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <Col lg={5}>
+                                    <div ref={null} className="col-lg-5">
+                                      <div className="floating-c...">
+>                                       <div className="color-input-wrapper">
+                                        ...
+                            ...
+                ...
+              ...
 
-[00:00:07.063] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/claim-rew..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1274.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
-
-[00:00:45.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:54.856] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:01:57.487] Server  LOG     ✓ Compiled in 270ms
-[00:02:01.510] Server  LOG     ✓ Compiled in 66ms
-[00:02:03.894] Server  LOG     ✓ Compiled in 67ms
-[00:02:04.765] Server  LOG     ✓ Compiled in 70ms
-[00:02:07.283] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:07.961] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
+[01:38:33.527] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[01:42:32.542] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:42:32.543] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1274.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="voicetag-i..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/voicetag-..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="juggling-d...">
+                        <ClubSidebar>
+                        <main className="juggling-main">
+                          <div>
+                          <div className={"containe..."}>
+                            <div className="tabb-conte...">
+>                             <p>
+                                <div>
+                                <div className="upload-box" onClick={function Page[handleClick]}>
+                                  <div className="upload-con...">
+                                    <div>
+>                                   <p className="upload-text">
+                                    ...
+                                  ...
+                                ...
+                            ...
+                ...
+              ...
 
-[00:02:23.477] Server  LOG     ✓ Compiled in 70ms
-[00:02:39.738] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:02:39.738] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:02:39.738] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:02:40.811] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[01:42:32.543] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[01:44:12.236] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[00:02:40.811] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="juggling-d...">
+                        <ClubSidebar>
+                        <main className="juggling-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                ...
+                                  <div className="date-det-s...">
+                                    <div className="d-flex gap...">
+                                      <img>
+                                      <div>
+>                                       <h5>
+                                        ...
+                                    ...
+                                ...
+                            ...
+                ...
+              ...
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
-[00:03:12.796] Server  LOG     ✓ Compiled in 120ms
-[00:04:57.634] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:04:57.634] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:05:01.643] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:00.168] Server  LOG     ✓ Compiled in 36ms
-[00:10:28.519] Server  LOG     ✓ Compiled in 34ms
-[00:11:25.738] Server  LOG     ✓ Compiled in 34ms
+[01:44:12.236] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[01:44:12.597] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h4> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="club-manag..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/club-mana..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="juggling-d...">
+                        <ClubSidebar>
+                        <main className="juggling-main">
+                          <div>
+                          <div className="container-...">
+                            <div>
+                            <div className="tabb-content">
+>                             <p>
+                                <h3>
+                                <Row>
+                                <h3>
+                                ...
+                                  <div ref={null} className="adm-per row">
+                                    <Col md={12}>
+                                      <div ref={null} className="col-md-12">
+>                                       <h4 className="mb-1">
+                                        ...
+                            ...
+                ...
+              ...
+
+[01:44:12.597] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h4>

@@ -66,18 +66,19 @@ export default function DashboardPage() {
   };
 
   return (
-    <div className="msar-dashboard-wrapper">
+    <div className="juggling-dashboard-wrapper">
       <ClubSidebar />
 
-      <main className="msar-main">
+      <main className="juggling-main">
         {/* ================= HEADER ================= */}
 
-        <div className="msar-top-bar d-flex justify-content-between align-items-start">
+        <div className="juggling-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
-            <h4>Club Settings</h4>
-            <p className="mb-0">
-              Manage your club profile and contact information
-            </p>
+            <h4>
+              Club Settings
+              <span>Manage your club profile and contact information</span>
+            </h4>
+           
           </div>
 
           <div className="user-profile">

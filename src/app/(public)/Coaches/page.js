@@ -1,8 +1,12 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Link from "next/link";
 import HowCoachesUseIt from "../../../components/HowCoachesUseIt";
 import CoachesTestimonial from "../../../components/CoachesTestimonial";
+
+export const metadata = {
+  title: "Coaches",
+  description: "Motivate, guide, and reward your players with AI-powered coaching tools.",
+};
 
 export default function page() {
   return (

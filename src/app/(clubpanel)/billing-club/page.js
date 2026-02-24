@@ -9,11 +9,11 @@ export default function DashboardPage() {
   const [activeTab, setActiveTab] = useState("Summary Report");
   const fileInputRef = useRef(null);
   return (
-    <div className="msar-dashboard-wrapper">
+    <div className="juggling-dashboard-wrapper">
       <ClubSidebar />
 
-      <main className="msar-main">
-        <div className="msar-top-bar d-flex justify-content-between align-items-start">
+      <main className="juggling-main">
+        <div className="juggling-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <div>
               <h4>

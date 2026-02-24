@@ -4,12 +4,12 @@ import Link from "next/link";
 
 export default function DashboardPage() {
   return (
-    <div className="msar-dashboard-wrapper">
+    <div className="juggling-dashboard-wrapper">
       <Parentsidebar />
 
-      <main className="msar-main">
+      <main className="juggling-main">
         {/* HEADER */}
-        <div className="msar-top-bar d-flex justify-content-between align-items-start">
+        <div className="juggling-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <h4>Dashboard</h4>
             <div className="filter-by-days">

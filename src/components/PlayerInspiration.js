@@ -2,6 +2,8 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { inspirationCarouselBreakpoints, defaultAutoplay } from "../constants/swiperConfig";
+import { playerInspirations } from "../constants/testimonials";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -17,21 +19,21 @@ export default function PlayerInspiration() {
               LEGENDARY PLAYER INSPIRATION
             </h3>
             <p className="section-dice text-white">
-              The world’s greatest players started with a ball and a dream.
+              The world&apos;s greatest players started with a ball and a dream.
             </p>
           </div>
           <div className="swiper-action-btn">
             <div className="custom-swiper-next">
               <img
                 src="/assets/image/arrow-left.svg"
-                alt="App mock"
+                alt="Previous slide"
                 className="cover"
               />
             </div>
             <div className="custom-swiper-prev">
               <img
                 src="/assets/image/arrow-right.svg"
-                alt="App mock"
+                alt="Next slide"
                 className="cover"
               />
             </div>
@@ -41,197 +43,39 @@ export default function PlayerInspiration() {
         <Swiper
           modules={[Autoplay, Pagination, Navigation]}
           slidesPerView={3}
-          spaceBetween={42} // <-- gap between slides
+          spaceBetween={42}
           loop={true}
-          autoplay={{
-            delay: 4000,
-            disableOnInteraction: false,
-          }}
+          autoplay={defaultAutoplay}
           navigation={{
             nextEl: ".custom-swiper-next",
             prevEl: ".custom-swiper-prev",
           }}
-          breakpoints={{
-            // Mobile
-            0: {
-              slidesPerView: 1,
-            },
-
-            // Small tablets
-            576: {
-              slidesPerView: 1.2,
-            },
-
-            // Tablets
-            768: {
-              slidesPerView: 2,
-            },
-
-            // Small laptops
-            992: {
-              slidesPerView: 2,
-            },
-
-            // Desktop
-            1200: {
-              slidesPerView: 3,
-            },
-          }}
-          className="hero-swiper">
-          <SwiperSlide>
-            <div className="hero-slide ">
-              <img
-                src="/assets/image/player-img01.png"
-                alt="App mock"
-                className=""
-              />
-              <div className="player-info">
+          breakpoints={inspirationCarouselBreakpoints}
+          className="hero-swiper"
+        >
+          {playerInspirations.map((player) => (
+            <SwiperSlide key={player.id}>
+              <div className="hero-slide">
                 <img
-                  src="/assets/image/text-simbl.svg"
-                  alt="App mock"
-                  className="simbl-icon"
+                  src={player.image}
+                  alt={player.name}
                 />
-                <div className="player-bio neon-red-bg">
-                  <p>
-                    The ball is like a friend: the more kindly and skillfully
-                    you treat it, the more it works with you on the field.
-                  </p>
-                </div>
-                <div className="player-name badge-blue-bg">
-                  Pelé <span>Global icon</span>
+                <div className="player-info">
+                  <img
+                    src="/assets/image/text-simbl.svg"
+                    alt=""
+                    className="simbl-icon"
+                  />
+                  <div className={`player-bio ${player.bioClass}`}>
+                    <p>{player.quote}</p>
+                  </div>
+                  <div className={`player-name ${player.nameClass}`}>
+                    {player.name} <span>{player.subtitle}</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="hero-slide ">
-              <img
-                src="/assets/image/player-img02.png"
-                alt="App mock"
-                className=""
-              />
-              <div className="player-info">
-                <img
-                  src="/assets/image/text-simbl.svg"
-                  alt="App mock"
-                  className="simbl-icon"
-                />
-                <div className="player-bio badge-blue-bg">
-                  <p>
-                    Practice the small things with patience and consistency
-                    until they become second nature. 
-                  </p>
-                </div>
-                <div className="player-name explosive-orange">
-                  Messi <span>Maestro of control</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="hero-slide ">
-              <img
-                src="/assets/image/player-img03.png"
-                alt="App mock"
-                className=""
-              />
-              <div className="player-info ">
-                <img
-                  src="/assets/image/text-simbl.svg"
-                  alt="App mock"
-                  className="simbl-icon"
-                />
-                <div className="player-bio dark-blue-bg">
-                  <p>
-                    Ball mastery grows from a genuine love for the game and the
-                    discipline of constant repetition.
-                  </p>
-                </div>
-                <div className="player-name neon-red-bg">
-                  Maradona <span>Street genius</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="hero-slide ">
-              <img
-                src="/assets/image/player-img01.png"
-                alt="App mock"
-                className=""
-              />
-              <div className="player-info">
-                <img
-                  src="/assets/image/text-simbl.svg"
-                  alt="App mock"
-                  className="simbl-icon"
-                />
-                <div className="player-bio neon-red-bg">
-                  <p>
-                    The ball is like a friend: the more kindly and skillfully
-                    you treat it, the more it works with you on the field.
-                  </p>
-                </div>
-                <div className="player-name badge-blue-bg">
-                  Pelé <span>Global icon</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="hero-slide ">
-              <img
-                src="/assets/image/player-img02.png"
-                alt="App mock"
-                className=""
-              />
-              <div className="player-info">
-                <img
-                  src="/assets/image/text-simbl.svg"
-                  alt="App mock"
-                  className="simbl-icon"
-                />
-                <div className="player-bio badge-blue-bg">
-                  <p>
-                    Practice the small things with patience and consistency
-                    until they become second nature. 
-                  </p>
-                </div>
-                <div className="player-name explosive-orange">
-                  Messi <span>Maestro of control</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="hero-slide ">
-              <img
-                src="/assets/image/player-img03.png"
-                alt="App mock"
-                className=""
-              />
-              <div className="player-info ">
-                <img
-                  src="/assets/image/text-simbl.svg"
-                  alt="App mock"
-                  className="simbl-icon"
-                />
-                <div className="player-bio dark-blue-bg">
-                  <p>
-                    Ball mastery grows from a genuine love for the game and the
-                    discipline of constant repetition.
-                  </p>
-                </div>
-                <div className="player-name neon-red-bg">
-                  Maradona <span>Street genius</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </section>
