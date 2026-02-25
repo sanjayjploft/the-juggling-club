@@ -78,7 +78,7 @@ export default function DashboardPage() {
                 <Col lg={4} xs={12}>
                   <div className="player-card tier-card">
                     <h3>Tier 1 - Small Clubs</h3>
-                    <div className="align-items-center d-flex justify-content-between">
+                    <div className="align-items-center d-flex justify-content-between  flex-wrap gap-3">
                       <div>
                         <span className="card-price-tier">$99</span>
                         <div className="small">1 - 500 players</div>
@@ -93,7 +93,7 @@ export default function DashboardPage() {
                 <Col lg={4} xs={12}>
                   <div className="player-card tier-card">
                     <h3>Tier 2 - Medium Clubs</h3>
-                    <div className="align-items-center d-flex justify-content-between">
+                    <div className="align-items-center d-flex justify-content-between  flex-wrap gap-3">
                       <div>
                         <span className="card-price-tier">$199</span>
                         <div className="small">501 - 1,000 players</div>
@@ -108,7 +108,7 @@ export default function DashboardPage() {
                 <Col lg={4} xs={12}>
                   <div className="player-card tier-card">
                     <h3>Tier 3 - Large Clubs</h3>
-                    <div className="align-items-center d-flex justify-content-between">
+                    <div className="align-items-center d-flex justify-content-between flex-wrap gap-3">
                       <div>
                         <span className="card-price-tier">$299</span>
                         <div className="small">1,001+ players</div>

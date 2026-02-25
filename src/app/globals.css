@@ -209,10 +209,10 @@ nav.nav.nav--open {
 .header {
   position: sticky;
   top: 0;
-  z-index: 999; 
+  z-index: 999;
   transition:
     background-color 0.3s ease,
-    padding 0.3s ease;  
+    padding 0.3s ease;
 }
 .header__inner {
   display: flex;
@@ -749,6 +749,7 @@ img.simbl-icon {
 .blog-img {
   width: 100%;
   border-radius: 20px;
+  object-fit: cover;
 }
 
 /* CTA */
@@ -1790,7 +1791,7 @@ input::placeholder {
   text-align: center;
   font-family: "Avenir";
   font-size: 17px;
-  font-style: normal;
+  font-style: oblique;
   font-weight: 350;
   line-height: 32px; /* 188.235% */
   margin: 12px 0px 0px;
@@ -1843,7 +1844,7 @@ input::placeholder {
   text-align: right;
   display: flex;
   flex-direction: column;
-      align-items: end;
+  align-items: end;
 }
 .social-mcn a {
   text-align: center;
@@ -1851,7 +1852,7 @@ input::placeholder {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin:20px 0;
+  margin: 20px 0;
   padding: 15px;
   display: flex;
   align-items: center;
@@ -1938,7 +1939,7 @@ input::placeholder {
   .enroll-section {
     height: 480px;
   }
- 
+
   .contct-mn h1 {
     font-size: 42px;
   }

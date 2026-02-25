@@ -55,7 +55,7 @@ export default function DashboardPage() {
                 <h6>12</h6>
                 <p>Per player</p>
               </div>
-              <img src="/assets/image/avg-badges-icon.svg" />
+              <img src="/assets/image/avg-badges-icon-blue.svg" width={44} />
             </div>
             <div className="player-card">
               <h4>Total Points</h4>

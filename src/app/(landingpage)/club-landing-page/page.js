@@ -297,7 +297,7 @@ export default function HomePage() {
         </Row>
 
         <div className="copy-write-btm">
-          © Juggling Club. All rights reserved.
+          © 2026 The Juggling Club, All Rights Reserved
         </div>
       </footer>
     </>

@@ -35,11 +35,11 @@ export default function RecentActivity() {
               <small>Coach: &quot;Great Knee Control!&quot;</small>
               <div className="d-flex justify-content-between">
                 <span>
-                  <img src="/assets/image/calendar.svg" className="me-2" alt="" />
+                  <img src="/assets/image/calendar.svg" className="me-1" alt="" />
                   Today
                 </span>
                 <div className="badge-success">
-                  <img src="/assets/image/check-path.svg" className="me-2" alt="" />
+                  <img src="/assets/image/check-path.svg" className="me-1" alt="" />
                   Accomplished
                 </div>
               </div>
@@ -63,13 +63,13 @@ export default function RecentActivity() {
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-91.png" className="me-2" alt="Level 91" />
+                <img src="/assets/image/level-91.png" className="me-1" alt="Level 91" />
                 Thigh Control
               </p>
               <small>Virtual Coach: &quot;Keep the ball lower.&quot;</small>
               <div className="d-flex justify-content-between">
                 <span>
-                  <img src="/assets/image/calendar.svg" className="me-2" alt="" />
+                  <img src="/assets/image/calendar.svg" className="me-1" alt="" />
                   Yesterday
                 </span>
                 <div className="try-again">Try Again</div>
@@ -94,17 +94,17 @@ export default function RecentActivity() {
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-91.png" className="me-2" alt="Level 91" />
+                <img src="/assets/image/level-91.png" className="me-1" alt="Level 91" />
                 RIGHT FOOT JUGGLE
               </p>
               <small>Coach: &quot;Great Knee Control!&quot;</small>
               <div className="d-flex justify-content-between">
                 <span>
-                  <img src="/assets/image/calendar.svg" className="me-2" alt="" />
+                  <img src="/assets/image/calendar.svg" className="me-1" alt="" />
                   Today
                 </span>
                 <div className="badge-success">
-                  <img src="/assets/image/check-path.svg" className="me-2" alt="" />
+                  <img src="/assets/image/check-path.svg" className="me-1" alt="" />
                   Accomplished
                 </div>
               </div>

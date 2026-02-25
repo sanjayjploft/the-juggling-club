@@ -39,7 +39,7 @@ export default function SpainLevels() {
           </div>
           <div className="skill-list">
             <div className="skill-list-item">
-              <div className="skill-info d-flex gap-3">
+              <div className="skill-info d-flex gap-3 align-items-center">
                 <img src="/assets/image/level-11.png" />
                 <div>
                   <span>Spain Skill 1</span>
@@ -53,15 +53,10 @@ export default function SpainLevels() {
                   className="me-2"
                 />
                 <p>4</p>
-                <img
-                  src="/assets/image/arrow-blue-right.svg"
-                  alt=""
-                  className=""
-                />
               </div>
             </div>
             <div className="skill-list-item">
-              <div className="skill-info d-flex gap-3">
+              <div className="skill-info d-flex gap-3 align-items-center">
                 <img src="/assets/image/level-12.png" />
                 <div>
                   <span>Spain Skill 2</span>
@@ -75,15 +70,10 @@ export default function SpainLevels() {
                   className="me-2"
                 />
                 <p>4</p>
-                <img
-                  src="/assets/image/arrow-blue-right.svg"
-                  alt=""
-                  className=""
-                />
               </div>
             </div>
             <div className="skill-list-item">
-              <div className="skill-info d-flex gap-3">
+              <div className="skill-info d-flex gap-3 align-items-center">
                 <img src="/assets/image/level-13.png" />
                 <div>
                   <span>Spain Skill 3</span>
@@ -97,11 +87,6 @@ export default function SpainLevels() {
                   className="me-2"
                 />
                 <p>4</p>
-                <img
-                  src="/assets/image/arrow-blue-right.svg"
-                  alt=""
-                  className=""
-                />
               </div>
             </div>
           </div>

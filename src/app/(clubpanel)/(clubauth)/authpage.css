@@ -1,7 +1,7 @@
 .club-register-wrapper {
   flex-direction: column;
   justify-content: space-around;
-  max-width: 740px; 
+  max-width: 740px;
   margin: auto;
   padding: 40px 16px;
   display: flex;
@@ -104,9 +104,9 @@ main.onboarding-pages {
 .form-floating > .form-control:focus ~ label,
 .form-floating > .form-control:not(:placeholder-shown) ~ label,
 .form-floating > .form-select ~ label {
-  background-color: #ffffff;
+  background-color: transparent;
   height: 17px;
-  padding: 0 12px;
+  padding: 0 4px 0px 12px;
   display: inline-block;
   transform: scale(0.85) translateY(-0.9rem) translateX(0.15rem);
 }
@@ -209,7 +209,7 @@ main.onboarding-pages {
   top: 0px;
   font-size: 12px;
   color: #949494;
-  background: #fff;
+  background: transparent;
 }
 .react-tel-input .selected-flag {
   width: 70px !important;
@@ -803,10 +803,10 @@ input.form-control.phone-input {
 .floating-label {
   position: absolute;
   left: 120px;
-  top: 18px;
+  top: 25px;
   color: #888;
   transition: 0.3s;
-  background: white;
+  background: transparent;
   padding: 0 6px;
 }
 
@@ -815,4 +815,31 @@ input.form-control.phone-input {
   top: -8px;
   font-size: 12px;
   color: #000;
+}
+.form-floating > .form-control-plaintext ~ label:after,
+.form-floating > .form-control:focus ~ label:after,
+.form-floating > .form-control:not(:placeholder-shown) ~ label:after,
+.form-floating > .form-select ~ label:after {
+  content: "";
+  margin-left: 4px;
+  background: #ffffff;
+  position: absolute;
+  height: 3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.floating-phone:focus-within .floating-label::after,
+.floating-phone.has-value .floating-label::after {
+  content: "";
+  margin-left: 4px;
+  background: #ffffff;
+  position: absolute;
+  height: 2px;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  z-index: -1;
 }

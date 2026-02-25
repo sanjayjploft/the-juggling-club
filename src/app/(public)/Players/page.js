@@ -6,7 +6,8 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Players",
-  description: "Turn your soccer practice into a global adventure with personalized skill training.",
+  description:
+    "Turn your soccer practice into a global adventure with personalized skill training.",
 };
 
 export default function page() {
@@ -172,7 +173,7 @@ export default function page() {
             <Row>
               <div className="cta-info">
                 <h3>Interested in Growing Your Online Presence?</h3>
-                <Link href="" className="btn btn--primary">
+                <Link href="/signup" className="btn btn--primary">
                   Join Now
                 </Link>
               </div>

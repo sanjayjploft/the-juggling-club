@@ -14,7 +14,7 @@ export default function Blog() {
                 src="/assets/image/blog-1.png"
                 alt="Parents section"
                 width={400}
-                height={300}
+                height={265}
               />
               <div className="blog-info">
                 <div>
@@ -39,7 +39,7 @@ export default function Blog() {
                 src="/assets/image/blog-2.png"
                 alt="Coaches section"
                 width={400}
-                height={300}
+                height={265}
               />
               <div className="blog-info">
                 <div>
@@ -64,14 +64,12 @@ export default function Blog() {
                 src="/assets/image/blog-3.png"
                 alt="Clubs section"
                 width={400}
-                height={300}
+                height={265}
               />
               <div className="blog-info">
                 <div>
                   <h3>Clubs</h3>
-                  <p>
-                    Build your branded player development program.
-                  </p>
+                  <p>Build your branded player development program.</p>
                 </div>
                 <Link href="/Clubs">
                   <Image

@@ -78,7 +78,6 @@ export default function DashboardPage() {
               Club Settings
               <span>Manage your club profile and contact information</span>
             </h4>
-           
           </div>
 
           <div className="user-profile">
@@ -92,7 +91,7 @@ export default function DashboardPage() {
 
         <div className="container-fluid">
           {/* BASIC INFO */}
-          <div className="player-card mx-3 mb-4">
+          <div className="player-card mx-3 mb-4 h-auto">
             <div className="settings-sub-heading">
               <h6>Basic Information</h6>
               <p>Update your club details</p>
@@ -146,7 +145,7 @@ export default function DashboardPage() {
           </div>
 
           {/* LOCATION */}
-          <div className="player-card mx-3 mb-4">
+          <div className="player-card mx-3 mb-4 h-auto">
             <div className="settings-sub-heading">
               <h6>Location</h6>
               <p>Club headquarters address</p>
@@ -189,7 +188,7 @@ export default function DashboardPage() {
           </div>
 
           {/* NOTIFICATIONS */}
-          <div className="player-card mx-3">
+          <div className="player-card mx-3 h-auto">
             <div className="settings-sub-heading">
               <h6>Notification Preferences</h6>
               <p>Set Notification Preferences </p>

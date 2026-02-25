@@ -30,11 +30,9 @@ export default function Footer() {
           </div>
 
           <div className="cta-image">
-            <Image
-              src="/assets/image/player-cta-img.png"
+            <img
+              src="/assets/image/player-cta-img-new.png"
               alt="Player kicking ball"
-              width={400}
-              height={400}
             />
           </div>
         </div>
@@ -138,7 +136,7 @@ export default function Footer() {
       </section>
 
       <div className="copyright">
-        Copyright <span>The Juggling Club</span>, All Rights Reserved
+        © 2026 The Juggling Club, All Rights Reserved
       </div>
     </footer>
   );

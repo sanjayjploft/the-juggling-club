@@ -34,7 +34,7 @@ export default function DashboardPage() {
             <Col xl={4} lg={6} className="mb-4">
               <div className="player-card">
                 <div className="player-crd-profile">
-                  <div className="d-flex gap-3">
+                  <div className="d-flex gap-2">
                     <img src="/assets/image/quotes-img-1.png" />
                     <div>
                       <h4>Leo Messi</h4>
@@ -63,7 +63,7 @@ export default function DashboardPage() {
                     <span>12</span>
                     <p>Badges</p>
                   </div>
-                  <div className="reword-item">
+                  <div className="reword-item without-icon">
                     <span>37</span>
                     <p>Level</p>
                   </div>
@@ -84,7 +84,7 @@ export default function DashboardPage() {
             <Col xl={4} lg={6} className="mb-4">
               <div className="player-card">
                 <div className="player-crd-profile">
-                  <div className="d-flex gap-3">
+                  <div className="d-flex gap-2">
                     <img src="/assets/image/quotes-img-2.png" />
                     <div>
                       <h4>Mia Hamm</h4>
@@ -113,7 +113,7 @@ export default function DashboardPage() {
                     <span>22</span>
                     <p>Badges</p>
                   </div>
-                  <div className="reword-item">
+                  <div className="reword-item without-icon">
                     <span>47</span>
                     <p>Level</p>
                   </div>
@@ -133,7 +133,7 @@ export default function DashboardPage() {
             <Col xl={4} lg={6} className="mb-4">
               <div className="player-card">
                 <div className="player-crd-profile">
-                  <div className="d-flex gap-3">
+                  <div className="d-flex gap-2">
                     <img src="/assets/image/quotes-img-3.png" />
                     <div>
                       <h4>Mia Hamm</h4>
@@ -162,7 +162,7 @@ export default function DashboardPage() {
                     <span>34</span>
                     <p>Badges</p>
                   </div>
-                  <div className="reword-item">
+                  <div className="reword-item without-icon">
                     <span>54</span>
                     <p>Level</p>
                   </div>
@@ -182,7 +182,7 @@ export default function DashboardPage() {
             <Col xl={4} lg={6} className="mb-4">
               <div className="player-card">
                 <div className="player-crd-profile">
-                  <div className="d-flex gap-3">
+                  <div className="d-flex gap-2 ">
                     <img src="/assets/image/quotes-img-4.png" />
                     <div>
                       <h4 className="mb-0">Mia Hamm</h4>

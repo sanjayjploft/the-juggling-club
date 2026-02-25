@@ -14,11 +14,13 @@ export default function DashboardPage() {
         <div className="juggling-top-bar d-flex justify-content-between align-items-start">
           <div className="top-heading">
             <h4>Dashboard</h4>
-            <div className="filter-by-days">
-              <button className="ft-btn active">Last 7 days</button>
-              <button className="ft-btn">30 days </button>
-              <button className="ft-btn">90 days </button>
-              <button className="ft-btn">All time</button>
+            <div className="d-flex gap-4">
+              <div className="custom-breadcrumb">
+                <Link href="/dashboard">Dashboard</Link>
+                <span>/</span>
+
+                <span className="active">Player</span>
+              </div>
               <Link href="/details" className="btn admin-btn-primary">
                 + Add Player
               </Link>
@@ -51,7 +53,7 @@ export default function DashboardPage() {
                   <span>12</span>
                   <p>Badges</p>
                 </div>
-                <div className="reword-item">
+                <div className="reword-item without-icon">
                   <span>37</span>
                   <p>Level</p>
                 </div>

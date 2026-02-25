@@ -29,13 +29,13 @@ export default function NextUp() {
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-30.png" className="me-2" alt="Level 30" />
+                <img src="/assets/image/level-30.png" className="me-1" alt="Level 30" />
                 Shooting Fundamentals
               </p>
               <small>Virtual Coach:</small>
               <div className="d-flex justify-content-between">
                 <span>
-                  <img src="/assets/image/calendar.svg" className="me-2" alt="" />
+                  <img src="/assets/image/calendar.svg" className="me-1" alt="" />
                   Tomorrow
                 </span>
               </div>
@@ -59,13 +59,13 @@ export default function NextUp() {
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-25.png" className="me-2" alt="Level 25" />
+                <img src="/assets/image/level-25.png" className="me-1" alt="Level 25" />
                 Right Foot Juggle
               </p>
               <small>Coach:</small>
               <div className="d-flex justify-content-between">
                 <span>
-                  <img src="/assets/image/calendar.svg" className="me-2" alt="" />
+                  <img src="/assets/image/calendar.svg" className="me-1" alt="" />
                   Yesterday
                 </span>
               </div>
@@ -89,13 +89,13 @@ export default function NextUp() {
             <div className="activity-info-player">
               <p className="title">
                 {" "}
-                <img src="/assets/image/level-23.png" className="me-2" alt="Level 23" />
+                <img src="/assets/image/level-23.png" className="me-1" alt="Level 23" />
                 RIGHT FOOT JUGGLE
               </p>
               <small>Coach:</small>
               <div className="d-flex justify-content-between">
                 <span>
-                  <img src="/assets/image/calendar.svg" className="me-2" alt="" />
+                  <img src="/assets/image/calendar.svg" className="me-1" alt="" />
                   Today
                 </span>
               </div>

@@ -14115,6 +14115,7 @@ img.simbl-icon {
 }
 
 .blog-img {
+  object-fit: cover;
   border-radius: 20px;
   width: 100%;
 }
@@ -15183,7 +15184,7 @@ input::placeholder {
   margin: 12px 0 0;
   font-family: Avenir;
   font-size: 17px;
-  font-style: normal;
+  font-style: oblique;
   font-weight: 350;
   line-height: 32px;
 }

@@ -80,9 +80,9 @@ export default function ContactInformation() {
                   containerClass="phone-container"
                   buttonClass="phone-flag"
                   enableSearch
-                  countryCodeEditable={false} 
-                  disableCountryCode={false}  
-                  placeholder=""  
+                  countryCodeEditable={false}
+                  disableCountryCode={false}
+                  placeholder=""
                 />
 
                 <label className="floating-label">Phone Number *</label>

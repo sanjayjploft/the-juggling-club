@@ -2,14 +2,16 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import { defaultCarouselBreakpoints, defaultAutoplay } from "../constants/swiperConfig";
+import {
+  defaultCarouselBreakpoints,
+  defaultAutoplay,
+} from "../constants/swiperConfig";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 export default function TestimonialCarousel({
-  heading = "Testimonial",
   slides = [],
   showArrows = true,
   arrowVariant = "white",
@@ -29,7 +31,7 @@ export default function TestimonialCarousel({
         <div className="player-quotes">
           <div className="darkHead">
             <div>
-              <h3 className="section-heading">{heading}</h3>
+              <h3 className="section-heading">Testimonials</h3>
             </div>
             {showArrows && (
               <div className="swiper-action-btn">
@@ -53,8 +55,7 @@ export default function TestimonialCarousel({
               prevEl: ".custom-swiper-prev",
             }}
             breakpoints={defaultCarouselBreakpoints}
-            className="hero-swiper"
-          >
+            className="hero-swiper">
             {slides.map((slide) => (
               <SwiperSlide key={slide.id}>
                 <div className="player-quotes">

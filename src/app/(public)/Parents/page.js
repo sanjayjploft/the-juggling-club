@@ -5,7 +5,8 @@ import PlayerTestimonial from "../../../components/PlayerTestimonial";
 
 export const metadata = {
   title: "Parents",
-  description: "Track your child's soccer progress and watch their confidence grow.",
+  description:
+    "Track your child's soccer progress and watch their confidence grow.",
 };
 
 export default function page() {
@@ -25,7 +26,7 @@ export default function page() {
               <div className="hero__content">
                 <h1 className="hero__title">
                   Support your child’s soccer
-                  <br /> journey -from home.
+                  <br /> journey - from home.
                 </h1>
                 <p className="hero__subtitle">
                   Help your child build a growth mindset.
@@ -334,7 +335,7 @@ export default function page() {
               Choose Your Juggling Club Journey
             </h2>
             <Row className="justify-content-center">
-              <Col lg={6}>
+              <Col lg={8}>
                 <div className="price-box ">
                   <div className="singl-pric-box">
                     <div className="annual-price">
@@ -355,7 +356,7 @@ export default function page() {
                         </li>
                         <li>One payment. No monthly renewals.</li>
                       </ul>
-                      <Link href="" className="btn btn--primary">
+                      <Link href="/signup" className="btn btn--primary">
                         Join Now
                       </Link>
                     </div>
@@ -364,7 +365,10 @@ export default function page() {
                       <div className="price-text">
                         $19.99<small>/month</small>
                       </div>
-
+                      <h6 className="opacity-0">
+                        ≈ $16.60/month
+                        <br /> Save $40 vs monthly
+                      </h6>
                       <ul className="price-features">
                         <li>Full access to all training features</li>
                         <li>Coach-guided feedback & challenges</li>
@@ -372,7 +376,7 @@ export default function page() {
                         <li>Flexible month-to-month</li>
                         <li>Cancel anytime</li>
                       </ul>
-                      <Link href="" className="btn btn--primary">
+                      <Link href="/signup" className="btn btn--primary ">
                         Join Now
                       </Link>
                     </div>
@@ -390,7 +394,6 @@ export default function page() {
           <div className="container">
             <div className="row">
               <div className="enroll-section price-whitout-hed">
-               
                 <div className="action-btn">
                   <Link href="" className="btn btn--primary">
                     Start Your Child’s Journey

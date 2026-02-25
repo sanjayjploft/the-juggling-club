@@ -30,10 +30,18 @@ export default function page() {
               <h4>Profile Information</h4>
               <Row>
                 <Col md={2}>
-                  <img
-                    className="img-fluid"
-                    src="/assets/image/prnt=pf-pictr.png"
-                  />
+                  <div className="upload-profile-img-crd">
+                    <img
+                      className="img-fluid"
+                      src="/assets/image/prnt=pf-pictr.png"
+                    />
+                    <button className="edit-pro-crd">
+                      <img
+                        className="img-fluid"
+                        src="/assets/image/edit-icon-profile.svg"
+                      />
+                    </button>
+                  </div>
                 </Col>
                 <Col md={8}>
                   <Row>
