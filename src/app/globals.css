@@ -1891,6 +1891,10 @@ input::placeholder {
   margin-top: 30px;
   font-size: 24px;
   font-weight: 300;
+  background: transparent !important;
+}
+input:focus-visible {
+  outline: none;
 }
 .contct-btm-inf {
   background: url("/assets/image/contact-info-bg.png") center/cover no-repeat;

@@ -1942,6 +1942,11 @@ input::placeholder {
   padding: 10px 15px;
   font-size: 24px;
   font-weight: 300;
+  background: none !important;
+}
+
+input:focus-visible {
+  outline: none;
 }
 
 .contct-btm-inf {

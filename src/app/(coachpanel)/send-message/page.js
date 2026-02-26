@@ -260,7 +260,7 @@ const [sendTo, setSendTo] = useState("team");
                         </p>
 
                         <div className="recording-upload">
-                          <img src="/assets/image/audio_recording.svg" />
+                          <img className="wave-img" src="/assets/image/audio_recording.svg" />
                           <img src="/assets/image/pause-audio.svg" />
                         </div>
 

@@ -3332,8 +3332,8 @@ input.search-inp::placeholder {
   display: flex;
   justify-content: space-between;
 }
-.recording-upload img {
-  width: 90%;
+.recording-upload .wave-img {
+  max-width: 90%;
 }
 /**************** Landing Page Manager *********************/
 
