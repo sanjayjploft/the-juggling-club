@@ -335,58 +335,56 @@ export default function page() {
               Choose Your Juggling Club Journey
             </h2>
             <Row className="justify-content-center">
-              <Col lg={8}>
-                <div className="price-box ">
-                  <div className="singl-pric-box">
-                    <div className="annual-price">
-                      <p>Annual — Best Value</p>
-                      <div className="price-text">
-                        $199.99<small>/year</small>
-                      </div>
-                      <h6>
-                        ≈ $16.60/month
-                        <br /> Save $40 vs monthly
-                      </h6>
-                      <ul className="price-features">
-                        <li>Full year of structured skill progression</li>
-                        <li>Coach-guided feedback & challenges</li>
-                        <li>Badges, milestones & world map progression</li>
-                        <li>
-                          <b>Best value for committed players</b>
-                        </li>
-                        <li>One payment. No monthly renewals.</li>
-                      </ul>
-                      <Link href="/signup" className="btn btn--primary">
-                        Join Now
-                      </Link>
+              <div className="price-box price-box-lrg">
+                <div className="singl-pric-box">
+                  <div className="annual-price">
+                    <p>Annual — Best Value</p>
+                    <div className="price-text">
+                      $199.99<small>/year</small>
                     </div>
-                    <div className="annual-price">
-                      <p>Monthly Plan</p>
-                      <div className="price-text">
-                        $19.99<small>/month</small>
-                      </div>
-                      <h6 className="opacity-0">
-                        ≈ $16.60/month
-                        <br /> Save $40 vs monthly
-                      </h6>
-                      <ul className="price-features">
-                        <li>Full access to all training features</li>
-                        <li>Coach-guided feedback & challenges</li>
-                        <li>Badges, milestones & world map progression</li>
-                        <li>Flexible month-to-month</li>
-                        <li>Cancel anytime</li>
-                      </ul>
-                      <Link href="/signup" className="btn btn--primary ">
-                        Join Now
-                      </Link>
-                    </div>
+                    <h6>
+                      ≈ $16.60/month
+                      <br /> Save $40 vs monthly
+                    </h6>
+                    <ul className="price-features">
+                      <li>Full year of structured skill progression</li>
+                      <li>Coach-guided feedback & challenges</li>
+                      <li>Badges, milestones & world map progression</li>
+                      <li>
+                        <b>Best value for committed players</b>
+                      </li>
+                      <li>One payment. No monthly renewals.</li>
+                    </ul>
+                    <Link href="/signup" className="btn btn--primary">
+                      Join Now
+                    </Link>
                   </div>
-                  <div className="price-expl-text">
-                    Professional-quality coaching for the price of a weekly
-                    coffee.
+                  <div className="annual-price">
+                    <p>Monthly Plan</p>
+                    <div className="price-text">
+                      $19.99<small>/month</small>
+                    </div>
+                    <h6 className="opacity-0">
+                      ≈ $16.60/month
+                      <br /> Save $40 vs monthly
+                    </h6>
+                    <ul className="price-features">
+                      <li>Full access to all training features</li>
+                      <li>Coach-guided feedback & challenges</li>
+                      <li>Badges, milestones & world map progression</li>
+                      <li>Flexible month-to-month</li>
+                      <li>Cancel anytime</li>
+                    </ul>
+                    <Link href="/signup" className="btn btn--primary ">
+                      Join Now
+                    </Link>
                   </div>
                 </div>
-              </Col>
+                <div className="price-expl-text">
+                  Professional-quality coaching for the price of a weekly
+                  coffee.
+                </div>
+              </div>
             </Row>
           </div>
         </section>

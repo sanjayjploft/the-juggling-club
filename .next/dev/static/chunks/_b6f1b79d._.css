@@ -14735,6 +14735,11 @@ input::placeholder {
   box-shadow: 0 7px 20px #00000026;
 }
 
+.price-box-lrg {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .price-box p {
   color: #03202f;
   font-family: Avenir;
@@ -15942,12 +15947,20 @@ input:focus-visible {
   }
 
   .singl-pric-box:after {
-    width: 80%;
+    width: 100%;
     height: 2px;
     position: absolute;
     top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .annual-price {
+    text-align: left;
+  }
+
+  .annual-price h6.opacity-0 {
+    display: none;
   }
 
   .price-features {
