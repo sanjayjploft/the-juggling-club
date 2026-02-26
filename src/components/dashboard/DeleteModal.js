@@ -21,7 +21,7 @@ export default function DeleteModal({ open, onClose }) {
       <div className="logout-backdrop" onClick={onClose} role="presentation" />
 
       <div className="logout-modal">
-        <h4>Delete Coach</h4>
+        <h4>Delete Coach Spotlight</h4>
         <p>
           Are you sure you want to delete this coach? This action cannot be
           undone.
