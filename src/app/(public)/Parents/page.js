@@ -395,10 +395,10 @@ export default function page() {
             <div className="row">
               <div className="enroll-section price-whitout-hed">
                 <div className="action-btn">
-                  <Link href="" className="btn btn--primary">
+                  <Link href="/signup" className="btn btn--primary">
                     Start Your Child’s Journey
                   </Link>
-                  <Link href="" className="btn btn--outline btn--lg">
+                  <Link href="/Players" className="btn btn--outline btn--lg">
                     Explore the Player Experience
                   </Link>
                 </div>
@@ -406,9 +406,9 @@ export default function page() {
             </div>
             <div className="row">
               <div className="links-actin">
-                <Link href="">Want to see how coaches use it?</Link>
+                <Link href="/Coaches">Want to see how coaches use it?</Link>
 
-                <Link href="">From a participating club?</Link>
+                <Link href="/Clubs">From a participating club?</Link>
               </div>
             </div>
           </div>

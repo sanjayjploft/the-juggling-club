@@ -1,4 +1,13 @@
 {
   "/(clubpanel)/club-management/page": "app/(clubpanel)/club-management/page.js",
-  "/(public)/Contact/page": "app/(public)/Contact/page.js"
+  "/(coachpanel)/player-progress/page": "app/(coachpanel)/player-progress/page.js",
+  "/(dashboard)/(parentauth)/signup/page": "app/(dashboard)/(parentauth)/signup/page.js",
+  "/(dashboard)/Playerdetails/page": "app/(dashboard)/Playerdetails/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(public)/Clubs/page": "app/(public)/Clubs/page.js",
+  "/(public)/Coaches/page": "app/(public)/Coaches/page.js",
+  "/(public)/Contact/page": "app/(public)/Contact/page.js",
+  "/(public)/Parents/page": "app/(public)/Parents/page.js",
+  "/(public)/Players/page": "app/(public)/Players/page.js",
+  "/(public)/page": "app/(public)/page.js"
 }
