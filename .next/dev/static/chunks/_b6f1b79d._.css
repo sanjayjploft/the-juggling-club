@@ -16042,4 +16042,38 @@ input::placeholder {
   padding-right: 45px;
 }
 
+.legal-page {
+  max-width: 900px;
+  margin: auto;
+}
+
+.legal-page h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.legal-page h3 {
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.legal-page p {
+  color: #555;
+  line-height: 1.7;
+}
+
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 /*# sourceMappingURL=_b6f1b79d._.css.map*/

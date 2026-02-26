@@ -93,7 +93,7 @@ export default function DashboardPage() {
             </Row>
 
             <Link href={"/teams-groups"} className="btn-next-bg">
-              Create Group
+              Save Group
             </Link>
           </div>
         </div>

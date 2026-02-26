@@ -10,6 +10,29 @@ import FaqAccordionCoach from "../../../components/FaqAccordionCoach";
 import VoiceSelector from "../../../components/dashboard/VoiceSelector";
 import DeactivatingAccount from "../../../components/dashboard/DeactivatingAccount";
 export default function Page() {
+  const countries = [
+    { name: "United States", code: "+1", flag: "/assets/image/usa-flag.svg" },
+    { name: "Argentina", code: "+54", flag: "/assets/image/Argentina.svg" },
+    { name: "Australia", code: "+61", flag: "/assets/image/Australia.svg" },
+    { name: "France", code: "+33", flag: "/assets/image/France.svg" },
+    { name: "India", code: "+91", flag: "/assets/image/India.svg" },
+    {
+      name: "Luxembourg",
+      code: "+352",
+      flag: "/assets/image/Luxembourg.svg",
+    },
+    { name: "Nicaragua", code: "+505", flag: "/assets/image/Nicaragua.svg" },
+    { name: "Portugal", code: "+351", flag: "/assets/image/Portugal.svg" },
+    { name: "Ukraine", code: "+380", flag: "/assets/image/Ukraine.svg" },
+  ];
+
+  const [open, setOpen] = useState(false);
+  const [selected, setSelected] = useState(countries[0]);
+
+  const selectCountry = (country) => {
+    setSelected(country);
+    setOpen(false);
+  };
   const [activeTab, setActiveTab] = useState("Profile");
   const [phone, setPhone] = useState("");
   const [firstName, setFirstName] = useState("Alex");
@@ -142,18 +165,45 @@ export default function Page() {
 
                   {/* Phone */}
                   <Col lg={5} xs={12} className="mb-4">
-                    <div
-                      className={`floating-phone ${phone ? "has-value" : ""}`}>
-                      <PhoneInput
-                        country="in"
-                        // value={phone}
-                        onChange={(value) => setPhone(value)}
-                        inputClass="phone-input"
-                        containerClass="phone-container"
-                        buttonClass="phone-flag"
-                        enableSearch
-                      />
-                      <label className="floating-label">Phone Number *</label>
+                    <div className="csm-phone-input">
+                      <div className="phone-wrapper">
+                        {/* COUNTRY SELECT */}
+                        <div
+                          className="country-box"
+                          onClick={() => setOpen(!open)}>
+                          <img src={selected.flag} alt="flag" />
+                          <span className="dial-code">{selected.code}</span>
+
+                          <span className="arrow">
+                            <img
+                              src="/assets/image/phone-arrow.svg"
+                              alt="arrow"
+                            />
+                          </span>
+                        </div>
+
+                        {/* DROPDOWN */}
+                        {open && (
+                          <div className="country-dropdown">
+                            {countries.map((country, index) => (
+                              <div
+                                key={index}
+                                className="country-item"
+                                onClick={() => selectCountry(country)}>
+                                <img src={country.flag} />
+                                <span>{country.name}</span>
+                                <strong>{country.code}</strong>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+
+                        {/* INPUT */}
+                        <div className="input-box">
+                          <input type="number" required />
+                          <label>Phone Number</label>
+                        </div>
+                      </div>
                     </div>
                   </Col>
 
@@ -334,13 +384,13 @@ export default function Page() {
                           <Button className="btn-next-bg">Send Message</Button>
                         </div>
                         <div className="tandcpp">
-                          <Link href="/" className="">
+                          <a href="/terms-of-use" className="">
                             Terms of Use
-                          </Link>
+                          </a>
                           <small>|</small>
-                          <Link href="/" className="">
+                          <a href="/privacy-policy" className="">
                             Privacy Policy
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </Col>

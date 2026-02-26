@@ -28,8 +28,8 @@ export default function page() {
           <div className="container-fluid acnt-stng-cl">
             <div className="content-card ">
               <h4>Profile Information</h4>
-              <Row>
-                <Col md={2}>
+              <Col lg={10}>
+                <div className="d-flex gap-3 flex-wrap align-items-start">
                   <div className="upload-profile-img-crd">
                     <img
                       className="img-fluid"
@@ -42,38 +42,38 @@ export default function page() {
                       />
                     </button>
                   </div>
-                </Col>
-                <Col md={8}>
-                  <Row>
-                    <Col lg={6} xs={12} className="mb-3">
-                      <Form.Floating>
-                        <Form.Control placeholder="" value={"Sarah"} />
-                        <label>First Name</label>
-                      </Form.Floating>
-                    </Col>
-                    <Col lg={6} xs={12} className="mb-3">
-                      <Form.Floating>
-                        <Form.Control placeholder="" value={"Jonson"} />
-                        <label>Last Name</label>
-                      </Form.Floating>
-                    </Col>
-                  </Row>
-                  <Row className="">
-                    <Col lg={6} xs={12} className="mb-3">
-                      <Form.Floating>
-                        <Form.Control
-                          placeholder=""
-                          value={"sarah.jonson@mail.com"}
-                        />
-                        <label>Email</label>
-                      </Form.Floating>
-                    </Col>
-                    <Col md={6}>
-                      <Button className="btn-next-bg">Save Changes </Button>
-                    </Col>
-                  </Row>
-                </Col>
-              </Row>
+                  <div className="profile-update flex-fill">
+                    <Row>
+                      <Col lg={6} xs={12} className="mb-3">
+                        <Form.Floating>
+                          <Form.Control placeholder="" value={"Sarah"} />
+                          <label>First Name</label>
+                        </Form.Floating>
+                      </Col>
+                      <Col lg={6} xs={12} className="mb-3">
+                        <Form.Floating>
+                          <Form.Control placeholder="" value={"Jonson"} />
+                          <label>Last Name</label>
+                        </Form.Floating>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col lg={6} xs={12} className="mb-3">
+                        <Form.Floating>
+                          <Form.Control
+                            placeholder=""
+                            value={"sarah.jonson@mail.com"}
+                          />
+                          <label>Email</label>
+                        </Form.Floating>
+                      </Col>
+                      <Col md={6}>
+                        <Button className="btn-next-bg">Save Changes </Button>
+                      </Col>
+                    </Row>
+                  </div>
+                </div>
+              </Col>
             </div>
 
             <Row className="px-3 mt-4">

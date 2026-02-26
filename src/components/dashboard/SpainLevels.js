@@ -7,7 +7,7 @@ export default function SpainLevels() {
           <div className="levels-box-open">
             <div className="level-item">
               <img
-                src="/assets/image/icon-level-advanced.svg"
+                src="/assets/image/icon-level-intermediate.svg"
                 alt="video thumbnail"
                 className="me-2"
               />
@@ -43,7 +43,7 @@ export default function SpainLevels() {
                 <img src="/assets/image/level-11.png" />
                 <div>
                   <span>Spain Skill 1</span>
-                  <p>LEVEL 11 | Feet Only: 10...</p>
+                  <p>LEVEL 11 | Feet Only: 10 with Bounce</p>
                 </div>
               </div>
               <div className="skill-right  d-flex gap-3">
@@ -77,7 +77,10 @@ export default function SpainLevels() {
                 <img src="/assets/image/level-13.png" />
                 <div>
                   <span>Spain Skill 3</span>
-                  <p>LEVEL 13 | Laces while...</p>
+                  <p>
+                    LEVEL 13 | Laces while Sitting: 2x and Catch (5 rounds each
+                    foot)
+                  </p>
                 </div>
               </div>
               <div className="skill-right  d-flex gap-3">

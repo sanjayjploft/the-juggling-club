@@ -268,7 +268,7 @@ export default function Page() {
 
                       <p
                         className={`mt-0 grdesd ${
-                          item.highlightDesc ? "highlight-desc" : ""
+                          item.highlightDesc ? "" : ""
                         }`}>
                         {item.desc}
                       </p>

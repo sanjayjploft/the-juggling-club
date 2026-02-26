@@ -828,3 +828,142 @@ input.form-control.phone-input {
   bottom: 7px;
   z-index: -1;
 }
+
+/* MAIN WRAPPER */
+.csm-phone-input {
+  width: 100%;
+}
+
+/* FULL INPUT DESIGN */
+.csm-phone-input .phone-wrapper {
+  background: #f7fbff;
+  border: 1px solid #d4d7e3;
+  border-radius: 12px;
+  align-items: center;
+  padding: 8px 12px;
+  transition: all 0.3s;
+  display: flex;
+}
+.csm-phone-input .phone-wrapper:focus-within {
+  border-color: #4f7cff;
+}
+
+/* COUNTRY SECTION */
+.csm-phone-input .country-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-right: 12px;
+  border-right: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.csm-phone-input .country-box img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.csm-phone-input .dial-code {
+  font-size: 14px;
+  font-weight: 500;
+    color: #000;
+}
+
+.csm-phone-input .arrow img {
+  width: 11.333px;
+  height: 6.334px;
+}
+
+/* INPUT BOX */
+.csm-phone-input .input-box {
+  position: relative;
+  flex: 1;
+  margin-left: 12px;
+}
+
+/* INPUT */
+.csm-phone-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 14px 0 6px;
+  background: transparent;
+   color: #000;
+}
+
+/* FLOATING LABEL */
+.csm-phone-input label {
+  position: absolute;
+  left: 0;
+  top: 14px;
+  color: #9aa0a6;
+  font-size: 14px;
+  pointer-events: none;
+  transition: 0.25s ease;
+  background: #fff;
+  padding: 0 4px;
+}
+
+/* FLOAT EFFECT */
+.csm-phone-input input:focus + label,
+.csm-phone-input input:not(:placeholder-shown) + label,
+.csm-phone-input input:valid + label {
+  color: #949494;
+  font-size: 14px;
+  top: -18px;
+  background: #fff;
+  height: 10px;
+}
+
+.csm-phone-input {
+  position: relative;
+}
+
+/* COUNTRY DROPDOWN */
+.country-dropdown {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 260px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+/* COUNTRY ITEM */
+.country-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.country-item:hover {
+  background: #f5f7ff;
+}
+
+.country-item img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.country-item span {
+  flex: 1;
+  font-size: 14px;
+    color: #000;
+}
+
+.country-item strong {
+  font-size: 14px;
+    color: #000;
+}

@@ -36,7 +36,7 @@ export default function Blog() {
             <div className="blog-box">
               <Image
                 className="blog-img"
-                src="/assets/image/blog-2.png"
+                src="/assets/image/blognew-2.png"
                 alt="Coaches section"
                 width={400}
                 height={265}

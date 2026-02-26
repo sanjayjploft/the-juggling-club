@@ -2,13 +2,29 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import Link from "next/link";
 import { Row, Col, Form, Button } from "react-bootstrap";
 export default function ContactInformation() {
-  const [phone, setPhone] = useState("");
   const router = useRouter();
+  const countries = [
+    { name: "United States", code: "+1", flag: "/assets/image/usa-flag.svg" },
+    { name: "Argentina", code: "+54", flag: "/assets/image/Argentina.svg" },
+    { name: "Australia", code: "+61", flag: "/assets/image/Australia.svg" },
+    { name: "France", code: "+33", flag: "/assets/image/France.svg" },
+    { name: "India", code: "+91", flag: "/assets/image/India.svg" },
+    { name: "Luxembourg", code: "+352", flag: "/assets/image/Luxembourg.svg" },
+    { name: "Nicaragua", code: "+505", flag: "/assets/image/Nicaragua.svg" },
+    { name: "Portugal", code: "+351", flag: "/assets/image/Portugal.svg" },
+    { name: "Ukraine", code: "+380", flag: "/assets/image/Ukraine.svg" },
+  ];
+
+  const [open, setOpen] = useState(false);
+  const [selected, setSelected] = useState(countries[0]);
+
+  const selectCountry = (country) => {
+    setSelected(country);
+    setOpen(false);
+  };
   return (
     <>
       <div className="step-progress">
@@ -71,21 +87,40 @@ export default function ContactInformation() {
               </div>
             </Col>
             <Col lg={12}>
-              <div className={`floating-phone ${phone ? "has-value" : ""}`}>
-                <PhoneInput
-                  country="us" // US flag +1 default
-                  value={phone} // IMPORTANT
-                  onChange={(value) => setPhone(value)}
-                  inputClass="phone-input"
-                  containerClass="phone-container"
-                  buttonClass="phone-flag"
-                  enableSearch
-                  countryCodeEditable={false}
-                  disableCountryCode={false}
-                  placeholder=""
-                />
+              <div className="csm-phone-input">
+                <div className="phone-wrapper">
+                  {/* COUNTRY SELECT */}
+                  <div className="country-box" onClick={() => setOpen(!open)}>
+                    <img src={selected.flag} alt="flag" />
+                    <span className="dial-code">{selected.code}</span>
 
-                <label className="floating-label">Phone Number *</label>
+                    <span className="arrow">
+                      <img src="/assets/image/phone-arrow.svg" alt="arrow" />
+                    </span>
+                  </div>
+
+                  {/* DROPDOWN */}
+                  {open && (
+                    <div className="country-dropdown">
+                      {countries.map((country, index) => (
+                        <div
+                          key={index}
+                          className="country-item"
+                          onClick={() => selectCountry(country)}>
+                          <img src={country.flag} />
+                          <span>{country.name}</span>
+                          <strong>{country.code}</strong>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* INPUT */}
+                  <div className="input-box">
+                    <input type="number" required />
+                    <label>Phone Number</label>
+                  </div>
+                </div>
               </div>
             </Col>
 

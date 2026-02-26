@@ -63,13 +63,13 @@ export default function page() {
                     <Button className="btn-next-bg">Send Message</Button>
                   </div>
                   <div className="tandcpp">
-                    <Link href="/" className="">
+                    <a href="/terms-of-use" className="">
                       Terms of Use
-                    </Link>
+                    </a>
                     <small>|</small>
-                    <Link href="/" className="">
+                    <a href="/privacy-policy" className="">
                       Privacy Policy
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </Col>

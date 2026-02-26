@@ -2536,3 +2536,35 @@ input::placeholder {
 .password-field input {
   padding-right: 45px; /* icon space */
 }
+
+.legal-page {
+  max-width: 900px;
+  margin: auto;
+}
+
+.legal-page h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.legal-page h3 {
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.legal-page p {
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Chrome, Safari, Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -30,7 +30,7 @@ export default function DashboardPage() {
               </p>
             </div>
             <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
-              <Link href="/join-organization" className="btn-primary">
+              <Link href="/organizations" className="btn-primary">
                 Join Organization
               </Link>
             </div>
@@ -55,7 +55,7 @@ export default function DashboardPage() {
                 <label>Organization Name</label>
               </Form.Floating>
             </Col>
-            <Link href="/join-organization" className="btn-primary mt-2">
+            <Link href="/organizations" className="btn-primary mt-2">
               Create Organization
             </Link>
           </div>

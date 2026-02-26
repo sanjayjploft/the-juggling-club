@@ -3,9 +3,11 @@ import { useState } from "react";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import CoachSidebar from "../../../components/dashboard/CoachSidebar";
 import Link from "next/link";
+import ClaimReward from "../../../components/dashboard/ClaimReward";
 
 export default function DashboardPage() {
   const [copied, setCopied] = useState(false);
+  const [showDelete, setShowDelete] = useState(false);
   const joinCode = "T-SAE-12345";
 
   const copyCode = () => {
@@ -107,9 +109,11 @@ export default function DashboardPage() {
                 </Col>
                 <Col lg={5} className="text-end">
                   <div className="claim-reward">
-                    <Link href="/claim-rewards" className="btn-primary">
+                    <Button
+                      className="btn-primary"
+                      onClick={() => setShowDelete(true)}>
                       Claim Reward
-                    </Link>
+                    </Button>
                   </div>
                 </Col>
               </Row>
@@ -166,7 +170,6 @@ export default function DashboardPage() {
                     </div>
                   </div>
                 </Col>
-               
               </Row>
             </div>
           </div>
@@ -222,9 +225,7 @@ export default function DashboardPage() {
                   </div>
                 </Col>
                 <Col lg={5} className="text-end">
-                  <div className="claim-reward">
-                   
-                  </div>
+                  <div className="claim-reward"></div>
                 </Col>
               </Row>
             </div>
@@ -252,6 +253,7 @@ export default function DashboardPage() {
             </Col>
           </Row>
         </div>
+        <ClaimReward open={showDelete} onClose={() => setShowDelete(false)} />
       </main>
     </div>
   );
