@@ -1,9 +1,6 @@
 {
   "/(clubpanel)/dashboardclub/page": "app/(clubpanel)/dashboardclub/page.js",
-  "/(coachpanel)/send-message/page": "app/(coachpanel)/send-message/page.js",
-  "/(coachpanel)/view-players/page": "app/(coachpanel)/view-players/page.js",
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
-  "/(public)/Contact/page": "app/(public)/Contact/page.js",
-  "/(public)/FAQ/page": "app/(public)/FAQ/page.js",
-  "/(public)/Parents/page": "app/(public)/Parents/page.js"
+  "/(coachpanel)/add-organization/page": "app/(coachpanel)/add-organization/page.js",
+  "/(coachpanel)/organizations/page": "app/(coachpanel)/organizations/page.js",
+  "/(coachpanel)/view-players/page": "app/(coachpanel)/view-players/page.js"
 }
