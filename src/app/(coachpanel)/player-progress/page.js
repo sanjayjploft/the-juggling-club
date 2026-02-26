@@ -6,7 +6,20 @@ import Modal from "react-bootstrap/Modal";
 import { useRouter } from "next/navigation";
 import CoachSidebar from "../../../components/dashboard/CoachSidebar";
 import Link from "next/link";
-
+const tabHeadings = {
+  "New Submissions": {
+    title: "Player Progress",
+    desc: "See what your players are working on — jump in when you want.",
+  },
+  Viewed: {
+    title: "Player Videos",
+    desc: "Review video submissions and provide feedback to your players",
+  },
+  "Feedback Shared": {
+    title: "Player Videos",
+    desc: "Review video submissions and provide feedback to your players",
+  },
+};
 export default function Page() {
   const [activeTab, setActiveTab] = useState("New Submissions");
   const [show, setShow] = useState(false);
@@ -14,6 +27,7 @@ export default function Page() {
   const feedBakPage = () => {
     router.push("/sent-feedback");
   };
+
   return (
     <div className="juggling-dashboard-wrapper">
       <CoachSidebar />
@@ -25,10 +39,8 @@ export default function Page() {
           <div className="top-heading">
             <div>
               <h4>
-                Player Progress
-                <span>
-                  See what your players are working on — jump in when you want.
-                </span>
+                {tabHeadings[activeTab].title}
+                <span>{tabHeadings[activeTab].desc}</span>
               </h4>
             </div>
           </div>
@@ -250,7 +262,6 @@ export default function Page() {
           centered
           size="lg"
           className="video-modal">
-         
           <button className="btn-close" onClick={() => setShow(false)}>
             <img src="/assets/image/close-icon.svg" />
           </button>

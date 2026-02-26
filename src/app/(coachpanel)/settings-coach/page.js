@@ -8,6 +8,7 @@ import "react-phone-input-2/lib/style.css";
 import Link from "next/link";
 import FaqAccordionCoach from "../../../components/FaqAccordionCoach";
 import VoiceSelector from "../../../components/dashboard/VoiceSelector";
+import DeactivatingAccount from "../../../components/dashboard/DeactivatingAccount";
 export default function Page() {
   const [activeTab, setActiveTab] = useState("Profile");
   const [phone, setPhone] = useState("");
@@ -17,6 +18,8 @@ export default function Page() {
   const [profileImg, setProfileImg] = useState(null);
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
+  const [showDelete, setShowDelete] = useState(false);
+
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -294,11 +297,14 @@ export default function Page() {
                           Deactivate Account Warning: This will deactivate your
                           account.
                         </h3>
-                        <Button className="btn-next-bg">
+                        <Button
+                          className="btn-next-bg"
+                          onClick={() => setShowDelete(true)}>
                           Deactivate account
                         </Button>
                       </div>
                     </Col>
+
                     <Col lg={6} xs={12}>
                       <div className="player-card setting-form-crd">
                         <div>
@@ -346,6 +352,10 @@ export default function Page() {
 
           <div className="current-subs"></div>
         </div>
+        <DeactivatingAccount
+          open={showDelete}
+          onClose={() => setShowDelete(false)}
+        />
       </main>
     </div>
   );

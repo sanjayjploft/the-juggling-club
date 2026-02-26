@@ -2,11 +2,13 @@
 import { useState } from "react";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import CoachSidebar from "../../../components/dashboard/CoachSidebar";
+import DeactivatingOrganizations from "../../../components/dashboard/DeactivatingOrganizations";
 import Link from "next/link";
 
 export default function DashboardPage() {
   const [copied, setCopied] = useState(false);
   const joinCode = "T-SAE-12345";
+  const [showDelete, setShowDelete] = useState(false);
 
   const copyCode = () => {
     navigator.clipboard.writeText(joinCode);
@@ -67,7 +69,10 @@ export default function DashboardPage() {
               <Link href={""} className=" ms-3">
                 <img src="/assets/image/settings.svg" className="" />
               </Link>
-              <Link href={""} className=" ms-3">
+              <Link
+                href={""}
+                className=" ms-3"
+                onClick={() => setShowDelete(true)}>
                 <img src="/assets/image/trash.svg" className="" />
               </Link>
             </div>
@@ -92,7 +97,10 @@ export default function DashboardPage() {
               <Link href={""} className=" ms-3">
                 <img src="/assets/image/settings.svg" className="" />
               </Link>
-              <Link href={""} className=" ms-3">
+              <Link
+                href={""}
+                className=" ms-3"
+                onClick={() => setShowDelete(true)}>
                 <img src="/assets/image/trash.svg" className="" />
               </Link>
             </div>
@@ -118,6 +126,10 @@ export default function DashboardPage() {
           </div>
         </div>
       </main>
+      <DeactivatingOrganizations
+        open={showDelete}
+        onClose={() => setShowDelete(false)}
+      />
     </div>
   );
 }

@@ -12,22 +12,36 @@ export default function Sidebar({ menu = [] }) {
   const [collapsed, setCollapsed] = useAutoCollapse(1400);
   const [showLogout, setShowLogout] = useState(false);
 
+  // ✅ active route checker
+  const isActiveRoute = (item) => {
+    if (pathname === item.href) return true;
+
+    if (item.childRoutes?.includes(pathname)) {
+      return true;
+    }
+
+    return false;
+  };
+
   return (
     <aside className={`juggling-sidebar ${collapsed ? "is-collapsed" : ""}`}>
+      {/* Logo */}
       <div className="juggling-logo">
-        <a href="/">
+        <Link href="/">
           <Image
             src="/assets/image/logo-juggling.svg"
-            alt="Juggling Club logo"
+            alt="Logo"
             width={60}
             height={60}
           />
-        </a>
+        </Link>
       </div>
 
+      {/* Menu */}
       <ul className="juggling-menu">
         {menu.map((item) => {
-          const active = pathname === item.href;
+          const active = isActiveRoute(item);
+
           return (
             <li key={item.name} className={active ? "active" : ""}>
               <Link href={item.href}>
@@ -44,13 +58,11 @@ export default function Sidebar({ menu = [] }) {
         })}
       </ul>
 
-      <button
-        className="juggling-logout"
-        onClick={() => setShowLogout(true)}
-        aria-label="Log out">
+      {/* Logout */}
+      <button className="juggling-logout" onClick={() => setShowLogout(true)}>
         <Image
           src="/assets/image/logout-icon.svg"
-          alt=""
+          alt="Logout"
           width={18}
           height={18}
         />
@@ -59,10 +71,10 @@ export default function Sidebar({ menu = [] }) {
 
       <LogoutModal open={showLogout} onClose={() => setShowLogout(false)} />
 
+      {/* Toggle */}
       <button
         className="juggling-sidebar-toggle"
-        onClick={() => setCollapsed(!collapsed)}
-        aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}>
+        onClick={() => setCollapsed(!collapsed)}>
         ☰
       </button>
     </aside>

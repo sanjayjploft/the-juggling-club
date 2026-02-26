@@ -127,7 +127,7 @@ export default function DashboardPage() {
                 <Link href={"/send-message"} className="btn-outline ms-3">
                   SEND MESSAGE
                 </Link>
-                <Link href={""} className=" ms-3">
+                <Link href={"/edit-new-group"} className=" ms-3">
                   <img src="/assets/image/settings.svg" className="" />
                 </Link>
               </Col>
@@ -197,7 +197,7 @@ export default function DashboardPage() {
                 <Link href={"/send-message"} className="btn-outline ms-3">
                   SEND MESSAGE
                 </Link>
-                <Link href={""} className="ms-3">
+                <Link href={"/edit-new-group"} className="ms-3">
                   <img src="/assets/image/settings.svg" className="" />
                 </Link>
               </Col>

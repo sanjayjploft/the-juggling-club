@@ -29,7 +29,7 @@ export default function Page() {
           </div>
           <div className="user-profile">
             <Link href="#">
-              <img src="/assets/image/coach-mike.png" />
+              <img src="/assets/image/club-logo.png" />
             </Link>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function Page() {
               <p>Active Players</p>
               <h5>12</h5>
             </div>
-            <div className="team-grid-item">
+            <div className="team-grid-item text-end">
               <Link href="/reports" className="">
                 <img src="/assets/image/view.svg" />
               </Link>
@@ -92,7 +92,7 @@ export default function Page() {
               <p>Active Players</p>
               <h5>18</h5>
             </div>
-            <div className="team-grid-item">
+            <div className="team-grid-item  text-end">
               <Link href="/reports" className="">
                 <img src="/assets/image/view.svg" />
               </Link>
@@ -122,7 +122,7 @@ export default function Page() {
               <p>Active Players</p>
               <h5>12</h5>
             </div>
-            <div className="team-grid-item">
+            <div className="team-grid-item  text-end">
               <Link href="/reports" className="">
                 <img src="/assets/image/view.svg" />
               </Link>

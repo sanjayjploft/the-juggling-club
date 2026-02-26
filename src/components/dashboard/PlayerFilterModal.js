@@ -27,8 +27,7 @@ export default function PlayerFilterModal({ open, onClose }) {
         className={`filter-table ${open ? "open" : ""}`}
         role="dialog"
         aria-label="Player filters"
-        aria-hidden={!open}
-      >
+        aria-hidden={!open}>
         <div className="filter-header">
           <h5>Filters</h5>
           <button onClick={onClose} aria-label="Close filters">
@@ -37,29 +36,33 @@ export default function PlayerFilterModal({ open, onClose }) {
         </div>
 
         <div className="filter-body">
-          <h6 id="age-group-label">AGE GROUP</h6>
-          <div className="age-group" role="group" aria-labelledby="age-group-label">
+          <h6 id="age-group-label">Age Group</h6>
+          <div
+            className="age-group"
+            role="group"
+            aria-labelledby="age-group-label">
             {ageOptions.map((age) => (
               <button
                 key={age}
                 className={`age-btn ${ageGroup.includes(age) ? "active" : ""}`}
                 onClick={() => toggleAge(age)}
-                aria-pressed={ageGroup.includes(age)}
-              >
+                aria-pressed={ageGroup.includes(age)}>
                 {age}
               </button>
             ))}
           </div>
 
           <h6 id="gender-label">Gender</h6>
-          <div className="gender-toggle" role="group" aria-labelledby="gender-label">
+          <div
+            className="gender-toggle"
+            role="group"
+            aria-labelledby="gender-label">
             {["All", "Boy", "Girl"].map((g) => (
               <button
                 key={g}
                 className={gender === g ? "active" : ""}
                 onClick={() => setGender(g)}
-                aria-pressed={gender === g}
-              >
+                aria-pressed={gender === g}>
                 {g}
               </button>
             ))}
@@ -73,8 +76,7 @@ export default function PlayerFilterModal({ open, onClose }) {
                 className={`custom-radio ${playerType === type ? "active" : ""}`}
                 onClick={() => setPlayerType(type)}
                 role="radio"
-                aria-checked={playerType === type}
-              >
+                aria-checked={playerType === type}>
                 {type}
                 <span />
               </button>
@@ -112,7 +114,9 @@ export default function PlayerFilterModal({ open, onClose }) {
 
         <div className="filter-footer">
           <button className="reset-btn">Reset</button>
-          <button className="apply-btn">Apply Filters</button>
+          <button className="apply-btn" onClick={onClose}>
+            Apply Filters
+          </button>
         </div>
       </div>
     </>

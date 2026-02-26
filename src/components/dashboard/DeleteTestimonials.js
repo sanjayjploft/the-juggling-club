@@ -1,16 +1,4 @@
-"use client";
-
-import { useRouter } from "next/navigation";
-
-export default function LogoutModal({ open, onClose }) {
-  const router = useRouter();
-
-  const handleLogout = () => {
-    localStorage.removeItem("token");
-    sessionStorage.clear();
-    router.push("/");
-  };
-
+export default function DeleteTestimonials({ open, onClose }) {
   if (!open) return null;
 
   return (
@@ -21,14 +9,17 @@ export default function LogoutModal({ open, onClose }) {
       <div className="logout-backdrop" onClick={onClose} role="presentation" />
 
       <div className="logout-modal">
-        <h4>Log Out</h4>
-        <p>Are you sure you want to log out?</p>
+        <h4>Delete Testimonial</h4>
+        <p>
+          Do you really want to delete this testimonial? This action cannot be
+          undone.
+        </p>
 
         <div className="logout-actions">
           <button className="logout-no" onClick={onClose}>
             No
           </button>
-          <button className="logout-yes" onClick={handleLogout}>
+          <button className="logout-yes" onClick={onClose}>
             Yes
           </button>
         </div>

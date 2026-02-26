@@ -4,11 +4,13 @@ import { useRef, useState } from "react";
 import ClubSidebar from "../../../components/dashboard/ClubSidebar";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import Link from "next/link";
+import DeleteModal from "../../../components/dashboard/DeleteModal";
 
 export default function Page() {
   const [primaryColor, setPrimaryColor] = useState("#0055A4");
   const [secondaryColor, setSecondaryColor] = useState("#00A86B");
   const [checked, setChecked] = useState(false);
+  const [showDelete, setShowDelete] = useState(false);
 
   const fileRef = useRef(null);
   const [file, setFile] = useState(null);
@@ -39,7 +41,19 @@ export default function Page() {
   const handleClick = () => {
     fileInputRef.current.click();
   };
-
+  const [permissions, setPermissions] = useState({
+    logo: false,
+    landing: false,
+    voiceTag: false,
+    payments: false,
+    reports: false,
+  });
+  const handleChange = (name) => {
+    setPermissions((prev) => ({
+      ...prev,
+      [name]: !prev[name],
+    }));
+  };
   return (
     <div className="juggling-dashboard-wrapper">
       <ClubSidebar />
@@ -58,7 +72,7 @@ export default function Page() {
           </div>
           <div className="user-profile">
             <Link href="#">
-              <img src="/assets/image/coach-mike.png" />
+              <img src="/assets/image/club-logo.png" />
             </Link>
           </div>
         </div>
@@ -177,13 +191,20 @@ export default function Page() {
                       <div className="d-flex align-items-center gap-4 text-white">
                         Show
                         <input class="switch mt-0" type="checkbox" />
-                        <Link href="#" className="">
+                        <Link
+                          href="#"
+                          className=""
+                          onClick={() => setShowDelete(true)}>
                           <img src="/assets/image/trash.svg" />
                         </Link>
                       </div>
                     </div>
                   </Col>
                 </Row>
+                <DeleteModal
+                  open={showDelete}
+                  onClose={() => setShowDelete(false)}
+                />
                 <h3>Add Another Coach</h3>
                 <div className="add-tme">
                   <Row>
@@ -280,8 +301,8 @@ export default function Page() {
                         <label className="checkbox-wrapper">
                           <input
                             type="checkbox"
-                            checked={checked}
-                            onChange={() => setChecked(!checked)}
+                            checked={permissions.logo}
+                            onChange={() => handleChange("logo")}
                           />
                           <span className="custom-checkbox" />
                           <span className="label-text">
@@ -292,39 +313,42 @@ export default function Page() {
                         <label className="checkbox-wrapper">
                           <input
                             type="checkbox"
-                            checked={checked}
-                            onChange={() => setChecked(!checked)}
+                            checked={permissions.landing}
+                            onChange={() => handleChange("landing")}
                           />
                           <span className="custom-checkbox" />
                           <span className="label-text">
                             Edit Club Landing Page Content
                           </span>
                         </label>
+
                         <label className="checkbox-wrapper">
                           <input
                             type="checkbox"
-                            checked={checked}
-                            onChange={() => setChecked(!checked)}
+                            checked={permissions.voiceTag}
+                            onChange={() => handleChange("voiceTag")}
                           />
                           <span className="custom-checkbox" />
                           <span className="label-text">
                             Manage VoiceTag Recordings
                           </span>
                         </label>
+
                         <label className="checkbox-wrapper">
                           <input
                             type="checkbox"
-                            checked={checked}
-                            onChange={() => setChecked(!checked)}
+                            checked={permissions.payments}
+                            onChange={() => handleChange("payments")}
                           />
                           <span className="custom-checkbox" />
                           <span className="label-text">Make Payments</span>
                         </label>
+
                         <label className="checkbox-wrapper">
                           <input
                             type="checkbox"
-                            checked={checked}
-                            onChange={() => setChecked(!checked)}
+                            checked={permissions.reports}
+                            onChange={() => handleChange("reports")}
                           />
                           <span className="custom-checkbox" />
                           <span className="label-text">View Reports</span>

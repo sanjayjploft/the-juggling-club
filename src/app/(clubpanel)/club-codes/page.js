@@ -21,7 +21,7 @@ export default function Page() {
           </div>
           <div className="user-profile">
             <Link href="#">
-              <img src="/assets/image/coach-mike.png" />
+              <img src="/assets/image/club-logo.png" />
             </Link>
           </div>
         </div>

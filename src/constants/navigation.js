@@ -51,10 +51,13 @@ export const clubMenu = [
     activeIcon: "/assets/image/dashboard-active.svg",
   },
   {
-    name: "Players",
+    name: "Club Players",
     href: "/club-players",
     icon: "/assets/image/players-menu.svg",
     activeIcon: "/assets/image/players-menu-active.svg",
+
+    // ✅ related pages
+    childRoutes: ["/clubplayer-details"],
   },
   {
     name: "Teams",
@@ -67,6 +70,7 @@ export const clubMenu = [
     href: "/club-management",
     icon: "/assets/image/management-menu.svg",
     activeIcon: "/assets/image/management-menu-active.svg",
+    childRoutes: ["/voicetag-intro", "/coach-spotlight", "/landing-hero-page"],
   },
   {
     name: "Landing Page",
@@ -112,12 +116,14 @@ export const coachMenu = [
     href: "/teams-groups",
     icon: "/assets/image/teams-groups-menu.svg",
     activeIcon: "/assets/image/teams-groups-menu-active.svg",
+    childRoutes: ["/create-new-group", "/view-players", "/edit-new-group"],
   },
   {
     name: "Player Progress",
     href: "/player-progress",
     icon: "/assets/image/player-progress-menu.svg",
     activeIcon: "/assets/image/player-progress-menu-active.svg",
+    childRoutes: ["/sent-feedback"],
   },
   {
     name: "Analytics",
@@ -130,6 +136,7 @@ export const coachMenu = [
     href: "/coach-messages",
     icon: "/assets/image/messages-menu.svg",
     activeIcon: "/assets/image/messages-menu-active.svg",
+    childRoutes: ["/send-message"],
   },
   {
     name: "Leaderboard",
@@ -142,12 +149,14 @@ export const coachMenu = [
     href: "/organizations",
     icon: "/assets/image/organizations.svg",
     activeIcon: "/assets/image/organizations-active.svg",
+    childRoutes: ["/add-organization", "/join-organization"],
   },
   {
     name: "Rewards",
     href: "/coach-rewards",
     icon: "/assets/image/rewards-menu.svg",
     activeIcon: "/assets/image/rewards-menu-active.svg",
+    childRoutes: ["/claim-rewards"],
   },
   {
     name: "Settings",

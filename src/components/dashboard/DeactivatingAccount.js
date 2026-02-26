@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 
-export default function LogoutModal({ open, onClose }) {
+export default function DeactivatingAccount({ open, onClose }) {
   const router = useRouter();
 
   const handleLogout = () => {
@@ -21,14 +21,17 @@ export default function LogoutModal({ open, onClose }) {
       <div className="logout-backdrop" onClick={onClose} role="presentation" />
 
       <div className="logout-modal">
-        <h4>Log Out</h4>
-        <p>Are you sure you want to log out?</p>
+        <h4>Deactivate Account</h4>
+        <p>
+          Are you sure you want to deactivate your account? You will no longer
+          have access until it is reactivated.
+        </p>
 
         <div className="logout-actions">
           <button className="logout-no" onClick={onClose}>
             No
           </button>
-          <button className="logout-yes" onClick={handleLogout}>
+          <button className="logout-yes" onClick={onClose}>
             Yes
           </button>
         </div>

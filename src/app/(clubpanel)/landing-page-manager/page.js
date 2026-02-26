@@ -4,10 +4,11 @@ import { useState } from "react";
 import ClubSidebar from "../../../components/dashboard/ClubSidebar";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import Link from "next/link";
+import DeleteTestimonials from "../../../components/dashboard/DeleteTestimonials";
 
 export default function Page() {
   const [activeTab, setActiveTab] = useState("profile");
-
+  const [showDelete, setShowDelete] = useState(false);
   // Testimonials
   const [testimonial1, setTestimonial1] = useState(false);
   const [testimonial2, setTestimonial2] = useState(false);
@@ -31,7 +32,10 @@ export default function Page() {
               <span>Customize your club's public landing page</span>
             </h4>
             <div className="btn-cdr d-flex gap-3 align-items-center">
-              <Link href="/club-landing-page" className="small-btn-admin">
+              <Link
+                href="/club-landing-page"
+                className="small-btn-admin"
+                target="_blank">
                 Preview page
               </Link>
               <Link href="#" className="copy-url-btn">
@@ -42,7 +46,7 @@ export default function Page() {
 
           <div className="user-profile">
             <Link href="#">
-              <img src="/assets/image/coach-mike.png" alt="" />
+              <img src="/assets/image/club-logo.png" alt="" />
             </Link>
           </div>
         </div>
@@ -146,11 +150,14 @@ export default function Page() {
                     </label>
                   </div>
 
-                  <Link href="#">
+                  <Link href="#" onClick={() => setShowDelete(true)}>
                     <img src="/assets/image/trash.svg" alt="" />
                   </Link>
                 </div>
-
+                <DeleteTestimonials
+                  open={showDelete}
+                  onClose={() => setShowDelete(false)}
+                />
                 {/* Testimonial 2 */}
                 <div className="date-det-skills-spot">
                   <div>
@@ -170,7 +177,7 @@ export default function Page() {
                     </label>
                   </div>
 
-                  <Link href="#">
+                  <Link href="#" onClick={() => setShowDelete(true)}>
                     <img src="/assets/image/trash.svg" alt="" />
                   </Link>
                 </div>

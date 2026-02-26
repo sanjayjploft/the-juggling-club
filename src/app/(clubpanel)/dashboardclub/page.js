@@ -1,8 +1,14 @@
-import { Button, Col, Row } from "react-bootstrap";
+"use client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import ClubSidebar from "../../../components/dashboard/ClubSidebar";
 
 export default function DashboardPage() {
+  const router = useRouter();
+
+  const goToPage = (path) => {
+    router.push(path);
+  };
   return (
     <div className="juggling-dashboard-wrapper">
       <ClubSidebar />
@@ -14,7 +20,6 @@ export default function DashboardPage() {
           <div className="top-heading">
             <div>
               <h4>Dashboard</h4>
-              
             </div>
             <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
               <button className="ft-btn active">Last 7 days</button>
@@ -26,7 +31,7 @@ export default function DashboardPage() {
           </div>
           <div className="user-profile">
             <Link href="#">
-              <img src="/assets/image/coach-mike.png" />
+              <img src="/assets/image/club-logo.png" />
             </Link>
           </div>
         </div>
@@ -78,17 +83,23 @@ export default function DashboardPage() {
             <h3>Quick Actions</h3>
             <p>Manage your club and landing page</p>
             <div className="quick-actions-grid">
-              <div className="quick-item-grid">
+              <div
+                className="quick-item-grid"
+                onClick={() => goToPage("/club-management")}>
                 <img src="/assets/image/club-management.svg" />
                 <h6>Club Management</h6>
                 <p>Edit branding & admins</p>
               </div>
-              <div className="quick-item-grid">
+              <div
+                className="quick-item-grid"
+                onClick={() => goToPage("/landing-page-manager")}>
                 <img src="/assets/image/landing-page.svg" />
                 <h6>Landing Page</h6>
                 <p>Customize your page</p>
               </div>
-              <div className="quick-item-grid">
+              <div
+                className="quick-item-grid"
+                onClick={() => goToPage("/reports")}>
                 <img src="/assets/image/business-report.svg" />
                 <h6>Reports</h6>
                 <p>View analytics</p>

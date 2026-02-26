@@ -82,7 +82,7 @@ export default function DashboardPage() {
 
           <div className="user-profile">
             <Link href="#">
-              <img src="/assets/image/coach-mike.png" alt="" />
+              <img src="/assets/image/club-logo.png" alt="" />
             </Link>
           </div>
         </div>

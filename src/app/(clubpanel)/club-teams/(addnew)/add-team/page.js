@@ -21,7 +21,7 @@ export default function Page() {
           </div>
           <div className="user-profile">
             <Link href="#">
-              <img src="/assets/image/coach-mike.png" />
+              <img src="/assets/image/club-logo.png" />
             </Link>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function Page() {
                 </Form.Floating>
               </Col>
             </Row>
-            <Link href={"/club-players"} className="btn-next-bg">
+            <Link href={"/club-teams"} className="btn-next-bg">
               Create Team
             </Link>
           </div>

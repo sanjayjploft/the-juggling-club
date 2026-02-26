@@ -59,7 +59,7 @@ export default function DashboardPage() {
               </Form.Floating>
             </Col>
             <Link href="#" className="btn-primary mt-2">
-              Create Organization
+              Join Organization
             </Link>
           </div>
         </div>

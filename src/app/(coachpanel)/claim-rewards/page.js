@@ -2,10 +2,12 @@
 import { useState } from "react";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import CoachSidebar from "../../../components/dashboard/CoachSidebar";
+import SavePreference from "../../../components/dashboard/SavePreference";
 import Link from "next/link";
 
 export default function DashboardPage() {
   const [copied, setCopied] = useState(false);
+  const [showDelete, setShowDelete] = useState(false);
   const joinCode = "T-SAE-12345";
 
   const copyCode = () => {
@@ -29,7 +31,6 @@ export default function DashboardPage() {
                 groups or join existing ones.
               </p>
             </div>
-            
           </div>
           <div className="user-profile">
             <Link href="#">
@@ -75,7 +76,7 @@ export default function DashboardPage() {
 
                   {/* ===== DONATION OPTION ===== */}
                   <div className="notification-card notification-card2 notification-cms border-0 p-0">
-                    <div className="notification-card-in mb-4 d-flex align-items-start gap-3">
+                    <div className=" mb-4 d-flex align-items-start gap-3">
                       <label className="send-masg-radio mt-1">
                         <input type="radio" name="rewardType" />
                         <span className="send-masg-ui"></span>
@@ -90,8 +91,6 @@ export default function DashboardPage() {
                           </span>
                         </h3>
                       </div>
-
-                      <input className="switch ms-auto" type="checkbox" />
                     </div>
                     <div className="donation-bottm-box">
                       <div className="donation-type">
@@ -122,12 +121,19 @@ export default function DashboardPage() {
           </div>
           <Col lg={5} className="ms-3">
             <div className="claim-reward">
-              <Link href="/claim-rewards" className="btn-primary">
-                Claim Reward
+              <Link
+                href=""
+                className="btn-primary"
+                onClick={() => setShowDelete(true)}>
+                Save Preference
               </Link>
             </div>
           </Col>
         </div>
+        <SavePreference
+          open={showDelete}
+          onClose={() => setShowDelete(false)}
+        />
       </main>
     </div>
   );

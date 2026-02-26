@@ -4,7 +4,8 @@ import Heroclubs from "../../../components/Heroclubs";
 
 export const metadata = {
   title: "Clubs",
-  description: "Partner with us to develop your players, inspire your teams, and build your club brand.",
+  description:
+    "Partner with us to develop your players, inspire your teams, and build your club brand.",
 };
 
 export default function page() {
@@ -356,7 +357,7 @@ export default function page() {
                     $99<small>Small Clubs</small>
                   </div>
                   <h6>0-500 Players</h6>
-                  <Link href="" className="btn btn--primary">
+                  <Link href="/club-information" className="btn btn--primary">
                     Join Now
                   </Link>
                 </div>
@@ -368,7 +369,7 @@ export default function page() {
                     $199<small>Medium Clubs</small>
                   </div>
                   <h6>501-1,000 Players</h6>
-                  <Link href="" className="btn btn--primary">
+                  <Link href="/club-information" className="btn btn--primary">
                     Join Now
                   </Link>
                 </div>
@@ -380,7 +381,7 @@ export default function page() {
                     $299<small>Large Clubs</small>
                   </div>
                   <h6>1,000+ Players</h6>
-                  <Link href="" className="btn btn--primary">
+                  <Link href="/club-information" className="btn btn--primary">
                     Join Now
                   </Link>
                 </div>
@@ -394,7 +395,7 @@ export default function page() {
               <div className="enroll-section">
                 <h2>Ready to build your club’s legacy?</h2>
                 <div className="action-btn">
-                  <Link href="" className="btn btn--primary">
+                  <Link href="/club-information" className="btn btn--primary">
                     Enroll Your Club
                   </Link>
                   <Link href="" className="btn btn--outline btn--lg">
