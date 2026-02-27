@@ -362,10 +362,12 @@ export default function page() {
               <div className="enroll-section enroll-whitout-hed">
                 {/* <h2>Ready to build your club’s legacy?</h2> */}
                 <div className="action-btn">
-                  <Link href="" className="btn btn--primary">
+                  <Link href="/signup-coach" className="btn btn--primary">
                     Start With Your Team
                   </Link>
-                  <Link href="" className="btn btn--outline btn--lg">
+                  <Link
+                    href="/signup-coach"
+                    className="btn btn--outline btn--lg">
                     See the Coach Dashboard
                   </Link>
                 </div>

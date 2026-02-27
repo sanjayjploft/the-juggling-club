@@ -1,5 +1,3 @@
 {
-  "/(clubpanel)/add-team/page": "app/(clubpanel)/add-team/page.js",
-  "/(clubpanel)/club-teams/page": "app/(clubpanel)/club-teams/page.js",
   "/(public)/page": "app/(public)/page.js"
 }
