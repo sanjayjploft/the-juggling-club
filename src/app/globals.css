@@ -1646,7 +1646,7 @@ input::placeholder {
 }
 
 .links-actin a {
-  color: #0a5fff;
+  color: #fd2a40;
   font-family: "Avenir";
   font-size: 22px;
   font-style: normal;
@@ -2580,4 +2580,10 @@ input[type="number"]::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .cta-buttons .btn-outline:hover {
+    color: #fff;
+    background: #0A5FFF;
+     border-color: #0A5FFF;
 }

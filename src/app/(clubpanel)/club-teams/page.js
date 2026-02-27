@@ -22,7 +22,7 @@ export default function Page() {
               </h4>
             </div>
             <div className="filter-by-days d-flex justify-content-between gap-4 align-items-center">
-              <Link href="club-teams/add-team" className="btn-primary">
+              <Link href="/add-team" className="btn-primary">
                 + Add Team
               </Link>
             </div>

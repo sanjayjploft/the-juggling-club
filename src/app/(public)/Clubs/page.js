@@ -397,10 +397,7 @@ export default function page() {
                 <div className="action-btn">
                   <Link href="/club-information" className="btn btn--primary">
                     Enroll Your Club
-                  </Link>
-                  <Link href="" className="btn btn--outline btn--lg">
-                    See How It Works
-                  </Link>
+                  </Link> 
                 </div>
               </div>
             </div>
@@ -412,10 +409,10 @@ export default function page() {
               <div className="coaches-parents">
                 <h2>Have coaches or parents who want to join?</h2>
                 <div className="cta-buttons justify-content-center">
-                  <Link href="" className="btn btn--primary">
+                  <Link href="/Coaches" className="btn btn--primary">
                     Coaches
                   </Link>
-                  <Link href="" className="btn-outline">
+                  <Link href="/Parents" className="btn-outline">
                     Parents
                   </Link>
                 </div>

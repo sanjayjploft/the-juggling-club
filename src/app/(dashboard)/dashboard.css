@@ -609,15 +609,16 @@ button {
 }
 
 .player-avatar {
-  object-fit: cover;
-  border-radius: 50%;
-  width: 140px;
-  height: 140px;
-  aspect-ratio: 1/1;
-  position: absolute;
-  left: 0;
-  z-index: 999;
+    object-fit: contain;
+    aspect-ratio: 1;
+    z-index: 999;
+    /* border-radius: 50%; */
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 0;
 }
+
 .player-avatar-info .player-name {
   padding: 0px;
   color: #fff;
@@ -6111,28 +6112,33 @@ tr {
 
 /* FLOATING LABEL */
 .csm-phone-input label {
-  position: absolute;
-  left: 0;
-  top: 14px;
-  color: #9aa0a6;
-  font-size: 14px;
-  pointer-events: none;
-  transition: 0.25s ease;
-  background: #fff;
-  padding: 0 4px;
+    color: #9aa0a6;
+    pointer-events: none;
+    background: transparent;
+    padding: 0 4px;
+    font-size: 14px;
+    transition: all .3s;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }
-
+ 
 /* FLOAT EFFECT */
-.csm-phone-input input:focus + label,
-.csm-phone-input input:not(:placeholder-shown) + label,
-.csm-phone-input input:valid + label {
+ 
+ .csm-phone-input input:focus + label{
   color: #949494;
+   background: #051f2e;
   font-size: 14px;
   top: -18px;
-  background: #03202f;
-
   height: 10px;
 }
+ 
+/* FLOAT EFFECT */
+ 
+ 
+
+/* FLOAT EFFECT */
+ 
 
 .csm-phone-input {
   position: relative;
@@ -6194,4 +6200,11 @@ input[type="number"]::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+
+.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .admin-btn-primary:hover, .btn-cancel-outline:hover, .btn-primary:hover, .upgrade-btn:hover, .apply-btn:hover {
+    color: #fff;
+    background: #0A5FFF;
+    border-color: #0A5FFF;
 }

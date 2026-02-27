@@ -64,6 +64,7 @@ export const clubMenu = [
     href: "/club-teams",
     icon: "/assets/image/teams-menu.svg",
     activeIcon: "/assets/image/teams-menu-active.svg",
+    childRoutes: ["/add-team"],
   },
   {
     name: "Management",
@@ -116,7 +117,11 @@ export const coachMenu = [
     href: "/teams-groups",
     icon: "/assets/image/teams-groups-menu.svg",
     activeIcon: "/assets/image/teams-groups-menu-active.svg",
-    childRoutes: ["/create-new-group", "/view-players", "/edit-new-group"],
+    childRoutes: [
+      "/create-new-group",
+      "/view-players",
+      "/edit-new-group", 
+    ],
   },
   {
     name: "Player Progress",

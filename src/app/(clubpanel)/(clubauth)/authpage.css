@@ -909,29 +909,29 @@ input.form-control.phone-input {
   color: #000;
 }
 
-/* FLOATING LABEL */
 .csm-phone-input label {
-  position: absolute;
-  left: 0;
-  top: 14px;
-  color: #9aa0a6;
-  font-size: 14px;
-  pointer-events: none;
-  transition: 0.25s ease;
-  background: #fff;
-  padding: 0 4px;
+    color: #9aa0a6;
+    pointer-events: none;
+    background: transparent;
+    padding: 0 4px;
+    font-size: 14px;
+    transition: all .3s;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }
-
+ 
 /* FLOAT EFFECT */
-.csm-phone-input input:focus + label,
-.csm-phone-input input:not(:placeholder-shown) + label,
-.csm-phone-input input:valid + label {
+ 
+ .csm-phone-input input:focus + label{
   color: #949494;
+   background: #fff;
   font-size: 14px;
   top: -18px;
-  background: #fff;
   height: 10px;
 }
+/* FLOAT EFFECT */
+ 
 
 .csm-phone-input {
   position: relative;

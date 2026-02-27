@@ -15046,7 +15046,7 @@ input::placeholder {
 }
 
 .links-actin a {
-  color: #0a5fff;
+  color: #fd2a40;
   text-decoration-skip-ink: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
@@ -16092,6 +16092,12 @@ input[type="number"]::-webkit-inner-spin-button {
 
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .cta-buttons .btn-outline:hover {
+  color: #fff;
+  background: #0a5fff;
+  border-color: #0a5fff;
 }
 
 /*# sourceMappingURL=_b6f1b79d._.css.map*/

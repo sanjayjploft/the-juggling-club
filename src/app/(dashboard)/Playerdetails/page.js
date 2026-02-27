@@ -35,14 +35,16 @@ export default function DashboardPage() {
         <div className="container-fluid">
           <div className="dashboard-header">
             <img
-              src="/assets/image/quotes-img-1.png"
+              src="/assets/image/player-card-img.png"
               className="player-avatar"
             />
             <div className="player-avatar-info d-flex align-items-center justify-content-between flex-wrap">
               <div className="d-flex align-items-center">
                 <div className="ms-3">
                   <h5 className="player-name">LEO MESSI</h5>
-                  <p className="player-club">Aurora SC (U12)</p>
+                  <p className="player-club">
+                    Aurora SC (U12) <span>(Coach Ted)</span>
+                  </p>
                   <img src="/assets/image/1K-bronze.png" className="" />
                 </div>
               </div>

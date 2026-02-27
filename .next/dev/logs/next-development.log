@@ -1,9 +1,187 @@
-[00:00:01.942] Server  LOG     ✓ Ready in 1488ms
-[00:00:01.945] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:27.466] Server  LOG     ✓ Ready in 21.6s
+[00:00:30.565] Server  LOG     ○ Compiling /club-information ...
+[00:00:39.418] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:05.453] Server  LOG     ○ Compiling /dashboardclub ...
-[00:00:06.056] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.309] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:39.461] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:44.977] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:12.059] Server  LOG     ✓ Compiled in 39ms
+[00:02:25.885] Server  LOG     ✓ Compiled in 58ms
+[00:02:34.328] Server  LOG     ✓ Compiled in 305ms
+[00:02:34.879] Browser ERROR   ./src/app/(clubpanel)/(clubauth)/authpage.css:936:2
+Parsing CSS source code failed
+  934 | }
+  935 | .csm-phone-input input + label,
+> 936 | . {
+      |  ^
+  937 |   color: #949494;
+  938 |   font-size: 14px;
+  939 |   top: -18px;
+
+Expected identifier in class selector, got WhiteSpace(" ")
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(clubpanel)/(clubauth)/authpage.css [Client Component Browser]
+    ./src/app/(clubpanel)/(clubauth)/layout.js [Server Component]
+[00:02:37.485] Server  LOG     ✓ Compiled in 35ms
+[00:02:40.281] Server  LOG     ✓ Compiled in 32ms
+[00:02:44.681] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:50.492] Server  LOG     ✓ Compiled in 28ms
+[00:04:12.168] Server  LOG     ✓ Compiled in 31ms
+[00:04:16.597] Server  LOG     ✓ Compiled in 32ms
+[00:04:20.601] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:16.244] Server  LOG     ✓ Compiled in 290ms
+[00:05:18.322] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:45.608] Server  LOG     ✓ Compiled in 32ms
+[00:05:57.784] Server  LOG     ✓ Compiled in 49ms
+[00:06:02.120] Server  LOG     ✓ Compiled in 59ms
+[00:06:04.489] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:30.818] Server  LOG     ✓ Compiled in 53ms
+[00:06:36.323] Server  LOG     ✓ Compiled in 49ms
+[00:06:51.528] Server  LOG     ✓ Compiled in 60ms
+[00:06:58.295] Server  LOG     ✓ Compiled in 50ms
+[00:07:06.004] Server  LOG     ✓ Compiled in 52ms
+[00:07:17.364] Server  LOG     ✓ Compiled in 49ms
+[00:07:19.250] Server  LOG     ✓ Compiled in 46ms
+[00:07:38.042] Server  LOG     ✓ Compiled in 50ms
+[00:08:06.628] Server  LOG     ✓ Compiled in 33ms
+[00:08:40.105] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:08:40.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:41.052] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:10:09.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:09.657] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:11:43.877] Browser ERROR   ./src/app/(clubpanel)/(clubauth)/authpage.css:912:1
+Parsing CSS source code failed
+  910 | }
+  911 |
+> 912 | /signup-coach
+      | ^
+  913 | /* FLOAT EFFECT */
+  914 |  
+  915 |
+
+Invalid empty selector
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(clubpanel)/(clubauth)/authpage.css [Client Component Browser]
+    ./src/app/(clubpanel)/(clubauth)/layout.js [Server Component]
+[00:11:44.224] Server  LOG     ✓ Compiled in 18ms
+[00:11:52.201] Server  LOG     ✓ Compiled in 28ms
+[00:12:42.765] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:20.542] Server  LOG     ✓ Compiled in 65ms
+[00:13:41.174] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:41.447] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:15:54.278] Server  LOG     ✓ Compiled in 460ms
+[00:16:01.470] Server  LOG     ✓ Compiled in 451ms
+[00:16:57.860] Server  LOG     ✓ Compiled in 525ms
+[00:17:07.019] Server  LOG     ✓ Compiled in 256ms
+[00:17:09.400] Server  LOG     ✓ Compiled in 263ms
+[00:17:17.354] Server  LOG     ✓ Compiled in 318ms
+[00:17:23.116] Server  LOG     ✓ Compiled in 256ms
+[00:17:29.508] Server  LOG     ✓ Compiled in 129ms
+[00:17:36.032] Server  LOG     ✓ Compiled in 208ms
+[00:19:50.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:49.914] Server  LOG     ✓ Compiled in 95ms
+[00:23:35.804] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:36.113] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:23:37.885] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:23:40.231] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
+[00:23:49.815] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:50.285] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:50.458] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:23:52.701] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:12.950] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:06.888] Browser ERROR   ./src/app/(dashboard)/Playerdetails/page.js:44:68
+Parsing ecmascript source code failed
+  42 |               <div className="d-flex align-items-center">
+  43 |                 <div className="ms-3">
+> 44 |                   <h5 className="player-name">LEO MESSI <SPAN></h5>
+     |                                                                    ^
+> 45 |                   <p className="player-club">Aurora SC (U12)</p>
+     | ^^^^^^^^^^^^^^^^^^^
+  46 |                   <img src="/assets/image/1K-bronze.png" className="" />
+  47 |                 </div>
+  48 |               </div>
+
+Expected '</', got 'jsx text (
+                  )'
+[00:27:06.890] Browser ERROR   ./src/app/(dashboard)/Playerdetails/page.js:44:68
+Parsing ecmascript source code failed
+  42 |               <div className="d-flex align-items-center">
+  43 |                 <div className="ms-3">
+> 44 |                   <h5 className="player-name">LEO MESSI <SPAN></h5>
+     |                                                                    ^
+> 45 |                   <p className="player-club">Aurora SC (U12)</p>
+     | ^^^^^^^^^^^^^^^^^^^
+  46 |                   <img src="/assets/image/1K-bronze.png" className="" />
+  47 |                 </div>
+  48 |               </div>
+
+Expected '</', got 'jsx text (
+                  )'
+[00:29:24.694] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:29:25.065] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:25.066] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:32:27.921] Server  LOG     ✓ Compiled in 52ms
+[00:32:33.803] Server  LOG     ✓ Compiled in 458ms
+[00:32:42.612] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:32:42.612] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:32:42.612] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:32:42.612] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:32:46.043] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:32:46.043] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:32:49.749] Browser WARN    Image with src "/assets/image/blog-1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:32:49.749] Browser WARN    Image with src "/assets/image/blog-3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:32:49.749] Browser WARN    Image with src "/assets/image/blognew-2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:32:50.045] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:32:50.804] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:33:03.275] Server  LOG     ✓ Compiled in 72ms
+[00:33:32.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:43.932] Server  LOG     ✓ Compiled in 52ms
+[00:33:50.765] Server  LOG     ✓ Compiled in 58ms
+[00:34:01.879] Server  LOG     ✓ Compiled in 51ms
+[00:34:08.087] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:34:08.087] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:34:11.033] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:34:11.033] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:34:11.033] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+[00:34:11.033] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. buttom
+[00:34:31.161] Server  LOG     ✓ Compiled in 61ms
+[00:34:40.692] Server  LOG     ✓ Compiled in 128ms
+[00:34:40.873] Browser ERROR   ./src/app/(dashboard)/dashboard.css:6210:1
+Parsing CSS source code failed
+  6208 |     background: #0A5FFF;
+  6209 |     bor
+> 6210 | }
+       | ^
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(clubpanel)/layout.js [Client Component Browser]
+    ./src/app/(clubpanel)/layout.js [Server Component]
+[00:34:40.875] Browser ERROR   ./src/app/(dashboard)/dashboard.css:6210:1
+Parsing CSS source code failed
+  6208 |     background: #0A5FFF;
+  6209 |     bor
+> 6210 | }
+       | ^
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
+    ./src/app/(clubpanel)/layout.js [Client Component Browser]
+    ./src/app/(clubpanel)/layout.js [Server Component]
+[00:34:45.561] Server  LOG     ✓ Compiled in 64ms
+[00:34:46.794] Server  LOG     ✓ Compiled in 55ms
+[00:34:48.877] Server  LOG     ✓ Compiled in 71ms
+[00:35:04.489] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:04.679] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -21,7 +199,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/add-organ..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -38,51 +216,191 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:00:06.588] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.893] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.308] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:08.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:44.990] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:06:46.056] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:10:19.126] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:19.605] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:10:23.625] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:10:25.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:26.965] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:10:39.949] Server  LOG     ✓ Compiled in 174ms
-[00:10:42.749] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:45.541] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:46.080] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:46.080] Browser WARN    Image with src "/assets/image/blog-1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:46.080] Browser WARN    Image with src "/assets/image/blognew-2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:46.080] Browser WARN    Image with src "/assets/image/blog-3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:47.837] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:47.837] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:12:47.837] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:12:51.977] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:13:13.081] Server  LOG     ✓ Compiled in 166ms
-[00:21:09.704] Server  LOG     ✓ Compiled in 165ms
-[00:21:13.589] Server  LOG     ✓ Compiled in 63ms
-[00:21:17.536] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:25.520] Server  LOG     ✓ Compiled in 51ms
-[00:21:29.609] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:15.987] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:23:20.499] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:23:29.480] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:24:07.509] Server  LOG     ✓ Compiled in 35ms
-[00:24:16.273] Server  LOG     ✓ Compiled in 190ms
-[00:24:17.941] Server  LOG     ✓ Compiled in 73ms
-[00:24:21.534] Server  LOG     ✓ Compiled in 84ms
-[00:24:23.730] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:25:13.179] Server  LOG     ✓ Compiled in 62ms
-[00:25:33.618] Server  LOG     ✓ Compiled in 77ms
-[00:25:53.682] Server  LOG     ✓ Compiled in 80ms
-[00:25:55.757] Server  LOG     ✓ Compiled in 101ms
-[00:26:22.164] Server  LOG     ✓ Compiled in 295ms
-[00:26:22.750] Server  LOG     ✓ Compiled in 270ms
-[00:27:07.063] Server  LOG     ✓ Compiled in 132ms
-[00:28:31.225] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:31.597] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:35:06.573] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:35:24.263] Server  LOG     ✓ Compiled in 56ms
+[00:35:43.117] Server  LOG     ✓ Compiled in 61ms
+[00:36:13.382] Server  LOG     ✓ Compiled in 53ms
+[00:36:28.033] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h3> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="coach-spot..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/coach-spo..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="juggling-d...">
+                        <ClubSidebar>
+                        <main className="juggling-main">
+                          <div>
+                          <div className={"containe..."}>
+                            <div className="tabb-conte...">
+>                             <p>
+>                               <h3>
+                                ...
+                            ...
+                ...
+              ...
+
+[00:36:28.033] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <h5> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="coach-spot..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/coach-spo..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="juggling-d...">
+                        <ClubSidebar>
+                        <main className="juggling-main">
+                          <div>
+                          <div className={"containe..."}>
+                            <div className="tabb-conte...">
+>                             <p>
+                                <h3>
+                                ...
+                                  <div className="date-det-s...">
+                                    <div className="d-flex gap...">
+                                      <img>
+                                      <div>
+>                                       <h5>
+                                        ...
+                                    ...
+                                ...
+                            ...
+                ...
+              ...
+
+[00:36:28.033] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <h5>
+[00:36:28.033] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="coach-spot..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/coach-spo..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="juggling-d...">
+                        <ClubSidebar>
+                        <main className="juggling-main">
+                          <div>
+                          <div className={"containe..."}>
+                            <div className="tabb-conte...">
+>                             <p>
+                                <h3>
+                                ...
+                                  <div className="date-det-s...">
+                                    <div className="d-flex gap...">
+                                      <img>
+                                      <div>
+                                        <h5>
+>                                       <p>
+                                    ...
+                                ...
+                            ...
+                ...
+              ...
+
+[00:36:28.033] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[00:36:28.033] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="coach-spot..." loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/coach-spo..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(clubpanel...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
+                    <Page params={Promise} searchParams={Promise}>
+                      <div className="juggling-d...">
+                        <ClubSidebar>
+                        <main className="juggling-main">
+                          <div>
+                          <div className={"containe..."}>
+                            <div className="tabb-conte...">
+>                             <p>
+                                <h3>
+                                ...
+                                  <div ref={null} className="col-md-12">
+                                    <div className="date-det-s...">
+                                      <div className="d-flex gap...">
+                                        <img>
+>                                       <div>
+                                      ...
+                                ...
+                            ...
+                ...
+              ...
+
+[00:36:28.033] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <div>
+[00:36:28.033] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:37:20.820] Server  LOG     ✓ Compiled in 129ms
+[00:38:25.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:32.250] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:38:40.568] Server  LOG     ✓ Compiled in 43ms
+[00:38:44.205] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:45.721] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:43:45.971] Server  ERROR   ⨯ ./src/app/(clubpanel)/club-teams/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:46.883] Browser ERROR   ./src/app/(clubpanel)/club-teams/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:46.887] Browser ERROR   ./src/app/(clubpanel)/club-teams/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:47.766] Server  LOG     ✓ Compiled in 1670ms
+[00:43:50.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:51.888] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -100,7 +418,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/Playerdet..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/club-team..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -117,4 +435,349 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:28:35.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:58.685] Server  LOG     ✓ Compiled in 618ms
+[00:45:00.498] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:11.775] Server  ERROR   ⨯ ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:11.930] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:12.171] Browser ERROR   uncaughtError: Error: ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:12.389] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:12.389] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:12.893] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:12.893] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:12.893] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:46:01.067] Server  ERROR   ⨯ ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:46:01.070] Server  ERROR   ⨯ ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:46:01.207] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:46:01.878] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:46:03.964] Server  ERROR   ⨯ ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:46:03.966] Server  ERROR   ⨯ ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:46:04.875] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:46:04.875] Browser ERROR   ./src/app/(clubpanel)/add-team/page.js:2:1
+Module not found: Can't resolve '../../../../components/dashboard/ClubSidebar'
+  1 | import { Button, Col, Form, Row } from "react-bootstrap";
+> 2 | import ClubSidebar from "../../../../components/dashboard/ClubSidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | export default function Page() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:46:13.406] Server  LOG     ✓ Compiled in 58ms
+[00:46:14.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:00.915] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:02.489] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:47:33.952] Server  LOG     ✓ Compiled in 58ms
+[00:47:45.993] Server  LOG     ✓ Compiled in 50ms
+[00:47:55.983] Server  LOG     ✓ Compiled in 199ms
+[00:47:56.882] Browser ERROR   ./src/constants/navigation.js:67:31
+Parsing ecmascript source code failed
+  65 |     icon: "/assets/image/teams-menu.svg",
+  66 |     activeIcon: "/assets/image/teams-menu-active.svg",
+> 67 |     childRoutes: ["/"/add-team","],
+     |                               ^^^
+  68 |   },
+  69 |   {
+  70 |     name: "Management",
+
+Expected ',', got 'string literal (",", ",")'
+
+Import traces:
+  Client Component Browser:
+    ./src/constants/navigation.js [Client Component Browser]
+    ./src/components/dashboard/CoachSidebar.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/constants/navigation.js [Client Component SSR]
+    ./src/components/dashboard/CoachSidebar.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+[00:47:56.882] Browser ERROR   ./src/constants/navigation.js:67:31
+Parsing ecmascript source code failed
+  65 |     icon: "/assets/image/teams-menu.svg",
+  66 |     activeIcon: "/assets/image/teams-menu-active.svg",
+> 67 |     childRoutes: ["/"/add-team","],
+     |                               ^^^
+  68 |   },
+  69 |   {
+  70 |     name: "Management",
+
+Expected ',', got 'string literal (",", ",")'
+
+Import traces:
+  Client Component Browser:
+    ./src/constants/navigation.js [Client Component Browser]
+    ./src/components/dashboard/CoachSidebar.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/constants/navigation.js [Client Component SSR]
+    ./src/components/dashboard/CoachSidebar.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+[00:47:57.533] Server  LOG     ✓ Compiled in 35ms
+[00:47:57.885] Browser ERROR   ./src/constants/navigation.js:67:31
+Parsing ecmascript source code failed
+  65 |     icon: "/assets/image/teams-menu.svg",
+  66 |     activeIcon: "/assets/image/teams-menu-active.svg",
+> 67 |     childRoutes: ["/"/add-team"],
+     |                               ^^^
+  68 |   },
+  69 |   {
+  70 |     name: "Management",
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/constants/navigation.js [Client Component Browser]
+    ./src/components/dashboard/CoachSidebar.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/constants/navigation.js [Client Component SSR]
+    ./src/components/dashboard/CoachSidebar.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+[00:47:57.885] Browser ERROR   ./src/constants/navigation.js:67:31
+Parsing ecmascript source code failed
+  65 |     icon: "/assets/image/teams-menu.svg",
+  66 |     activeIcon: "/assets/image/teams-menu-active.svg",
+> 67 |     childRoutes: ["/"/add-team"],
+     |                               ^^^
+  68 |   },
+  69 |   {
+  70 |     name: "Management",
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/constants/navigation.js [Client Component Browser]
+    ./src/components/dashboard/CoachSidebar.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component Browser]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/constants/navigation.js [Client Component SSR]
+    ./src/components/dashboard/CoachSidebar.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Client Component SSR]
+    ./src/app/(coachpanel)/settings-coach/page.js [Server Component]
+[00:47:58.956] Server  LOG     ✓ Compiled in 64ms
+[00:48:19.829] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:48:20.495] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:48:20.495] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:49:33.699] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:49:33.699] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:49:38.326] Server  LOG     ✓ Compiled in 57ms
+[00:49:38.789] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:49:38.789] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:49:42.933] Server  LOG     ✓ Compiled in 35ms
+[00:49:44.957] Server  LOG     ✓ Compiled in 37ms
+[00:49:47.901] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:50:07.260] Server  LOG     ✓ Compiled in 108ms
+[00:50:08.867] Server  LOG     ✓ Compiled in 62ms
+[00:50:16.838] Server  LOG     ✓ Compiled in 82ms
+[00:53:20.805] Server  LOG     ✓ Compiled in 143ms
+[00:53:27.947] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:27.947] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:32.589] Server  LOG     ✓ Compiled in 31ms
+[00:53:34.122] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:38.703] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:40.106] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:40.106] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:40.106] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:40.106] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:45.784] Server  LOG     ✓ Compiled in 42ms
+[00:53:53.326] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:53.326] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:54.935] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:53:54.935] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:03.396] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:03.396] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:06.382] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:06.382] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:12.547] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:12.547] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:16.549] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:37.301] Server  LOG     ✓ Compiled in 90ms
+[00:54:37.702] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:39.236] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:39.237] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:54:43.241] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:55:42.133] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:55:43.206] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:55:43.206] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:55:47.205] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:55:56.923] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:57:31.097] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:58:17.736] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:58:19.012] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:58:19.012] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:58:23.013] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:58:50.298] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:58:58.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:02.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:05.023] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
