@@ -606,6 +606,7 @@ button {
   margin-left: auto;
   padding-left: 60px;
   position: relative;
+  gap: 20px;
 }
 
 .player-avatar {

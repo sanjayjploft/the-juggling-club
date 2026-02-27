@@ -1,3 +1,5 @@
 {
+  "/(coachpanel)/player-progress/page": "app/(coachpanel)/player-progress/page.js",
+  "/(dashboard)/Playerdetails/page": "app/(dashboard)/Playerdetails/page.js",
   "/(public)/page": "app/(public)/page.js"
 }
