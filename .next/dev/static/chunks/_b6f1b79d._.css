@@ -16094,7 +16094,7 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .cta-buttons .btn-outline:hover {
+.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .cta-buttons .btn-outline:hover, .cta-buttons .btn-primary:hover {
   color: #fff;
   background: #0a5fff;
   border-color: #0a5fff;
