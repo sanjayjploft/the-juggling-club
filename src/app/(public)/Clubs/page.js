@@ -163,7 +163,7 @@ export default function page() {
             </Row>
           </div>
         </section>
-        <section className="section position-relative">
+        <section className="section position-relative" id="BenefitsClubs">
           <div className="container">
             <Row>
               <Col lg={4}>
@@ -397,7 +397,7 @@ export default function page() {
                 <div className="action-btn">
                   <Link href="/club-information" className="btn btn--primary">
                     Enroll Your Club
-                  </Link> 
+                  </Link>
                 </div>
               </div>
             </div>

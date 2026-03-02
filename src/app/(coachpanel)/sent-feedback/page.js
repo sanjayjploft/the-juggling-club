@@ -20,9 +20,9 @@ export default function Page() {
           <div className="top-heading">
             <div>
               <h4>
-                Player Progress
+                Player Videos
                 <span>
-                  See what your players are working on — jump in when you want.
+                  Review video submissions and provide feedback to your players.
                 </span>
               </h4>
             </div>
@@ -164,7 +164,6 @@ export default function Page() {
           centered
           size="lg"
           className="video-modal">
-         
           <button className="btn-close" onClick={() => setShow(false)}>
             <img src="/assets/image/close-icon.svg" />
           </button>

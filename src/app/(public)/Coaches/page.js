@@ -40,53 +40,56 @@ export default function page() {
             </div>
           </div>
         </section>
-        <div className="section">
-          <div className="container">
-            <Row className="align-items-center">
-              <Col lg={8}>
-                <div className="why-join-info">
-                  <h2>Why Juggling Club for Coaches</h2>
-                  <h5>
-                    More motivated players. Better technical foundations. Zero
-                    extra work.
-                  </h5>
-                  <p>
-                    Juggling Club gives coaches a powerful development tool that
-                    strengthens players’ touch, consistency, and mindset —
-                    without adding anything to your weekly workload.
-                  </p>
-                  <p>
-                    Your players practice at home, receive personalized AI
-                    coaching feedback, and build better habits automatically.
-                  </p>
-                  <p>
-                    You simply open your dashboard to see who is improving, who
-                    is practicing, and where additional support might help.
-                  </p>
+        <div id="whyCoaches">
+          <div className="section">
+            <div className="container">
+              <Row className="align-items-center">
+                <Col lg={8}>
+                  <div className="why-join-info">
+                    <h2>Why Juggling Club for Coaches</h2>
+                    <h5>
+                      More motivated players. Better technical foundations. Zero
+                      extra work.
+                    </h5>
+                    <p>
+                      Juggling Club gives coaches a powerful development tool
+                      that strengthens players’ touch, consistency, and mindset
+                      — without adding anything to your weekly workload.
+                    </p>
+                    <p>
+                      Your players practice at home, receive personalized AI
+                      coaching feedback, and build better habits automatically.
+                    </p>
+                    <p>
+                      You simply open your dashboard to see who is improving,
+                      who is practicing, and where additional support might
+                      help.
+                    </p>
 
-                  <ul className="why-join-fech">
-                    <li>
-                      <img src="/assets/image/checkmark.svg" /> Coaches get more
-                      engaged players.
-                    </li>
-                    <li>
-                      <img src="/assets/image/checkmark.svg" />
-                      Players get better.
-                    </li>
-                    <li>
-                      <img src="/assets/image/checkmark.svg" /> Training
-                      sessions get more productive.
-                    </li>
-                  </ul>
-                </div>
-              </Col>
-              <Col lg={4}>
-                <img
-                  className="cover mob-img-small"
-                  src="/assets/image/coaches-abt-img.png"
-                />
-              </Col>
-            </Row>
+                    <ul className="why-join-fech">
+                      <li>
+                        <img src="/assets/image/checkmark.svg" /> Coaches get
+                        more engaged players.
+                      </li>
+                      <li>
+                        <img src="/assets/image/checkmark.svg" />
+                        Players get better.
+                      </li>
+                      <li>
+                        <img src="/assets/image/checkmark.svg" /> Training
+                        sessions get more productive.
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+                <Col lg={4}>
+                  <img
+                    className="cover mob-img-small"
+                    src="/assets/image/coaches-abt-img.png"
+                  />
+                </Col>
+              </Row>
+            </div>
           </div>
         </div>
         <section className="section club-staff-section">
@@ -375,11 +378,15 @@ export default function page() {
             </div>
             <div className="row">
               <div className="links-actin">
-                <Link href="/Clubs">Looking for club-wide tools?</Link>
+                <Link href="/Clubs#BenefitsClubs">
+                  Looking for club-wide tools?
+                </Link>
 
-                <Link href="/Parents">Need info for parents?</Link>
+                <Link href="/Parents#WhyParents">Need info for parents?</Link>
 
-                <Link href="/Players">Want to see the player journey?</Link>
+                <Link href="/Players#WhyJoin">
+                  Want to see the player journey?
+                </Link>
               </div>
             </div>
           </div>

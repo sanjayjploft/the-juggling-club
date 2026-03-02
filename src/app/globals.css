@@ -2581,8 +2581,12 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+#whyCoaches, #WhyParents, #BenefitsClubs, #WhyJoin {
+  scroll-margin-top: 100px; 
+}
 
-.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .cta-buttons .btn-outline:hover, .cta-buttons .btn-primary:hover {
+ 
+.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .cta-buttons .btn-outline:hover, .cta-buttons .btn-primary:hover, .btn--outline:hover {
     color: #fff;
     background: #0A5FFF;
      border-color: #0A5FFF;

@@ -15,7 +15,7 @@ export default function page() {
     <>
       <main className="page">
         <HeroinnerSection />
-        <div className="section">
+        <div className="section" id="WhyJoin">
           <div className="container">
             <Row className="align-items-center">
               <Col lg={8}>

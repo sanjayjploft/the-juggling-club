@@ -619,6 +619,11 @@ button {
     position: absolute;
     left: 0;
 }
+.clubplayer-details-card .player-avatar {
+    object-fit: cover; 
+    border-radius: 50%;
+    
+}
 
 .player-avatar-info .player-name {
   padding: 0px;
@@ -2696,9 +2701,10 @@ table a {
   padding-right: 120px;
 }
 .ivntr-bt {
-  position: absolute;
-  right: 8px;
-  top: 13px;
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    cursor: pointer;
 }
 .comni-perf h3 {
   font-size: 16px;
@@ -5448,6 +5454,7 @@ img.calendar-icon-inp {
   border-radius: 20px;
   background: #e5e5e5;
   border: none;
+  color: #000;
 }
 
 .btn-yes {
@@ -6203,8 +6210,12 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-
-.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .admin-btn-primary:hover, .btn-cancel-outline:hover, .btn-primary:hover, .upgrade-btn:hover, .apply-btn:hover {
+.copy-code-btn:hover, .date-det-skills-spot .right-action-bx .re-record-btn:hover{
+  color: #fff;
+    background: #ff073a;
+    border-color: #ff073a;
+}
+.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .admin-btn-primary:hover, .btn-cancel-outline:hover, .btn-primary:hover, .upgrade-btn:hover, .apply-btn:hover, .ivntr-bt:hover, .btn-no:hover, .btn-yes:hover, .share-code-btn:hover, .card-btn:hover, .btn-primary-sml:hover, .date-det-skills-spot .right-action-bx .disable-clone-btn:hover, .btn.admin-save-btn:hover, .btn-outline:hover, .logout-yes:hover, .logout-no:hover {
     color: #fff;
     background: #0A5FFF;
     border-color: #0A5FFF;

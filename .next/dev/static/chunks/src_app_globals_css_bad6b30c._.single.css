@@ -2752,7 +2752,11 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .cta-buttons .btn-outline:hover, .cta-buttons .btn-primary:hover {
+#whyCoaches, #WhyParents, #BenefitsClubs, #WhyJoin {
+  scroll-margin-top: 100px;
+}
+
+.btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .cta-buttons .btn-outline:hover, .cta-buttons .btn-primary:hover, .btn--outline:hover {
   color: #fff;
   background: #0a5fff;
   border-color: #0a5fff;

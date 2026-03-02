@@ -40,7 +40,7 @@ export default function page() {
             </div>
           </div>
         </section>
-        <div className="section">
+        <div className="section" id="WhyParents">
           <div className="container">
             <Row className="align-items-center">
               <Col lg={8}>
@@ -404,9 +404,13 @@ export default function page() {
             </div>
             <div className="row">
               <div className="links-actin">
-                <Link href="/Coaches">Want to see how coaches use it?</Link>
+                <Link href="/Coaches#whyCoaches">
+                  Want to see how coaches use it?
+                </Link>
 
-                <Link href="/Clubs">From a participating club?</Link>
+                <Link href="/Clubs#BenefitsClubs">
+                  From a participating club?
+                </Link>
               </div>
             </div>
           </div>

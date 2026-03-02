@@ -43,7 +43,7 @@ export default function DashboardPage() {
                 <div className="ms-3">
                   <h5 className="player-name">LEO MESSI</h5>
                   <p className="player-club">
-                    Aurora SC (U12) <span>(Coach Ted)</span>
+                    Aurora SC (U12), <span> Coach Ted </span>
                   </p>
                   <img src="/assets/image/1K-bronze.png" className="" />
                 </div>

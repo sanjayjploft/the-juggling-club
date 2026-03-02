@@ -30,7 +30,7 @@ export default function Page() {
           </div>
         </div>
         {/* CONTENT */}
-        <div className="container-fluid clb-plr-detl">
+        <div className="container-fluid clb-plr-detl clubplayer-details-card">
           <div className="dashboard-header">
             <img
               src="/assets/image/quotes-img-1.png"
