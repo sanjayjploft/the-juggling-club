@@ -94,25 +94,28 @@ a.copy-url-btn {
 }
 
 .juggling-logout {
-  cursor: pointer;
-  background: none;
-  border: 1px solid #0a5fff;
-  border-radius: 14px;
-  justify-content: left;
-  align-items: center;
-  gap: 10px;
-  margin-top: auto;
-  padding: 14px 44px 14px 20px;
-  display: flex;
-  position: absolute;
-  bottom: 50px;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    border-radius: 14px;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    bottom: 50px;
 }
 .juggling-sidebar.is-collapsed .juggling-logout {
   max-width: max-content;
   padding: 14px 14px 14px 17px;
   margin-top: 40px;
 }
-
+.juggling-logout img {
+    width: 22px;
+    height: 22px;
+}
 /* ===== MAIN ===== */
 .juggling-main {
   flex: 1;
@@ -412,7 +415,13 @@ button {
   border-radius: 60px;
   object-fit: cover;
 }
-
+.player-crd-profile.card-shape-img img {
+    aspect-ratio: 50 / 50;  
+    object-fit: unset;
+    border-radius: 0;
+    width: 40px;
+    height: auto;
+}
 .player-crd-profile h4 {
   color: #fff;
   font-family: "Avenir";
@@ -5404,7 +5413,7 @@ img.calendar-icon-inp {
 }
 .juggling-logout span {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 0;
   color: #fff;
 }
 .delete-modal-overlay {
@@ -6036,12 +6045,13 @@ tr {
 }
 
 .custom-breadcrumb .active {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  color: #0a5fff;
+    color: var(--Gray, #949494);
+    font-size: 18px;
+    font-weight: 500;
 }
-
+.tandcpp a {
+    color: #fd2a40;
+}
 .edit-pro-crd {
   position: absolute;
   bottom: 10px;

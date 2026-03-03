@@ -33,9 +33,9 @@ export default function DashboardPage() {
           <Row className="">
             <Col xl={4} lg={6} className="mb-4">
               <div className="player-card">
-                <div className="player-crd-profile">
+                <div className="player-crd-profile card-shape-img">
                   <div className="d-flex gap-2">
-                    <img src="/assets/image/quotes-img-1.png" />
+                    <img src="/assets/image/player-card-img-shap.png" />
                     <div>
                       <h4>Leo Messi</h4>
                       <span className="player-status active">Active</span>
@@ -83,9 +83,9 @@ export default function DashboardPage() {
 
             <Col xl={4} lg={6} className="mb-4">
               <div className="player-card">
-                <div className="player-crd-profile">
+                <div className="player-crd-profile card-shape-img">
                   <div className="d-flex gap-2">
-                    <img src="/assets/image/quotes-img-2.png" />
+                    <img src="/assets/image/player-card-img-shap-2.png" />
                     <div>
                       <h4>Mia Hamm</h4>
                       <span className="player-status trial">Trial</span>
@@ -132,9 +132,9 @@ export default function DashboardPage() {
             </Col>
             <Col xl={4} lg={6} className="mb-4">
               <div className="player-card">
-                <div className="player-crd-profile">
+                <div className="player-crd-profile card-shape-img">
                   <div className="d-flex gap-2">
-                    <img src="/assets/image/quotes-img-3.png" />
+                    <img src="/assets/image/player-card-img-shap-3.png" />
                     <div>
                       <h4>Mia Hamm</h4>
                       <span className="player-status expired">Expired</span>
@@ -181,9 +181,9 @@ export default function DashboardPage() {
             </Col>
             <Col xl={4} lg={6} className="mb-4">
               <div className="player-card">
-                <div className="player-crd-profile">
+                <div className="player-crd-profile card-shape-img">
                   <div className="d-flex gap-2 ">
-                    <img src="/assets/image/quotes-img-4.png" />
+                    <img src="/assets/image/player-card-img-shap.png" />
                     <div>
                       <h4 className="mb-0">Mia Hamm</h4>
                       <span className="player-status trial">Trial</span>

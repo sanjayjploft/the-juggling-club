@@ -1,244 +1,19 @@
-[00:00:27.542] Server  LOG     ✓ Ready in 21.1s
-[00:06:17.857] Server  LOG     ○ Compiling / ...
-[00:06:27.567] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:28.626] Server  LOG     ✓ Ready in 22.7s
+[00:00:31.735] Server  LOG     ○ Compiling /dashboard-coach ...
+[00:00:40.808] Server  WARN    ⚠ Cross origin request detected from 192.168.5.112 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:06:27.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:28.079] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:32.087] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:06:33.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:34.849] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h3> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="clubplayer..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="juggling-d...">
-                        <ClubSidebar>
-                        <main className="juggling-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
->                               <h3>
-                                ...
-                            ...
-                ...
-              ...
-
-[00:06:34.849] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="clubplayer..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="juggling-d...">
-                        <ClubSidebar>
-                        <main className="juggling-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div className="">
->                                 <div className="players-progress-header">
-                                  ...
-                                ...
-                            ...
-                ...
-              ...
-
-[00:06:34.849] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <div>
-[00:06:34.849] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <p> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="clubplayer..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="juggling-d...">
-                        <ClubSidebar>
-                        <main className="juggling-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div>
-                                ...
-                                  <Col md={6}>
-                                    <div ref={null} className="col-md-6">
-                                      <div className="date-det">
->                                       <p>
-                                        ...
-                            ...
-                ...
-              ...
-
-[00:06:34.849] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <p>
-[00:06:34.849] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <h4> p 
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="clubplayer..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/clubplaye..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                <SegmentViewNode type="page" pagePath="(clubpanel...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Page} serverProvidedParams={{...}}>
-                    <Page params={Promise} searchParams={Promise}>
-                      <div className="juggling-d...">
-                        <ClubSidebar>
-                        <main className="juggling-main">
-                          <div>
-                          <div className="container-...">
-                            <div>
-                            <div>
-                            <div>
-                            <div className="tabb-content">
->                             <p>
-                                <h3>
-                                <div>
-                                ...
-                                  <Col md={6}>
-                                    <div ref={null} className="col-md-6">
-                                      <div className="date-det">
-                                        <p>
->                                       <h4>
-                            ...
-                ...
-              ...
-
-[00:06:34.849] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. p <h4>
-[00:06:34.849] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:09:18.767] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:12.766] Server  LOG     ✓ Compiled in 410ms
-[00:10:22.488] Server  LOG     ✓ Compiled in 207ms
-[00:10:27.189] Server  LOG     ✓ Compiled in 97ms
-[00:15:29.075] Server  LOG     ✓ Compiled in 579ms
-[00:15:30.158] Server  LOG     ✓ Compiled in 59ms
-[00:15:37.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:37.840] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:41.843] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:43.258] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:43.258] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:43.258] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:15:43.258] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:43.258] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:46.607] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:46.607] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:47.844] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:47.844] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:49.173] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:49.173] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:50.451] Browser WARN    Image with src "/assets/image/blognew-2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:15:50.451] Browser WARN    Image with src "/assets/image/blog-3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:15:50.451] Browser WARN    Image with src "/assets/image/blog-1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:15:53.185] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:53.683] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:53.683] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:53.683] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:53.683] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:57.691] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:15:57.691] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:06.527] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:06.527] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:10.527] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:12.686] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:12.686] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:16.694] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:34.697] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:34.697] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:38.707] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:40.699] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:40.699] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:40.699] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:40.699] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:44.703] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:44.703] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:53.295] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:53.295] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:16:57.308] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:28.833] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:28.833] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:32.838] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:36.990] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:36.990] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:40.989] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:46.482] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:46.482] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:46.482] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:46.482] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:50.487] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:50.487] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:51.661] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:51.661] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:17:55.671] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:18:05.699] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:18:09.034] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:18:09.036] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:18:09.037] Server  ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:18:09.041] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:18:09.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:09.658] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:18:09.658] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:18:09.658] Browser ERROR   You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-[00:18:09.658] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:19:00.901] Server  LOG     ✓ Compiled in 90ms
-[00:19:11.398] Server  LOG     ✓ Compiled in 50ms
-[00:19:35.196] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:25:29.236] Server  LOG     ✓ Compiled in 130ms
-[00:25:35.233] Server  LOG     ✓ Compiled in 39ms
-[00:27:01.034] Server  LOG     ✓ Compiled in 125ms
-[00:27:24.420] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:24.716] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:40.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:30.354] Server  LOG     ✓ Compiled in 286ms
+[00:01:37.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:58.307] Server  LOG     ✓ Compiled in 53ms
+[00:02:34.395] Server  LOG     ✓ Compiled in 83ms
+[00:02:42.877] Server  LOG     ✓ Compiled in 46ms
+[00:02:43.647] Server  LOG     ✓ Compiled in 49ms
+[00:02:55.677] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:58.467] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:03:44.237] Server  LOG     ✓ Compiled in 78ms
+[00:03:46.395] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:46.813] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -256,7 +31,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/Playerdet..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -273,242 +48,53 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:27:24.904] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:27:26.461] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:27:26.461] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:27:26.461] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:27:28.848] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:27:28.848] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:27:32.853] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:03.850] Browser ERROR   ./src/app/(public)/Coaches/page.js:44:9
-Parsing ecmascript source code failed
-  42 |         </section>
-  43 |         <div id="whyCoaches"
-> 44 |         <div className="section" >
-     |         ^
-  45 |           <div className="container">
-  46 |             <Row className="align-items-center">
-  47 |               <Col lg={8}>
-
-Expression expected
-[00:28:03.850] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:03.850] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:06.147] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:06.147] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:10.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:10.661] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:12.613] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:12.613] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:28:12.613] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:16.331] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:16.331] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:20.333] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:28:51.796] Server  LOG     ✓ Compiled in 33ms
-[00:28:56.569] Server  LOG     ✓ Compiled in 31ms
-[00:28:58.978] Server  LOG     ✓ Compiled in 34ms
-[00:29:02.652] Server  LOG     ✓ Compiled in 70ms
-[00:29:06.989] Server  LOG     ✓ Compiled in 33ms
-[00:29:08.495] Server  LOG     ✓ Compiled in 31ms
-[00:29:13.894] Server  LOG     ✓ Compiled in 29ms
-[00:29:19.581] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:29:22.163] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:29:22.163] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:31:10.451] Server  LOG     ✓ Compiled in 83ms
-[00:31:15.059] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:17.013] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:31:17.013] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:31:17.013] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:31:30.163] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:31:30.163] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:31:32.925] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:31:32.925] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:31:36.924] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:32:18.836] Server  LOG     ✓ Compiled in 56ms
-[00:32:20.322] Server  LOG     ✓ Compiled in 120ms
-[00:32:37.677] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:39:49.088] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:39:50.337] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:54.198] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:54.575] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:42:16.279] Server  LOG     ✓ Compiled in 34ms
-[00:42:19.849] Browser ERROR   ./src/app/(public)/Parents/page.js:43:36
-Parsing ecmascript source code failed
-  41 |           </div>
-  42 |         </section>
-> 43 |         <div className="section" id=>
-     |                                    ^^
-  44 |           <div className="container">
-  45 |             <Row className="align-items-center">
-  46 |               <Col lg={8}>
-
-Expected '</', got '=>'
-[00:42:20.552] Server  LOG     ✓ Compiled in 32ms
-[00:42:24.575] Server  LOG     ✓ Compiled in 33ms
-[00:42:25.107] Server  LOG     ✓ Compiled in 27ms
-[00:42:43.012] Server  LOG     ✓ Compiled in 50ms
-[00:42:46.836] Server  LOG     ✓ Compiled in 740ms
-[00:42:47.858] Browser ERROR   ./src/app/globals.css:2588:2
+[00:04:26.204] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:50.667] Server  LOG     ✓ Compiled in 60ms
+[00:05:07.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:28.791] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:30.864] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:18:40.497] Server  LOG     ✓ Compiled in 67ms
+[00:18:44.696] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:09.911] Server  LOG     ✓ Compiled in 110ms
+[00:19:10.558] Browser ERROR   ./src/app/(dashboard)/dashboard.css:431:32
 Parsing CSS source code failed
-  2586 | }
-  2587 |
-> 2588 |  {
-       |  ^
-  2589 |   scroll-margin-top: 100px;
-  2590 | }
-  2591 | .btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .cta-buttons .btn-outline:hover, .cta-buttons .btn-primary:hover, .btn--outline:hover {
+  429 |   font-weight: 800;
+  430 |   line-height: 20px; /* 111.111% */
+> 431 |   margin-bottom: 2px !important;
+      |                                ^
+  432 | }
+  433 |
+  434 | .player-status {
 
-Invalid empty selector
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:42:52.702] Server  LOG     ✓ Compiled in 42ms
-[00:43:08.889] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:43:20.325] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:43:20.619] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:43:28.889] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:43:31.161] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:43:31.161] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:43:33.148] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:43:33.148] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:44:06.151] Server  LOG     ✓ Compiled in 29ms
-[00:44:07.345] Server  LOG     ✓ Compiled in 25ms
-[00:44:12.721] Server  LOG     ✓ Compiled in 95ms
-[00:44:12.855] Browser ERROR   ./src/app/globals.css:2584:44
-Parsing CSS source code failed
-  2582 |   -moz-appearance: textfield;
-  2583 | }
-> 2584 | #whyCoaches, #WhyParents, #BenefitsClubs,  {
-       |                                            ^
-  2585 |   scroll-margin-top: 100px; 
-  2586 | }
-  2587 |
-
-Invalid empty selector
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.js [Server Component]
-[00:44:44.026] Server  LOG     ✓ Compiled in 28ms
-[00:44:53.156] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:44:54.444] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:44:54.444] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:44:56.107] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:44:56.107] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:44:56.107] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:44:56.107] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:45:00.851] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:45:00.851] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:45:16.779] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:45:16.779] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
-[00:45:23.353] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:45:45.229] Server  LOG     ✓ Compiled in 58ms
-[00:46:00.339] Server  LOG     ✓ Compiled in 59ms
-[00:46:02.035] Server  LOG     ✓ Compiled in 133ms
-[00:46:02.848] Browser ERROR   ./src/app/(dashboard)/dashboard.css:6214:203
-Parsing CSS source code failed
-  6212 |
-  6213 |
-> 6214 | .btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .admin-btn-primary:hover, .btn-cancel-outline:hover, .btn-primary:hover, .upgrade-btn:hover, .apply-btn:hover, .ivntr-bt:hover, .btn-no: {
-       |                                                                                                                                                                                                           ^
-  6215 |     color: #fff;
-  6216 |     background: #0A5FFF;
-  6217 |     border-color: #0A5FFF;
-
-Invalid token in pseudo element: WhiteSpace(" ")
+Unexpected token Semicolon
 
 Import trace:
   Client Component Browser:
     ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Server Component]
-[00:46:05.962] Server  LOG     ✓ Compiled in 70ms
-[00:46:06.851] Browser ERROR   ./src/app/(dashboard)/dashboard.css:6214:210
+    ./src/app/(coachpanel)/layout.js [Client Component Browser]
+    ./src/app/(coachpanel)/layout.js [Server Component]
+[00:19:11.764] Server  LOG     ✓ Compiled in 47ms
+[00:19:13.877] Server  LOG     ✓ Compiled in 40ms
+[00:19:14.551] Browser ERROR   ./src/app/(dashboard)/dashboard.css:431:32
 Parsing CSS source code failed
-  6212 |
-  6213 |
-> 6214 | .btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .admin-btn-primary:hover, .btn-cancel-outline:hover, .btn-primary:hover, .upgrade-btn:hover, .apply-btn:hover, .ivntr-bt:hover, .btn-no:hover,  {
-       |                                                                                                                                                                                                                  ^
-  6215 |     color: #fff;
-  6216 |     background: #0A5FFF;
-  6217 |     border-color: #0A5FFF;
+  429 |   font-weight: 800;
+  430 |   line-height: 20px; /* 111.111% */
+> 431 |   margin-bottom: 2px !important;
+      |                                ^
+  432 | }
+  433 |
+  434 | .player-status {
 
-Invalid empty selector
+Unexpected token Semicolon
 
 Import trace:
   Client Component Browser:
     ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Server Component]
-[00:46:09.389] Server  LOG     ✓ Compiled in 49ms
-[00:46:24.797] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:46:38.318] Server  LOG     ✓ Compiled in 54ms
-[00:46:46.867] Server  LOG     ✓ Compiled in 54ms
-[00:47:15.295] Server  LOG     ✓ Compiled in 47ms
-[00:47:18.790] Server  LOG     ✓ Compiled in 67ms
-[00:47:20.819] Server  LOG     ✓ Compiled in 90ms
-[00:47:23.713] Server  LOG     ✓ Compiled in 53ms
-[00:47:30.798] Server  LOG     ✓ Compiled in 87ms
-[00:47:31.514] Server  LOG     ✓ Compiled in 52ms
-[00:47:32.738] Server  LOG     ✓ Compiled in 51ms
-[00:47:37.915] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:47.399] Server  LOG     ✓ Compiled in 48ms
-[00:47:57.942] Server  LOG     ✓ Compiled in 50ms
-[00:48:13.260] Server  LOG     ✓ Compiled in 69ms
-[00:48:20.562] Server  LOG     ✓ Compiled in 35ms
-[00:48:20.876] Browser ERROR   ./src/app/(dashboard)/dashboard.css:6218:1
-Parsing CSS source code failed
-  6216 |     border-color: #ff073a;
-  6217 |     bo
-> 6218 | }
-       | ^
-  6219 | .btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .admin-btn-primary:hover, .btn-cancel-outline:hover, .btn-primary:hover, .upgrade-btn:hover, .apply-btn:hover, .ivntr-bt:hover, .btn-no:hover, .btn-yes:hover, .share-code-btn:hover {
-  6220 |     color: #fff;
-  6221 |     background: #0A5FFF;
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Server Component]
-[00:48:41.998] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:48:49.577] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:49:09.446] Server  LOG     ✓ Compiled in 51ms
-[00:49:24.932] Server  LOG     ✓ Compiled in 101ms
-[00:49:50.340] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:50:18.899] Server  LOG     ✓ Compiled in 54ms
-[00:50:51.811] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:51:23.238] Server  LOG     ✓ Compiled in 40ms
-[00:51:23.851] Browser ERROR   ./src/app/(dashboard)/dashboard.css:6218:290
-Parsing CSS source code failed
-  6216 |     border-color: #ff073a;
-  6217 | }
-> 6218 | .btn--primary:hover, .btn-next-bg:hover, .small-btn-admin:hover, .admin-btn-primary:hover, .btn-cancel-outline:hover, .btn-primary:hover, .upgrade-btn:hover, .apply-btn:hover, .ivntr-bt:hover, .btn-no:hover, .btn-yes:hover, .share-code-btn:hover, .card-btn:hover, .btn-primary-sml:hover, ..disable-clone-btn:hover {
-       |                                                                                                                                                                                                                                                                                                  ^
-  6219 |     color: #fff;
-  6220 |     background: #0A5FFF;
-  6221 |     border-color: #0A5FFF;
-
-Expected identifier in class selector, got Delim('.')
-
-Import trace:
-  Client Component Browser:
-    ./src/app/(dashboard)/dashboard.css [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Client Component Browser]
-    ./src/app/(clubpanel)/layout.js [Server Component]
-[00:51:28.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:51:40.996] Server  LOG     ✓ Compiled in 51ms
-[00:51:55.410] Server  LOG     ✓ Compiled in 69ms
-[00:52:12.182] Server  LOG     ✓ Compiled in 46ms
-[00:52:16.020] Server  LOG     ✓ Compiled in 66ms
-[00:52:30.118] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:52:30.118] Browser ERROR   Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.
-[00:52:48.083] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:53:02.977] Server  LOG     ✓ Compiled in 54ms
-[00:53:33.242] Server  LOG     ✓ Compiled in 79ms
-[00:53:38.207] Server  LOG     ✓ Compiled in 67ms
-[00:53:49.194] Server  LOG     ✓ Compiled in 48ms
+    ./src/app/(coachpanel)/layout.js [Client Component Browser]
+    ./src/app/(coachpanel)/layout.js [Server Component]
+[00:19:16.265] Server  LOG     ✓ Compiled in 80ms
+[00:19:16.931] Server  LOG     ✓ Compiled in 45ms
+[00:19:22.268] Server  LOG     ✓ Compiled in 44ms
+[00:19:24.605] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:34.802] Server  LOG     ✓ Compiled in 48ms
+[00:19:37.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
