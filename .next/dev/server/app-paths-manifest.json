@@ -1,1 +1,6 @@
-{}
+{
+  "/(coachpanel)/settings-coach/page": "app/(coachpanel)/settings-coach/page.js",
+  "/(public)/page": "app/(public)/page.js",
+  "/(public)/privacy-policy/page": "app/(public)/privacy-policy/page.js",
+  "/(public)/terms-of-use/page": "app/(public)/terms-of-use/page.js"
+}

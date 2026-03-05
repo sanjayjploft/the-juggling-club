@@ -103,10 +103,14 @@ export default function Footer() {
                     <Link href="">Our Community</Link>
                   </li>
                   <li>
-                    <Link href="/terms-of-use" target="_blank">Terms of Use</Link>
+                    <Link href="/terms-of-use" target="_blank">
+                      Terms of Use
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    <Link href="/privacy-policy" target="_blank">
+                      Privacy Policy
+                    </Link>
                   </li>
                   <li>
                     <Link href="/Contact">Support</Link>
