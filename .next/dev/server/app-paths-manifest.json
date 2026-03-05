@@ -1,7 +1,1 @@
-{
-  "/(coachpanel)/dashboard-coach/page": "app/(coachpanel)/dashboard-coach/page.js",
-  "/(coachpanel)/settings-coach/page": "app/(coachpanel)/settings-coach/page.js",
-  "/(dashboard)/Playerdetails/page": "app/(dashboard)/Playerdetails/page.js",
-  "/(dashboard)/Support/page": "app/(dashboard)/Support/page.js",
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js"
-}
+{}
